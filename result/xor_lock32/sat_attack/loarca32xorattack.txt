@@ -1,0 +1,480 @@
+kartik@kartik:~/LogicLocking/neos$ ./bin/neos -d ex ./netlist/lower_part_or_ripple_carry_adder16.bench ./lockednetlist/32bitxorlock/lower_part_or_ripple_carry_adder16_xor_enc32.bench 100
+running combinatonal attack...
+iteration:    1; variables: 309 clauses: 782 assignments: 1  propagations: 557
+iteration:    2; variables: 541 clauses: 1317 assignments: 55  propagations: 1210
+iteration:    3; variables: 773 clauses: 1837 assignments: 115  propagations: 4220
+iteration:    4; variables: 1005 clauses: 2377 assignments: 157  propagations: 5469
+iteration:    5; variables: 1237 clauses: 2921 assignments: 197  propagations: 9938
+iteration:    6; variables: 1469 clauses: 3481 assignments: 233  propagations: 13230
+iteration:    7; variables: 1701 clauses: 4025 assignments: 273  propagations: 16495
+iteration:    8; variables: 1933 clauses: 4545 assignments: 324  propagations: 27210
+iteration:    9; variables: 2165 clauses: 5053 assignments: 376  propagations: 32308
+
+Finished! 
+iteration=9
+key=10011000001000100010111001101001
+
+equivalent
+
+time: 0.0351211
+kartik@kartik:~/LogicLocking/neos$ ./bin/neos -d ex ./netlist/lower_part_or_ripple_carry_adder16.bench ./lockednetlist/32bitxorlock/lower_part_or_ripple_carry_adder16_xor_enc32.bench 100
+running combinatonal attack...
+iteration:    1; variables: 309 clauses: 782 assignments: 1  propagations: 557
+iteration:    2; variables: 541 clauses: 1317 assignments: 55  propagations: 1218
+iteration:    3; variables: 773 clauses: 1857 assignments: 103  propagations: 2605
+iteration:    4; variables: 1005 clauses: 2377 assignments: 159  propagations: 4403
+iteration:    5; variables: 1237 clauses: 2869 assignments: 224  propagations: 8925
+iteration:    6; variables: 1469 clauses: 3393 assignments: 270  propagations: 10170
+iteration:    7; variables: 1701 clauses: 3913 assignments: 318  propagations: 14038
+iteration:    8; variables: 1933 clauses: 4433 assignments: 368  propagations: 16915
+iteration:    9; variables: 2165 clauses: 4969 assignments: 412  propagations: 33948
+
+Finished! 
+iteration=9
+key=10011000001000100010111001101001
+
+equivalent
+
+time: 0.0348735
+kartik@kartik:~/LogicLocking/neos$ ./bin/neos -d ex ./netlist/lower_part_or_ripple_carry_adder16.bench ./lockednetlist/32bitxorlock/lower_part_or_ripple_carry_adder16_xor_enc32.bench 100
+running combinatonal attack...
+iteration:    1; variables: 309 clauses: 782 assignments: 1  propagations: 557
+iteration:    2; variables: 541 clauses: 1317 assignments: 55  propagations: 1173
+iteration:    3; variables: 773 clauses: 1857 assignments: 103  propagations: 2572
+iteration:    4; variables: 1005 clauses: 2397 assignments: 149  propagations: 3883
+iteration:    5; variables: 1237 clauses: 2905 assignments: 206  propagations: 7803
+iteration:    6; variables: 1469 clauses: 3445 assignments: 254  propagations: 9879
+iteration:    7; variables: 1701 clauses: 3997 assignments: 292  propagations: 13140
+iteration:    8; variables: 1933 clauses: 4541 assignments: 332  propagations: 16600
+iteration:    9; variables: 2165 clauses: 5061 assignments: 383  propagations: 26557
+
+Finished! 
+iteration=9
+key=10011000001000100010111001101001
+
+equivalent
+
+time: 0.0337294
+kartik@kartik:~/LogicLocking/neos$ ./bin/neos -d ex ./netlist/lower_part_or_ripple_carry_adder16.bench ./lockednetlist/32bitxorlock/lower_part_or_ripple_carry_adder16_xor_enc32.bench 100
+running combinatonal attack...
+iteration:    1; variables: 309 clauses: 782 assignments: 1  propagations: 557
+iteration:    2; variables: 541 clauses: 1317 assignments: 55  propagations: 1153
+iteration:    3; variables: 773 clauses: 1837 assignments: 109  propagations: 2473
+iteration:    4; variables: 1005 clauses: 2373 assignments: 160  propagations: 6831
+iteration:    5; variables: 1237 clauses: 2897 assignments: 214  propagations: 8504
+iteration:    6; variables: 1469 clauses: 3417 assignments: 270  propagations: 10060
+iteration:    7; variables: 1701 clauses: 3945 assignments: 322  propagations: 11774
+iteration:    8; variables: 1933 clauses: 4461 assignments: 378  propagations: 14003
+iteration:    9; variables: 2165 clauses: 4969 assignments: 436  propagations: 18167
+iteration:   10; variables: 2397 clauses: 5501 assignments: 480  propagations: 20646
+iteration:   11; variables: 2629 clauses: 6025 assignments: 528  propagations: 33287
+iteration:   12; variables: 2861 clauses: 6541 assignments: 576  propagations: 36864
+iteration:   13; variables: 3093 clauses: 7065 assignments: 622  propagations: 42532
+
+Finished! 
+iteration=13
+key=10011000001000100010111001101001
+
+equivalent
+
+time: 0.04348
+kartik@kartik:~/LogicLocking/neos$ ./bin/neos -d ex ./netlist/lower_part_or_ripple_carry_adder16.bench ./lockednetlist/32bitxorlock/lower_part_or_ripple_carry_adder16_xor_enc32.bench 100
+running combinatonal attack...
+iteration:    1; variables: 309 clauses: 782 assignments: 1  propagations: 557
+iteration:    2; variables: 541 clauses: 1317 assignments: 55  propagations: 1211
+iteration:    3; variables: 773 clauses: 1825 assignments: 118  propagations: 4240
+iteration:    4; variables: 1005 clauses: 2329 assignments: 182  propagations: 5253
+iteration:    5; variables: 1237 clauses: 2837 assignments: 246  propagations: 6673
+iteration:    6; variables: 1469 clauses: 3369 assignments: 304  propagations: 8434
+iteration:    7; variables: 1701 clauses: 3905 assignments: 360  propagations: 10192
+iteration:    8; variables: 1933 clauses: 4433 assignments: 418  propagations: 12232
+iteration:    9; variables: 2165 clauses: 4953 assignments: 478  propagations: 16396
+iteration:   10; variables: 2397 clauses: 5493 assignments: 528  propagations: 18349
+iteration:   11; variables: 2629 clauses: 6037 assignments: 570  propagations: 20450
+iteration:   12; variables: 2861 clauses: 6589 assignments: 611  propagations: 30477
+iteration:   13; variables: 3093 clauses: 7109 assignments: 669  propagations: 33028
+
+Finished! 
+iteration=13
+key=10011000001000100010111001101001
+
+equivalent
+
+time: 0.0363814
+kartik@kartik:~/LogicLocking/neos$ ./bin/neos -d ex ./netlist/lower_part_or_ripple_carry_adder16.bench ./lockednetlist/32bitxorlock/lower_part_or_ripple_carry_adder16_xor_enc32.bench 100
+running combinatonal attack...
+iteration:    1; variables: 309 clauses: 782 assignments: 1  propagations: 557
+iteration:    2; variables: 541 clauses: 1317 assignments: 56  propagations: 2488
+iteration:    3; variables: 773 clauses: 1825 assignments: 116  propagations: 5331
+iteration:    4; variables: 1005 clauses: 2345 assignments: 170  propagations: 6870
+iteration:    5; variables: 1237 clauses: 2833 assignments: 242  propagations: 9066
+iteration:    6; variables: 1469 clauses: 3349 assignments: 296  propagations: 10769
+iteration:    7; variables: 1701 clauses: 3877 assignments: 340  propagations: 12174
+iteration:    8; variables: 1933 clauses: 4413 assignments: 384  propagations: 24831
+iteration:    9; variables: 2165 clauses: 4945 assignments: 438  propagations: 27104
+iteration:   10; variables: 2397 clauses: 5473 assignments: 492  propagations: 30560
+
+Finished! 
+iteration=10
+key=10011000001000100010111001101001
+
+equivalent
+
+time: 0.0375836
+kartik@kartik:~/LogicLocking/neos$ ./bin/neos -d ex ./netlist/lower_part_or_ripple_carry_adder16.bench ./lockednetlist/32bitxorlock/lower_part_or_ripple_carry_adder16_xor_enc32.bench 100
+running combinatonal attack...
+iteration:    1; variables: 309 clauses: 782 assignments: 1  propagations: 557
+iteration:    2; variables: 541 clauses: 1317 assignments: 55  propagations: 1121
+iteration:    3; variables: 773 clauses: 1825 assignments: 118  propagations: 4854
+iteration:    4; variables: 1005 clauses: 2345 assignments: 168  propagations: 6737
+iteration:    5; variables: 1237 clauses: 2897 assignments: 204  propagations: 10065
+iteration:    6; variables: 1469 clauses: 3409 assignments: 259  propagations: 15973
+
+Finished! 
+iteration=6
+key=10011000001000100010111001101001
+
+equivalent
+
+time: 0.0309397
+kartik@kartik:~/LogicLocking/neos$ ./bin/neos -d ex ./netlist/lower_part_or_ripple_carry_adder16.bench ./lockednetlist/32bitxorlock/lower_part_or_ripple_carry_adder16_xor_enc32.bench 100
+running combinatonal attack...
+iteration:    1; variables: 309 clauses: 782 assignments: 1  propagations: 557
+iteration:    2; variables: 541 clauses: 1317 assignments: 57  propagations: 2633
+iteration:    3; variables: 773 clauses: 1841 assignments: 109  propagations: 4994
+iteration:    4; variables: 1005 clauses: 2357 assignments: 163  propagations: 9186
+iteration:    5; variables: 1237 clauses: 2889 assignments: 205  propagations: 10260
+iteration:    6; variables: 1469 clauses: 3409 assignments: 251  propagations: 11993
+iteration:    7; variables: 1701 clauses: 3929 assignments: 295  propagations: 16159
+iteration:    8; variables: 1933 clauses: 4465 assignments: 336  propagations: 21918
+iteration:    9; variables: 2165 clauses: 5001 assignments: 386  propagations: 30795
+
+Finished! 
+iteration=9
+key=10011000001000100010111001101001
+
+equivalent
+
+time: 0.0332425
+kartik@kartik:~/LogicLocking/neos$ ./bin/neos -d ex ./netlist/lower_part_or_ripple_carry_adder16.bench ./lockednetlist/32bitxorlock/lower_part_or_ripple_carry_adder16_xor_enc32.bench 100
+running combinatonal attack...
+iteration:    1; variables: 309 clauses: 782 assignments: 1  propagations: 557
+iteration:    2; variables: 541 clauses: 1317 assignments: 55  propagations: 1171
+iteration:    3; variables: 773 clauses: 1837 assignments: 111  propagations: 3017
+iteration:    4; variables: 1005 clauses: 2365 assignments: 163  propagations: 4852
+iteration:    5; variables: 1237 clauses: 2905 assignments: 213  propagations: 7005
+iteration:    6; variables: 1469 clauses: 3433 assignments: 267  propagations: 9064
+iteration:    7; variables: 1701 clauses: 3945 assignments: 326  propagations: 16238
+iteration:    8; variables: 1933 clauses: 4489 assignments: 368  propagations: 18714
+
+Finished! 
+iteration=8
+key=10011000001000100010111001101001
+
+equivalent
+
+time: 0.0321544
+kartik@kartik:~/LogicLocking/neos$ ./bin/neos -d ex ./netlist/lower_part_or_ripple_carry_adder16.bench ./lockednetlist/32bitxorlock/lower_part_or_ripple_carry_adder16_xor_enc32.bench 100
+running combinatonal attack...
+iteration:    1; variables: 309 clauses: 782 assignments: 1  propagations: 557
+iteration:    2; variables: 541 clauses: 1317 assignments: 55  propagations: 1171
+iteration:    3; variables: 773 clauses: 1849 assignments: 105  propagations: 2155
+iteration:    4; variables: 1005 clauses: 2373 assignments: 159  propagations: 4518
+iteration:    5; variables: 1237 clauses: 2881 assignments: 219  propagations: 6054
+iteration:    6; variables: 1469 clauses: 3401 assignments: 275  propagations: 7867
+iteration:    7; variables: 1701 clauses: 3929 assignments: 329  propagations: 9582
+iteration:    8; variables: 1933 clauses: 4469 assignments: 371  propagations: 11186
+iteration:    9; variables: 2165 clauses: 5001 assignments: 415  propagations: 14198
+iteration:   10; variables: 2397 clauses: 5533 assignments: 460  propagations: 33805
+
+Finished! 
+iteration=10
+key=10011000001000100010111001101001
+
+equivalent
+
+time: 0.0346168
+kartik@kartik:~/LogicLocking/neos$ ./bin/neos -d ex ./netlist/lower_part_or_ripple_carry_adder16.bench ./lockednetlist/32bitxorlock/lower_part_or_ripple_carry_adder16_xor_enc32.bench 100
+running combinatonal attack...
+iteration:    1; variables: 309 clauses: 782 assignments: 1  propagations: 557
+iteration:    2; variables: 541 clauses: 1317 assignments: 55  propagations: 1097
+iteration:    3; variables: 773 clauses: 1805 assignments: 125  propagations: 2475
+iteration:    4; variables: 1005 clauses: 2341 assignments: 169  propagations: 3552
+iteration:    5; variables: 1237 clauses: 2869 assignments: 214  propagations: 6711
+iteration:    6; variables: 1469 clauses: 3397 assignments: 260  propagations: 20333
+iteration:    7; variables: 1701 clauses: 3921 assignments: 306  propagations: 21815
+iteration:    8; variables: 1933 clauses: 4465 assignments: 344  propagations: 23916
+iteration:    9; variables: 2165 clauses: 5017 assignments: 382  propagations: 28334
+iteration:   10; variables: 2397 clauses: 5561 assignments: 424  propagations: 31007
+iteration:   11; variables: 2629 clauses: 6093 assignments: 470  propagations: 36271
+iteration:   12; variables: 2861 clauses: 6637 assignments: 508  propagations: 41299
+
+Finished! 
+iteration=12
+key=10011000001000100010111001101001
+
+equivalent
+
+time: 0.0388493
+kartik@kartik:~/LogicLocking/neos$ ./bin/neos -d ex ./netlist/lower_part_or_ripple_carry_adder16.bench ./lockednetlist/32bitxorlock/lower_part_or_ripple_carry_adder16_xor_enc32.bench 100
+running combinatonal attack...
+iteration:    1; variables: 309 clauses: 782 assignments: 1  propagations: 557
+iteration:    2; variables: 541 clauses: 1317 assignments: 55  propagations: 1181
+iteration:    3; variables: 773 clauses: 1821 assignments: 121  propagations: 5169
+iteration:    4; variables: 1005 clauses: 2345 assignments: 170  propagations: 10580
+iteration:    5; variables: 1237 clauses: 2893 assignments: 210  propagations: 12985
+iteration:    6; variables: 1469 clauses: 3453 assignments: 246  propagations: 14707
+iteration:    7; variables: 1701 clauses: 3997 assignments: 286  propagations: 18245
+iteration:    8; variables: 1933 clauses: 4545 assignments: 326  propagations: 20965
+
+Finished! 
+iteration=8
+key=10011000001000100010111001101001
+
+equivalent
+
+time: 0.0340167
+kartik@kartik:~/LogicLocking/neos$ ./bin/neos -d ex ./netlist/lower_part_or_ripple_carry_adder16.bench ./lockednetlist/32bitxorlock/lower_part_or_ripple_carry_adder16_xor_enc32.bench 100
+running combinatonal attack...
+iteration:    1; variables: 309 clauses: 782 assignments: 1  propagations: 557
+iteration:    2; variables: 541 clauses: 1317 assignments: 55  propagations: 1211
+iteration:    3; variables: 773 clauses: 1825 assignments: 113  propagations: 2386
+iteration:    4; variables: 1005 clauses: 2341 assignments: 169  propagations: 3968
+iteration:    5; variables: 1237 clauses: 2869 assignments: 219  propagations: 5729
+iteration:    6; variables: 1469 clauses: 3409 assignments: 259  propagations: 6979
+iteration:    7; variables: 1701 clauses: 3941 assignments: 301  propagations: 12399
+iteration:    8; variables: 1933 clauses: 4453 assignments: 362  propagations: 23917
+iteration:    9; variables: 2165 clauses: 4993 assignments: 402  propagations: 28426
+
+Finished! 
+iteration=9
+key=10011000001000100010111001101001
+
+equivalent
+
+time: 0.0333521
+kartik@kartik:~/LogicLocking/neos$ ./bin/neos -d ex ./netlist/lower_part_or_ripple_carry_adder16.bench ./lockednetlist/32bitxorlock/lower_part_or_ripple_carry_adder16_xor_enc32.bench 100
+running combinatonal attack...
+iteration:    1; variables: 309 clauses: 782 assignments: 1  propagations: 557
+iteration:    2; variables: 541 clauses: 1317 assignments: 55  propagations: 1163
+iteration:    3; variables: 773 clauses: 1805 assignments: 124  propagations: 4362
+iteration:    4; variables: 1005 clauses: 2325 assignments: 174  propagations: 6255
+iteration:    5; variables: 1237 clauses: 2869 assignments: 216  propagations: 12749
+iteration:    6; variables: 1469 clauses: 3389 assignments: 272  propagations: 16951
+iteration:    7; variables: 1701 clauses: 3921 assignments: 324  propagations: 19664
+iteration:    8; variables: 1933 clauses: 4441 assignments: 380  propagations: 21312
+
+Finished! 
+iteration=8
+key=10011000001000100010111001101001
+
+equivalent
+
+time: 0.0311125
+kartik@kartik:~/LogicLocking/neos$ ./bin/neos -d ex ./netlist/lower_part_or_ripple_carry_adder16.bench ./lockednetlist/32bitxorlock/lower_part_or_ripple_carry_adder16_xor_enc32.bench 100
+running combinatonal attack...
+iteration:    1; variables: 309 clauses: 782 assignments: 1  propagations: 557
+iteration:    2; variables: 541 clauses: 1317 assignments: 55  propagations: 2313
+iteration:    3; variables: 773 clauses: 1845 assignments: 107  propagations: 4305
+iteration:    4; variables: 1005 clauses: 2377 assignments: 159  propagations: 5580
+iteration:    5; variables: 1237 clauses: 2925 assignments: 199  propagations: 7154
+iteration:    6; variables: 1469 clauses: 3465 assignments: 241  propagations: 11720
+iteration:    7; variables: 1701 clauses: 4033 assignments: 273  propagations: 13717
+iteration:    8; variables: 1933 clauses: 4585 assignments: 309  propagations: 15933
+iteration:    9; variables: 2165 clauses: 5121 assignments: 351  propagations: 19330
+iteration:   10; variables: 2397 clauses: 5653 assignments: 395  propagations: 25627
+iteration:   11; variables: 2629 clauses: 6193 assignments: 435  propagations: 32427
+iteration:   12; variables: 2861 clauses: 6737 assignments: 478  propagations: 41786
+
+Finished! 
+iteration=12
+key=10011000001000100010111001101001
+
+equivalent
+
+time: 0.0375888
+kartik@kartik:~/LogicLocking/neos$ ./bin/neos -d ex ./netlist/lower_part_or_ripple_carry_adder16.bench ./lockednetlist/32bitxorlock/lower_part_or_ripple_carry_adder16_xor_enc32.bench 100
+running combinatonal attack...
+iteration:    1; variables: 309 clauses: 782 assignments: 1  propagations: 557
+iteration:    2; variables: 541 clauses: 1317 assignments: 56  propagations: 2127
+iteration:    3; variables: 773 clauses: 1865 assignments: 96  propagations: 4105
+iteration:    4; variables: 1005 clauses: 2397 assignments: 141  propagations: 8471
+iteration:    5; variables: 1237 clauses: 2917 assignments: 191  propagations: 10479
+iteration:    6; variables: 1469 clauses: 3449 assignments: 237  propagations: 12014
+iteration:    7; variables: 1701 clauses: 3961 assignments: 292  propagations: 16438
+iteration:    8; variables: 1933 clauses: 4501 assignments: 336  propagations: 19470
+iteration:    9; variables: 2165 clauses: 5037 assignments: 378  propagations: 21955
+iteration:   10; variables: 2397 clauses: 5569 assignments: 423  propagations: 27759
+
+Finished! 
+iteration=10
+key=10011000001000100010111001101001
+
+equivalent
+
+time: 0.0326337
+kartik@kartik:~/LogicLocking/neos$ ./bin/neos -d ex ./netlist/lower_part_or_ripple_carry_adder16.bench ./lockednetlist/32bitxorlock/lower_part_or_ripple_carry_adder16_xor_enc32.bench 100
+running combinatonal attack...
+iteration:    1; variables: 309 clauses: 782 assignments: 1  propagations: 557
+iteration:    2; variables: 541 clauses: 1317 assignments: 55  propagations: 1258
+iteration:    3; variables: 773 clauses: 1849 assignments: 105  propagations: 4575
+iteration:    4; variables: 1005 clauses: 2373 assignments: 157  propagations: 6119
+iteration:    5; variables: 1237 clauses: 2901 assignments: 209  propagations: 7486
+iteration:    6; variables: 1469 clauses: 3437 assignments: 259  propagations: 10146
+iteration:    7; variables: 1701 clauses: 3953 assignments: 315  propagations: 13247
+iteration:    8; variables: 1933 clauses: 4469 assignments: 367  propagations: 14865
+iteration:    9; variables: 2165 clauses: 4993 assignments: 419  propagations: 27378
+iteration:   10; variables: 2397 clauses: 5513 assignments: 467  propagations: 29356
+iteration:   11; variables: 2629 clauses: 6041 assignments: 513  propagations: 33542
+
+Finished! 
+iteration=11
+key=10011000001000100010111001101001
+
+equivalent
+
+time: 0.0344969
+kartik@kartik:~/LogicLocking/neos$ ./bin/neos -d ex ./netlist/lower_part_or_ripple_carry_adder16.bench ./lockednetlist/32bitxorlock/lower_part_or_ripple_carry_adder16_xor_enc32.bench 100
+running combinatonal attack...
+iteration:    1; variables: 309 clauses: 782 assignments: 1  propagations: 557
+iteration:    2; variables: 541 clauses: 1317 assignments: 55  propagations: 1211
+iteration:    3; variables: 773 clauses: 1809 assignments: 124  propagations: 3958
+iteration:    4; variables: 1005 clauses: 2325 assignments: 172  propagations: 6021
+iteration:    5; variables: 1237 clauses: 2829 assignments: 226  propagations: 7335
+iteration:    6; variables: 1469 clauses: 3333 assignments: 280  propagations: 11545
+iteration:    7; variables: 1701 clauses: 3861 assignments: 326  propagations: 12966
+iteration:    8; variables: 1933 clauses: 4389 assignments: 370  propagations: 14889
+
+Finished! 
+iteration=8
+key=10011000001000100010111001101001
+
+equivalent
+
+time: 0.0306744
+kartik@kartik:~/LogicLocking/neos$ ./bin/neos -d ex ./netlist/lower_part_or_ripple_carry_adder16.bench ./lockednetlist/32bitxorlock/lower_part_or_ripple_carry_adder16_xor_enc32.bench 100
+running combinatonal attack...
+iteration:    1; variables: 309 clauses: 782 assignments: 1  propagations: 557
+iteration:    2; variables: 541 clauses: 1317 assignments: 55  propagations: 1247
+iteration:    3; variables: 773 clauses: 1833 assignments: 113  propagations: 4717
+iteration:    4; variables: 1005 clauses: 2381 assignments: 151  propagations: 6553
+iteration:    5; variables: 1237 clauses: 2945 assignments: 185  propagations: 9220
+iteration:    6; variables: 1469 clauses: 3517 assignments: 215  propagations: 11059
+iteration:    7; variables: 1701 clauses: 4085 assignments: 247  propagations: 13342
+iteration:    8; variables: 1933 clauses: 4637 assignments: 286  propagations: 20776
+iteration:    9; variables: 2165 clauses: 5189 assignments: 324  propagations: 23517
+
+Finished! 
+iteration=9
+key=10011000001000100010111001101001
+
+equivalent
+
+time: 0.0340564
+kartik@kartik:~/LogicLocking/neos$ ./bin/neos -d ex ./netlist/lower_part_or_ripple_carry_adder16.bench ./lockednetlist/32bitxorlock/lower_part_or_ripple_carry_adder16_xor_enc32.bench 100
+running combinatonal attack...
+iteration:    1; variables: 309 clauses: 782 assignments: 1  propagations: 557
+iteration:    2; variables: 541 clauses: 1317 assignments: 55  propagations: 1097
+iteration:    3; variables: 773 clauses: 1821 assignments: 119  propagations: 2564
+iteration:    4; variables: 1005 clauses: 2329 assignments: 177  propagations: 4778
+iteration:    5; variables: 1237 clauses: 2837 assignments: 235  propagations: 6425
+iteration:    6; variables: 1469 clauses: 3357 assignments: 285  propagations: 9951
+iteration:    7; variables: 1701 clauses: 3873 assignments: 337  propagations: 12040
+iteration:    8; variables: 1933 clauses: 4385 assignments: 391  propagations: 13956
+iteration:    9; variables: 2165 clauses: 4909 assignments: 441  propagations: 16373
+iteration:   10; variables: 2397 clauses: 5449 assignments: 487  propagations: 25755
+
+Finished! 
+iteration=10
+key=10011000001000100010111001101001
+
+equivalent
+
+time: 0.0349292
+kartik@kartik:~/LogicLocking/neos$ ./bin/neos -d ex ./netlist/lower_part_or_ripple_carry_adder16.bench ./lockednetlist/32bitxorlock/lower_part_or_ripple_carry_adder16_xor_enc32.bench 100
+running combinatonal attack...
+iteration:    1; variables: 309 clauses: 782 assignments: 1  propagations: 557
+iteration:    2; variables: 541 clauses: 1317 assignments: 55  propagations: 1097
+iteration:    3; variables: 773 clauses: 1829 assignments: 117  propagations: 2803
+iteration:    4; variables: 1005 clauses: 2337 assignments: 179  propagations: 4015
+iteration:    5; variables: 1237 clauses: 2869 assignments: 230  propagations: 6823
+iteration:    6; variables: 1469 clauses: 3405 assignments: 272  propagations: 8699
+iteration:    7; variables: 1701 clauses: 3949 assignments: 314  propagations: 21468
+iteration:    8; variables: 1933 clauses: 4481 assignments: 356  propagations: 24441
+
+Finished! 
+iteration=8
+key=10011000001000100010111001101001
+
+equivalent
+
+time: 0.0309297
+kartik@kartik:~/LogicLocking/neos$ ./bin/neos -d ex ./netlist/lower_part_or_ripple_carry_adder16.bench ./lockednetlist/32bitxorlock/lower_part_or_ripple_carry_adder16_xor_enc32.bench 100
+running combinatonal attack...
+iteration:    1; variables: 309 clauses: 782 assignments: 1  propagations: 557
+iteration:    2; variables: 541 clauses: 1317 assignments: 55  propagations: 1107
+iteration:    3; variables: 773 clauses: 1849 assignments: 109  propagations: 2886
+iteration:    4; variables: 1005 clauses: 2369 assignments: 159  propagations: 3944
+iteration:    5; variables: 1237 clauses: 2905 assignments: 206  propagations: 8930
+iteration:    6; variables: 1469 clauses: 3461 assignments: 246  propagations: 15099
+iteration:    7; variables: 1701 clauses: 3977 assignments: 294  propagations: 19919
+
+Finished! 
+iteration=7
+key=10011000001000100010111001101001
+
+equivalent
+
+time: 0.0320943
+kartik@kartik:~/LogicLocking/neos$ ./bin/neos -d ex ./netlist/lower_part_or_ripple_carry_adder16.bench ./lockednetlist/32bitxorlock/lower_part_or_ripple_carry_adder16_xor_enc32.bench 100
+running combinatonal attack...
+iteration:    1; variables: 309 clauses: 782 assignments: 1  propagations: 557
+iteration:    2; variables: 541 clauses: 1317 assignments: 55  propagations: 1546
+iteration:    3; variables: 773 clauses: 1829 assignments: 111  propagations: 4262
+iteration:    4; variables: 1005 clauses: 2345 assignments: 163  propagations: 6899
+iteration:    5; variables: 1237 clauses: 2893 assignments: 203  propagations: 12515
+iteration:    6; variables: 1469 clauses: 3393 assignments: 265  propagations: 15318
+
+Finished! 
+iteration=6
+key=10011000001000100010111001101001
+
+equivalent
+
+time: 0.0292163
+kartik@kartik:~/LogicLocking/neos$ ./bin/neos -d ex ./netlist/lower_part_or_ripple_carry_adder16.bench ./lockednetlist/32bitxorlock/lower_part_or_ripple_carry_adder16_xor_enc32.bench 100
+running combinatonal attack...
+iteration:    1; variables: 309 clauses: 782 assignments: 1  propagations: 557
+iteration:    2; variables: 541 clauses: 1317 assignments: 57  propagations: 3305
+iteration:    3; variables: 773 clauses: 1837 assignments: 107  propagations: 5178
+iteration:    4; variables: 1005 clauses: 2357 assignments: 153  propagations: 6187
+iteration:    5; variables: 1237 clauses: 2873 assignments: 201  propagations: 7271
+iteration:    6; variables: 1469 clauses: 3397 assignments: 248  propagations: 10512
+iteration:    7; variables: 1701 clauses: 3929 assignments: 290  propagations: 11993
+iteration:    8; variables: 1933 clauses: 4469 assignments: 330  propagations: 17780
+iteration:    9; variables: 2165 clauses: 5033 assignments: 362  propagations: 25073
+
+Finished! 
+iteration=9
+key=10011000001000100010111001101001
+
+equivalent
+
+time: 0.0344191
+kartik@kartik:~/LogicLocking/neos$ ./bin/neos -d ex ./netlist/lower_part_or_ripple_carry_adder16.bench ./lockednetlist/32bitxorlock/lower_part_or_ripple_carry_adder16_xor_enc32.bench 100
+running combinatonal attack...
+iteration:    1; variables: 309 clauses: 782 assignments: 1  propagations: 557
+iteration:    2; variables: 541 clauses: 1317 assignments: 55  propagations: 1143
+iteration:    3; variables: 773 clauses: 1825 assignments: 117  propagations: 2663
+iteration:    4; variables: 1005 clauses: 2309 assignments: 191  propagations: 10903
+iteration:    5; variables: 1237 clauses: 2865 assignments: 225  propagations: 13480
+iteration:    6; variables: 1469 clauses: 3417 assignments: 262  propagations: 16931
+iteration:    7; variables: 1701 clauses: 3969 assignments: 298  propagations: 21815
+
+Finished! 
+iteration=7
+key=10011000001000100010111001101001
+
+equivalent
+
+time: 0.0324972
