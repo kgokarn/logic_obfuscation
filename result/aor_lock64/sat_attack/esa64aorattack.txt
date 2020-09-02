@@ -1,0 +1,588 @@
+kartik@kartik:~/logic_obfuscation/neos$ ./bin/neos -d ex ./netlist/bench/equal_segmentation_adder32.bench ./lockednetlist/64bitaorlock/bench/equal_segmentation_adder32_aor_enc64.bench 1000
+running combinatonal attack...
+iteration:    1; variables: 633 clauses: 1512 assignments: 1  propagations: 1649
+iteration:    2; variables: 1109 clauses: 2431 assignments: 159  propagations: 3152
+iteration:    3; variables: 1585 clauses: 3311 assignments: 357  propagations: 4578
+iteration:    4; variables: 2061 clauses: 4181 assignments: 579  propagations: 6282
+iteration:    5; variables: 2537 clauses: 5051 assignments: 802  propagations: 11363
+iteration:    6; variables: 3013 clauses: 5921 assignments: 1018  propagations: 14116
+iteration:    7; variables: 3489 clauses: 6757 assignments: 1316  propagations: 18093
+iteration:    8; variables: 3965 clauses: 7653 assignments: 1502  propagations: 20758
+iteration:    9; variables: 4441 clauses: 8569 assignments: 1679  propagations: 30624
+iteration:   10; variables: 4917 clauses: 9451 assignments: 1853  propagations: 36113
+iteration:   11; variables: 5393 clauses: 10343 assignments: 2024  propagations: 60198
+iteration:   12; variables: 5869 clauses: 11247 assignments: 2200  propagations: 64236
+
+Finished! 
+iteration=12
+key=0100100011100101100010110000010111010110010101000110010100110000
+
+equivalent
+
+time: 0.0634294
+kartik@kartik:~/logic_obfuscation/neos$ ./bin/neos -d ex ./netlist/bench/equal_segmentation_adder32.bench ./lockednetlist/64bitaorlock/bench/equal_segmentation_adder32_aor_enc64.bench 1000
+running combinatonal attack...
+iteration:    1; variables: 633 clauses: 1512 assignments: 1  propagations: 1649
+iteration:    2; variables: 1109 clauses: 2431 assignments: 159  propagations: 3347
+iteration:    3; variables: 1585 clauses: 3309 assignments: 339  propagations: 5034
+iteration:    4; variables: 2061 clauses: 4217 assignments: 511  propagations: 6756
+iteration:    5; variables: 2537 clauses: 5117 assignments: 689  propagations: 9337
+iteration:    6; variables: 3013 clauses: 5997 assignments: 875  propagations: 12211
+iteration:    7; variables: 3489 clauses: 6887 assignments: 1047  propagations: 16502
+iteration:    8; variables: 3965 clauses: 7803 assignments: 1205  propagations: 19441
+iteration:    9; variables: 4441 clauses: 8697 assignments: 1387  propagations: 28646
+iteration:   10; variables: 4917 clauses: 9613 assignments: 1551  propagations: 32244
+iteration:   11; variables: 5393 clauses: 10533 assignments: 1714  propagations: 42907
+iteration:   12; variables: 5869 clauses: 11421 assignments: 1923  propagations: 56931
+iteration:   13; variables: 6345 clauses: 12267 assignments: 2131  propagations: 62220
+
+Finished! 
+iteration=13
+key=0100100011100101100010110000010111010110010101000110010100110000
+
+equivalent
+
+time: 0.0620501
+kartik@kartik:~/logic_obfuscation/neos$ ./bin/neos -d ex ./netlist/bench/equal_segmentation_adder32.bench ./lockednetlist/64bitaorlock/bench/equal_segmentation_adder32_aor_enc64.bench 1000
+running combinatonal attack...
+iteration:    1; variables: 633 clauses: 1512 assignments: 1  propagations: 1649
+iteration:    2; variables: 1109 clauses: 2431 assignments: 159  propagations: 3349
+iteration:    3; variables: 1585 clauses: 3307 assignments: 343  propagations: 5091
+iteration:    4; variables: 2061 clauses: 4183 assignments: 525  propagations: 7194
+iteration:    5; variables: 2537 clauses: 5067 assignments: 705  propagations: 9752
+iteration:    6; variables: 3013 clauses: 5949 assignments: 873  propagations: 12522
+iteration:    7; variables: 3489 clauses: 6841 assignments: 1037  propagations: 15298
+iteration:    8; variables: 3965 clauses: 7727 assignments: 1205  propagations: 18969
+iteration:    9; variables: 4441 clauses: 8627 assignments: 1365  propagations: 24286
+iteration:   10; variables: 4917 clauses: 9483 assignments: 1559  propagations: 28181
+iteration:   11; variables: 5393 clauses: 10339 assignments: 1755  propagations: 33629
+iteration:   12; variables: 5869 clauses: 11223 assignments: 1926  propagations: 44822
+iteration:   13; variables: 6345 clauses: 12169 assignments: 2060  propagations: 50058
+iteration:   14; variables: 6821 clauses: 13105 assignments: 2200  propagations: 69071
+
+Finished! 
+iteration=14
+key=0100100011100101100010110000010111010110010101000110010100110000
+
+equivalent
+
+time: 0.0652075
+kartik@kartik:~/logic_obfuscation/neos$ ./bin/neos -d ex ./netlist/bench/equal_segmentation_adder32.bench ./lockednetlist/64bitaorlock/bench/equal_segmentation_adder32_aor_enc64.bench 1000
+running combinatonal attack...
+iteration:    1; variables: 633 clauses: 1512 assignments: 1  propagations: 1649
+iteration:    2; variables: 1109 clauses: 2431 assignments: 160  propagations: 5041
+iteration:    3; variables: 1585 clauses: 3307 assignments: 364  propagations: 6536
+iteration:    4; variables: 2061 clauses: 4185 assignments: 562  propagations: 8639
+iteration:    5; variables: 2537 clauses: 5063 assignments: 778  propagations: 10614
+iteration:    6; variables: 3013 clauses: 5957 assignments: 988  propagations: 14131
+iteration:    7; variables: 3489 clauses: 6849 assignments: 1185  propagations: 19443
+iteration:    8; variables: 3965 clauses: 7749 assignments: 1377  propagations: 24317
+iteration:    9; variables: 4441 clauses: 8675 assignments: 1539  propagations: 29540
+iteration:   10; variables: 4917 clauses: 9605 assignments: 1717  propagations: 32918
+iteration:   11; variables: 5393 clauses: 10533 assignments: 1869  propagations: 36881
+iteration:   12; variables: 5869 clauses: 11469 assignments: 2005  propagations: 44893
+iteration:   13; variables: 6345 clauses: 12457 assignments: 2109  propagations: 72765
+
+Finished! 
+iteration=13
+key=0100100011100101100010110000010111010110010101000110010100110000
+
+equivalent
+
+time: 0.0622801
+kartik@kartik:~/logic_obfuscation/neos$ ./bin/neos -d ex ./netlist/bench/equal_segmentation_adder32.bench ./lockednetlist/64bitaorlock/bench/equal_segmentation_adder32_aor_enc64.bench 1000
+running combinatonal attack...
+iteration:    1; variables: 633 clauses: 1512 assignments: 1  propagations: 1649
+iteration:    2; variables: 1109 clauses: 2431 assignments: 159  propagations: 3762
+iteration:    3; variables: 1585 clauses: 3301 assignments: 405  propagations: 5225
+iteration:    4; variables: 2061 clauses: 4115 assignments: 685  propagations: 6881
+iteration:    5; variables: 2537 clauses: 4931 assignments: 979  propagations: 9066
+iteration:    6; variables: 3013 clauses: 5773 assignments: 1223  propagations: 11209
+iteration:    7; variables: 3489 clauses: 6611 assignments: 1459  propagations: 14150
+iteration:    8; variables: 3965 clauses: 7457 assignments: 1717  propagations: 16669
+iteration:    9; variables: 4441 clauses: 8317 assignments: 1969  propagations: 19483
+iteration:   10; variables: 4917 clauses: 9185 assignments: 2217  propagations: 22938
+iteration:   11; variables: 5393 clauses: 10031 assignments: 2465  propagations: 26215
+iteration:   12; variables: 5869 clauses: 10885 assignments: 2697  propagations: 42989
+iteration:   13; variables: 6345 clauses: 11829 assignments: 2832  propagations: 61840
+
+Finished! 
+iteration=13
+key=0100100011100101100010110000010111010110010101000110010100110000
+
+equivalent
+
+time: 0.0607816
+kartik@kartik:~/logic_obfuscation/neos$ ./bin/neos -d ex ./netlist/bench/equal_segmentation_adder32.bench ./lockednetlist/64bitaorlock/bench/equal_segmentation_adder32_aor_enc64.bench 1000
+running combinatonal attack...
+iteration:    1; variables: 633 clauses: 1512 assignments: 1  propagations: 1649
+iteration:    2; variables: 1109 clauses: 2431 assignments: 160  propagations: 5185
+iteration:    3; variables: 1585 clauses: 3313 assignments: 346  propagations: 6752
+iteration:    4; variables: 2061 clauses: 4213 assignments: 522  propagations: 8913
+iteration:    5; variables: 2537 clauses: 5121 assignments: 680  propagations: 12746
+iteration:    6; variables: 3013 clauses: 5993 assignments: 906  propagations: 15780
+iteration:    7; variables: 3489 clauses: 6861 assignments: 1128  propagations: 18817
+iteration:    8; variables: 3965 clauses: 7753 assignments: 1340  propagations: 21654
+iteration:    9; variables: 4441 clauses: 8645 assignments: 1552  propagations: 25968
+iteration:   10; variables: 4917 clauses: 9575 assignments: 1698  propagations: 31985
+iteration:   11; variables: 5393 clauses: 10505 assignments: 1852  propagations: 36940
+iteration:   12; variables: 5869 clauses: 11445 assignments: 2003  propagations: 49212
+iteration:   13; variables: 6345 clauses: 12327 assignments: 2187  propagations: 73522
+
+Finished! 
+iteration=13
+key=0100100011100101100010110000010111010110010101000110010100110000
+
+equivalent
+
+time: 0.0617437
+kartik@kartik:~/logic_obfuscation/neos$ ./bin/neos -d ex ./netlist/bench/equal_segmentation_adder32.bench ./lockednetlist/64bitaorlock/bench/equal_segmentation_adder32_aor_enc64.bench 1000
+running combinatonal attack...
+iteration:    1; variables: 633 clauses: 1512 assignments: 1  propagations: 1649
+iteration:    2; variables: 1109 clauses: 2431 assignments: 159  propagations: 3378
+iteration:    3; variables: 1585 clauses: 3277 assignments: 375  propagations: 4874
+iteration:    4; variables: 2061 clauses: 4139 assignments: 593  propagations: 6587
+iteration:    5; variables: 2537 clauses: 5005 assignments: 807  propagations: 9808
+iteration:    6; variables: 3013 clauses: 5859 assignments: 1031  propagations: 12190
+iteration:    7; variables: 3489 clauses: 6727 assignments: 1250  propagations: 18576
+iteration:    8; variables: 3965 clauses: 7617 assignments: 1452  propagations: 21291
+iteration:    9; variables: 4441 clauses: 8513 assignments: 1652  propagations: 25245
+iteration:   10; variables: 4917 clauses: 9365 assignments: 1902  propagations: 28510
+iteration:   11; variables: 5393 clauses: 10217 assignments: 2152  propagations: 34830
+iteration:   12; variables: 5869 clauses: 11065 assignments: 2384  propagations: 38547
+iteration:   13; variables: 6345 clauses: 11915 assignments: 2617  propagations: 46416
+iteration:   14; variables: 6821 clauses: 12813 assignments: 2785  propagations: 50632
+iteration:   15; variables: 7297 clauses: 13733 assignments: 2931  propagations: 57523
+iteration:   16; variables: 7773 clauses: 14591 assignments: 3151  propagations: 74862
+
+Finished! 
+iteration=16
+key=0100100011100101100010110000010111010110010101000110010100110000
+
+equivalent
+
+time: 0.0691332
+kartik@kartik:~/logic_obfuscation/neos$ ./bin/neos -d ex ./netlist/bench/equal_segmentation_adder32.bench ./lockednetlist/64bitaorlock/bench/equal_segmentation_adder32_aor_enc64.bench 1000
+running combinatonal attack...
+iteration:    1; variables: 633 clauses: 1512 assignments: 1  propagations: 1649
+iteration:    2; variables: 1109 clauses: 2431 assignments: 159  propagations: 3499
+iteration:    3; variables: 1585 clauses: 3303 assignments: 371  propagations: 4977
+iteration:    4; variables: 2061 clauses: 4199 assignments: 563  propagations: 7709
+iteration:    5; variables: 2537 clauses: 5119 assignments: 725  propagations: 9843
+iteration:    6; variables: 3013 clauses: 6015 assignments: 897  propagations: 12854
+iteration:    7; variables: 3489 clauses: 6885 assignments: 1089  propagations: 17190
+iteration:    8; variables: 3965 clauses: 7763 assignments: 1291  propagations: 20654
+iteration:    9; variables: 4441 clauses: 8659 assignments: 1485  propagations: 23804
+iteration:   10; variables: 4917 clauses: 9531 assignments: 1696  propagations: 33944
+
+Finished! 
+iteration=10
+key=0100100011100101100010110000010111010110010101000110010100110000
+
+equivalent
+
+time: 0.0367015
+kartik@kartik:~/logic_obfuscation/neos$ ./bin/neos -d ex ./netlist/bench/equal_segmentation_adder32.bench ./lockednetlist/64bitaorlock/bench/equal_segmentation_adder32_aor_enc64.bench 1000
+running combinatonal attack...
+iteration:    1; variables: 633 clauses: 1512 assignments: 1  propagations: 1649
+iteration:    2; variables: 1109 clauses: 2431 assignments: 159  propagations: 3468
+iteration:    3; variables: 1585 clauses: 3315 assignments: 357  propagations: 5072
+iteration:    4; variables: 2061 clauses: 4221 assignments: 545  propagations: 6944
+iteration:    5; variables: 2537 clauses: 5115 assignments: 743  propagations: 10102
+iteration:    6; variables: 3013 clauses: 5977 assignments: 941  propagations: 12403
+iteration:    7; variables: 3489 clauses: 6841 assignments: 1135  propagations: 15101
+iteration:    8; variables: 3965 clauses: 7713 assignments: 1314  propagations: 20576
+iteration:    9; variables: 4441 clauses: 8583 assignments: 1498  propagations: 24393
+iteration:   10; variables: 4917 clauses: 9443 assignments: 1702  propagations: 28763
+iteration:   11; variables: 5393 clauses: 10293 assignments: 1910  propagations: 32692
+iteration:   12; variables: 5869 clauses: 11125 assignments: 2137  propagations: 41439
+iteration:   13; variables: 6345 clauses: 11947 assignments: 2371  propagations: 50896
+
+Finished! 
+iteration=13
+key=0100100011100101100010110000010111010110010101000110010100110000
+
+equivalent
+
+time: 0.0379448
+kartik@kartik:~/logic_obfuscation/neos$ ./bin/neos -d ex ./netlist/bench/equal_segmentation_adder32.bench ./lockednetlist/64bitaorlock/bench/equal_segmentation_adder32_aor_enc64.bench 1000
+running combinatonal attack...
+iteration:    1; variables: 633 clauses: 1512 assignments: 1  propagations: 1649
+iteration:    2; variables: 1109 clauses: 2431 assignments: 159  propagations: 3795
+iteration:    3; variables: 1585 clauses: 3325 assignments: 353  propagations: 5384
+iteration:    4; variables: 2061 clauses: 4219 assignments: 545  propagations: 8972
+iteration:    5; variables: 2537 clauses: 5105 assignments: 717  propagations: 12114
+iteration:    6; variables: 3013 clauses: 5947 assignments: 924  propagations: 17780
+iteration:    7; variables: 3489 clauses: 6767 assignments: 1166  propagations: 20345
+iteration:    8; variables: 3965 clauses: 7587 assignments: 1408  propagations: 24659
+iteration:    9; variables: 4441 clauses: 8407 assignments: 1646  propagations: 27752
+iteration:   10; variables: 4917 clauses: 9239 assignments: 1876  propagations: 32281
+iteration:   11; variables: 5393 clauses: 10115 assignments: 2075  propagations: 49244
+
+Finished! 
+iteration=11
+key=0100100011100101100010110000010111010110010101000110010100110000
+
+equivalent
+
+time: 0.0589173
+kartik@kartik:~/logic_obfuscation/neos$ ./bin/neos -d ex ./netlist/bench/equal_segmentation_adder32.bench ./lockednetlist/64bitaorlock/bench/equal_segmentation_adder32_aor_enc64.bench 1000
+running combinatonal attack...
+iteration:    1; variables: 633 clauses: 1512 assignments: 1  propagations: 1649
+iteration:    2; variables: 1109 clauses: 2431 assignments: 159  propagations: 3896
+iteration:    3; variables: 1585 clauses: 3313 assignments: 341  propagations: 5322
+iteration:    4; variables: 2061 clauses: 4177 assignments: 551  propagations: 7188
+iteration:    5; variables: 2537 clauses: 5047 assignments: 767  propagations: 9389
+iteration:    6; variables: 3013 clauses: 5927 assignments: 980  propagations: 13945
+iteration:    7; variables: 3489 clauses: 6785 assignments: 1251  propagations: 19099
+iteration:    8; variables: 3965 clauses: 7631 assignments: 1525  propagations: 22433
+iteration:    9; variables: 4441 clauses: 8495 assignments: 1789  propagations: 25473
+iteration:   10; variables: 4917 clauses: 9321 assignments: 2081  propagations: 30169
+iteration:   11; variables: 5393 clauses: 10165 assignments: 2323  propagations: 35641
+iteration:   12; variables: 5869 clauses: 11105 assignments: 2464  propagations: 47424
+iteration:   13; variables: 6345 clauses: 12029 assignments: 2635  propagations: 60121
+
+Finished! 
+iteration=13
+key=0100100011100101100010110000010111010110010101000110010100110000
+
+equivalent
+
+time: 0.0619602
+kartik@kartik:~/logic_obfuscation/neos$ ./bin/neos -d ex ./netlist/bench/equal_segmentation_adder32.bench ./lockednetlist/64bitaorlock/bench/equal_segmentation_adder32_aor_enc64.bench 1000
+running combinatonal attack...
+iteration:    1; variables: 633 clauses: 1512 assignments: 1  propagations: 1649
+iteration:    2; variables: 1109 clauses: 2431 assignments: 159  propagations: 3554
+iteration:    3; variables: 1585 clauses: 3307 assignments: 361  propagations: 5029
+iteration:    4; variables: 2061 clauses: 4189 assignments: 565  propagations: 6751
+iteration:    5; variables: 2537 clauses: 5079 assignments: 765  propagations: 8758
+iteration:    6; variables: 3013 clauses: 5977 assignments: 957  propagations: 11662
+iteration:    7; variables: 3489 clauses: 6885 assignments: 1127  propagations: 14417
+iteration:    8; variables: 3965 clauses: 7805 assignments: 1287  propagations: 18114
+iteration:    9; variables: 4441 clauses: 8703 assignments: 1477  propagations: 21571
+iteration:   10; variables: 4917 clauses: 9605 assignments: 1665  propagations: 26503
+iteration:   11; variables: 5393 clauses: 10535 assignments: 1801  propagations: 31780
+iteration:   12; variables: 5869 clauses: 11467 assignments: 1949  propagations: 37962
+iteration:   13; variables: 6345 clauses: 12371 assignments: 2127  propagations: 70012
+
+Finished! 
+iteration=13
+key=0100100011100101100010110000010111010110010101000110010100110000
+
+equivalent
+
+time: 0.0612835
+kartik@kartik:~/logic_obfuscation/neos$ ./bin/neos -d ex ./netlist/bench/equal_segmentation_adder32.bench ./lockednetlist/64bitaorlock/bench/equal_segmentation_adder32_aor_enc64.bench 1000
+running combinatonal attack...
+iteration:    1; variables: 633 clauses: 1512 assignments: 1  propagations: 1649
+iteration:    2; variables: 1109 clauses: 2431 assignments: 159  propagations: 3352
+iteration:    3; variables: 1585 clauses: 3313 assignments: 359  propagations: 4905
+iteration:    4; variables: 2061 clauses: 4169 assignments: 571  propagations: 6607
+iteration:    5; variables: 2537 clauses: 5047 assignments: 763  propagations: 10663
+iteration:    6; variables: 3013 clauses: 5895 assignments: 989  propagations: 12913
+iteration:    7; variables: 3489 clauses: 6771 assignments: 1191  propagations: 15413
+iteration:    8; variables: 3965 clauses: 7647 assignments: 1393  propagations: 19496
+iteration:    9; variables: 4441 clauses: 8519 assignments: 1573  propagations: 23668
+iteration:   10; variables: 4917 clauses: 9363 assignments: 1787  propagations: 27343
+iteration:   11; variables: 5393 clauses: 10225 assignments: 2003  propagations: 35342
+iteration:   12; variables: 5869 clauses: 11087 assignments: 2225  propagations: 39706
+
+Finished! 
+iteration=12
+key=0100100011100101100010110000010111010110010101000110010100110000
+
+equivalent
+
+time: 0.0607349
+kartik@kartik:~/logic_obfuscation/neos$ ./bin/neos -d ex ./netlist/bench/equal_segmentation_adder32.bench ./lockednetlist/64bitaorlock/bench/equal_segmentation_adder32_aor_enc64.bench 1000
+running combinatonal attack...
+iteration:    1; variables: 633 clauses: 1512 assignments: 1  propagations: 1649
+iteration:    2; variables: 1109 clauses: 2431 assignments: 159  propagations: 3533
+iteration:    3; variables: 1585 clauses: 3305 assignments: 339  propagations: 7076
+iteration:    4; variables: 2061 clauses: 4153 assignments: 565  propagations: 9016
+iteration:    5; variables: 2537 clauses: 5003 assignments: 765  propagations: 12616
+iteration:    6; variables: 3013 clauses: 5843 assignments: 969  propagations: 14864
+iteration:    7; variables: 3489 clauses: 6693 assignments: 1170  propagations: 19923
+iteration:    8; variables: 3965 clauses: 7595 assignments: 1330  propagations: 23546
+iteration:    9; variables: 4441 clauses: 8499 assignments: 1488  propagations: 27137
+iteration:   10; variables: 4917 clauses: 9361 assignments: 1680  propagations: 40953
+iteration:   11; variables: 5393 clauses: 10237 assignments: 1902  propagations: 44703
+iteration:   12; variables: 5869 clauses: 11109 assignments: 2127  propagations: 65314
+
+Finished! 
+iteration=12
+key=0100100011100101100010110000010111010110010101000110010100110000
+
+equivalent
+
+time: 0.0600088
+kartik@kartik:~/logic_obfuscation/neos$ ./bin/neos -d ex ./netlist/bench/equal_segmentation_adder32.bench ./lockednetlist/64bitaorlock/bench/equal_segmentation_adder32_aor_enc64.bench 1000
+running combinatonal attack...
+iteration:    1; variables: 633 clauses: 1512 assignments: 1  propagations: 1649
+iteration:    2; variables: 1109 clauses: 2431 assignments: 159  propagations: 3349
+iteration:    3; variables: 1585 clauses: 3305 assignments: 355  propagations: 4775
+iteration:    4; variables: 2061 clauses: 4175 assignments: 553  propagations: 7557
+iteration:    5; variables: 2537 clauses: 5033 assignments: 758  propagations: 12436
+iteration:    6; variables: 3013 clauses: 5889 assignments: 966  propagations: 14691
+iteration:    7; variables: 3489 clauses: 6763 assignments: 1164  propagations: 18246
+iteration:    8; variables: 3965 clauses: 7631 assignments: 1366  propagations: 21158
+iteration:    9; variables: 4441 clauses: 8515 assignments: 1552  propagations: 25186
+iteration:   10; variables: 4917 clauses: 9439 assignments: 1714  propagations: 28935
+iteration:   11; variables: 5393 clauses: 10351 assignments: 1880  propagations: 35321
+iteration:   12; variables: 5869 clauses: 11237 assignments: 2048  propagations: 40722
+iteration:   13; variables: 6345 clauses: 12147 assignments: 2214  propagations: 62770
+
+Finished! 
+iteration=13
+key=0100100011100101100010110000010111010110010101000110010100110000
+
+equivalent
+
+time: 0.0641592
+kartik@kartik:~/logic_obfuscation/neos$ ./bin/neos -d ex ./netlist/bench/equal_segmentation_adder32.bench ./lockednetlist/64bitaorlock/bench/equal_segmentation_adder32_aor_enc64.bench 1000
+running combinatonal attack...
+iteration:    1; variables: 633 clauses: 1512 assignments: 1  propagations: 1649
+iteration:    2; variables: 1109 clauses: 2431 assignments: 159  propagations: 3485
+iteration:    3; variables: 1585 clauses: 3273 assignments: 417  propagations: 4911
+iteration:    4; variables: 2061 clauses: 4109 assignments: 685  propagations: 6975
+iteration:    5; variables: 2537 clauses: 4959 assignments: 943  propagations: 9489
+iteration:    6; variables: 3013 clauses: 5771 assignments: 1221  propagations: 11900
+iteration:    7; variables: 3489 clauses: 6623 assignments: 1441  propagations: 14168
+iteration:    8; variables: 3965 clauses: 7475 assignments: 1661  propagations: 17619
+iteration:    9; variables: 4441 clauses: 8313 assignments: 1888  propagations: 23492
+iteration:   10; variables: 4917 clauses: 9213 assignments: 2043  propagations: 31182
+iteration:   11; variables: 5393 clauses: 10131 assignments: 2203  propagations: 36180
+iteration:   12; variables: 5869 clauses: 11019 assignments: 2401  propagations: 39846
+iteration:   13; variables: 6345 clauses: 11895 assignments: 2613  propagations: 46058
+iteration:   14; variables: 6821 clauses: 12789 assignments: 2797  propagations: 50734
+iteration:   15; variables: 7297 clauses: 13699 assignments: 2971  propagations: 57964
+iteration:   16; variables: 7773 clauses: 14585 assignments: 3157  propagations: 82099
+
+Finished! 
+iteration=16
+key=0100100011100101100010110000010111010110010101000110010100110000
+
+equivalent
+
+time: 0.0476448
+kartik@kartik:~/logic_obfuscation/neos$ ./bin/neos -d ex ./netlist/bench/equal_segmentation_adder32.bench ./lockednetlist/64bitaorlock/bench/equal_segmentation_adder32_aor_enc64.bench 1000
+running combinatonal attack...
+iteration:    1; variables: 633 clauses: 1512 assignments: 1  propagations: 1649
+iteration:    2; variables: 1109 clauses: 2431 assignments: 159  propagations: 3282
+iteration:    3; variables: 1585 clauses: 3313 assignments: 351  propagations: 5712
+iteration:    4; variables: 2061 clauses: 4189 assignments: 533  propagations: 7422
+iteration:    5; variables: 2537 clauses: 5057 assignments: 717  propagations: 10242
+iteration:    6; variables: 3013 clauses: 5943 assignments: 889  propagations: 13486
+iteration:    7; variables: 3489 clauses: 6805 assignments: 1093  propagations: 16175
+iteration:    8; variables: 3965 clauses: 7665 assignments: 1297  propagations: 19525
+iteration:    9; variables: 4441 clauses: 8521 assignments: 1503  propagations: 23011
+iteration:   10; variables: 4917 clauses: 9387 assignments: 1703  propagations: 26607
+iteration:   11; variables: 5393 clauses: 10253 assignments: 1903  propagations: 30761
+iteration:   12; variables: 5869 clauses: 11149 assignments: 2077  propagations: 36950
+iteration:   13; variables: 6345 clauses: 12043 assignments: 2255  propagations: 41796
+iteration:   14; variables: 6821 clauses: 12941 assignments: 2437  propagations: 56386
+
+Finished! 
+iteration=14
+key=0100100011100101100010110000010111010110010101000110010100110000
+
+equivalent
+
+time: 0.0648595
+kartik@kartik:~/logic_obfuscation/neos$ ./bin/neos -d ex ./netlist/bench/equal_segmentation_adder32.bench ./lockednetlist/64bitaorlock/bench/equal_segmentation_adder32_aor_enc64.bench 1000
+running combinatonal attack...
+iteration:    1; variables: 633 clauses: 1512 assignments: 1  propagations: 1649
+iteration:    2; variables: 1109 clauses: 2431 assignments: 159  propagations: 3196
+iteration:    3; variables: 1585 clauses: 3313 assignments: 359  propagations: 4779
+iteration:    4; variables: 2061 clauses: 4201 assignments: 561  propagations: 6764
+iteration:    5; variables: 2537 clauses: 5113 assignments: 753  propagations: 10502
+iteration:    6; variables: 3013 clauses: 6031 assignments: 905  propagations: 13808
+iteration:    7; variables: 3489 clauses: 6953 assignments: 1046  propagations: 19352
+iteration:    8; variables: 3965 clauses: 7863 assignments: 1204  propagations: 23407
+iteration:    9; variables: 4441 clauses: 8763 assignments: 1368  propagations: 26644
+iteration:   10; variables: 4917 clauses: 9659 assignments: 1534  propagations: 30885
+iteration:   11; variables: 5393 clauses: 10591 assignments: 1674  propagations: 37743
+iteration:   12; variables: 5869 clauses: 11533 assignments: 1816  propagations: 42226
+iteration:   13; variables: 6345 clauses: 12471 assignments: 1958  propagations: 48774
+
+Finished! 
+iteration=13
+key=0100100011100101100010110000010111010110010101000110010100110000
+
+equivalent
+
+time: 0.0643122
+kartik@kartik:~/logic_obfuscation/neos$ ./bin/neos -d ex ./netlist/bench/equal_segmentation_adder32.bench ./lockednetlist/64bitaorlock/bench/equal_segmentation_adder32_aor_enc64.bench 1000
+running combinatonal attack...
+iteration:    1; variables: 633 clauses: 1512 assignments: 1  propagations: 1649
+iteration:    2; variables: 1109 clauses: 2431 assignments: 159  propagations: 3113
+iteration:    3; variables: 1585 clauses: 3315 assignments: 359  propagations: 5613
+iteration:    4; variables: 2061 clauses: 4199 assignments: 554  propagations: 9469
+iteration:    5; variables: 2537 clauses: 5087 assignments: 742  propagations: 11452
+iteration:    6; variables: 3013 clauses: 5965 assignments: 940  propagations: 14903
+iteration:    7; variables: 3489 clauses: 6815 assignments: 1156  propagations: 18312
+iteration:    8; variables: 3965 clauses: 7663 assignments: 1360  propagations: 21159
+iteration:    9; variables: 4441 clauses: 8495 assignments: 1574  propagations: 24784
+iteration:   10; variables: 4917 clauses: 9347 assignments: 1780  propagations: 28127
+iteration:   11; variables: 5393 clauses: 10189 assignments: 1990  propagations: 32357
+iteration:   12; variables: 5869 clauses: 11015 assignments: 2206  propagations: 36669
+iteration:   13; variables: 6345 clauses: 11863 assignments: 2404  propagations: 40931
+iteration:   14; variables: 6821 clauses: 12711 assignments: 2606  propagations: 45829
+iteration:   15; variables: 7297 clauses: 13573 assignments: 2786  propagations: 52483
+iteration:   16; variables: 7773 clauses: 14441 assignments: 2971  propagations: 65788
+
+Finished! 
+iteration=16
+key=0100100011100101100010110000010111010110010101000110010100110000
+
+equivalent
+
+time: 0.0691064
+kartik@kartik:~/logic_obfuscation/neos$ ./bin/neos -d ex ./netlist/bench/equal_segmentation_adder32.bench ./lockednetlist/64bitaorlock/bench/equal_segmentation_adder32_aor_enc64.bench 1000
+running combinatonal attack...
+iteration:    1; variables: 633 clauses: 1512 assignments: 1  propagations: 1649
+iteration:    2; variables: 1109 clauses: 2431 assignments: 159  propagations: 3596
+iteration:    3; variables: 1585 clauses: 3259 assignments: 435  propagations: 5312
+iteration:    4; variables: 2061 clauses: 4079 assignments: 725  propagations: 7227
+iteration:    5; variables: 2537 clauses: 4909 assignments: 1005  propagations: 9101
+iteration:    6; variables: 3013 clauses: 5749 assignments: 1281  propagations: 11183
+iteration:    7; variables: 3489 clauses: 6599 assignments: 1549  propagations: 13422
+iteration:    8; variables: 3965 clauses: 7457 assignments: 1811  propagations: 16463
+iteration:    9; variables: 4441 clauses: 8351 assignments: 2030  propagations: 22173
+iteration:   10; variables: 4917 clauses: 9233 assignments: 2252  propagations: 27136
+iteration:   11; variables: 5393 clauses: 10091 assignments: 2468  propagations: 31286
+iteration:   12; variables: 5869 clauses: 10953 assignments: 2683  propagations: 40012
+iteration:   13; variables: 6345 clauses: 11855 assignments: 2865  propagations: 44749
+iteration:   14; variables: 6821 clauses: 12769 assignments: 3029  propagations: 48756
+iteration:   15; variables: 7297 clauses: 13679 assignments: 3185  propagations: 56529
+iteration:   16; variables: 7773 clauses: 14605 assignments: 3321  propagations: 73622
+
+Finished! 
+iteration=16
+key=0100100011100101100010110000010111010110010101000110010100110000
+
+equivalent
+
+time: 0.066554
+kartik@kartik:~/logic_obfuscation/neos$ ./bin/neos -d ex ./netlist/bench/equal_segmentation_adder32.bench ./lockednetlist/64bitaorlock/bench/equal_segmentation_adder32_aor_enc64.bench 1000
+running combinatonal attack...
+iteration:    1; variables: 633 clauses: 1512 assignments: 1  propagations: 1649
+iteration:    2; variables: 1109 clauses: 2431 assignments: 159  propagations: 3153
+iteration:    3; variables: 1585 clauses: 3293 assignments: 351  propagations: 4753
+iteration:    4; variables: 2061 clauses: 4185 assignments: 519  propagations: 6715
+iteration:    5; variables: 2537 clauses: 5001 assignments: 809  propagations: 8909
+iteration:    6; variables: 3013 clauses: 5833 assignments: 1087  propagations: 11807
+iteration:    7; variables: 3489 clauses: 6675 assignments: 1349  propagations: 15364
+iteration:    8; variables: 3965 clauses: 7509 assignments: 1581  propagations: 18822
+iteration:    9; variables: 4441 clauses: 8341 assignments: 1825  propagations: 22837
+iteration:   10; variables: 4917 clauses: 9189 assignments: 2063  propagations: 26145
+iteration:   11; variables: 5393 clauses: 10045 assignments: 2299  propagations: 29622
+iteration:   12; variables: 5869 clauses: 10899 assignments: 2531  propagations: 34451
+iteration:   13; variables: 6345 clauses: 11801 assignments: 2707  propagations: 38415
+iteration:   14; variables: 6821 clauses: 12701 assignments: 2901  propagations: 43463
+iteration:   15; variables: 7297 clauses: 13643 assignments: 3067  propagations: 61097
+iteration:   16; variables: 7773 clauses: 14525 assignments: 3261  propagations: 65891
+
+Finished! 
+iteration=16
+key=0100100011100101100010110000010111010110010101000110010100110000
+
+equivalent
+
+time: 0.0428682
+kartik@kartik:~/logic_obfuscation/neos$ ./bin/neos -d ex ./netlist/bench/equal_segmentation_adder32.bench ./lockednetlist/64bitaorlock/bench/equal_segmentation_adder32_aor_enc64.bench 1000
+running combinatonal attack...
+iteration:    1; variables: 633 clauses: 1512 assignments: 1  propagations: 1649
+iteration:    2; variables: 1109 clauses: 2431 assignments: 159  propagations: 3602
+iteration:    3; variables: 1585 clauses: 3301 assignments: 363  propagations: 5130
+iteration:    4; variables: 2061 clauses: 4157 assignments: 593  propagations: 6828
+iteration:    5; variables: 2537 clauses: 5027 assignments: 815  propagations: 8800
+iteration:    6; variables: 3013 clauses: 5913 assignments: 1025  propagations: 13480
+iteration:    7; variables: 3489 clauses: 6807 assignments: 1219  propagations: 15958
+iteration:    8; variables: 3965 clauses: 7715 assignments: 1405  propagations: 18767
+iteration:    9; variables: 4441 clauses: 8601 assignments: 1599  propagations: 23724
+iteration:   10; variables: 4917 clauses: 9535 assignments: 1773  propagations: 27492
+iteration:   11; variables: 5393 clauses: 10453 assignments: 1953  propagations: 31112
+iteration:   12; variables: 5869 clauses: 11371 assignments: 2133  propagations: 36060
+iteration:   13; variables: 6345 clauses: 12299 assignments: 2305  propagations: 40311
+iteration:   14; variables: 6821 clauses: 13215 assignments: 2477  propagations: 46172
+iteration:   15; variables: 7297 clauses: 14149 assignments: 2618  propagations: 61154
+
+Finished! 
+iteration=15
+key=0100100011100101100010110000010111010110010101000110010100110000
+
+equivalent
+
+time: 0.0642825
+kartik@kartik:~/logic_obfuscation/neos$ ./bin/neos -d ex ./netlist/bench/equal_segmentation_adder32.bench ./lockednetlist/64bitaorlock/bench/equal_segmentation_adder32_aor_enc64.bench 1000
+running combinatonal attack...
+iteration:    1; variables: 633 clauses: 1512 assignments: 1  propagations: 1649
+iteration:    2; variables: 1109 clauses: 2431 assignments: 159  propagations: 3347
+iteration:    3; variables: 1585 clauses: 3315 assignments: 355  propagations: 5874
+iteration:    4; variables: 2061 clauses: 4223 assignments: 513  propagations: 7992
+iteration:    5; variables: 2537 clauses: 5127 assignments: 681  propagations: 10016
+iteration:    6; variables: 3013 clauses: 6035 assignments: 849  propagations: 18751
+iteration:    7; variables: 3489 clauses: 6855 assignments: 1093  propagations: 21493
+iteration:    8; variables: 3965 clauses: 7677 assignments: 1327  propagations: 26984
+iteration:    9; variables: 4441 clauses: 8525 assignments: 1541  propagations: 30669
+iteration:   10; variables: 4917 clauses: 9377 assignments: 1749  propagations: 34553
+iteration:   11; variables: 5393 clauses: 10251 assignments: 1927  propagations: 40421
+iteration:   12; variables: 5869 clauses: 11117 assignments: 2139  propagations: 59887
+
+Finished! 
+iteration=12
+key=0100100011100101100010110000010111010110010101000110010100110000
+
+equivalent
+
+time: 0.0373841
+kartik@kartik:~/logic_obfuscation/neos$ ./bin/neos -d ex ./netlist/bench/equal_segmentation_adder32.bench ./lockednetlist/64bitaorlock/bench/equal_segmentation_adder32_aor_enc64.bench 1000
+running combinatonal attack...
+iteration:    1; variables: 633 clauses: 1512 assignments: 1  propagations: 1649
+iteration:    2; variables: 1109 clauses: 2431 assignments: 159  propagations: 3266
+iteration:    3; variables: 1585 clauses: 3291 assignments: 373  propagations: 5645
+iteration:    4; variables: 2061 clauses: 4155 assignments: 553  propagations: 7333
+iteration:    5; variables: 2537 clauses: 5013 assignments: 735  propagations: 9630
+iteration:    6; variables: 3013 clauses: 5901 assignments: 903  propagations: 11908
+iteration:    7; variables: 3489 clauses: 6789 assignments: 1071  propagations: 15720
+iteration:    8; variables: 3965 clauses: 7665 assignments: 1251  propagations: 18614
+iteration:    9; variables: 4441 clauses: 8527 assignments: 1437  propagations: 23117
+iteration:   10; variables: 4917 clauses: 9423 assignments: 1605  propagations: 26887
+iteration:   11; variables: 5393 clauses: 10343 assignments: 1756  propagations: 36274
+iteration:   12; variables: 5869 clauses: 11273 assignments: 1906  propagations: 46068
+iteration:   13; variables: 6345 clauses: 12177 assignments: 2072  propagations: 51083
+iteration:   14; variables: 6821 clauses: 13091 assignments: 2224  propagations: 57978
+
+Finished! 
+iteration=14
+key=0100100011100101100010110000010111010110010101000110010100110000
+
+equivalent
+
+time: 0.0658251
+kartik@kartik:~/logic_obfuscation/neos$ ./bin/neos -d ex ./netlist/bench/equal_segmentation_adder32.bench ./lockednetlist/64bitaorlock/bench/equal_segmentation_adder32_aor_enc64.bench 1000
+running combinatonal attack...
+iteration:    1; variables: 633 clauses: 1512 assignments: 1  propagations: 1649
+iteration:    2; variables: 1109 clauses: 2431 assignments: 159  propagations: 3534
+iteration:    3; variables: 1585 clauses: 3319 assignments: 357  propagations: 4973
+iteration:    4; variables: 2061 clauses: 4189 assignments: 587  propagations: 6982
+iteration:    5; variables: 2537 clauses: 5057 assignments: 817  propagations: 10902
+iteration:    6; variables: 3013 clauses: 5897 assignments: 1060  propagations: 16428
+iteration:    7; variables: 3489 clauses: 6747 assignments: 1294  propagations: 19363
+iteration:    8; variables: 3965 clauses: 7595 assignments: 1528  propagations: 22067
+iteration:    9; variables: 4441 clauses: 8455 assignments: 1759  propagations: 28996
+iteration:   10; variables: 4917 clauses: 9305 assignments: 1999  propagations: 33295
+iteration:   11; variables: 5393 clauses: 10215 assignments: 2203  propagations: 36880
+iteration:   12; variables: 5869 clauses: 11143 assignments: 2393  propagations: 41444
+iteration:   13; variables: 6345 clauses: 12075 assignments: 2551  propagations: 45792
+iteration:   14; variables: 6821 clauses: 13013 assignments: 2697  propagations: 61083
+
+Finished! 
+iteration=14
+key=0100100011100101100010110000010111010110010101000110010100110000
+
+equivalent
+
+time: 0.0398025
+kartik@kartik:~/logic_obfuscation/neos$ 
