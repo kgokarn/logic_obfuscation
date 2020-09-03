@@ -1,0 +1,895 @@
+kartik@kartik:~/logic_obfuscation/neos$ ./bin/neos -d ex ./netlist/bench/xnor_based_ripple_carry_adder32.bench ./lockednetlist/128bitxorlock/bench/xnor_based_ripple_carry_adder32_xor_enc128.bench 1000
+running combinatonal attack...
+iteration:    1; variables: 1049 clauses: 2580 assignments: 1  propagations: 1853
+iteration:    2; variables: 1813 clauses: 4421 assignments: 161  propagations: 4557
+iteration:    3; variables: 2577 clauses: 6251 assignments: 327  propagations: 12918
+iteration:    4; variables: 3341 clauses: 8089 assignments: 485  propagations: 23161
+iteration:    5; variables: 4105 clauses: 9915 assignments: 649  propagations: 30211
+iteration:    6; variables: 4869 clauses: 11735 assignments: 815  propagations: 39415
+iteration:    7; variables: 5633 clauses: 13559 assignments: 979  propagations: 48465
+iteration:    8; variables: 6397 clauses: 15375 assignments: 1145  propagations: 57703
+iteration:    9; variables: 7161 clauses: 17171 assignments: 1317  propagations: 74917
+iteration:   10; variables: 7925 clauses: 19001 assignments: 1477  propagations: 81860
+iteration:   11; variables: 8689 clauses: 20835 assignments: 1637  propagations: 109882
+iteration:   12; variables: 9453 clauses: 22679 assignments: 1787  propagations: 140463
+iteration:   13; variables: 10217 clauses: 24513 assignments: 1941  propagations: 159644
+iteration:   14; variables: 10981 clauses: 26339 assignments: 2099  propagations: 183612
+iteration:   15; variables: 11745 clauses: 28175 assignments: 2256  propagations: 224680
+iteration:   16; variables: 12509 clauses: 30003 assignments: 2416  propagations: 236087
+iteration:   17; variables: 13273 clauses: 31841 assignments: 2570  propagations: 249570
+iteration:   18; variables: 14037 clauses: 33669 assignments: 2728  propagations: 277057
+iteration:   19; variables: 14801 clauses: 35489 assignments: 2890  propagations: 293407
+iteration:   20; variables: 15565 clauses: 37309 assignments: 3052  propagations: 325540
+iteration:   21; variables: 16329 clauses: 39123 assignments: 3212  propagations: 362375
+iteration:   22; variables: 17093 clauses: 40929 assignments: 3376  propagations: 397752
+iteration:   23; variables: 17857 clauses: 42727 assignments: 3544  propagations: 490553
+iteration:   24; variables: 18621 clauses: 44553 assignments: 3702  propagations: 508510
+iteration:   25; variables: 19385 clauses: 46371 assignments: 3862  propagations: 590703
+iteration:   26; variables: 20149 clauses: 48157 assignments: 4038  propagations: 610697
+iteration:   27; variables: 20913 clauses: 49947 assignments: 4212  propagations: 636505
+iteration:   28; variables: 21677 clauses: 51729 assignments: 4390  propagations: 656637
+iteration:   29; variables: 22441 clauses: 53501 assignments: 4568  propagations: 732813
+
+Finished! 
+iteration=29
+key=10010001111110001101101010101010000110110100110100001010001010100101001100001010011011100101100100111111100100011001011010001101
+
+equivalent
+
+time: 0.313688
+kartik@kartik:~/logic_obfuscation/neos$ ./bin/neos -d ex ./netlist/bench/xnor_based_ripple_carry_adder32.bench ./lockednetlist/128bitxorlock/bench/xnor_based_ripple_carry_adder32_xor_enc128.bench 1000
+running combinatonal attack...
+iteration:    1; variables: 1049 clauses: 2580 assignments: 1  propagations: 1853
+iteration:    2; variables: 1813 clauses: 4421 assignments: 161  propagations: 4208
+iteration:    3; variables: 2577 clauses: 6235 assignments: 331  propagations: 10443
+iteration:    4; variables: 3341 clauses: 8019 assignments: 507  propagations: 22324
+iteration:    5; variables: 4105 clauses: 9811 assignments: 679  propagations: 34574
+iteration:    6; variables: 4869 clauses: 11599 assignments: 849  propagations: 41397
+iteration:    7; variables: 5633 clauses: 13355 assignments: 1033  propagations: 50342
+iteration:    8; variables: 6397 clauses: 15111 assignments: 1217  propagations: 57040
+iteration:    9; variables: 7161 clauses: 16875 assignments: 1399  propagations: 66064
+iteration:   10; variables: 7925 clauses: 18661 assignments: 1569  propagations: 95160
+iteration:   11; variables: 8689 clauses: 20453 assignments: 1737  propagations: 116136
+iteration:   12; variables: 9453 clauses: 22239 assignments: 1909  propagations: 150861
+iteration:   13; variables: 10217 clauses: 24049 assignments: 2067  propagations: 175986
+iteration:   14; variables: 10981 clauses: 25873 assignments: 2221  propagations: 192118
+iteration:   15; variables: 11745 clauses: 27683 assignments: 2379  propagations: 217864
+iteration:   16; variables: 12509 clauses: 29497 assignments: 2541  propagations: 229881
+iteration:   17; variables: 13273 clauses: 31305 assignments: 2705  propagations: 248889
+iteration:   18; variables: 14037 clauses: 33117 assignments: 2867  propagations: 265914
+iteration:   19; variables: 14801 clauses: 34915 assignments: 3033  propagations: 282763
+iteration:   20; variables: 15565 clauses: 36725 assignments: 3197  propagations: 303403
+iteration:   21; variables: 16329 clauses: 38541 assignments: 3359  propagations: 320710
+iteration:   22; variables: 17093 clauses: 40365 assignments: 3519  propagations: 339406
+iteration:   23; variables: 17857 clauses: 42185 assignments: 3680  propagations: 388718
+iteration:   24; variables: 18621 clauses: 43979 assignments: 3848  propagations: 403659
+iteration:   25; variables: 19385 clauses: 45777 assignments: 4016  propagations: 477671
+iteration:   26; variables: 20149 clauses: 47601 assignments: 4172  propagations: 506357
+iteration:   27; variables: 20913 clauses: 49415 assignments: 4332  propagations: 529339
+iteration:   28; variables: 21677 clauses: 51221 assignments: 4496  propagations: 611890
+iteration:   29; variables: 22441 clauses: 53025 assignments: 4662  propagations: 631901
+
+Finished! 
+iteration=29
+key=10010000111110001101101010101010000110110000110100001010001010100101001100001010111011100101000111111111100100011001110010001101
+
+equivalent
+
+time: 0.18992
+kartik@kartik:~/logic_obfuscation/neos$ ./bin/neos -d ex ./netlist/bench/xnor_based_ripple_carry_adder32.bench ./lockednetlist/128bitxorlock/bench/xnor_based_ripple_carry_adder32_xor_enc128.bench 1000
+running combinatonal attack...
+iteration:    1; variables: 1049 clauses: 2580 assignments: 1  propagations: 1853
+iteration:    2; variables: 1813 clauses: 4421 assignments: 161  propagations: 4341
+iteration:    3; variables: 2577 clauses: 6273 assignments: 317  propagations: 12218
+iteration:    4; variables: 3341 clauses: 8105 assignments: 477  propagations: 19234
+iteration:    5; variables: 4105 clauses: 9935 assignments: 635  propagations: 27480
+iteration:    6; variables: 4869 clauses: 11747 assignments: 797  propagations: 45096
+iteration:    7; variables: 5633 clauses: 13565 assignments: 957  propagations: 62517
+iteration:    8; variables: 6397 clauses: 15383 assignments: 1121  propagations: 74050
+iteration:    9; variables: 7161 clauses: 17197 assignments: 1285  propagations: 84620
+iteration:   10; variables: 7925 clauses: 19001 assignments: 1451  propagations: 96279
+iteration:   11; variables: 8689 clauses: 20805 assignments: 1617  propagations: 104780
+iteration:   12; variables: 9453 clauses: 22619 assignments: 1779  propagations: 119071
+iteration:   13; variables: 10217 clauses: 24437 assignments: 1941  propagations: 138364
+iteration:   14; variables: 10981 clauses: 26245 assignments: 2107  propagations: 157955
+iteration:   15; variables: 11745 clauses: 28051 assignments: 2273  propagations: 184665
+iteration:   16; variables: 12509 clauses: 29871 assignments: 2435  propagations: 203394
+iteration:   17; variables: 13273 clauses: 31713 assignments: 2589  propagations: 312950
+iteration:   18; variables: 14037 clauses: 33527 assignments: 2749  propagations: 349156
+iteration:   19; variables: 14801 clauses: 35349 assignments: 2905  propagations: 368327
+iteration:   20; variables: 15565 clauses: 37171 assignments: 3063  propagations: 412295
+
+Finished! 
+iteration=20
+key=10010000110110001101101010101010000110110000110100001010001010100101001100001010001011100101100100111110100100011001010010001101
+
+equivalent
+
+time: 0.221863
+kartik@kartik:~/logic_obfuscation/neos$ ./bin/neos -d ex ./netlist/bench/xnor_based_ripple_carry_adder32.bench ./lockednetlist/128bitxorlock/bench/xnor_based_ripple_carry_adder32_xor_enc128.bench 1000
+running combinatonal attack...
+iteration:    1; variables: 1049 clauses: 2580 assignments: 1  propagations: 1853
+iteration:    2; variables: 1813 clauses: 4421 assignments: 161  propagations: 5074
+iteration:    3; variables: 2577 clauses: 6243 assignments: 325  propagations: 11701
+iteration:    4; variables: 3341 clauses: 8035 assignments: 495  propagations: 23826
+iteration:    5; variables: 4105 clauses: 9837 assignments: 661  propagations: 34018
+iteration:    6; variables: 4869 clauses: 11639 assignments: 829  propagations: 45863
+iteration:    7; variables: 5633 clauses: 13441 assignments: 999  propagations: 59630
+iteration:    8; variables: 6397 clauses: 15273 assignments: 1159  propagations: 79637
+iteration:    9; variables: 7161 clauses: 17117 assignments: 1311  propagations: 91552
+iteration:   10; variables: 7925 clauses: 18967 assignments: 1461  propagations: 104104
+iteration:   11; variables: 8689 clauses: 20807 assignments: 1615  propagations: 121803
+iteration:   12; variables: 9453 clauses: 22647 assignments: 1767  propagations: 140850
+iteration:   13; variables: 10217 clauses: 24499 assignments: 1917  propagations: 163761
+iteration:   14; variables: 10981 clauses: 26311 assignments: 2079  propagations: 177100
+iteration:   15; variables: 11745 clauses: 28133 assignments: 2237  propagations: 218308
+iteration:   16; variables: 12509 clauses: 29943 assignments: 2403  propagations: 248155
+iteration:   17; variables: 13273 clauses: 31759 assignments: 2567  propagations: 265076
+iteration:   18; variables: 14037 clauses: 33577 assignments: 2729  propagations: 295670
+iteration:   19; variables: 14801 clauses: 35401 assignments: 2889  propagations: 307960
+iteration:   20; variables: 15565 clauses: 37215 assignments: 3055  propagations: 346838
+iteration:   21; variables: 16329 clauses: 39015 assignments: 3223  propagations: 387185
+iteration:   22; variables: 17093 clauses: 40795 assignments: 3398  propagations: 548051
+
+Finished! 
+iteration=22
+key=10010001111110001101101010101010000110110000111100001010001011100101001100001010011011100101100111111111100100011001111010001101
+
+equivalent
+
+time: 0.238087
+kartik@kartik:~/logic_obfuscation/neos$ ./bin/neos -d ex ./netlist/bench/xnor_based_ripple_carry_adder32.bench ./lockednetlist/128bitxorlock/bench/xnor_based_ripple_carry_adder32_xor_enc128.bench 1000
+running combinatonal attack...
+iteration:    1; variables: 1049 clauses: 2580 assignments: 1  propagations: 1853
+iteration:    2; variables: 1813 clauses: 4421 assignments: 161  propagations: 5069
+iteration:    3; variables: 2577 clauses: 6249 assignments: 319  propagations: 16385
+iteration:    4; variables: 3341 clauses: 8055 assignments: 485  propagations: 22343
+iteration:    5; variables: 4105 clauses: 9851 assignments: 651  propagations: 31468
+iteration:    6; variables: 4869 clauses: 11623 assignments: 825  propagations: 40320
+iteration:    7; variables: 5633 clauses: 13415 assignments: 993  propagations: 48578
+iteration:    8; variables: 6397 clauses: 15213 assignments: 1159  propagations: 60353
+iteration:    9; variables: 7161 clauses: 17015 assignments: 1325  propagations: 69614
+iteration:   10; variables: 7925 clauses: 18827 assignments: 1487  propagations: 83241
+iteration:   11; variables: 8689 clauses: 20643 assignments: 1649  propagations: 92919
+iteration:   12; variables: 9453 clauses: 22459 assignments: 1811  propagations: 141312
+iteration:   13; variables: 10217 clauses: 24287 assignments: 1965  propagations: 166580
+iteration:   14; variables: 10981 clauses: 26109 assignments: 2123  propagations: 179250
+iteration:   15; variables: 11745 clauses: 27925 assignments: 2287  propagations: 196857
+iteration:   16; variables: 12509 clauses: 29731 assignments: 2451  propagations: 208295
+iteration:   17; variables: 13273 clauses: 31537 assignments: 2615  propagations: 224916
+iteration:   18; variables: 14037 clauses: 33335 assignments: 2781  propagations: 254033
+iteration:   19; variables: 14801 clauses: 35131 assignments: 2949  propagations: 281090
+iteration:   20; variables: 15565 clauses: 36921 assignments: 3117  propagations: 334828
+iteration:   21; variables: 16329 clauses: 38709 assignments: 3291  propagations: 348303
+iteration:   22; variables: 17093 clauses: 40497 assignments: 3465  propagations: 427232
+iteration:   23; variables: 17857 clauses: 42317 assignments: 3627  propagations: 447499
+iteration:   24; variables: 18621 clauses: 44107 assignments: 3799  propagations: 469753
+iteration:   25; variables: 19385 clauses: 45891 assignments: 3973  propagations: 485602
+iteration:   26; variables: 20149 clauses: 47691 assignments: 4141  propagations: 507402
+iteration:   27; variables: 20913 clauses: 49467 assignments: 4321  propagations: 533879
+iteration:   28; variables: 21677 clauses: 51267 assignments: 4489  propagations: 604165
+iteration:   29; variables: 22441 clauses: 53033 assignments: 4665  propagations: 644605
+iteration:   30; variables: 23205 clauses: 54815 assignments: 4841  propagations: 678766
+iteration:   31; variables: 23969 clauses: 56611 assignments: 5008  propagations: 814856
+
+Finished! 
+iteration=31
+key=10010001111110001101101010101010000110110000111100001010001011100101001100001010111011100101000110111111100100011001011010001101
+
+equivalent
+
+time: 0.353731
+kartik@kartik:~/logic_obfuscation/neos$ ./bin/neos -d ex ./netlist/bench/xnor_based_ripple_carry_adder32.bench ./lockednetlist/128bitxorlock/bench/xnor_based_ripple_carry_adder32_xor_enc128.bench 1000
+running combinatonal attack...
+iteration:    1; variables: 1049 clauses: 2580 assignments: 1  propagations: 1853
+iteration:    2; variables: 1813 clauses: 4421 assignments: 161  propagations: 4855
+iteration:    3; variables: 2577 clauses: 6267 assignments: 315  propagations: 17971
+iteration:    4; variables: 3341 clauses: 8093 assignments: 473  propagations: 36102
+iteration:    5; variables: 4105 clauses: 9909 assignments: 633  propagations: 49454
+iteration:    6; variables: 4869 clauses: 11729 assignments: 791  propagations: 67467
+iteration:    7; variables: 5633 clauses: 13569 assignments: 945  propagations: 72932
+iteration:    8; variables: 6397 clauses: 15389 assignments: 1105  propagations: 87217
+iteration:    9; variables: 7161 clauses: 17203 assignments: 1267  propagations: 96444
+iteration:   10; variables: 7925 clauses: 19021 assignments: 1429  propagations: 103816
+iteration:   11; variables: 8689 clauses: 20839 assignments: 1591  propagations: 111937
+iteration:   12; variables: 9453 clauses: 22647 assignments: 1755  propagations: 129750
+iteration:   13; variables: 10217 clauses: 24459 assignments: 1920  propagations: 175863
+iteration:   14; variables: 10981 clauses: 26241 assignments: 2094  propagations: 193931
+iteration:   15; variables: 11745 clauses: 28009 assignments: 2272  propagations: 214851
+iteration:   16; variables: 12509 clauses: 29767 assignments: 2450  propagations: 266762
+iteration:   17; variables: 13273 clauses: 31559 assignments: 2620  propagations: 290530
+iteration:   18; variables: 14037 clauses: 33319 assignments: 2800  propagations: 363089
+iteration:   19; variables: 14801 clauses: 35125 assignments: 2964  propagations: 453870
+iteration:   20; variables: 15565 clauses: 36957 assignments: 3120  propagations: 467025
+iteration:   21; variables: 16329 clauses: 38799 assignments: 3274  propagations: 487479
+
+Finished! 
+iteration=21
+key=10010001110110001101101010101010000110110100110100001010001010100101001100001010011011100101100100111110100100011001011010001101
+
+equivalent
+
+time: 0.244621
+kartik@kartik:~/logic_obfuscation/neos$ ./bin/neos -d ex ./netlist/bench/xnor_based_ripple_carry_adder32.bench ./lockednetlist/128bitxorlock/bench/xnor_based_ripple_carry_adder32_xor_enc128.bench 1000
+running combinatonal attack...
+iteration:    1; variables: 1049 clauses: 2580 assignments: 1  propagations: 1853
+iteration:    2; variables: 1813 clauses: 4421 assignments: 161  propagations: 5361
+iteration:    3; variables: 2577 clauses: 6257 assignments: 319  propagations: 18405
+iteration:    4; variables: 3341 clauses: 8049 assignments: 489  propagations: 25349
+iteration:    5; variables: 4105 clauses: 9859 assignments: 649  propagations: 33547
+iteration:    6; variables: 4869 clauses: 11669 assignments: 809  propagations: 40294
+iteration:    7; variables: 5633 clauses: 13479 assignments: 971  propagations: 46877
+iteration:    8; variables: 6397 clauses: 15279 assignments: 1135  propagations: 58980
+iteration:    9; variables: 7161 clauses: 17069 assignments: 1305  propagations: 68787
+iteration:   10; variables: 7925 clauses: 18867 assignments: 1473  propagations: 82594
+iteration:   11; variables: 8689 clauses: 20679 assignments: 1637  propagations: 97409
+iteration:   12; variables: 9453 clauses: 22463 assignments: 1811  propagations: 130913
+iteration:   13; variables: 10217 clauses: 24255 assignments: 1989  propagations: 162099
+iteration:   14; variables: 10981 clauses: 26065 assignments: 2159  propagations: 171321
+iteration:   15; variables: 11745 clauses: 27877 assignments: 2329  propagations: 189827
+iteration:   16; variables: 12509 clauses: 29691 assignments: 2497  propagations: 216335
+iteration:   17; variables: 13273 clauses: 31507 assignments: 2663  propagations: 228042
+iteration:   18; variables: 14037 clauses: 33311 assignments: 2833  propagations: 241880
+iteration:   19; variables: 14801 clauses: 35099 assignments: 3009  propagations: 259362
+iteration:   20; variables: 15565 clauses: 36881 assignments: 3185  propagations: 278844
+iteration:   21; variables: 16329 clauses: 38681 assignments: 3355  propagations: 294189
+iteration:   22; variables: 17093 clauses: 40493 assignments: 3523  propagations: 308349
+iteration:   23; variables: 17857 clauses: 42295 assignments: 3695  propagations: 329703
+iteration:   24; variables: 18621 clauses: 44105 assignments: 3861  propagations: 349177
+iteration:   25; variables: 19385 clauses: 45921 assignments: 4025  propagations: 364721
+iteration:   26; variables: 20149 clauses: 47741 assignments: 4189  propagations: 393964
+iteration:   27; variables: 20913 clauses: 49557 assignments: 4355  propagations: 429222
+iteration:   28; variables: 21677 clauses: 51409 assignments: 4507  propagations: 511295
+iteration:   29; variables: 22441 clauses: 53233 assignments: 4661  propagations: 560563
+iteration:   30; variables: 23205 clauses: 55065 assignments: 4813  propagations: 579200
+iteration:   31; variables: 23969 clauses: 56891 assignments: 4967  propagations: 603888
+iteration:   32; variables: 24733 clauses: 58717 assignments: 5121  propagations: 629069
+iteration:   33; variables: 25497 clauses: 60549 assignments: 5273  propagations: 667706
+iteration:   34; variables: 26261 clauses: 62365 assignments: 5431  propagations: 799384
+iteration:   35; variables: 27025 clauses: 64145 assignments: 5611  propagations: 831781
+iteration:   36; variables: 27789 clauses: 65921 assignments: 5791  propagations: 854132
+iteration:   37; variables: 28553 clauses: 67701 assignments: 5971  propagations: 956663
+iteration:   38; variables: 29317 clauses: 69471 assignments: 6152  propagations: 1077782
+
+Finished! 
+iteration=38
+key=10010001111110001101101010101010000110110000111100001010001011100101001100001010101011100101000101111111100100011001111010001101
+
+equivalent
+
+time: 0.43784
+kartik@kartik:~/logic_obfuscation/neos$ ./bin/neos -d ex ./netlist/bench/xnor_based_ripple_carry_adder32.bench ./lockednetlist/128bitxorlock/bench/xnor_based_ripple_carry_adder32_xor_enc128.bench 1000
+running combinatonal attack...
+iteration:    1; variables: 1049 clauses: 2580 assignments: 1  propagations: 1853
+iteration:    2; variables: 1813 clauses: 4421 assignments: 161  propagations: 8831
+iteration:    3; variables: 2577 clauses: 6243 assignments: 321  propagations: 18270
+iteration:    4; variables: 3341 clauses: 8051 assignments: 487  propagations: 33911
+iteration:    5; variables: 4105 clauses: 9865 assignments: 649  propagations: 45627
+iteration:    6; variables: 4869 clauses: 11691 assignments: 811  propagations: 63799
+iteration:    7; variables: 5633 clauses: 13505 assignments: 973  propagations: 78190
+iteration:    8; variables: 6397 clauses: 15293 assignments: 1145  propagations: 88052
+iteration:    9; variables: 7161 clauses: 17065 assignments: 1321  propagations: 101422
+iteration:   10; variables: 7925 clauses: 18839 assignments: 1497  propagations: 115160
+iteration:   11; variables: 8689 clauses: 20629 assignments: 1669  propagations: 125956
+iteration:   12; variables: 9453 clauses: 22419 assignments: 1837  propagations: 170262
+iteration:   13; variables: 10217 clauses: 24221 assignments: 2007  propagations: 183270
+iteration:   14; variables: 10981 clauses: 26025 assignments: 2175  propagations: 193785
+iteration:   15; variables: 11745 clauses: 27833 assignments: 2343  propagations: 225335
+iteration:   16; variables: 12509 clauses: 29645 assignments: 2503  propagations: 248534
+iteration:   17; variables: 13273 clauses: 31465 assignments: 2659  propagations: 280809
+iteration:   18; variables: 14037 clauses: 33307 assignments: 2805  propagations: 297019
+iteration:   19; variables: 14801 clauses: 35123 assignments: 2963  propagations: 311526
+iteration:   20; variables: 15565 clauses: 36943 assignments: 3122  propagations: 390766
+iteration:   21; variables: 16329 clauses: 38733 assignments: 3292  propagations: 428509
+iteration:   22; variables: 17093 clauses: 40573 assignments: 3444  propagations: 444451
+iteration:   23; variables: 17857 clauses: 42411 assignments: 3598  propagations: 486805
+
+Finished! 
+iteration=23
+key=10010001111110001101101010101010000110110000110100001010001010100101001100001010001011100101100101111111100100011001111010001101
+
+equivalent
+
+time: 0.145445
+kartik@kartik:~/logic_obfuscation/neos$ ./bin/neos -d ex ./netlist/bench/xnor_based_ripple_carry_adder32.bench ./lockednetlist/128bitxorlock/bench/xnor_based_ripple_carry_adder32_xor_enc128.bench 1000
+running combinatonal attack...
+iteration:    1; variables: 1049 clauses: 2580 assignments: 1  propagations: 1853
+iteration:    2; variables: 1813 clauses: 4421 assignments: 161  propagations: 5261
+iteration:    3; variables: 2577 clauses: 6249 assignments: 323  propagations: 17722
+iteration:    4; variables: 3341 clauses: 8079 assignments: 483  propagations: 23978
+iteration:    5; variables: 4105 clauses: 9891 assignments: 649  propagations: 34472
+iteration:    6; variables: 4869 clauses: 11683 assignments: 821  propagations: 54475
+iteration:    7; variables: 5633 clauses: 13483 assignments: 989  propagations: 70055
+iteration:    8; variables: 6397 clauses: 15285 assignments: 1155  propagations: 84900
+iteration:    9; variables: 7161 clauses: 17099 assignments: 1319  propagations: 100829
+iteration:   10; variables: 7925 clauses: 18913 assignments: 1481  propagations: 113109
+iteration:   11; variables: 8689 clauses: 20727 assignments: 1643  propagations: 128751
+iteration:   12; variables: 9453 clauses: 22521 assignments: 1811  propagations: 145006
+iteration:   13; variables: 10217 clauses: 24349 assignments: 1971  propagations: 172235
+iteration:   14; variables: 10981 clauses: 26185 assignments: 2127  propagations: 190172
+iteration:   15; variables: 11745 clauses: 28015 assignments: 2281  propagations: 225294
+iteration:   16; variables: 12509 clauses: 29849 assignments: 2433  propagations: 266427
+iteration:   17; variables: 13273 clauses: 31661 assignments: 2589  propagations: 293142
+iteration:   18; variables: 14037 clauses: 33455 assignments: 2756  propagations: 340564
+iteration:   19; variables: 14801 clauses: 35221 assignments: 2936  propagations: 357107
+iteration:   20; variables: 15565 clauses: 37003 assignments: 3110  propagations: 376378
+iteration:   21; variables: 16329 clauses: 38801 assignments: 3276  propagations: 414079
+
+Finished! 
+iteration=21
+key=10010001111110001101101010101010000110110000110100001010001010100101001100001010111011100101000110111111100100011001011010001101
+
+equivalent
+
+time: 0.138345
+kartik@kartik:~/logic_obfuscation/neos$ ./bin/neos -d ex ./netlist/bench/xnor_based_ripple_carry_adder32.bench ./lockednetlist/128bitxorlock/bench/xnor_based_ripple_carry_adder32_xor_enc128.bench 1000
+running combinatonal attack...
+iteration:    1; variables: 1049 clauses: 2580 assignments: 1  propagations: 1853
+iteration:    2; variables: 1813 clauses: 4421 assignments: 161  propagations: 5266
+iteration:    3; variables: 2577 clauses: 6269 assignments: 319  propagations: 14288
+iteration:    4; variables: 3341 clauses: 8085 assignments: 483  propagations: 22138
+iteration:    5; variables: 4105 clauses: 9905 assignments: 643  propagations: 31081
+iteration:    6; variables: 4869 clauses: 11747 assignments: 799  propagations: 40174
+iteration:    7; variables: 5633 clauses: 13565 assignments: 963  propagations: 49896
+iteration:    8; variables: 6397 clauses: 15385 assignments: 1125  propagations: 63450
+iteration:    9; variables: 7161 clauses: 17203 assignments: 1289  propagations: 73558
+iteration:   10; variables: 7925 clauses: 19025 assignments: 1449  propagations: 83309
+iteration:   11; variables: 8689 clauses: 20847 assignments: 1609  propagations: 92212
+iteration:   12; variables: 9453 clauses: 22669 assignments: 1769  propagations: 103312
+iteration:   13; variables: 10217 clauses: 24491 assignments: 1929  propagations: 112056
+iteration:   14; variables: 10981 clauses: 26303 assignments: 2093  propagations: 146913
+iteration:   15; variables: 11745 clauses: 28113 assignments: 2255  propagations: 159331
+iteration:   16; variables: 12509 clauses: 29941 assignments: 2413  propagations: 203315
+iteration:   17; variables: 13273 clauses: 31747 assignments: 2579  propagations: 229019
+iteration:   18; variables: 14037 clauses: 33567 assignments: 2741  propagations: 248070
+iteration:   19; variables: 14801 clauses: 35371 assignments: 2907  propagations: 263377
+iteration:   20; variables: 15565 clauses: 37177 assignments: 3073  propagations: 282515
+iteration:   21; variables: 16329 clauses: 38987 assignments: 3237  propagations: 319002
+iteration:   22; variables: 17093 clauses: 40795 assignments: 3401  propagations: 335790
+iteration:   23; variables: 17857 clauses: 42599 assignments: 3565  propagations: 363968
+iteration:   24; variables: 18621 clauses: 44407 assignments: 3727  propagations: 391584
+iteration:   25; variables: 19385 clauses: 46227 assignments: 3885  propagations: 408052
+iteration:   26; variables: 20149 clauses: 48065 assignments: 4037  propagations: 438924
+iteration:   27; variables: 20913 clauses: 49901 assignments: 4189  propagations: 464181
+iteration:   28; variables: 21677 clauses: 51731 assignments: 4343  propagations: 552013
+iteration:   29; variables: 22441 clauses: 53573 assignments: 4495  propagations: 609814
+iteration:   30; variables: 23205 clauses: 55409 assignments: 4649  propagations: 672292
+iteration:   31; variables: 23969 clauses: 57203 assignments: 4819  propagations: 695459
+iteration:   32; variables: 24733 clauses: 59013 assignments: 4987  propagations: 715373
+iteration:   33; variables: 25497 clauses: 60819 assignments: 5155  propagations: 736744
+iteration:   34; variables: 26261 clauses: 62619 assignments: 5325  propagations: 855898
+iteration:   35; variables: 27025 clauses: 64437 assignments: 5485  propagations: 902742
+
+Finished! 
+iteration=35
+key=10010000110110001101101010101010000110110100110100001010001010100101001100001010011011100101100100111110100100011001010010001101
+
+equivalent
+
+time: 0.368992
+kartik@kartik:~/logic_obfuscation/neos$ ./bin/neos -d ex ./netlist/bench/xnor_based_ripple_carry_adder32.bench ./lockednetlist/128bitxorlock/bench/xnor_based_ripple_carry_adder32_xor_enc128.bench 1000
+running combinatonal attack...
+iteration:    1; variables: 1049 clauses: 2580 assignments: 1  propagations: 1853
+iteration:    2; variables: 1813 clauses: 4421 assignments: 161  propagations: 5028
+iteration:    3; variables: 2577 clauses: 6261 assignments: 315  propagations: 14161
+iteration:    4; variables: 3341 clauses: 8087 assignments: 475  propagations: 22962
+iteration:    5; variables: 4105 clauses: 9905 assignments: 639  propagations: 28860
+iteration:    6; variables: 4869 clauses: 11733 assignments: 799  propagations: 42001
+iteration:    7; variables: 5633 clauses: 13553 assignments: 963  propagations: 47456
+iteration:    8; variables: 6397 clauses: 15367 assignments: 1129  propagations: 77065
+iteration:    9; variables: 7161 clauses: 17159 assignments: 1301  propagations: 100629
+iteration:   10; variables: 7925 clauses: 18953 assignments: 1467  propagations: 124049
+iteration:   11; variables: 8689 clauses: 20755 assignments: 1631  propagations: 136625
+iteration:   12; variables: 9453 clauses: 22567 assignments: 1793  propagations: 147065
+iteration:   13; variables: 10217 clauses: 24385 assignments: 1955  propagations: 187097
+iteration:   14; variables: 10981 clauses: 26197 assignments: 2115  propagations: 211548
+iteration:   15; variables: 11745 clauses: 27993 assignments: 2283  propagations: 224887
+iteration:   16; variables: 12509 clauses: 29789 assignments: 2451  propagations: 240586
+iteration:   17; variables: 13273 clauses: 31571 assignments: 2623  propagations: 263973
+iteration:   18; variables: 14037 clauses: 33361 assignments: 2793  propagations: 316810
+iteration:   19; variables: 14801 clauses: 35187 assignments: 2953  propagations: 336503
+iteration:   20; variables: 15565 clauses: 37009 assignments: 3115  propagations: 353155
+iteration:   21; variables: 16329 clauses: 38817 assignments: 3281  propagations: 416376
+iteration:   22; variables: 17093 clauses: 40629 assignments: 3443  propagations: 452273
+iteration:   23; variables: 17857 clauses: 42413 assignments: 3615  propagations: 488875
+iteration:   24; variables: 18621 clauses: 44209 assignments: 3779  propagations: 509475
+iteration:   25; variables: 19385 clauses: 46003 assignments: 3943  propagations: 557760
+iteration:   26; variables: 20149 clauses: 47815 assignments: 4108  propagations: 624868
+
+Finished! 
+iteration=26
+key=10010001111110001101101010101010000110110000110100001010001010100101001100001010111011100101000111111111100100011001111010001101
+
+equivalent
+
+time: 0.302158
+kartik@kartik:~/logic_obfuscation/neos$ ./bin/neos -d ex ./netlist/bench/xnor_based_ripple_carry_adder32.bench ./lockednetlist/128bitxorlock/bench/xnor_based_ripple_carry_adder32_xor_enc128.bench 1000
+running combinatonal attack...
+iteration:    1; variables: 1049 clauses: 2580 assignments: 1  propagations: 1853
+iteration:    2; variables: 1813 clauses: 4421 assignments: 161  propagations: 5340
+iteration:    3; variables: 2577 clauses: 6223 assignments: 325  propagations: 11831
+iteration:    4; variables: 3341 clauses: 7987 assignments: 505  propagations: 21033
+iteration:    5; variables: 4105 clauses: 9747 assignments: 685  propagations: 31617
+iteration:    6; variables: 4869 clauses: 11525 assignments: 859  propagations: 39966
+iteration:    7; variables: 5633 clauses: 13297 assignments: 1033  propagations: 52551
+iteration:    8; variables: 6397 clauses: 15071 assignments: 1207  propagations: 61002
+iteration:    9; variables: 7161 clauses: 16833 assignments: 1385  propagations: 72418
+iteration:   10; variables: 7925 clauses: 18589 assignments: 1567  propagations: 84444
+iteration:   11; variables: 8689 clauses: 20359 assignments: 1741  propagations: 95393
+iteration:   12; variables: 9453 clauses: 22155 assignments: 1903  propagations: 110625
+iteration:   13; variables: 10217 clauses: 23951 assignments: 2067  propagations: 164361
+iteration:   14; variables: 10981 clauses: 25749 assignments: 2231  propagations: 191037
+iteration:   15; variables: 11745 clauses: 27541 assignments: 2399  propagations: 239936
+iteration:   16; variables: 12509 clauses: 29313 assignments: 2575  propagations: 250172
+iteration:   17; variables: 13273 clauses: 31121 assignments: 2741  propagations: 291465
+iteration:   18; variables: 14037 clauses: 32947 assignments: 2897  propagations: 318843
+iteration:   19; variables: 14801 clauses: 34769 assignments: 3055  propagations: 338835
+iteration:   20; variables: 15565 clauses: 36591 assignments: 3213  propagations: 409243
+iteration:   21; variables: 16329 clauses: 38381 assignments: 3385  propagations: 431565
+iteration:   22; variables: 17093 clauses: 40173 assignments: 3551  propagations: 453233
+iteration:   23; variables: 17857 clauses: 41983 assignments: 3713  propagations: 470852
+iteration:   24; variables: 18621 clauses: 43797 assignments: 3875  propagations: 486005
+iteration:   25; variables: 19385 clauses: 45611 assignments: 4037  propagations: 530034
+iteration:   26; variables: 20149 clauses: 47417 assignments: 4199  propagations: 608764
+
+Finished! 
+iteration=26
+key=10010000111110001101101010101010000110110100110100001010001010100101001100001010111011100101000101111111100100011001110010001101
+
+equivalent
+
+time: 0.275581
+kartik@kartik:~/logic_obfuscation/neos$ ./bin/neos -d ex ./netlist/bench/xnor_based_ripple_carry_adder32.bench ./lockednetlist/128bitxorlock/bench/xnor_based_ripple_carry_adder32_xor_enc128.bench 1000
+running combinatonal attack...
+iteration:    1; variables: 1049 clauses: 2580 assignments: 1  propagations: 1853
+iteration:    2; variables: 1813 clauses: 4421 assignments: 161  propagations: 4487
+iteration:    3; variables: 2577 clauses: 6265 assignments: 321  propagations: 12627
+iteration:    4; variables: 3341 clauses: 8047 assignments: 497  propagations: 29404
+iteration:    5; variables: 4105 clauses: 9837 assignments: 669  propagations: 40286
+iteration:    6; variables: 4869 clauses: 11607 assignments: 843  propagations: 60347
+iteration:    7; variables: 5633 clauses: 13405 assignments: 1007  propagations: 71821
+iteration:    8; variables: 6397 clauses: 15207 assignments: 1173  propagations: 99531
+iteration:    9; variables: 7161 clauses: 17021 assignments: 1335  propagations: 111281
+iteration:   10; variables: 7925 clauses: 18819 assignments: 1501  propagations: 124386
+iteration:   11; variables: 8689 clauses: 20637 assignments: 1661  propagations: 133378
+iteration:   12; variables: 9453 clauses: 22461 assignments: 1817  propagations: 145972
+iteration:   13; variables: 10217 clauses: 24269 assignments: 1979  propagations: 192096
+iteration:   14; variables: 10981 clauses: 26101 assignments: 2131  propagations: 221561
+iteration:   15; variables: 11745 clauses: 27919 assignments: 2291  propagations: 243463
+iteration:   16; variables: 12509 clauses: 29747 assignments: 2449  propagations: 253716
+iteration:   17; variables: 13273 clauses: 31567 assignments: 2609  propagations: 265189
+iteration:   18; variables: 14037 clauses: 33381 assignments: 2771  propagations: 348853
+iteration:   19; variables: 14801 clauses: 35209 assignments: 2927  propagations: 370126
+iteration:   20; variables: 15565 clauses: 37021 assignments: 3091  propagations: 390841
+iteration:   21; variables: 16329 clauses: 38817 assignments: 3267  propagations: 408655
+iteration:   22; variables: 17093 clauses: 40623 assignments: 3435  propagations: 439548
+iteration:   23; variables: 17857 clauses: 42449 assignments: 3593  propagations: 481932
+
+Finished! 
+iteration=23
+key=10010000110110001101101010101010000110110100111100001010001011100101001100001010001011100101100110111110100100011001010010001101
+
+equivalent
+
+time: 0.26223
+kartik@kartik:~/logic_obfuscation/neos$ ./bin/neos -d ex ./netlist/bench/xnor_based_ripple_carry_adder32.bench ./lockednetlist/128bitxorlock/bench/xnor_based_ripple_carry_adder32_xor_enc128.bench 1000
+running combinatonal attack...
+iteration:    1; variables: 1049 clauses: 2580 assignments: 1  propagations: 1853
+iteration:    2; variables: 1813 clauses: 4421 assignments: 161  propagations: 4758
+iteration:    3; variables: 2577 clauses: 6279 assignments: 311  propagations: 14208
+iteration:    4; variables: 3341 clauses: 8121 assignments: 465  propagations: 21718
+iteration:    5; variables: 4105 clauses: 9931 assignments: 631  propagations: 34674
+iteration:    6; variables: 4869 clauses: 11737 assignments: 795  propagations: 48286
+iteration:    7; variables: 5633 clauses: 13595 assignments: 945  propagations: 69336
+iteration:    8; variables: 6397 clauses: 15445 assignments: 1095  propagations: 84285
+iteration:    9; variables: 7161 clauses: 17289 assignments: 1245  propagations: 99468
+iteration:   10; variables: 7925 clauses: 19117 assignments: 1407  propagations: 107303
+iteration:   11; variables: 8689 clauses: 20933 assignments: 1573  propagations: 118414
+iteration:   12; variables: 9453 clauses: 22745 assignments: 1739  propagations: 143978
+iteration:   13; variables: 10217 clauses: 24555 assignments: 1903  propagations: 176095
+iteration:   14; variables: 10981 clauses: 26389 assignments: 2057  propagations: 196828
+iteration:   15; variables: 11745 clauses: 28219 assignments: 2213  propagations: 214847
+iteration:   16; variables: 12509 clauses: 30049 assignments: 2369  propagations: 225702
+iteration:   17; variables: 13273 clauses: 31875 assignments: 2529  propagations: 252449
+iteration:   18; variables: 14037 clauses: 33669 assignments: 2699  propagations: 268695
+iteration:   19; variables: 14801 clauses: 35467 assignments: 2869  propagations: 331193
+iteration:   20; variables: 15565 clauses: 37239 assignments: 3051  propagations: 352883
+iteration:   21; variables: 16329 clauses: 39015 assignments: 3229  propagations: 367365
+iteration:   22; variables: 17093 clauses: 40795 assignments: 3407  propagations: 382387
+iteration:   23; variables: 17857 clauses: 42571 assignments: 3587  propagations: 471524
+iteration:   24; variables: 18621 clauses: 44355 assignments: 3759  propagations: 488555
+iteration:   25; variables: 19385 clauses: 46151 assignments: 3927  propagations: 510132
+iteration:   26; variables: 20149 clauses: 47949 assignments: 4098  propagations: 587686
+
+Finished! 
+iteration=26
+key=10010000111110001101101010101010000110110000110100001010001010100101001100001010001011100101100101111111100100011001110010001101
+
+equivalent
+
+time: 0.278542
+kartik@kartik:~/logic_obfuscation/neos$ ./bin/neos -d ex ./netlist/bench/xnor_based_ripple_carry_adder32.bench ./lockednetlist/128bitxorlock/bench/xnor_based_ripple_carry_adder32_xor_enc128.bench 1000
+running combinatonal attack...
+iteration:    1; variables: 1049 clauses: 2580 assignments: 1  propagations: 1853
+iteration:    2; variables: 1813 clauses: 4421 assignments: 161  propagations: 4428
+iteration:    3; variables: 2577 clauses: 6253 assignments: 321  propagations: 14325
+iteration:    4; variables: 3341 clauses: 8065 assignments: 485  propagations: 21350
+iteration:    5; variables: 4105 clauses: 9879 assignments: 653  propagations: 40691
+iteration:    6; variables: 4869 clauses: 11693 assignments: 819  propagations: 57863
+iteration:    7; variables: 5633 clauses: 13501 assignments: 985  propagations: 73051
+iteration:    8; variables: 6397 clauses: 15313 assignments: 1143  propagations: 91898
+iteration:    9; variables: 7161 clauses: 17107 assignments: 1309  propagations: 98145
+iteration:   10; variables: 7925 clauses: 18895 assignments: 1477  propagations: 108267
+iteration:   11; variables: 8689 clauses: 20685 assignments: 1643  propagations: 145517
+iteration:   12; variables: 9453 clauses: 22447 assignments: 1825  propagations: 155665
+iteration:   13; variables: 10217 clauses: 24213 assignments: 2005  propagations: 175253
+iteration:   14; variables: 10981 clauses: 25969 assignments: 2189  propagations: 187146
+iteration:   15; variables: 11745 clauses: 27717 assignments: 2375  propagations: 218114
+iteration:   16; variables: 12509 clauses: 29475 assignments: 2557  propagations: 231233
+iteration:   17; variables: 13273 clauses: 31217 assignments: 2749  propagations: 245809
+iteration:   18; variables: 14037 clauses: 32959 assignments: 2941  propagations: 262888
+iteration:   19; variables: 14801 clauses: 34699 assignments: 3135  propagations: 274748
+iteration:   20; variables: 15565 clauses: 36443 assignments: 3327  propagations: 287178
+iteration:   21; variables: 16329 clauses: 38195 assignments: 3517  propagations: 338565
+iteration:   22; variables: 17093 clauses: 39961 assignments: 3701  propagations: 420533
+iteration:   23; variables: 17857 clauses: 41743 assignments: 3873  propagations: 450217
+iteration:   24; variables: 18621 clauses: 43569 assignments: 4033  propagations: 471455
+iteration:   25; variables: 19385 clauses: 45391 assignments: 4193  propagations: 491687
+
+Finished! 
+iteration=25
+key=10010000110110001101101010101010000110110100110100001010001010100101001100001010111011100101000101111110100100011001110010001101
+
+equivalent
+
+time: 0.277236
+kartik@kartik:~/logic_obfuscation/neos$ ./bin/neos -d ex ./netlist/bench/xnor_based_ripple_carry_adder32.bench ./lockednetlist/128bitxorlock/bench/xnor_based_ripple_carry_adder32_xor_enc128.bench 1000
+running combinatonal attack...
+iteration:    1; variables: 1049 clauses: 2580 assignments: 1  propagations: 1853
+iteration:    2; variables: 1813 clauses: 4421 assignments: 161  propagations: 5317
+iteration:    3; variables: 2577 clauses: 6217 assignments: 331  propagations: 17566
+iteration:    4; variables: 3341 clauses: 8029 assignments: 493  propagations: 27606
+iteration:    5; variables: 4105 clauses: 9845 assignments: 653  propagations: 44338
+iteration:    6; variables: 4869 clauses: 11673 assignments: 807  propagations: 54787
+iteration:    7; variables: 5633 clauses: 13507 assignments: 959  propagations: 63769
+iteration:    8; variables: 6397 clauses: 15337 assignments: 1113  propagations: 80737
+iteration:    9; variables: 7161 clauses: 17171 assignments: 1267  propagations: 89476
+iteration:   10; variables: 7925 clauses: 19009 assignments: 1421  propagations: 102233
+iteration:   11; variables: 8689 clauses: 20843 assignments: 1575  propagations: 109918
+iteration:   12; variables: 9453 clauses: 22677 assignments: 1729  propagations: 140758
+iteration:   13; variables: 10217 clauses: 24531 assignments: 1879  propagations: 175572
+iteration:   14; variables: 10981 clauses: 26375 assignments: 2035  propagations: 200962
+iteration:   15; variables: 11745 clauses: 28215 assignments: 2191  propagations: 217303
+iteration:   16; variables: 12509 clauses: 30053 assignments: 2345  propagations: 233495
+iteration:   17; variables: 13273 clauses: 31875 assignments: 2503  propagations: 244423
+iteration:   18; variables: 14037 clauses: 33695 assignments: 2661  propagations: 263183
+iteration:   19; variables: 14801 clauses: 35503 assignments: 2821  propagations: 287921
+iteration:   20; variables: 15565 clauses: 37317 assignments: 2987  propagations: 301386
+iteration:   21; variables: 16329 clauses: 39131 assignments: 3153  propagations: 326623
+iteration:   22; variables: 17093 clauses: 40937 assignments: 3323  propagations: 371879
+iteration:   23; variables: 17857 clauses: 42765 assignments: 3479  propagations: 392260
+iteration:   24; variables: 18621 clauses: 44595 assignments: 3635  propagations: 421595
+iteration:   25; variables: 19385 clauses: 46435 assignments: 3787  propagations: 470984
+
+Finished! 
+iteration=25
+key=10010001111110001101101010101010000110110000111100001010001011100101001100001010111011100101000110111111100100011001011010001101
+
+equivalent
+
+time: 0.274445
+kartik@kartik:~/logic_obfuscation/neos$ ./bin/neos -d ex ./netlist/bench/xnor_based_ripple_carry_adder32.bench ./lockednetlist/128bitxorlock/bench/xnor_based_ripple_carry_adder32_xor_enc128.bench 1000
+running combinatonal attack...
+iteration:    1; variables: 1049 clauses: 2580 assignments: 1  propagations: 1853
+iteration:    2; variables: 1813 clauses: 4421 assignments: 161  propagations: 4682
+iteration:    3; variables: 2577 clauses: 6255 assignments: 321  propagations: 15437
+iteration:    4; variables: 3341 clauses: 8059 assignments: 491  propagations: 31550
+iteration:    5; variables: 4105 clauses: 9849 assignments: 663  propagations: 50411
+iteration:    6; variables: 4869 clauses: 11629 assignments: 835  propagations: 73496
+iteration:    7; variables: 5633 clauses: 13457 assignments: 989  propagations: 88851
+iteration:    8; variables: 6397 clauses: 15283 assignments: 1145  propagations: 102061
+iteration:    9; variables: 7161 clauses: 17107 assignments: 1301  propagations: 128651
+iteration:   10; variables: 7925 clauses: 18933 assignments: 1459  propagations: 135275
+iteration:   11; variables: 8689 clauses: 20751 assignments: 1621  propagations: 146136
+iteration:   12; variables: 9453 clauses: 22569 assignments: 1782  propagations: 209361
+iteration:   13; variables: 10217 clauses: 24387 assignments: 1940  propagations: 239598
+iteration:   14; variables: 10981 clauses: 26183 assignments: 2110  propagations: 256704
+iteration:   15; variables: 11745 clauses: 27993 assignments: 2274  propagations: 275816
+iteration:   16; variables: 12509 clauses: 29795 assignments: 2442  propagations: 302579
+iteration:   17; variables: 13273 clauses: 31603 assignments: 2602  propagations: 324807
+iteration:   18; variables: 14037 clauses: 33419 assignments: 2760  propagations: 388468
+
+Finished! 
+iteration=18
+key=10010001111110001101101010101010000110110000111100001010001011100101001100001010101011100101000100111111100100011001011010001101
+
+equivalent
+
+time: 0.130122
+kartik@kartik:~/logic_obfuscation/neos$ ./bin/neos -d ex ./netlist/bench/xnor_based_ripple_carry_adder32.bench ./lockednetlist/128bitxorlock/bench/xnor_based_ripple_carry_adder32_xor_enc128.bench 1000
+running combinatonal attack...
+iteration:    1; variables: 1049 clauses: 2580 assignments: 1  propagations: 1853
+iteration:    2; variables: 1813 clauses: 4421 assignments: 161  propagations: 5879
+iteration:    3; variables: 2577 clauses: 6279 assignments: 315  propagations: 13209
+iteration:    4; variables: 3341 clauses: 8087 assignments: 481  propagations: 24471
+iteration:    5; variables: 4105 clauses: 9881 assignments: 657  propagations: 32369
+iteration:    6; variables: 4869 clauses: 11677 assignments: 831  propagations: 38276
+iteration:    7; variables: 5633 clauses: 13481 assignments: 1001  propagations: 44676
+iteration:    8; variables: 6397 clauses: 15297 assignments: 1167  propagations: 57897
+iteration:    9; variables: 7161 clauses: 17139 assignments: 1325  propagations: 69166
+iteration:   10; variables: 7925 clauses: 18991 assignments: 1479  propagations: 80198
+iteration:   11; variables: 8689 clauses: 20831 assignments: 1637  propagations: 91331
+iteration:   12; variables: 9453 clauses: 22659 assignments: 1795  propagations: 99256
+iteration:   13; variables: 10217 clauses: 24499 assignments: 1949  propagations: 124081
+iteration:   14; variables: 10981 clauses: 26327 assignments: 2105  propagations: 174521
+iteration:   15; variables: 11745 clauses: 28161 assignments: 2261  propagations: 187915
+iteration:   16; variables: 12509 clauses: 30001 assignments: 2413  propagations: 200614
+iteration:   17; variables: 13273 clauses: 31837 assignments: 2565  propagations: 229676
+iteration:   18; variables: 14037 clauses: 33647 assignments: 2727  propagations: 252261
+iteration:   19; variables: 14801 clauses: 35447 assignments: 2893  propagations: 283022
+iteration:   20; variables: 15565 clauses: 37271 assignments: 3051  propagations: 318060
+iteration:   21; variables: 16329 clauses: 39077 assignments: 3217  propagations: 358039
+iteration:   22; variables: 17093 clauses: 40863 assignments: 3389  propagations: 381301
+iteration:   23; variables: 17857 clauses: 42651 assignments: 3561  propagations: 440564
+iteration:   24; variables: 18621 clauses: 44453 assignments: 3725  propagations: 518566
+iteration:   25; variables: 19385 clauses: 46291 assignments: 3884  propagations: 565532
+iteration:   26; variables: 20149 clauses: 48121 assignments: 4044  propagations: 586511
+iteration:   27; variables: 20913 clauses: 49955 assignments: 4204  propagations: 631514
+iteration:   28; variables: 21677 clauses: 51743 assignments: 4374  propagations: 707788
+iteration:   29; variables: 22441 clauses: 53583 assignments: 4524  propagations: 732536
+iteration:   30; variables: 23205 clauses: 55407 assignments: 4684  propagations: 790364
+iteration:   31; variables: 23969 clauses: 57203 assignments: 4850  propagations: 817045
+
+Finished! 
+iteration=31
+key=10010000111110001101101010101010000110110100111100001010001011100101001100001010111011100101000101111111100100011001110010001101
+
+equivalent
+
+time: 0.204444
+kartik@kartik:~/logic_obfuscation/neos$ ./bin/neos -d ex ./netlist/bench/xnor_based_ripple_carry_adder32.bench ./lockednetlist/128bitxorlock/bench/xnor_based_ripple_carry_adder32_xor_enc128.bench 1000
+running combinatonal attack...
+iteration:    1; variables: 1049 clauses: 2580 assignments: 1  propagations: 1853
+iteration:    2; variables: 1813 clauses: 4421 assignments: 161  propagations: 4559
+iteration:    3; variables: 2577 clauses: 6253 assignments: 323  propagations: 13848
+iteration:    4; variables: 3341 clauses: 8081 assignments: 479  propagations: 22875
+iteration:    5; variables: 4105 clauses: 9911 assignments: 637  propagations: 37549
+iteration:    6; variables: 4869 clauses: 11719 assignments: 803  propagations: 48924
+iteration:    7; variables: 5633 clauses: 13533 assignments: 967  propagations: 68348
+iteration:    8; variables: 6397 clauses: 15345 assignments: 1131  propagations: 84386
+iteration:    9; variables: 7161 clauses: 17185 assignments: 1287  propagations: 91930
+iteration:   10; variables: 7925 clauses: 19027 assignments: 1439  propagations: 115069
+iteration:   11; variables: 8689 clauses: 20867 assignments: 1591  propagations: 143057
+iteration:   12; variables: 9453 clauses: 22671 assignments: 1759  propagations: 151966
+iteration:   13; variables: 10217 clauses: 24483 assignments: 1925  propagations: 173327
+iteration:   14; variables: 10981 clauses: 26287 assignments: 2093  propagations: 189958
+iteration:   15; variables: 11745 clauses: 28091 assignments: 2257  propagations: 220982
+iteration:   16; variables: 12509 clauses: 29899 assignments: 2421  propagations: 248043
+iteration:   17; variables: 13273 clauses: 31721 assignments: 2579  propagations: 258956
+iteration:   18; variables: 14037 clauses: 33549 assignments: 2735  propagations: 286862
+iteration:   19; variables: 14801 clauses: 35357 assignments: 2895  propagations: 303166
+iteration:   20; variables: 15565 clauses: 37157 assignments: 3059  propagations: 333428
+iteration:   21; variables: 16329 clauses: 38963 assignments: 3221  propagations: 361529
+iteration:   22; variables: 17093 clauses: 40779 assignments: 3379  propagations: 386250
+iteration:   23; variables: 17857 clauses: 42583 assignments: 3542  propagations: 501583
+
+Finished! 
+iteration=23
+key=10010001111110001101101010101010000110110000110100001010001010100101001100001010011011100101100110111111100100011001011010001101
+
+equivalent
+
+time: 0.232976
+kartik@kartik:~/logic_obfuscation/neos$ ./bin/neos -d ex ./netlist/bench/xnor_based_ripple_carry_adder32.bench ./lockednetlist/128bitxorlock/bench/xnor_based_ripple_carry_adder32_xor_enc128.bench 1000
+running combinatonal attack...
+iteration:    1; variables: 1049 clauses: 2580 assignments: 1  propagations: 1853
+iteration:    2; variables: 1813 clauses: 4421 assignments: 161  propagations: 4642
+iteration:    3; variables: 2577 clauses: 6267 assignments: 315  propagations: 12962
+iteration:    4; variables: 3341 clauses: 8079 assignments: 481  propagations: 24198
+iteration:    5; variables: 4105 clauses: 9911 assignments: 637  propagations: 45169
+iteration:    6; variables: 4869 clauses: 11737 assignments: 799  propagations: 61695
+iteration:    7; variables: 5633 clauses: 13555 assignments: 965  propagations: 71516
+iteration:    8; variables: 6397 clauses: 15361 assignments: 1137  propagations: 76948
+iteration:    9; variables: 7161 clauses: 17161 assignments: 1311  propagations: 92137
+iteration:   10; variables: 7925 clauses: 18955 assignments: 1485  propagations: 120456
+iteration:   11; variables: 8689 clauses: 20735 assignments: 1661  propagations: 137755
+iteration:   12; variables: 9453 clauses: 22515 assignments: 1837  propagations: 145950
+iteration:   13; variables: 10217 clauses: 24291 assignments: 2013  propagations: 159502
+iteration:   14; variables: 10981 clauses: 26055 assignments: 2193  propagations: 185299
+iteration:   15; variables: 11745 clauses: 27819 assignments: 2367  propagations: 214243
+iteration:   16; variables: 12509 clauses: 29587 assignments: 2539  propagations: 245358
+iteration:   17; variables: 13273 clauses: 31373 assignments: 2709  propagations: 282960
+iteration:   18; variables: 14037 clauses: 33169 assignments: 2871  propagations: 298543
+iteration:   19; variables: 14801 clauses: 34957 assignments: 3037  propagations: 314510
+iteration:   20; variables: 15565 clauses: 36733 assignments: 3209  propagations: 345129
+iteration:   21; variables: 16329 clauses: 38517 assignments: 3383  propagations: 375091
+
+Finished! 
+iteration=21
+key=10010001110110001101101010101010000110110000111100001010001011100101001100001010111011100101000110111110100100011001011010001101
+
+equivalent
+
+time: 0.235949
+kartik@kartik:~/logic_obfuscation/neos$ ./bin/neos -d ex ./netlist/bench/xnor_based_ripple_carry_adder32.bench ./lockednetlist/128bitxorlock/bench/xnor_based_ripple_carry_adder32_xor_enc128.bench 1000
+running combinatonal attack...
+iteration:    1; variables: 1049 clauses: 2580 assignments: 1  propagations: 1853
+iteration:    2; variables: 1813 clauses: 4421 assignments: 161  propagations: 5153
+iteration:    3; variables: 2577 clauses: 6219 assignments: 337  propagations: 14756
+iteration:    4; variables: 3341 clauses: 8011 assignments: 509  propagations: 25644
+iteration:    5; variables: 4105 clauses: 9813 assignments: 679  propagations: 37000
+iteration:    6; variables: 4869 clauses: 11613 assignments: 849  propagations: 44375
+iteration:    7; variables: 5633 clauses: 13425 assignments: 1017  propagations: 60301
+iteration:    8; variables: 6397 clauses: 15235 assignments: 1185  propagations: 85105
+iteration:    9; variables: 7161 clauses: 17047 assignments: 1351  propagations: 100864
+iteration:   10; variables: 7925 clauses: 18889 assignments: 1507  propagations: 129727
+iteration:   11; variables: 8689 clauses: 20693 assignments: 1675  propagations: 154314
+iteration:   12; variables: 9453 clauses: 22485 assignments: 1851  propagations: 178285
+iteration:   13; variables: 10217 clauses: 24285 assignments: 2023  propagations: 187760
+iteration:   14; variables: 10981 clauses: 26085 assignments: 2197  propagations: 206337
+iteration:   15; variables: 11745 clauses: 27885 assignments: 2369  propagations: 219957
+iteration:   16; variables: 12509 clauses: 29693 assignments: 2539  propagations: 278472
+iteration:   17; variables: 13273 clauses: 31499 assignments: 2709  propagations: 298877
+iteration:   18; variables: 14037 clauses: 33315 assignments: 2873  propagations: 312708
+iteration:   19; variables: 14801 clauses: 35131 assignments: 3037  propagations: 332681
+iteration:   20; variables: 15565 clauses: 36947 assignments: 3199  propagations: 389172
+iteration:   21; variables: 16329 clauses: 38771 assignments: 3359  propagations: 428613
+iteration:   22; variables: 17093 clauses: 40575 assignments: 3525  propagations: 442485
+iteration:   23; variables: 17857 clauses: 42375 assignments: 3693  propagations: 506315
+iteration:   24; variables: 18621 clauses: 44187 assignments: 3857  propagations: 529652
+iteration:   25; variables: 19385 clauses: 45997 assignments: 4019  propagations: 559963
+
+Finished! 
+iteration=25
+key=10010000111110001101101010101010000110110100111100001010001011100101001100001010111011100101000100111111100100011001010010001101
+
+equivalent
+
+time: 0.212393
+kartik@kartik:~/logic_obfuscation/neos$ ./bin/neos -d ex ./netlist/bench/xnor_based_ripple_carry_adder32.bench ./lockednetlist/128bitxorlock/bench/xnor_based_ripple_carry_adder32_xor_enc128.bench 1000
+running combinatonal attack...
+iteration:    1; variables: 1049 clauses: 2580 assignments: 1  propagations: 1853
+iteration:    2; variables: 1813 clauses: 4421 assignments: 161  propagations: 6029
+iteration:    3; variables: 2577 clauses: 6267 assignments: 317  propagations: 21123
+iteration:    4; variables: 3341 clauses: 8105 assignments: 473  propagations: 30676
+iteration:    5; variables: 4105 clauses: 9947 assignments: 631  propagations: 47999
+iteration:    6; variables: 4869 clauses: 11771 assignments: 787  propagations: 64471
+iteration:    7; variables: 5633 clauses: 13619 assignments: 935  propagations: 74218
+iteration:    8; variables: 6397 clauses: 15457 assignments: 1087  propagations: 91158
+iteration:    9; variables: 7161 clauses: 17305 assignments: 1233  propagations: 98517
+iteration:   10; variables: 7925 clauses: 19169 assignments: 1373  propagations: 106841
+iteration:   11; variables: 8689 clauses: 21037 assignments: 1513  propagations: 129686
+iteration:   12; variables: 9453 clauses: 22895 assignments: 1657  propagations: 142021
+iteration:   13; variables: 10217 clauses: 24753 assignments: 1801  propagations: 150864
+iteration:   14; variables: 10981 clauses: 26603 assignments: 1947  propagations: 163896
+iteration:   15; variables: 11745 clauses: 28441 assignments: 2099  propagations: 184600
+iteration:   16; variables: 12509 clauses: 30259 assignments: 2257  propagations: 210063
+iteration:   17; variables: 13273 clauses: 32099 assignments: 2405  propagations: 235686
+iteration:   18; variables: 14037 clauses: 33925 assignments: 2561  propagations: 259065
+iteration:   19; variables: 14801 clauses: 35753 assignments: 2719  propagations: 281271
+iteration:   20; variables: 15565 clauses: 37573 assignments: 2879  propagations: 310074
+iteration:   21; variables: 16329 clauses: 39373 assignments: 3045  propagations: 351645
+iteration:   22; variables: 17093 clauses: 41165 assignments: 3214  propagations: 403498
+iteration:   23; variables: 17857 clauses: 42993 assignments: 3372  propagations: 428735
+
+Finished! 
+iteration=23
+key=10010001111110001101101010101010000110110000111100001010001011100101001100001010011011100101100111111111100100011001111010001101
+
+equivalent
+
+time: 0.243655
+kartik@kartik:~/logic_obfuscation/neos$ ./bin/neos -d ex ./netlist/bench/xnor_based_ripple_carry_adder32.bench ./lockednetlist/128bitxorlock/bench/xnor_based_ripple_carry_adder32_xor_enc128.bench 1000
+running combinatonal attack...
+iteration:    1; variables: 1049 clauses: 2580 assignments: 1  propagations: 1853
+iteration:    2; variables: 1813 clauses: 4421 assignments: 161  propagations: 4388
+iteration:    3; variables: 2577 clauses: 6233 assignments: 325  propagations: 12225
+iteration:    4; variables: 3341 clauses: 8035 assignments: 491  propagations: 27111
+iteration:    5; variables: 4105 clauses: 9825 assignments: 663  propagations: 36478
+iteration:    6; variables: 4869 clauses: 11593 assignments: 841  propagations: 44355
+iteration:    7; variables: 5633 clauses: 13377 assignments: 1017  propagations: 69797
+iteration:    8; variables: 6397 clauses: 15191 assignments: 1185  propagations: 79593
+iteration:    9; variables: 7161 clauses: 16985 assignments: 1365  propagations: 86156
+iteration:   10; variables: 7925 clauses: 18779 assignments: 1545  propagations: 92716
+iteration:   11; variables: 8689 clauses: 20577 assignments: 1723  propagations: 103973
+iteration:   12; variables: 9453 clauses: 22375 assignments: 1901  propagations: 125983
+iteration:   13; variables: 10217 clauses: 24175 assignments: 2077  propagations: 151197
+iteration:   14; variables: 10981 clauses: 25979 assignments: 2247  propagations: 162705
+iteration:   15; variables: 11745 clauses: 27773 assignments: 2421  propagations: 193618
+iteration:   16; variables: 12509 clauses: 29583 assignments: 2589  propagations: 209599
+iteration:   17; variables: 13273 clauses: 31385 assignments: 2761  propagations: 221463
+iteration:   18; variables: 14037 clauses: 33181 assignments: 2935  propagations: 233561
+iteration:   19; variables: 14801 clauses: 34977 assignments: 3109  propagations: 255271
+iteration:   20; variables: 15565 clauses: 36799 assignments: 3271  propagations: 272693
+iteration:   21; variables: 16329 clauses: 38601 assignments: 3437  propagations: 286216
+iteration:   22; variables: 17093 clauses: 40403 assignments: 3603  propagations: 322214
+iteration:   23; variables: 17857 clauses: 42221 assignments: 3761  propagations: 342850
+iteration:   24; variables: 18621 clauses: 44037 assignments: 3921  propagations: 447984
+iteration:   25; variables: 19385 clauses: 45839 assignments: 4084  propagations: 534169
+iteration:   26; variables: 20149 clauses: 47637 assignments: 4252  propagations: 558080
+iteration:   27; variables: 20913 clauses: 49425 assignments: 4422  propagations: 595132
+iteration:   28; variables: 21677 clauses: 51249 assignments: 4576  propagations: 631534
+
+Finished! 
+iteration=28
+key=10010000110110001101101010101010000110110100111100001010001011100101001100001010111011100101000101111110100100011001110010001101
+
+equivalent
+
+time: 0.18161
+kartik@kartik:~/logic_obfuscation/neos$ ./bin/neos -d ex ./netlist/bench/xnor_based_ripple_carry_adder32.bench ./lockednetlist/128bitxorlock/bench/xnor_based_ripple_carry_adder32_xor_enc128.bench 1000
+running combinatonal attack...
+iteration:    1; variables: 1049 clauses: 2580 assignments: 1  propagations: 1853
+iteration:    2; variables: 1813 clauses: 4421 assignments: 161  propagations: 5331
+iteration:    3; variables: 2577 clauses: 6277 assignments: 311  propagations: 14498
+iteration:    4; variables: 3341 clauses: 8079 assignments: 479  propagations: 31841
+iteration:    5; variables: 4105 clauses: 9877 assignments: 649  propagations: 43294
+iteration:    6; variables: 4869 clauses: 11649 assignments: 825  propagations: 56373
+iteration:    7; variables: 5633 clauses: 13461 assignments: 989  propagations: 64792
+iteration:    8; variables: 6397 clauses: 15287 assignments: 1147  propagations: 73815
+iteration:    9; variables: 7161 clauses: 17107 assignments: 1307  propagations: 87415
+iteration:   10; variables: 7925 clauses: 18903 assignments: 1473  propagations: 99816
+iteration:   11; variables: 8689 clauses: 20703 assignments: 1637  propagations: 129728
+iteration:   12; variables: 9453 clauses: 22525 assignments: 1793  propagations: 145655
+iteration:   13; variables: 10217 clauses: 24321 assignments: 1957  propagations: 154893
+iteration:   14; variables: 10981 clauses: 26125 assignments: 2117  propagations: 167803
+iteration:   15; variables: 11745 clauses: 27933 assignments: 2278  propagations: 197533
+iteration:   16; variables: 12509 clauses: 29735 assignments: 2440  propagations: 207800
+iteration:   17; variables: 13273 clauses: 31537 assignments: 2602  propagations: 218653
+iteration:   18; variables: 14037 clauses: 33335 assignments: 2766  propagations: 235200
+iteration:   19; variables: 14801 clauses: 35143 assignments: 2926  propagations: 251554
+iteration:   20; variables: 15565 clauses: 36955 assignments: 3084  propagations: 264268
+iteration:   21; variables: 16329 clauses: 38765 assignments: 3244  propagations: 304924
+iteration:   22; variables: 17093 clauses: 40579 assignments: 3404  propagations: 325085
+iteration:   23; variables: 17857 clauses: 42391 assignments: 3564  propagations: 368371
+iteration:   24; variables: 18621 clauses: 44203 assignments: 3724  propagations: 390181
+iteration:   25; variables: 19385 clauses: 46011 assignments: 3886  propagations: 489097
+iteration:   26; variables: 20149 clauses: 47813 assignments: 4052  propagations: 505360
+iteration:   27; variables: 20913 clauses: 49615 assignments: 4218  propagations: 522313
+iteration:   28; variables: 21677 clauses: 51413 assignments: 4386  propagations: 569916
+
+Finished! 
+iteration=28
+key=10010001110110001101101010101010000110110100110100001010001010100101001100001010011011100101100101111110100100011001111010001101
+
+equivalent
+
+time: 0.279622
+kartik@kartik:~/logic_obfuscation/neos$ ./bin/neos -d ex ./netlist/bench/xnor_based_ripple_carry_adder32.bench ./lockednetlist/128bitxorlock/bench/xnor_based_ripple_carry_adder32_xor_enc128.bench 1000
+running combinatonal attack...
+iteration:    1; variables: 1049 clauses: 2580 assignments: 1  propagations: 1853
+iteration:    2; variables: 1813 clauses: 4421 assignments: 161  propagations: 5027
+iteration:    3; variables: 2577 clauses: 6269 assignments: 313  propagations: 17703
+iteration:    4; variables: 3341 clauses: 8081 assignments: 475  propagations: 27390
+iteration:    5; variables: 4105 clauses: 9881 assignments: 643  propagations: 31393
+iteration:    6; variables: 4869 clauses: 11691 assignments: 807  propagations: 41163
+iteration:    7; variables: 5633 clauses: 13497 assignments: 971  propagations: 48560
+iteration:    8; variables: 6397 clauses: 15301 assignments: 1135  propagations: 58928
+iteration:    9; variables: 7161 clauses: 17109 assignments: 1299  propagations: 69289
+iteration:   10; variables: 7925 clauses: 18921 assignments: 1461  propagations: 83401
+iteration:   11; variables: 8689 clauses: 20739 assignments: 1619  propagations: 92064
+iteration:   12; variables: 9453 clauses: 22563 assignments: 1775  propagations: 99935
+iteration:   13; variables: 10217 clauses: 24391 assignments: 1931  propagations: 128860
+iteration:   14; variables: 10981 clauses: 26227 assignments: 2083  propagations: 143149
+iteration:   15; variables: 11745 clauses: 28045 assignments: 2241  propagations: 154480
+iteration:   16; variables: 12509 clauses: 29853 assignments: 2403  propagations: 185922
+iteration:   17; variables: 13273 clauses: 31677 assignments: 2561  propagations: 205907
+iteration:   18; variables: 14037 clauses: 33497 assignments: 2721  propagations: 221058
+iteration:   19; variables: 14801 clauses: 35325 assignments: 2877  propagations: 244842
+iteration:   20; variables: 15565 clauses: 37155 assignments: 3033  propagations: 293035
+iteration:   21; variables: 16329 clauses: 38965 assignments: 3197  propagations: 329870
+iteration:   22; variables: 17093 clauses: 40785 assignments: 3359  propagations: 362730
+iteration:   23; variables: 17857 clauses: 42609 assignments: 3521  propagations: 385416
+iteration:   24; variables: 18621 clauses: 44447 assignments: 3677  propagations: 404183
+iteration:   25; variables: 19385 clauses: 46299 assignments: 3829  propagations: 506709
+iteration:   26; variables: 20149 clauses: 48123 assignments: 3983  propagations: 539477
+iteration:   27; variables: 20913 clauses: 49979 assignments: 4131  propagations: 582601
+
+Finished! 
+iteration=27
+key=10010000110110001101101010101010000110110100110100001010001010100101001100001010111011100101000100111110100100011001010010001101
+
+equivalent
+
+time: 0.230565
+kartik@kartik:~/logic_obfuscation/neos$ 
