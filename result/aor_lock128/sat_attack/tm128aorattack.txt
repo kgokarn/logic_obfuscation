@@ -1,0 +1,876 @@
+kartik@kartik:~/logic_obfuscation/neos$ ./bin/neos -d ex ./netlist/bench/traditional_multiplier8.bench ./lockednetlist/128bitaorlock/bench/traditional_multiplier8_aor_enc128.bench 100
+running combinatonal attack...
+iteration:    1; variables: 1270 clauses: 3517 assignments: 1  propagations: 1381
+iteration:    2; variables: 2286 clauses: 6478 assignments: 177  propagations: 4875
+iteration:    3; variables: 3302 clauses: 9384 assignments: 391  propagations: 37924
+iteration:    4; variables: 4318 clauses: 12272 assignments: 621  propagations: 109232
+iteration:    5; variables: 5334 clauses: 15174 assignments: 829  propagations: 402836
+iteration:    6; variables: 6350 clauses: 18154 assignments: 991  propagations: 685944
+iteration:    7; variables: 7366 clauses: 21100 assignments: 1165  propagations: 1110661
+iteration:    8; variables: 8382 clauses: 24012 assignments: 1369  propagations: 1653105
+iteration:    9; variables: 9398 clauses: 26868 assignments: 1609  propagations: 5786256
+c
+c Try to adapt solver strategies
+c 
+c Nothing extreme in this problem, continue with glucose default strategies.
+c
+iteration:   10; variables: 10414 clauses: 29700 assignments: 1887  propagations: 15391534
+iteration:   11; variables: 11430 clauses: 32654 assignments: 2049  propagations: 37152700
+iteration:   12; variables: 12446 clauses: 35536 assignments: 2291  propagations: 199546984
+iteration:   13; variables: 13462 clauses: 38366 assignments: 2555  propagations: 269564585
+
+Finished! 
+iteration=13
+key=11101000101100010011100101100011000011110111011100001100011000011001001110000011110101011110010000000000100000011110111101010111
+c
+c Try to adapt solver strategies
+c 
+c Nothing extreme in this problem, continue with glucose default strategies.
+c
+
+equivalent
+
+time: 553.097
+kartik@kartik:~/logic_obfuscation/neos$ ./bin/neos -d ex ./netlist/bench/traditional_multiplier8.bench ./lockednetlist/128bitaorlock/bench/traditional_multiplier8_aor_enc128.bench 100
+running combinatonal attack...
+iteration:    1; variables: 1270 clauses: 3517 assignments: 1  propagations: 1381
+iteration:    2; variables: 2286 clauses: 6478 assignments: 177  propagations: 5409
+iteration:    3; variables: 3302 clauses: 9400 assignments: 391  propagations: 36387
+iteration:    4; variables: 4318 clauses: 12314 assignments: 610  propagations: 139695
+iteration:    5; variables: 5334 clauses: 15200 assignments: 844  propagations: 191296
+iteration:    6; variables: 6350 clauses: 18116 assignments: 1065  propagations: 990019
+iteration:    7; variables: 7366 clauses: 21042 assignments: 1265  propagations: 2049887
+iteration:    8; variables: 8382 clauses: 23880 assignments: 1519  propagations: 2472796
+iteration:    9; variables: 9398 clauses: 26698 assignments: 1785  propagations: 10640276
+c
+c Try to adapt solver strategies
+c 
+c Nothing extreme in this problem, continue with glucose default strategies.
+c
+iteration:   10; variables: 10414 clauses: 29590 assignments: 2005  propagations: 24210591
+iteration:   11; variables: 11430 clauses: 32436 assignments: 2247  propagations: 58436385
+iteration:   12; variables: 12446 clauses: 35368 assignments: 2435  propagations: 79048827
+iteration:   13; variables: 13462 clauses: 38274 assignments: 2667  propagations: 119597438
+iteration:   14; variables: 14478 clauses: 41154 assignments: 2873  propagations: 120300153
+iteration:   15; variables: 15494 clauses: 44072 assignments: 3043  propagations: 125738458
+iteration:   16; variables: 16510 clauses: 47038 assignments: 3211  propagations: 125761364
+iteration:   17; variables: 17526 clauses: 49974 assignments: 3403  propagations: 125922390
+
+Finished! 
+iteration=17
+key=11101000101100010011100101100011000011110111011100001100011000011001001110000011110101011110010000000000100000011110111101010111
+c
+c Try to adapt solver strategies
+c 
+c Nothing extreme in this problem, continue with glucose default strategies.
+c
+
+equivalent
+
+time: 331.897
+kartik@kartik:~/logic_obfuscation/neos$ ./bin/neos -d ex ./netlist/bench/traditional_multiplier8.bench ./lockednetlist/128bitaorlock/bench/traditional_multiplier8_aor_enc128.bench 100
+running combinatonal attack...
+iteration:    1; variables: 1270 clauses: 3517 assignments: 1  propagations: 1381
+iteration:    2; variables: 2286 clauses: 6478 assignments: 177  propagations: 4875
+iteration:    3; variables: 3302 clauses: 9344 assignments: 415  propagations: 47299
+iteration:    4; variables: 4318 clauses: 12258 assignments: 612  propagations: 150456
+iteration:    5; variables: 5334 clauses: 15098 assignments: 870  propagations: 406613
+iteration:    6; variables: 6350 clauses: 17978 assignments: 1078  propagations: 841606
+iteration:    7; variables: 7366 clauses: 20782 assignments: 1358  propagations: 1220477
+iteration:    8; variables: 8382 clauses: 23710 assignments: 1548  propagations: 5870018
+iteration:    9; variables: 9398 clauses: 26630 assignments: 1758  propagations: 8868773
+c
+c Try to adapt solver strategies
+c 
+c Nothing extreme in this problem, continue with glucose default strategies.
+c
+iteration:   10; variables: 10414 clauses: 29552 assignments: 1956  propagations: 16484307
+iteration:   11; variables: 11430 clauses: 32498 assignments: 2128  propagations: 45933288
+iteration:   12; variables: 12446 clauses: 35366 assignments: 2354  propagations: 67856142
+iteration:   13; variables: 13462 clauses: 38266 assignments: 2566  propagations: 221979937
+iteration:   14; variables: 14478 clauses: 41064 assignments: 2852  propagations: 265290364
+iteration:   15; variables: 15494 clauses: 43934 assignments: 3090  propagations: 265379351
+
+Finished! 
+iteration=15
+key=11101000101100010011100101100011000011110111011100001100011000011001001110000011110101011110010000000000100000011110111101010111
+c
+c Try to adapt solver strategies
+c 
+c Nothing extreme in this problem, continue with glucose default strategies.
+c
+
+equivalent
+
+time: 503.103
+kartik@kartik:~/logic_obfuscation/neos$ ./bin/neos -d ex ./netlist/bench/traditional_multiplier8.bench ./lockednetlist/128bitaorlock/bench/traditional_multiplier8_aor_enc128.bench 100
+running combinatonal attack...
+iteration:    1; variables: 1270 clauses: 3517 assignments: 1  propagations: 1381
+iteration:    2; variables: 2286 clauses: 6478 assignments: 177  propagations: 6481
+iteration:    3; variables: 3302 clauses: 9348 assignments: 403  propagations: 58055
+iteration:    4; variables: 4318 clauses: 12222 assignments: 628  propagations: 233003
+iteration:    5; variables: 5334 clauses: 15068 assignments: 874  propagations: 403150
+iteration:    6; variables: 6350 clauses: 17936 assignments: 1108  propagations: 682458
+iteration:    7; variables: 7366 clauses: 20912 assignments: 1260  propagations: 1407434
+iteration:    8; variables: 8382 clauses: 23786 assignments: 1492  propagations: 2138688
+iteration:    9; variables: 9398 clauses: 26698 assignments: 1696  propagations: 5024304
+iteration:   10; variables: 10414 clauses: 29604 assignments: 1896  propagations: 10840325
+c
+c Try to adapt solver strategies
+c 
+c Nothing extreme in this problem, continue with glucose default strategies.
+c
+iteration:   11; variables: 11430 clauses: 32472 assignments: 2142  propagations: 15091837
+iteration:   12; variables: 12446 clauses: 35296 assignments: 2396  propagations: 44614459
+iteration:   13; variables: 13462 clauses: 38206 assignments: 2602  propagations: 64912567
+
+Finished! 
+iteration=13
+key=11101000101100010011100101100011000011110111011100001100011000011001001110000011110101011110010000000000100000011110111101010111
+c
+c Try to adapt solver strategies
+c 
+c Nothing extreme in this problem, continue with glucose default strategies.
+c
+
+equivalent
+
+time: 193.273
+kartik@kartik:~/logic_obfuscation/neos$ ./bin/neos -d ex ./netlist/bench/traditional_multiplier8.bench ./lockednetlist/128bitaorlock/bench/traditional_multiplier8_aor_enc128.bench 100
+running combinatonal attack...
+iteration:    1; variables: 1270 clauses: 3517 assignments: 1  propagations: 1381
+iteration:    2; variables: 2286 clauses: 6478 assignments: 177  propagations: 8569
+iteration:    3; variables: 3302 clauses: 9378 assignments: 403  propagations: 38695
+iteration:    4; variables: 4318 clauses: 12290 assignments: 621  propagations: 104302
+iteration:    5; variables: 5334 clauses: 15230 assignments: 793  propagations: 141410
+iteration:    6; variables: 6350 clauses: 18122 assignments: 1027  propagations: 759013
+iteration:    7; variables: 7366 clauses: 21030 assignments: 1235  propagations: 1078575
+iteration:    8; variables: 8382 clauses: 23944 assignments: 1443  propagations: 2987271
+iteration:    9; variables: 9398 clauses: 26834 assignments: 1661  propagations: 6095256
+c
+c Try to adapt solver strategies
+c 
+c Nothing extreme in this problem, continue with glucose default strategies.
+c
+iteration:   10; variables: 10414 clauses: 29690 assignments: 1901  propagations: 17645371
+iteration:   11; variables: 11430 clauses: 32528 assignments: 2157  propagations: 57914231
+iteration:   12; variables: 12446 clauses: 35386 assignments: 2395  propagations: 105237510
+iteration:   13; variables: 13462 clauses: 38220 assignments: 2645  propagations: 129445366
+iteration:   14; variables: 14478 clauses: 41102 assignments: 2855  propagations: 136309556
+iteration:   15; variables: 15494 clauses: 43998 assignments: 3057  propagations: 137050223
+iteration:   16; variables: 16510 clauses: 46804 assignments: 3327  propagations: 137520680
+iteration:   17; variables: 17526 clauses: 49658 assignments: 3577  propagations: 137800008
+
+Finished! 
+iteration=17
+key=11101000101100010011100101100011000011110111011100001100011000011001001110000011110101011110010000000000100000011110111101010111
+c
+c Try to adapt solver strategies
+c 
+c Nothing extreme in this problem, continue with glucose default strategies.
+c
+
+equivalent
+
+time: 381.07
+kartik@kartik:~/logic_obfuscation/neos$ ./bin/neos -d ex ./netlist/bench/traditional_multiplier8.bench ./lockednetlist/128bitaorlock/bench/traditional_multiplier8_aor_enc128.bench 100
+running combinatonal attack...
+iteration:    1; variables: 1270 clauses: 3517 assignments: 1  propagations: 1381
+iteration:    2; variables: 2286 clauses: 6478 assignments: 177  propagations: 4875
+iteration:    3; variables: 3302 clauses: 9384 assignments: 391  propagations: 37924
+iteration:    4; variables: 4318 clauses: 12272 assignments: 621  propagations: 109232
+iteration:    5; variables: 5334 clauses: 15174 assignments: 829  propagations: 402836
+iteration:    6; variables: 6350 clauses: 18154 assignments: 991  propagations: 685944
+iteration:    7; variables: 7366 clauses: 21100 assignments: 1165  propagations: 1110661
+iteration:    8; variables: 8382 clauses: 24012 assignments: 1369  propagations: 1653105
+iteration:    9; variables: 9398 clauses: 26868 assignments: 1609  propagations: 5786256
+c
+c Try to adapt solver strategies
+c 
+c Nothing extreme in this problem, continue with glucose default strategies.
+c
+iteration:   10; variables: 10414 clauses: 29700 assignments: 1887  propagations: 15391534
+iteration:   11; variables: 11430 clauses: 32654 assignments: 2049  propagations: 37152700
+iteration:   12; variables: 12446 clauses: 35536 assignments: 2291  propagations: 199546984
+iteration:   13; variables: 13462 clauses: 38366 assignments: 2555  propagations: 269564585
+
+Finished! 
+iteration=13
+key=11101000101100010011100101100011000011110111011100001100011000011001001110000011110101011110010000000000100000011110111101010111
+c
+c Try to adapt solver strategies
+c 
+c Nothing extreme in this problem, continue with glucose default strategies.
+c
+
+equivalent
+
+time: 553.097
+kartik@kartik:~/logic_obfuscation/neos$ ./bin/neos -d ex ./netlist/bench/traditional_multiplier8.bench ./lockednetlist/128bitaorlock/bench/traditional_multiplier8_aor_enc128.bench 100
+running combinatonal attack...
+iteration:    1; variables: 1270 clauses: 3517 assignments: 1  propagations: 1381
+iteration:    2; variables: 2286 clauses: 6478 assignments: 177  propagations: 5409
+iteration:    3; variables: 3302 clauses: 9400 assignments: 391  propagations: 36387
+iteration:    4; variables: 4318 clauses: 12314 assignments: 610  propagations: 139695
+iteration:    5; variables: 5334 clauses: 15200 assignments: 844  propagations: 191296
+iteration:    6; variables: 6350 clauses: 18116 assignments: 1065  propagations: 990019
+iteration:    7; variables: 7366 clauses: 21042 assignments: 1265  propagations: 2049887
+iteration:    8; variables: 8382 clauses: 23880 assignments: 1519  propagations: 2472796
+iteration:    9; variables: 9398 clauses: 26698 assignments: 1785  propagations: 10640276
+c
+c Try to adapt solver strategies
+c 
+c Nothing extreme in this problem, continue with glucose default strategies.
+c
+iteration:   10; variables: 10414 clauses: 29590 assignments: 2005  propagations: 24210591
+iteration:   11; variables: 11430 clauses: 32436 assignments: 2247  propagations: 58436385
+iteration:   12; variables: 12446 clauses: 35368 assignments: 2435  propagations: 79048827
+iteration:   13; variables: 13462 clauses: 38274 assignments: 2667  propagations: 119597438
+iteration:   14; variables: 14478 clauses: 41154 assignments: 2873  propagations: 120300153
+iteration:   15; variables: 15494 clauses: 44072 assignments: 3043  propagations: 125738458
+iteration:   16; variables: 16510 clauses: 47038 assignments: 3211  propagations: 125761364
+iteration:   17; variables: 17526 clauses: 49974 assignments: 3403  propagations: 125922390
+
+Finished! 
+iteration=17
+key=11101000101100010011100101100011000011110111011100001100011000011001001110000011110101011110010000000000100000011110111101010111
+c
+c Try to adapt solver strategies
+c 
+c Nothing extreme in this problem, continue with glucose default strategies.
+c
+
+equivalent
+
+time: 331.897
+kartik@kartik:~/logic_obfuscation/neos$ ./bin/neos -d ex ./netlist/bench/traditional_multiplier8.bench ./lockednetlist/128bitaorlock/bench/traditional_multiplier8_aor_enc128.bench 100
+running combinatonal attack...
+iteration:    1; variables: 1270 clauses: 3517 assignments: 1  propagations: 1381
+iteration:    2; variables: 2286 clauses: 6478 assignments: 177  propagations: 4875
+iteration:    3; variables: 3302 clauses: 9344 assignments: 415  propagations: 47299
+iteration:    4; variables: 4318 clauses: 12258 assignments: 612  propagations: 150456
+iteration:    5; variables: 5334 clauses: 15098 assignments: 870  propagations: 406613
+iteration:    6; variables: 6350 clauses: 17978 assignments: 1078  propagations: 841606
+iteration:    7; variables: 7366 clauses: 20782 assignments: 1358  propagations: 1220477
+iteration:    8; variables: 8382 clauses: 23710 assignments: 1548  propagations: 5870018
+iteration:    9; variables: 9398 clauses: 26630 assignments: 1758  propagations: 8868773
+c
+c Try to adapt solver strategies
+c 
+c Nothing extreme in this problem, continue with glucose default strategies.
+c
+iteration:   10; variables: 10414 clauses: 29552 assignments: 1956  propagations: 16484307
+iteration:   11; variables: 11430 clauses: 32498 assignments: 2128  propagations: 45933288
+iteration:   12; variables: 12446 clauses: 35366 assignments: 2354  propagations: 67856142
+iteration:   13; variables: 13462 clauses: 38266 assignments: 2566  propagations: 221979937
+iteration:   14; variables: 14478 clauses: 41064 assignments: 2852  propagations: 265290364
+iteration:   15; variables: 15494 clauses: 43934 assignments: 3090  propagations: 265379351
+
+Finished! 
+iteration=15
+key=11101000101100010011100101100011000011110111011100001100011000011001001110000011110101011110010000000000100000011110111101010111
+c
+c Try to adapt solver strategies
+c 
+c Nothing extreme in this problem, continue with glucose default strategies.
+c
+
+equivalent
+
+time: 503.103
+kartik@kartik:~/logic_obfuscation/neos$ ./bin/neos -d ex ./netlist/bench/traditional_multiplier8.bench ./lockednetlist/128bitaorlock/bench/traditional_multiplier8_aor_enc128.bench 100
+running combinatonal attack...
+iteration:    1; variables: 1270 clauses: 3517 assignments: 1  propagations: 1381
+iteration:    2; variables: 2286 clauses: 6478 assignments: 177  propagations: 6481
+iteration:    3; variables: 3302 clauses: 9348 assignments: 403  propagations: 58055
+iteration:    4; variables: 4318 clauses: 12222 assignments: 628  propagations: 233003
+iteration:    5; variables: 5334 clauses: 15068 assignments: 874  propagations: 403150
+iteration:    6; variables: 6350 clauses: 17936 assignments: 1108  propagations: 682458
+iteration:    7; variables: 7366 clauses: 20912 assignments: 1260  propagations: 1407434
+iteration:    8; variables: 8382 clauses: 23786 assignments: 1492  propagations: 2138688
+iteration:    9; variables: 9398 clauses: 26698 assignments: 1696  propagations: 5024304
+iteration:   10; variables: 10414 clauses: 29604 assignments: 1896  propagations: 10840325
+c
+c Try to adapt solver strategies
+c 
+c Nothing extreme in this problem, continue with glucose default strategies.
+c
+iteration:   11; variables: 11430 clauses: 32472 assignments: 2142  propagations: 15091837
+iteration:   12; variables: 12446 clauses: 35296 assignments: 2396  propagations: 44614459
+iteration:   13; variables: 13462 clauses: 38206 assignments: 2602  propagations: 64912567
+
+Finished! 
+iteration=13
+key=11101000101100010011100101100011000011110111011100001100011000011001001110000011110101011110010000000000100000011110111101010111
+c
+c Try to adapt solver strategies
+c 
+c Nothing extreme in this problem, continue with glucose default strategies.
+c
+
+equivalent
+
+time: 193.273
+kartik@kartik:~/logic_obfuscation/neos$ ./bin/neos -d ex ./netlist/bench/traditional_multiplier8.bench ./lockednetlist/128bitaorlock/bench/traditional_multiplier8_aor_enc128.bench 100
+running combinatonal attack...
+iteration:    1; variables: 1270 clauses: 3517 assignments: 1  propagations: 1381
+iteration:    2; variables: 2286 clauses: 6478 assignments: 177  propagations: 8569
+iteration:    3; variables: 3302 clauses: 9378 assignments: 403  propagations: 38695
+iteration:    4; variables: 4318 clauses: 12290 assignments: 621  propagations: 104302
+iteration:    5; variables: 5334 clauses: 15230 assignments: 793  propagations: 141410
+iteration:    6; variables: 6350 clauses: 18122 assignments: 1027  propagations: 759013
+iteration:    7; variables: 7366 clauses: 21030 assignments: 1235  propagations: 1078575
+iteration:    8; variables: 8382 clauses: 23944 assignments: 1443  propagations: 2987271
+iteration:    9; variables: 9398 clauses: 26834 assignments: 1661  propagations: 6095256
+c
+c Try to adapt solver strategies
+c 
+c Nothing extreme in this problem, continue with glucose default strategies.
+c
+iteration:   10; variables: 10414 clauses: 29690 assignments: 1901  propagations: 17645371
+iteration:   11; variables: 11430 clauses: 32528 assignments: 2157  propagations: 57914231
+iteration:   12; variables: 12446 clauses: 35386 assignments: 2395  propagations: 105237510
+iteration:   13; variables: 13462 clauses: 38220 assignments: 2645  propagations: 129445366
+iteration:   14; variables: 14478 clauses: 41102 assignments: 2855  propagations: 136309556
+iteration:   15; variables: 15494 clauses: 43998 assignments: 3057  propagations: 137050223
+iteration:   16; variables: 16510 clauses: 46804 assignments: 3327  propagations: 137520680
+iteration:   17; variables: 17526 clauses: 49658 assignments: 3577  propagations: 137800008
+
+Finished! 
+iteration=17
+key=11101000101100010011100101100011000011110111011100001100011000011001001110000011110101011110010000000000100000011110111101010111
+c
+c Try to adapt solver strategies
+c 
+c Nothing extreme in this problem, continue with glucose default strategies.
+c
+
+equivalent
+
+time: 381.07
+kartik@kartik:~/logic_obfuscation/neos$ ./bin/neos -d ex ./netlist/bench/traditional_multiplier8.bench ./lockednetlist/128bitaorlock/bench/traditional_multiplier8_aor_enc128.bench 100
+running combinatonal attack...
+iteration:    1; variables: 1270 clauses: 3517 assignments: 1  propagations: 1381
+iteration:    2; variables: 2286 clauses: 6478 assignments: 177  propagations: 4875
+iteration:    3; variables: 3302 clauses: 9384 assignments: 391  propagations: 37924
+iteration:    4; variables: 4318 clauses: 12272 assignments: 621  propagations: 109232
+iteration:    5; variables: 5334 clauses: 15174 assignments: 829  propagations: 402836
+iteration:    6; variables: 6350 clauses: 18154 assignments: 991  propagations: 685944
+iteration:    7; variables: 7366 clauses: 21100 assignments: 1165  propagations: 1110661
+iteration:    8; variables: 8382 clauses: 24012 assignments: 1369  propagations: 1653105
+iteration:    9; variables: 9398 clauses: 26868 assignments: 1609  propagations: 5786256
+c
+c Try to adapt solver strategies
+c 
+c Nothing extreme in this problem, continue with glucose default strategies.
+c
+iteration:   10; variables: 10414 clauses: 29700 assignments: 1887  propagations: 15391534
+iteration:   11; variables: 11430 clauses: 32654 assignments: 2049  propagations: 37152700
+iteration:   12; variables: 12446 clauses: 35536 assignments: 2291  propagations: 199546984
+iteration:   13; variables: 13462 clauses: 38366 assignments: 2555  propagations: 269564585
+
+Finished! 
+iteration=13
+key=11101000101100010011100101100011000011110111011100001100011000011001001110000011110101011110010000000000100000011110111101010111
+c
+c Try to adapt solver strategies
+c 
+c Nothing extreme in this problem, continue with glucose default strategies.
+c
+
+equivalent
+
+time: 553.097
+kartik@kartik:~/logic_obfuscation/neos$ ./bin/neos -d ex ./netlist/bench/traditional_multiplier8.bench ./lockednetlist/128bitaorlock/bench/traditional_multiplier8_aor_enc128.bench 100
+running combinatonal attack...
+iteration:    1; variables: 1270 clauses: 3517 assignments: 1  propagations: 1381
+iteration:    2; variables: 2286 clauses: 6478 assignments: 177  propagations: 5409
+iteration:    3; variables: 3302 clauses: 9400 assignments: 391  propagations: 36387
+iteration:    4; variables: 4318 clauses: 12314 assignments: 610  propagations: 139695
+iteration:    5; variables: 5334 clauses: 15200 assignments: 844  propagations: 191296
+iteration:    6; variables: 6350 clauses: 18116 assignments: 1065  propagations: 990019
+iteration:    7; variables: 7366 clauses: 21042 assignments: 1265  propagations: 2049887
+iteration:    8; variables: 8382 clauses: 23880 assignments: 1519  propagations: 2472796
+iteration:    9; variables: 9398 clauses: 26698 assignments: 1785  propagations: 10640276
+c
+c Try to adapt solver strategies
+c 
+c Nothing extreme in this problem, continue with glucose default strategies.
+c
+iteration:   10; variables: 10414 clauses: 29590 assignments: 2005  propagations: 24210591
+iteration:   11; variables: 11430 clauses: 32436 assignments: 2247  propagations: 58436385
+iteration:   12; variables: 12446 clauses: 35368 assignments: 2435  propagations: 79048827
+iteration:   13; variables: 13462 clauses: 38274 assignments: 2667  propagations: 119597438
+iteration:   14; variables: 14478 clauses: 41154 assignments: 2873  propagations: 120300153
+iteration:   15; variables: 15494 clauses: 44072 assignments: 3043  propagations: 125738458
+iteration:   16; variables: 16510 clauses: 47038 assignments: 3211  propagations: 125761364
+iteration:   17; variables: 17526 clauses: 49974 assignments: 3403  propagations: 125922390
+
+Finished! 
+iteration=17
+key=11101000101100010011100101100011000011110111011100001100011000011001001110000011110101011110010000000000100000011110111101010111
+c
+c Try to adapt solver strategies
+c 
+c Nothing extreme in this problem, continue with glucose default strategies.
+c
+
+equivalent
+
+time: 331.897
+kartik@kartik:~/logic_obfuscation/neos$ ./bin/neos -d ex ./netlist/bench/traditional_multiplier8.bench ./lockednetlist/128bitaorlock/bench/traditional_multiplier8_aor_enc128.bench 100
+running combinatonal attack...
+iteration:    1; variables: 1270 clauses: 3517 assignments: 1  propagations: 1381
+iteration:    2; variables: 2286 clauses: 6478 assignments: 177  propagations: 4875
+iteration:    3; variables: 3302 clauses: 9344 assignments: 415  propagations: 47299
+iteration:    4; variables: 4318 clauses: 12258 assignments: 612  propagations: 150456
+iteration:    5; variables: 5334 clauses: 15098 assignments: 870  propagations: 406613
+iteration:    6; variables: 6350 clauses: 17978 assignments: 1078  propagations: 841606
+iteration:    7; variables: 7366 clauses: 20782 assignments: 1358  propagations: 1220477
+iteration:    8; variables: 8382 clauses: 23710 assignments: 1548  propagations: 5870018
+iteration:    9; variables: 9398 clauses: 26630 assignments: 1758  propagations: 8868773
+c
+c Try to adapt solver strategies
+c 
+c Nothing extreme in this problem, continue with glucose default strategies.
+c
+iteration:   10; variables: 10414 clauses: 29552 assignments: 1956  propagations: 16484307
+iteration:   11; variables: 11430 clauses: 32498 assignments: 2128  propagations: 45933288
+iteration:   12; variables: 12446 clauses: 35366 assignments: 2354  propagations: 67856142
+iteration:   13; variables: 13462 clauses: 38266 assignments: 2566  propagations: 221979937
+iteration:   14; variables: 14478 clauses: 41064 assignments: 2852  propagations: 265290364
+iteration:   15; variables: 15494 clauses: 43934 assignments: 3090  propagations: 265379351
+
+Finished! 
+iteration=15
+key=11101000101100010011100101100011000011110111011100001100011000011001001110000011110101011110010000000000100000011110111101010111
+c
+c Try to adapt solver strategies
+c 
+c Nothing extreme in this problem, continue with glucose default strategies.
+c
+
+equivalent
+
+time: 503.103
+kartik@kartik:~/logic_obfuscation/neos$ ./bin/neos -d ex ./netlist/bench/traditional_multiplier8.bench ./lockednetlist/128bitaorlock/bench/traditional_multiplier8_aor_enc128.bench 100
+running combinatonal attack...
+iteration:    1; variables: 1270 clauses: 3517 assignments: 1  propagations: 1381
+iteration:    2; variables: 2286 clauses: 6478 assignments: 177  propagations: 6481
+iteration:    3; variables: 3302 clauses: 9348 assignments: 403  propagations: 58055
+iteration:    4; variables: 4318 clauses: 12222 assignments: 628  propagations: 233003
+iteration:    5; variables: 5334 clauses: 15068 assignments: 874  propagations: 403150
+iteration:    6; variables: 6350 clauses: 17936 assignments: 1108  propagations: 682458
+iteration:    7; variables: 7366 clauses: 20912 assignments: 1260  propagations: 1407434
+iteration:    8; variables: 8382 clauses: 23786 assignments: 1492  propagations: 2138688
+iteration:    9; variables: 9398 clauses: 26698 assignments: 1696  propagations: 5024304
+iteration:   10; variables: 10414 clauses: 29604 assignments: 1896  propagations: 10840325
+c
+c Try to adapt solver strategies
+c 
+c Nothing extreme in this problem, continue with glucose default strategies.
+c
+iteration:   11; variables: 11430 clauses: 32472 assignments: 2142  propagations: 15091837
+iteration:   12; variables: 12446 clauses: 35296 assignments: 2396  propagations: 44614459
+iteration:   13; variables: 13462 clauses: 38206 assignments: 2602  propagations: 64912567
+
+Finished! 
+iteration=13
+key=11101000101100010011100101100011000011110111011100001100011000011001001110000011110101011110010000000000100000011110111101010111
+c
+c Try to adapt solver strategies
+c 
+c Nothing extreme in this problem, continue with glucose default strategies.
+c
+
+equivalent
+
+time: 193.273
+kartik@kartik:~/logic_obfuscation/neos$ ./bin/neos -d ex ./netlist/bench/traditional_multiplier8.bench ./lockednetlist/128bitaorlock/bench/traditional_multiplier8_aor_enc128.bench 100
+running combinatonal attack...
+iteration:    1; variables: 1270 clauses: 3517 assignments: 1  propagations: 1381
+iteration:    2; variables: 2286 clauses: 6478 assignments: 177  propagations: 8569
+iteration:    3; variables: 3302 clauses: 9378 assignments: 403  propagations: 38695
+iteration:    4; variables: 4318 clauses: 12290 assignments: 621  propagations: 104302
+iteration:    5; variables: 5334 clauses: 15230 assignments: 793  propagations: 141410
+iteration:    6; variables: 6350 clauses: 18122 assignments: 1027  propagations: 759013
+iteration:    7; variables: 7366 clauses: 21030 assignments: 1235  propagations: 1078575
+iteration:    8; variables: 8382 clauses: 23944 assignments: 1443  propagations: 2987271
+iteration:    9; variables: 9398 clauses: 26834 assignments: 1661  propagations: 6095256
+c
+c Try to adapt solver strategies
+c 
+c Nothing extreme in this problem, continue with glucose default strategies.
+c
+iteration:   10; variables: 10414 clauses: 29690 assignments: 1901  propagations: 17645371
+iteration:   11; variables: 11430 clauses: 32528 assignments: 2157  propagations: 57914231
+iteration:   12; variables: 12446 clauses: 35386 assignments: 2395  propagations: 105237510
+iteration:   13; variables: 13462 clauses: 38220 assignments: 2645  propagations: 129445366
+iteration:   14; variables: 14478 clauses: 41102 assignments: 2855  propagations: 136309556
+iteration:   15; variables: 15494 clauses: 43998 assignments: 3057  propagations: 137050223
+iteration:   16; variables: 16510 clauses: 46804 assignments: 3327  propagations: 137520680
+iteration:   17; variables: 17526 clauses: 49658 assignments: 3577  propagations: 137800008
+
+Finished! 
+iteration=17
+key=11101000101100010011100101100011000011110111011100001100011000011001001110000011110101011110010000000000100000011110111101010111
+c
+c Try to adapt solver strategies
+c 
+c Nothing extreme in this problem, continue with glucose default strategies.
+c
+
+equivalent
+
+time: 381.07
+kartik@kartik:~/logic_obfuscation/neos$ ./bin/neos -d ex ./netlist/bench/traditional_multiplier8.bench ./lockednetlist/128bitaorlock/bench/traditional_multiplier8_aor_enc128.bench 100
+running combinatonal attack...
+iteration:    1; variables: 1270 clauses: 3517 assignments: 1  propagations: 1381
+iteration:    2; variables: 2286 clauses: 6478 assignments: 177  propagations: 4875
+iteration:    3; variables: 3302 clauses: 9384 assignments: 391  propagations: 37924
+iteration:    4; variables: 4318 clauses: 12272 assignments: 621  propagations: 109232
+iteration:    5; variables: 5334 clauses: 15174 assignments: 829  propagations: 402836
+iteration:    6; variables: 6350 clauses: 18154 assignments: 991  propagations: 685944
+iteration:    7; variables: 7366 clauses: 21100 assignments: 1165  propagations: 1110661
+iteration:    8; variables: 8382 clauses: 24012 assignments: 1369  propagations: 1653105
+iteration:    9; variables: 9398 clauses: 26868 assignments: 1609  propagations: 5786256
+c
+c Try to adapt solver strategies
+c 
+c Nothing extreme in this problem, continue with glucose default strategies.
+c
+iteration:   10; variables: 10414 clauses: 29700 assignments: 1887  propagations: 15391534
+iteration:   11; variables: 11430 clauses: 32654 assignments: 2049  propagations: 37152700
+iteration:   12; variables: 12446 clauses: 35536 assignments: 2291  propagations: 199546984
+iteration:   13; variables: 13462 clauses: 38366 assignments: 2555  propagations: 269564585
+
+Finished! 
+iteration=13
+key=11101000101100010011100101100011000011110111011100001100011000011001001110000011110101011110010000000000100000011110111101010111
+c
+c Try to adapt solver strategies
+c 
+c Nothing extreme in this problem, continue with glucose default strategies.
+c
+
+equivalent
+
+time: 553.097
+kartik@kartik:~/logic_obfuscation/neos$ ./bin/neos -d ex ./netlist/bench/traditional_multiplier8.bench ./lockednetlist/128bitaorlock/bench/traditional_multiplier8_aor_enc128.bench 100
+running combinatonal attack...
+iteration:    1; variables: 1270 clauses: 3517 assignments: 1  propagations: 1381
+iteration:    2; variables: 2286 clauses: 6478 assignments: 177  propagations: 5409
+iteration:    3; variables: 3302 clauses: 9400 assignments: 391  propagations: 36387
+iteration:    4; variables: 4318 clauses: 12314 assignments: 610  propagations: 139695
+iteration:    5; variables: 5334 clauses: 15200 assignments: 844  propagations: 191296
+iteration:    6; variables: 6350 clauses: 18116 assignments: 1065  propagations: 990019
+iteration:    7; variables: 7366 clauses: 21042 assignments: 1265  propagations: 2049887
+iteration:    8; variables: 8382 clauses: 23880 assignments: 1519  propagations: 2472796
+iteration:    9; variables: 9398 clauses: 26698 assignments: 1785  propagations: 10640276
+c
+c Try to adapt solver strategies
+c 
+c Nothing extreme in this problem, continue with glucose default strategies.
+c
+iteration:   10; variables: 10414 clauses: 29590 assignments: 2005  propagations: 24210591
+iteration:   11; variables: 11430 clauses: 32436 assignments: 2247  propagations: 58436385
+iteration:   12; variables: 12446 clauses: 35368 assignments: 2435  propagations: 79048827
+iteration:   13; variables: 13462 clauses: 38274 assignments: 2667  propagations: 119597438
+iteration:   14; variables: 14478 clauses: 41154 assignments: 2873  propagations: 120300153
+iteration:   15; variables: 15494 clauses: 44072 assignments: 3043  propagations: 125738458
+iteration:   16; variables: 16510 clauses: 47038 assignments: 3211  propagations: 125761364
+iteration:   17; variables: 17526 clauses: 49974 assignments: 3403  propagations: 125922390
+
+Finished! 
+iteration=17
+key=11101000101100010011100101100011000011110111011100001100011000011001001110000011110101011110010000000000100000011110111101010111
+c
+c Try to adapt solver strategies
+c 
+c Nothing extreme in this problem, continue with glucose default strategies.
+c
+
+equivalent
+
+time: 331.897
+kartik@kartik:~/logic_obfuscation/neos$ ./bin/neos -d ex ./netlist/bench/traditional_multiplier8.bench ./lockednetlist/128bitaorlock/bench/traditional_multiplier8_aor_enc128.bench 100
+running combinatonal attack...
+iteration:    1; variables: 1270 clauses: 3517 assignments: 1  propagations: 1381
+iteration:    2; variables: 2286 clauses: 6478 assignments: 177  propagations: 4875
+iteration:    3; variables: 3302 clauses: 9344 assignments: 415  propagations: 47299
+iteration:    4; variables: 4318 clauses: 12258 assignments: 612  propagations: 150456
+iteration:    5; variables: 5334 clauses: 15098 assignments: 870  propagations: 406613
+iteration:    6; variables: 6350 clauses: 17978 assignments: 1078  propagations: 841606
+iteration:    7; variables: 7366 clauses: 20782 assignments: 1358  propagations: 1220477
+iteration:    8; variables: 8382 clauses: 23710 assignments: 1548  propagations: 5870018
+iteration:    9; variables: 9398 clauses: 26630 assignments: 1758  propagations: 8868773
+c
+c Try to adapt solver strategies
+c 
+c Nothing extreme in this problem, continue with glucose default strategies.
+c
+iteration:   10; variables: 10414 clauses: 29552 assignments: 1956  propagations: 16484307
+iteration:   11; variables: 11430 clauses: 32498 assignments: 2128  propagations: 45933288
+iteration:   12; variables: 12446 clauses: 35366 assignments: 2354  propagations: 67856142
+iteration:   13; variables: 13462 clauses: 38266 assignments: 2566  propagations: 221979937
+iteration:   14; variables: 14478 clauses: 41064 assignments: 2852  propagations: 265290364
+iteration:   15; variables: 15494 clauses: 43934 assignments: 3090  propagations: 265379351
+
+Finished! 
+iteration=15
+key=11101000101100010011100101100011000011110111011100001100011000011001001110000011110101011110010000000000100000011110111101010111
+c
+c Try to adapt solver strategies
+c 
+c Nothing extreme in this problem, continue with glucose default strategies.
+c
+
+equivalent
+
+time: 503.103
+kartik@kartik:~/logic_obfuscation/neos$ ./bin/neos -d ex ./netlist/bench/traditional_multiplier8.bench ./lockednetlist/128bitaorlock/bench/traditional_multiplier8_aor_enc128.bench 100
+running combinatonal attack...
+iteration:    1; variables: 1270 clauses: 3517 assignments: 1  propagations: 1381
+iteration:    2; variables: 2286 clauses: 6478 assignments: 177  propagations: 6481
+iteration:    3; variables: 3302 clauses: 9348 assignments: 403  propagations: 58055
+iteration:    4; variables: 4318 clauses: 12222 assignments: 628  propagations: 233003
+iteration:    5; variables: 5334 clauses: 15068 assignments: 874  propagations: 403150
+iteration:    6; variables: 6350 clauses: 17936 assignments: 1108  propagations: 682458
+iteration:    7; variables: 7366 clauses: 20912 assignments: 1260  propagations: 1407434
+iteration:    8; variables: 8382 clauses: 23786 assignments: 1492  propagations: 2138688
+iteration:    9; variables: 9398 clauses: 26698 assignments: 1696  propagations: 5024304
+iteration:   10; variables: 10414 clauses: 29604 assignments: 1896  propagations: 10840325
+c
+c Try to adapt solver strategies
+c 
+c Nothing extreme in this problem, continue with glucose default strategies.
+c
+iteration:   11; variables: 11430 clauses: 32472 assignments: 2142  propagations: 15091837
+iteration:   12; variables: 12446 clauses: 35296 assignments: 2396  propagations: 44614459
+iteration:   13; variables: 13462 clauses: 38206 assignments: 2602  propagations: 64912567
+
+Finished! 
+iteration=13
+key=11101000101100010011100101100011000011110111011100001100011000011001001110000011110101011110010000000000100000011110111101010111
+c
+c Try to adapt solver strategies
+c 
+c Nothing extreme in this problem, continue with glucose default strategies.
+c
+
+equivalent
+
+time: 193.273
+kartik@kartik:~/logic_obfuscation/neos$ ./bin/neos -d ex ./netlist/bench/traditional_multiplier8.bench ./lockednetlist/128bitaorlock/bench/traditional_multiplier8_aor_enc128.bench 100
+running combinatonal attack...
+iteration:    1; variables: 1270 clauses: 3517 assignments: 1  propagations: 1381
+iteration:    2; variables: 2286 clauses: 6478 assignments: 177  propagations: 8569
+iteration:    3; variables: 3302 clauses: 9378 assignments: 403  propagations: 38695
+iteration:    4; variables: 4318 clauses: 12290 assignments: 621  propagations: 104302
+iteration:    5; variables: 5334 clauses: 15230 assignments: 793  propagations: 141410
+iteration:    6; variables: 6350 clauses: 18122 assignments: 1027  propagations: 759013
+iteration:    7; variables: 7366 clauses: 21030 assignments: 1235  propagations: 1078575
+iteration:    8; variables: 8382 clauses: 23944 assignments: 1443  propagations: 2987271
+iteration:    9; variables: 9398 clauses: 26834 assignments: 1661  propagations: 6095256
+c
+c Try to adapt solver strategies
+c 
+c Nothing extreme in this problem, continue with glucose default strategies.
+c
+iteration:   10; variables: 10414 clauses: 29690 assignments: 1901  propagations: 17645371
+iteration:   11; variables: 11430 clauses: 32528 assignments: 2157  propagations: 57914231
+iteration:   12; variables: 12446 clauses: 35386 assignments: 2395  propagations: 105237510
+iteration:   13; variables: 13462 clauses: 38220 assignments: 2645  propagations: 129445366
+iteration:   14; variables: 14478 clauses: 41102 assignments: 2855  propagations: 136309556
+iteration:   15; variables: 15494 clauses: 43998 assignments: 3057  propagations: 137050223
+iteration:   16; variables: 16510 clauses: 46804 assignments: 3327  propagations: 137520680
+iteration:   17; variables: 17526 clauses: 49658 assignments: 3577  propagations: 137800008
+
+Finished! 
+iteration=17
+key=11101000101100010011100101100011000011110111011100001100011000011001001110000011110101011110010000000000100000011110111101010111
+c
+c Try to adapt solver strategies
+c 
+c Nothing extreme in this problem, continue with glucose default strategies.
+c
+
+equivalent
+
+time: 381.07
+kartik@kartik:~/logic_obfuscation/neos$ ./bin/neos -d ex ./netlist/bench/traditional_multiplier8.bench ./lockednetlist/128bitaorlock/bench/traditional_multiplier8_aor_enc128.bench 100
+running combinatonal attack...
+iteration:    1; variables: 1270 clauses: 3517 assignments: 1  propagations: 1381
+iteration:    2; variables: 2286 clauses: 6478 assignments: 177  propagations: 4875
+iteration:    3; variables: 3302 clauses: 9384 assignments: 391  propagations: 37924
+iteration:    4; variables: 4318 clauses: 12272 assignments: 621  propagations: 109232
+iteration:    5; variables: 5334 clauses: 15174 assignments: 829  propagations: 402836
+iteration:    6; variables: 6350 clauses: 18154 assignments: 991  propagations: 685944
+iteration:    7; variables: 7366 clauses: 21100 assignments: 1165  propagations: 1110661
+iteration:    8; variables: 8382 clauses: 24012 assignments: 1369  propagations: 1653105
+iteration:    9; variables: 9398 clauses: 26868 assignments: 1609  propagations: 5786256
+c
+c Try to adapt solver strategies
+c 
+c Nothing extreme in this problem, continue with glucose default strategies.
+c
+iteration:   10; variables: 10414 clauses: 29700 assignments: 1887  propagations: 15391534
+iteration:   11; variables: 11430 clauses: 32654 assignments: 2049  propagations: 37152700
+iteration:   12; variables: 12446 clauses: 35536 assignments: 2291  propagations: 199546984
+iteration:   13; variables: 13462 clauses: 38366 assignments: 2555  propagations: 269564585
+
+Finished! 
+iteration=13
+key=11101000101100010011100101100011000011110111011100001100011000011001001110000011110101011110010000000000100000011110111101010111
+c
+c Try to adapt solver strategies
+c 
+c Nothing extreme in this problem, continue with glucose default strategies.
+c
+
+equivalent
+
+time: 553.097
+kartik@kartik:~/logic_obfuscation/neos$ ./bin/neos -d ex ./netlist/bench/traditional_multiplier8.bench ./lockednetlist/128bitaorlock/bench/traditional_multiplier8_aor_enc128.bench 100
+running combinatonal attack...
+iteration:    1; variables: 1270 clauses: 3517 assignments: 1  propagations: 1381
+iteration:    2; variables: 2286 clauses: 6478 assignments: 177  propagations: 5409
+iteration:    3; variables: 3302 clauses: 9400 assignments: 391  propagations: 36387
+iteration:    4; variables: 4318 clauses: 12314 assignments: 610  propagations: 139695
+iteration:    5; variables: 5334 clauses: 15200 assignments: 844  propagations: 191296
+iteration:    6; variables: 6350 clauses: 18116 assignments: 1065  propagations: 990019
+iteration:    7; variables: 7366 clauses: 21042 assignments: 1265  propagations: 2049887
+iteration:    8; variables: 8382 clauses: 23880 assignments: 1519  propagations: 2472796
+iteration:    9; variables: 9398 clauses: 26698 assignments: 1785  propagations: 10640276
+c
+c Try to adapt solver strategies
+c 
+c Nothing extreme in this problem, continue with glucose default strategies.
+c
+iteration:   10; variables: 10414 clauses: 29590 assignments: 2005  propagations: 24210591
+iteration:   11; variables: 11430 clauses: 32436 assignments: 2247  propagations: 58436385
+iteration:   12; variables: 12446 clauses: 35368 assignments: 2435  propagations: 79048827
+iteration:   13; variables: 13462 clauses: 38274 assignments: 2667  propagations: 119597438
+iteration:   14; variables: 14478 clauses: 41154 assignments: 2873  propagations: 120300153
+iteration:   15; variables: 15494 clauses: 44072 assignments: 3043  propagations: 125738458
+iteration:   16; variables: 16510 clauses: 47038 assignments: 3211  propagations: 125761364
+iteration:   17; variables: 17526 clauses: 49974 assignments: 3403  propagations: 125922390
+
+Finished! 
+iteration=17
+key=11101000101100010011100101100011000011110111011100001100011000011001001110000011110101011110010000000000100000011110111101010111
+c
+c Try to adapt solver strategies
+c 
+c Nothing extreme in this problem, continue with glucose default strategies.
+c
+
+equivalent
+
+time: 331.897
+kartik@kartik:~/logic_obfuscation/neos$ ./bin/neos -d ex ./netlist/bench/traditional_multiplier8.bench ./lockednetlist/128bitaorlock/bench/traditional_multiplier8_aor_enc128.bench 100
+running combinatonal attack...
+iteration:    1; variables: 1270 clauses: 3517 assignments: 1  propagations: 1381
+iteration:    2; variables: 2286 clauses: 6478 assignments: 177  propagations: 4875
+iteration:    3; variables: 3302 clauses: 9344 assignments: 415  propagations: 47299
+iteration:    4; variables: 4318 clauses: 12258 assignments: 612  propagations: 150456
+iteration:    5; variables: 5334 clauses: 15098 assignments: 870  propagations: 406613
+iteration:    6; variables: 6350 clauses: 17978 assignments: 1078  propagations: 841606
+iteration:    7; variables: 7366 clauses: 20782 assignments: 1358  propagations: 1220477
+iteration:    8; variables: 8382 clauses: 23710 assignments: 1548  propagations: 5870018
+iteration:    9; variables: 9398 clauses: 26630 assignments: 1758  propagations: 8868773
+c
+c Try to adapt solver strategies
+c 
+c Nothing extreme in this problem, continue with glucose default strategies.
+c
+iteration:   10; variables: 10414 clauses: 29552 assignments: 1956  propagations: 16484307
+iteration:   11; variables: 11430 clauses: 32498 assignments: 2128  propagations: 45933288
+iteration:   12; variables: 12446 clauses: 35366 assignments: 2354  propagations: 67856142
+iteration:   13; variables: 13462 clauses: 38266 assignments: 2566  propagations: 221979937
+iteration:   14; variables: 14478 clauses: 41064 assignments: 2852  propagations: 265290364
+iteration:   15; variables: 15494 clauses: 43934 assignments: 3090  propagations: 265379351
+
+Finished! 
+iteration=15
+key=11101000101100010011100101100011000011110111011100001100011000011001001110000011110101011110010000000000100000011110111101010111
+c
+c Try to adapt solver strategies
+c 
+c Nothing extreme in this problem, continue with glucose default strategies.
+c
+
+equivalent
+
+time: 503.103
+kartik@kartik:~/logic_obfuscation/neos$ ./bin/neos -d ex ./netlist/bench/traditional_multiplier8.bench ./lockednetlist/128bitaorlock/bench/traditional_multiplier8_aor_enc128.bench 100
+running combinatonal attack...
+iteration:    1; variables: 1270 clauses: 3517 assignments: 1  propagations: 1381
+iteration:    2; variables: 2286 clauses: 6478 assignments: 177  propagations: 6481
+iteration:    3; variables: 3302 clauses: 9348 assignments: 403  propagations: 58055
+iteration:    4; variables: 4318 clauses: 12222 assignments: 628  propagations: 233003
+iteration:    5; variables: 5334 clauses: 15068 assignments: 874  propagations: 403150
+iteration:    6; variables: 6350 clauses: 17936 assignments: 1108  propagations: 682458
+iteration:    7; variables: 7366 clauses: 20912 assignments: 1260  propagations: 1407434
+iteration:    8; variables: 8382 clauses: 23786 assignments: 1492  propagations: 2138688
+iteration:    9; variables: 9398 clauses: 26698 assignments: 1696  propagations: 5024304
+iteration:   10; variables: 10414 clauses: 29604 assignments: 1896  propagations: 10840325
+c
+c Try to adapt solver strategies
+c 
+c Nothing extreme in this problem, continue with glucose default strategies.
+c
+iteration:   11; variables: 11430 clauses: 32472 assignments: 2142  propagations: 15091837
+iteration:   12; variables: 12446 clauses: 35296 assignments: 2396  propagations: 44614459
+iteration:   13; variables: 13462 clauses: 38206 assignments: 2602  propagations: 64912567
+
+Finished! 
+iteration=13
+key=11101000101100010011100101100011000011110111011100001100011000011001001110000011110101011110010000000000100000011110111101010111
+c
+c Try to adapt solver strategies
+c 
+c Nothing extreme in this problem, continue with glucose default strategies.
+c
+
+equivalent
+
+time: 193.273
+kartik@kartik:~/logic_obfuscation/neos$ ./bin/neos -d ex ./netlist/bench/traditional_multiplier8.bench ./lockednetlist/128bitaorlock/bench/traditional_multiplier8_aor_enc128.bench 100
+running combinatonal attack...
+iteration:    1; variables: 1270 clauses: 3517 assignments: 1  propagations: 1381
+iteration:    2; variables: 2286 clauses: 6478 assignments: 177  propagations: 8569
+iteration:    3; variables: 3302 clauses: 9378 assignments: 403  propagations: 38695
+iteration:    4; variables: 4318 clauses: 12290 assignments: 621  propagations: 104302
+iteration:    5; variables: 5334 clauses: 15230 assignments: 793  propagations: 141410
+iteration:    6; variables: 6350 clauses: 18122 assignments: 1027  propagations: 759013
+iteration:    7; variables: 7366 clauses: 21030 assignments: 1235  propagations: 1078575
+iteration:    8; variables: 8382 clauses: 23944 assignments: 1443  propagations: 2987271
+iteration:    9; variables: 9398 clauses: 26834 assignments: 1661  propagations: 6095256
+c
+c Try to adapt solver strategies
+c 
+c Nothing extreme in this problem, continue with glucose default strategies.
+c
+iteration:   10; variables: 10414 clauses: 29690 assignments: 1901  propagations: 17645371
+iteration:   11; variables: 11430 clauses: 32528 assignments: 2157  propagations: 57914231
+iteration:   12; variables: 12446 clauses: 35386 assignments: 2395  propagations: 105237510
+iteration:   13; variables: 13462 clauses: 38220 assignments: 2645  propagations: 129445366
+iteration:   14; variables: 14478 clauses: 41102 assignments: 2855  propagations: 136309556
+iteration:   15; variables: 15494 clauses: 43998 assignments: 3057  propagations: 137050223
+iteration:   16; variables: 16510 clauses: 46804 assignments: 3327  propagations: 137520680
+iteration:   17; variables: 17526 clauses: 49658 assignments: 3577  propagations: 137800008
+
+Finished! 
+iteration=17
+key=11101000101100010011100101100011000011110111011100001100011000011001001110000011110101011110010000000000100000011110111101010111
+c
+c Try to adapt solver strategies
+c 
+c Nothing extreme in this problem, continue with glucose default strategies.
+c
+
+equivalent
+
+time: 381.07
+kartik@kartik:~/logic_obfuscation/neos$ 

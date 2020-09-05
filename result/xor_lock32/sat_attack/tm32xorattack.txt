@@ -1,0 +1,704 @@
+kartik@kartik:~/logic_obfuscation/neos$ ./bin/neos -d ex ./netlist/bench/traditional_multiplier8.bench ./lockednetlist/32bitxorlock/bench/tradtional_multiplier8_xor_enc32.bench 100
+running combinatonal attack...
+iteration:    1; variables: 886 clauses: 2749 assignments: 1  propagations: 1258
+iteration:    2; variables: 1710 clauses: 4850 assignments: 404  propagations: 5849
+iteration:    3; variables: 2534 clauses: 6938 assignments: 841  propagations: 14073
+iteration:    4; variables: 3358 clauses: 9028 assignments: 1265  propagations: 30161
+iteration:    5; variables: 4182 clauses: 11102 assignments: 1691  propagations: 76501
+iteration:    6; variables: 5006 clauses: 13178 assignments: 2121  propagations: 96745
+c
+c Try to adapt solver strategies
+c 
+c Nothing extreme in this problem, continue with glucose default strategies.
+c
+
+Finished! 
+iteration=6
+key=01010001110110110111111101000110
+c
+c Try to adapt solver strategies
+c 
+c Adjusting for low decision levels.
+c
+c Activating Chanseok Strategy: moved 13948 clauses to the permanent set.
+c Removing of non permanent clauses.
+
+equivalent
+
+time: 48.0999
+kartik@kartik:~/logic_obfuscation/neos$ ./bin/neos -d ex ./netlist/bench/traditional_multiplier8.bench ./lockednetlist/32bitxorlock/bench/tradtional_multiplier8_xor_enc32.bench 100
+running combinatonal attack...
+iteration:    1; variables: 886 clauses: 2749 assignments: 1  propagations: 1258
+iteration:    2; variables: 1710 clauses: 4850 assignments: 405  propagations: 4187
+iteration:    3; variables: 2534 clauses: 6938 assignments: 833  propagations: 24569
+iteration:    4; variables: 3358 clauses: 9006 assignments: 1264  propagations: 37733
+iteration:    5; variables: 4182 clauses: 11092 assignments: 1665  propagations: 60488
+iteration:    6; variables: 5006 clauses: 13174 assignments: 2068  propagations: 79953
+iteration:    7; variables: 5830 clauses: 15256 assignments: 2482  propagations: 100323
+iteration:    8; variables: 6654 clauses: 17322 assignments: 2938  propagations: 116132
+c
+c Try to adapt solver strategies
+c 
+c Nothing extreme in this problem, continue with glucose default strategies.
+c
+
+Finished! 
+iteration=8
+key=01010001110110110111111101000110
+c
+c Try to adapt solver strategies
+c 
+c Adjusting for low decision levels.
+c
+c Activating Chanseok Strategy: moved 13948 clauses to the permanent set.
+c Removing of non permanent clauses.
+
+equivalent
+
+time: 43.4629
+kartik@kartik:~/logic_obfuscation/neos$ ./bin/neos -d ex ./netlist/bench/traditional_multiplier8.bench ./lockednetlist/32bitxorlock/bench/tradtional_multiplier8_xor_enc32.bench 100
+running combinatonal attack...
+iteration:    1; variables: 886 clauses: 2749 assignments: 1  propagations: 1258
+iteration:    2; variables: 1710 clauses: 4850 assignments: 404  propagations: 3719
+iteration:    3; variables: 2534 clauses: 6934 assignments: 831  propagations: 10258
+iteration:    4; variables: 3358 clauses: 9026 assignments: 1253  propagations: 14543
+iteration:    5; variables: 4182 clauses: 11106 assignments: 1662  propagations: 49473
+iteration:    6; variables: 5006 clauses: 13188 assignments: 2057  propagations: 121645
+iteration:    7; variables: 5830 clauses: 15276 assignments: 2477  propagations: 130385
+c
+c Try to adapt solver strategies
+c 
+c Nothing extreme in this problem, continue with glucose default strategies.
+c
+
+Finished! 
+iteration=7
+key=01010001110110110111111101000110
+c
+c Try to adapt solver strategies
+c 
+c Adjusting for low decision levels.
+c
+c Activating Chanseok Strategy: moved 13948 clauses to the permanent set.
+c Removing of non permanent clauses.
+
+equivalent
+
+time: 42.8974
+kartik@kartik:~/logic_obfuscation/neos$ ./bin/neos -d ex ./netlist/bench/traditional_multiplier8.bench ./lockednetlist/32bitxorlock/bench/tradtional_multiplier8_xor_enc32.bench 100
+running combinatonal attack...
+iteration:    1; variables: 886 clauses: 2749 assignments: 1  propagations: 1258
+iteration:    2; variables: 1710 clauses: 4850 assignments: 404  propagations: 4591
+iteration:    3; variables: 2534 clauses: 6916 assignments: 840  propagations: 23835
+iteration:    4; variables: 3358 clauses: 9000 assignments: 1236  propagations: 27985
+iteration:    5; variables: 4182 clauses: 11088 assignments: 1638  propagations: 74579
+iteration:    6; variables: 5006 clauses: 13174 assignments: 2078  propagations: 105185
+iteration:    7; variables: 5830 clauses: 15268 assignments: 2484  propagations: 118567
+iteration:    8; variables: 6654 clauses: 17324 assignments: 2940  propagations: 132272
+
+Finished! 
+iteration=8
+key=01010001110110110111111101000110
+c
+c Try to adapt solver strategies
+c 
+c Adjusting for low decision levels.
+c
+c Activating Chanseok Strategy: moved 13948 clauses to the permanent set.
+c Removing of non permanent clauses.
+
+equivalent
+
+time: 27.0518
+kartik@kartik:~/logic_obfuscation/neos$ ./bin/neos -d ex ./netlist/bench/traditional_multiplier8.bench ./lockednetlist/32bitxorlock/bench/tradtional_multiplier8_xor_enc32.bench 100
+running combinatonal attack...
+iteration:    1; variables: 886 clauses: 2749 assignments: 1  propagations: 1258
+iteration:    2; variables: 1710 clauses: 4850 assignments: 403  propagations: 4156
+iteration:    3; variables: 2534 clauses: 6926 assignments: 842  propagations: 22974
+iteration:    4; variables: 3358 clauses: 9040 assignments: 1236  propagations: 39849
+iteration:    5; variables: 4182 clauses: 11112 assignments: 1678  propagations: 72834
+iteration:    6; variables: 5006 clauses: 13198 assignments: 2128  propagations: 87757
+c
+c Try to adapt solver strategies
+c 
+c Nothing extreme in this problem, continue with glucose default strategies.
+c
+
+Finished! 
+iteration=6
+key=01010001110110110111111101000110
+c
+c Try to adapt solver strategies
+c 
+c Adjusting for low decision levels.
+c
+c Activating Chanseok Strategy: moved 13948 clauses to the permanent set.
+c Removing of non permanent clauses.
+
+equivalent
+
+time: 32.4649
+kartik@kartik:~/logic_obfuscation/neos$ ./bin/neos -d ex ./netlist/bench/traditional_multiplier8.bench ./lockednetlist/32bitxorlock/bench/tradtional_multiplier8_xor_enc32.bench 100
+running combinatonal attack...
+iteration:    1; variables: 886 clauses: 2749 assignments: 1  propagations: 1258
+iteration:    2; variables: 1710 clauses: 4850 assignments: 404  propagations: 5849
+iteration:    3; variables: 2534 clauses: 6938 assignments: 841  propagations: 14073
+iteration:    4; variables: 3358 clauses: 9028 assignments: 1265  propagations: 30161
+iteration:    5; variables: 4182 clauses: 11102 assignments: 1691  propagations: 76501
+iteration:    6; variables: 5006 clauses: 13178 assignments: 2121  propagations: 96745
+c
+c Try to adapt solver strategies
+c 
+c Nothing extreme in this problem, continue with glucose default strategies.
+c
+
+Finished! 
+iteration=6
+key=01010001110110110111111101000110
+c
+c Try to adapt solver strategies
+c 
+c Adjusting for low decision levels.
+c
+c Activating Chanseok Strategy: moved 13948 clauses to the permanent set.
+c Removing of non permanent clauses.
+
+equivalent
+
+time: 48.0999
+kartik@kartik:~/logic_obfuscation/neos$ ./bin/neos -d ex ./netlist/bench/traditional_multiplier8.bench ./lockednetlist/32bitxorlock/bench/tradtional_multiplier8_xor_enc32.bench 100
+running combinatonal attack...
+iteration:    1; variables: 886 clauses: 2749 assignments: 1  propagations: 1258
+iteration:    2; variables: 1710 clauses: 4850 assignments: 405  propagations: 4187
+iteration:    3; variables: 2534 clauses: 6938 assignments: 833  propagations: 24569
+iteration:    4; variables: 3358 clauses: 9006 assignments: 1264  propagations: 37733
+iteration:    5; variables: 4182 clauses: 11092 assignments: 1665  propagations: 60488
+iteration:    6; variables: 5006 clauses: 13174 assignments: 2068  propagations: 79953
+iteration:    7; variables: 5830 clauses: 15256 assignments: 2482  propagations: 100323
+iteration:    8; variables: 6654 clauses: 17322 assignments: 2938  propagations: 116132
+c
+c Try to adapt solver strategies
+c 
+c Nothing extreme in this problem, continue with glucose default strategies.
+c
+
+Finished! 
+iteration=8
+key=01010001110110110111111101000110
+c
+c Try to adapt solver strategies
+c 
+c Adjusting for low decision levels.
+c
+c Activating Chanseok Strategy: moved 13948 clauses to the permanent set.
+c Removing of non permanent clauses.
+
+equivalent
+
+time: 43.4629
+kartik@kartik:~/logic_obfuscation/neos$ ./bin/neos -d ex ./netlist/bench/traditional_multiplier8.bench ./lockednetlist/32bitxorlock/bench/tradtional_multiplier8_xor_enc32.bench 100
+running combinatonal attack...
+iteration:    1; variables: 886 clauses: 2749 assignments: 1  propagations: 1258
+iteration:    2; variables: 1710 clauses: 4850 assignments: 404  propagations: 3719
+iteration:    3; variables: 2534 clauses: 6934 assignments: 831  propagations: 10258
+iteration:    4; variables: 3358 clauses: 9026 assignments: 1253  propagations: 14543
+iteration:    5; variables: 4182 clauses: 11106 assignments: 1662  propagations: 49473
+iteration:    6; variables: 5006 clauses: 13188 assignments: 2057  propagations: 121645
+iteration:    7; variables: 5830 clauses: 15276 assignments: 2477  propagations: 130385
+c
+c Try to adapt solver strategies
+c 
+c Nothing extreme in this problem, continue with glucose default strategies.
+c
+
+Finished! 
+iteration=7
+key=01010001110110110111111101000110
+c
+c Try to adapt solver strategies
+c 
+c Adjusting for low decision levels.
+c
+c Activating Chanseok Strategy: moved 13948 clauses to the permanent set.
+c Removing of non permanent clauses.
+
+equivalent
+
+time: 42.8974
+kartik@kartik:~/logic_obfuscation/neos$ ./bin/neos -d ex ./netlist/bench/traditional_multiplier8.bench ./lockednetlist/32bitxorlock/bench/tradtional_multiplier8_xor_enc32.bench 100
+running combinatonal attack...
+iteration:    1; variables: 886 clauses: 2749 assignments: 1  propagations: 1258
+iteration:    2; variables: 1710 clauses: 4850 assignments: 404  propagations: 4591
+iteration:    3; variables: 2534 clauses: 6916 assignments: 840  propagations: 23835
+iteration:    4; variables: 3358 clauses: 9000 assignments: 1236  propagations: 27985
+iteration:    5; variables: 4182 clauses: 11088 assignments: 1638  propagations: 74579
+iteration:    6; variables: 5006 clauses: 13174 assignments: 2078  propagations: 105185
+iteration:    7; variables: 5830 clauses: 15268 assignments: 2484  propagations: 118567
+iteration:    8; variables: 6654 clauses: 17324 assignments: 2940  propagations: 132272
+
+Finished! 
+iteration=8
+key=01010001110110110111111101000110
+c
+c Try to adapt solver strategies
+c 
+c Adjusting for low decision levels.
+c
+c Activating Chanseok Strategy: moved 13948 clauses to the permanent set.
+c Removing of non permanent clauses.
+
+equivalent
+
+time: 27.0518
+kartik@kartik:~/logic_obfuscation/neos$ ./bin/neos -d ex ./netlist/bench/traditional_multiplier8.bench ./lockednetlist/32bitxorlock/bench/tradtional_multiplier8_xor_enc32.bench 100
+running combinatonal attack...
+iteration:    1; variables: 886 clauses: 2749 assignments: 1  propagations: 1258
+iteration:    2; variables: 1710 clauses: 4850 assignments: 403  propagations: 4156
+iteration:    3; variables: 2534 clauses: 6926 assignments: 842  propagations: 22974
+iteration:    4; variables: 3358 clauses: 9040 assignments: 1236  propagations: 39849
+iteration:    5; variables: 4182 clauses: 11112 assignments: 1678  propagations: 72834
+iteration:    6; variables: 5006 clauses: 13198 assignments: 2128  propagations: 87757
+c
+c Try to adapt solver strategies
+c 
+c Nothing extreme in this problem, continue with glucose default strategies.
+c
+
+Finished! 
+iteration=6
+key=01010001110110110111111101000110
+c
+c Try to adapt solver strategies
+c 
+c Adjusting for low decision levels.
+c
+c Activating Chanseok Strategy: moved 13948 clauses to the permanent set.
+c Removing of non permanent clauses.
+
+equivalent
+
+time: 32.4649
+kartik@kartik:~/logic_obfuscation/neos$ ./bin/neos -d ex ./netlist/bench/traditional_multiplier8.bench ./lockednetlist/32bitxorlock/bench/tradtional_multiplier8_xor_enc32.bench 100
+running combinatonal attack...
+iteration:    1; variables: 886 clauses: 2749 assignments: 1  propagations: 1258
+iteration:    2; variables: 1710 clauses: 4850 assignments: 404  propagations: 5849
+iteration:    3; variables: 2534 clauses: 6938 assignments: 841  propagations: 14073
+iteration:    4; variables: 3358 clauses: 9028 assignments: 1265  propagations: 30161
+iteration:    5; variables: 4182 clauses: 11102 assignments: 1691  propagations: 76501
+iteration:    6; variables: 5006 clauses: 13178 assignments: 2121  propagations: 96745
+c
+c Try to adapt solver strategies
+c 
+c Nothing extreme in this problem, continue with glucose default strategies.
+c
+
+Finished! 
+iteration=6
+key=01010001110110110111111101000110
+c
+c Try to adapt solver strategies
+c 
+c Adjusting for low decision levels.
+c
+c Activating Chanseok Strategy: moved 13948 clauses to the permanent set.
+c Removing of non permanent clauses.
+
+equivalent
+
+time: 48.0999
+kartik@kartik:~/logic_obfuscation/neos$ ./bin/neos -d ex ./netlist/bench/traditional_multiplier8.bench ./lockednetlist/32bitxorlock/bench/tradtional_multiplier8_xor_enc32.bench 100
+running combinatonal attack...
+iteration:    1; variables: 886 clauses: 2749 assignments: 1  propagations: 1258
+iteration:    2; variables: 1710 clauses: 4850 assignments: 405  propagations: 4187
+iteration:    3; variables: 2534 clauses: 6938 assignments: 833  propagations: 24569
+iteration:    4; variables: 3358 clauses: 9006 assignments: 1264  propagations: 37733
+iteration:    5; variables: 4182 clauses: 11092 assignments: 1665  propagations: 60488
+iteration:    6; variables: 5006 clauses: 13174 assignments: 2068  propagations: 79953
+iteration:    7; variables: 5830 clauses: 15256 assignments: 2482  propagations: 100323
+iteration:    8; variables: 6654 clauses: 17322 assignments: 2938  propagations: 116132
+c
+c Try to adapt solver strategies
+c 
+c Nothing extreme in this problem, continue with glucose default strategies.
+c
+
+Finished! 
+iteration=8
+key=01010001110110110111111101000110
+c
+c Try to adapt solver strategies
+c 
+c Adjusting for low decision levels.
+c
+c Activating Chanseok Strategy: moved 13948 clauses to the permanent set.
+c Removing of non permanent clauses.
+
+equivalent
+
+time: 43.4629
+kartik@kartik:~/logic_obfuscation/neos$ ./bin/neos -d ex ./netlist/bench/traditional_multiplier8.bench ./lockednetlist/32bitxorlock/bench/tradtional_multiplier8_xor_enc32.bench 100
+running combinatonal attack...
+iteration:    1; variables: 886 clauses: 2749 assignments: 1  propagations: 1258
+iteration:    2; variables: 1710 clauses: 4850 assignments: 404  propagations: 3719
+iteration:    3; variables: 2534 clauses: 6934 assignments: 831  propagations: 10258
+iteration:    4; variables: 3358 clauses: 9026 assignments: 1253  propagations: 14543
+iteration:    5; variables: 4182 clauses: 11106 assignments: 1662  propagations: 49473
+iteration:    6; variables: 5006 clauses: 13188 assignments: 2057  propagations: 121645
+iteration:    7; variables: 5830 clauses: 15276 assignments: 2477  propagations: 130385
+c
+c Try to adapt solver strategies
+c 
+c Nothing extreme in this problem, continue with glucose default strategies.
+c
+
+Finished! 
+iteration=7
+key=01010001110110110111111101000110
+c
+c Try to adapt solver strategies
+c 
+c Adjusting for low decision levels.
+c
+c Activating Chanseok Strategy: moved 13948 clauses to the permanent set.
+c Removing of non permanent clauses.
+
+equivalent
+
+time: 42.8974
+kartik@kartik:~/logic_obfuscation/neos$ ./bin/neos -d ex ./netlist/bench/traditional_multiplier8.bench ./lockednetlist/32bitxorlock/bench/tradtional_multiplier8_xor_enc32.bench 100
+running combinatonal attack...
+iteration:    1; variables: 886 clauses: 2749 assignments: 1  propagations: 1258
+iteration:    2; variables: 1710 clauses: 4850 assignments: 404  propagations: 4591
+iteration:    3; variables: 2534 clauses: 6916 assignments: 840  propagations: 23835
+iteration:    4; variables: 3358 clauses: 9000 assignments: 1236  propagations: 27985
+iteration:    5; variables: 4182 clauses: 11088 assignments: 1638  propagations: 74579
+iteration:    6; variables: 5006 clauses: 13174 assignments: 2078  propagations: 105185
+iteration:    7; variables: 5830 clauses: 15268 assignments: 2484  propagations: 118567
+iteration:    8; variables: 6654 clauses: 17324 assignments: 2940  propagations: 132272
+
+Finished! 
+iteration=8
+key=01010001110110110111111101000110
+c
+c Try to adapt solver strategies
+c 
+c Adjusting for low decision levels.
+c
+c Activating Chanseok Strategy: moved 13948 clauses to the permanent set.
+c Removing of non permanent clauses.
+
+equivalent
+
+time: 27.0518
+kartik@kartik:~/logic_obfuscation/neos$ ./bin/neos -d ex ./netlist/bench/traditional_multiplier8.bench ./lockednetlist/32bitxorlock/bench/tradtional_multiplier8_xor_enc32.bench 100
+running combinatonal attack...
+iteration:    1; variables: 886 clauses: 2749 assignments: 1  propagations: 1258
+iteration:    2; variables: 1710 clauses: 4850 assignments: 403  propagations: 4156
+iteration:    3; variables: 2534 clauses: 6926 assignments: 842  propagations: 22974
+iteration:    4; variables: 3358 clauses: 9040 assignments: 1236  propagations: 39849
+iteration:    5; variables: 4182 clauses: 11112 assignments: 1678  propagations: 72834
+iteration:    6; variables: 5006 clauses: 13198 assignments: 2128  propagations: 87757
+c
+c Try to adapt solver strategies
+c 
+c Nothing extreme in this problem, continue with glucose default strategies.
+c
+
+Finished! 
+iteration=6
+key=01010001110110110111111101000110
+c
+c Try to adapt solver strategies
+c 
+c Adjusting for low decision levels.
+c
+c Activating Chanseok Strategy: moved 13948 clauses to the permanent set.
+c Removing of non permanent clauses.
+
+equivalent
+
+time: 32.4649
+kartik@kartik:~/logic_obfuscation/neos$ ./bin/neos -d ex ./netlist/bench/traditional_multiplier8.bench ./lockednetlist/32bitxorlock/bench/tradtional_multiplier8_xor_enc32.bench 100
+running combinatonal attack...
+iteration:    1; variables: 886 clauses: 2749 assignments: 1  propagations: 1258
+iteration:    2; variables: 1710 clauses: 4850 assignments: 404  propagations: 5849
+iteration:    3; variables: 2534 clauses: 6938 assignments: 841  propagations: 14073
+iteration:    4; variables: 3358 clauses: 9028 assignments: 1265  propagations: 30161
+iteration:    5; variables: 4182 clauses: 11102 assignments: 1691  propagations: 76501
+iteration:    6; variables: 5006 clauses: 13178 assignments: 2121  propagations: 96745
+c
+c Try to adapt solver strategies
+c 
+c Nothing extreme in this problem, continue with glucose default strategies.
+c
+
+Finished! 
+iteration=6
+key=01010001110110110111111101000110
+c
+c Try to adapt solver strategies
+c 
+c Adjusting for low decision levels.
+c
+c Activating Chanseok Strategy: moved 13948 clauses to the permanent set.
+c Removing of non permanent clauses.
+
+equivalent
+
+time: 48.0999
+kartik@kartik:~/logic_obfuscation/neos$ ./bin/neos -d ex ./netlist/bench/traditional_multiplier8.bench ./lockednetlist/32bitxorlock/bench/tradtional_multiplier8_xor_enc32.bench 100
+running combinatonal attack...
+iteration:    1; variables: 886 clauses: 2749 assignments: 1  propagations: 1258
+iteration:    2; variables: 1710 clauses: 4850 assignments: 405  propagations: 4187
+iteration:    3; variables: 2534 clauses: 6938 assignments: 833  propagations: 24569
+iteration:    4; variables: 3358 clauses: 9006 assignments: 1264  propagations: 37733
+iteration:    5; variables: 4182 clauses: 11092 assignments: 1665  propagations: 60488
+iteration:    6; variables: 5006 clauses: 13174 assignments: 2068  propagations: 79953
+iteration:    7; variables: 5830 clauses: 15256 assignments: 2482  propagations: 100323
+iteration:    8; variables: 6654 clauses: 17322 assignments: 2938  propagations: 116132
+c
+c Try to adapt solver strategies
+c 
+c Nothing extreme in this problem, continue with glucose default strategies.
+c
+
+Finished! 
+iteration=8
+key=01010001110110110111111101000110
+c
+c Try to adapt solver strategies
+c 
+c Adjusting for low decision levels.
+c
+c Activating Chanseok Strategy: moved 13948 clauses to the permanent set.
+c Removing of non permanent clauses.
+
+equivalent
+
+time: 43.4629
+kartik@kartik:~/logic_obfuscation/neos$ ./bin/neos -d ex ./netlist/bench/traditional_multiplier8.bench ./lockednetlist/32bitxorlock/bench/tradtional_multiplier8_xor_enc32.bench 100
+running combinatonal attack...
+iteration:    1; variables: 886 clauses: 2749 assignments: 1  propagations: 1258
+iteration:    2; variables: 1710 clauses: 4850 assignments: 404  propagations: 3719
+iteration:    3; variables: 2534 clauses: 6934 assignments: 831  propagations: 10258
+iteration:    4; variables: 3358 clauses: 9026 assignments: 1253  propagations: 14543
+iteration:    5; variables: 4182 clauses: 11106 assignments: 1662  propagations: 49473
+iteration:    6; variables: 5006 clauses: 13188 assignments: 2057  propagations: 121645
+iteration:    7; variables: 5830 clauses: 15276 assignments: 2477  propagations: 130385
+c
+c Try to adapt solver strategies
+c 
+c Nothing extreme in this problem, continue with glucose default strategies.
+c
+
+Finished! 
+iteration=7
+key=01010001110110110111111101000110
+c
+c Try to adapt solver strategies
+c 
+c Adjusting for low decision levels.
+c
+c Activating Chanseok Strategy: moved 13948 clauses to the permanent set.
+c Removing of non permanent clauses.
+
+equivalent
+
+time: 42.8974
+kartik@kartik:~/logic_obfuscation/neos$ ./bin/neos -d ex ./netlist/bench/traditional_multiplier8.bench ./lockednetlist/32bitxorlock/bench/tradtional_multiplier8_xor_enc32.bench 100
+running combinatonal attack...
+iteration:    1; variables: 886 clauses: 2749 assignments: 1  propagations: 1258
+iteration:    2; variables: 1710 clauses: 4850 assignments: 404  propagations: 4591
+iteration:    3; variables: 2534 clauses: 6916 assignments: 840  propagations: 23835
+iteration:    4; variables: 3358 clauses: 9000 assignments: 1236  propagations: 27985
+iteration:    5; variables: 4182 clauses: 11088 assignments: 1638  propagations: 74579
+iteration:    6; variables: 5006 clauses: 13174 assignments: 2078  propagations: 105185
+iteration:    7; variables: 5830 clauses: 15268 assignments: 2484  propagations: 118567
+iteration:    8; variables: 6654 clauses: 17324 assignments: 2940  propagations: 132272
+
+Finished! 
+iteration=8
+key=01010001110110110111111101000110
+c
+c Try to adapt solver strategies
+c 
+c Adjusting for low decision levels.
+c
+c Activating Chanseok Strategy: moved 13948 clauses to the permanent set.
+c Removing of non permanent clauses.
+
+equivalent
+
+time: 27.0518
+kartik@kartik:~/logic_obfuscation/neos$ ./bin/neos -d ex ./netlist/bench/traditional_multiplier8.bench ./lockednetlist/32bitxorlock/bench/tradtional_multiplier8_xor_enc32.bench 100
+running combinatonal attack...
+iteration:    1; variables: 886 clauses: 2749 assignments: 1  propagations: 1258
+iteration:    2; variables: 1710 clauses: 4850 assignments: 403  propagations: 4156
+iteration:    3; variables: 2534 clauses: 6926 assignments: 842  propagations: 22974
+iteration:    4; variables: 3358 clauses: 9040 assignments: 1236  propagations: 39849
+iteration:    5; variables: 4182 clauses: 11112 assignments: 1678  propagations: 72834
+iteration:    6; variables: 5006 clauses: 13198 assignments: 2128  propagations: 87757
+c
+c Try to adapt solver strategies
+c 
+c Nothing extreme in this problem, continue with glucose default strategies.
+c
+
+Finished! 
+iteration=6
+key=01010001110110110111111101000110
+c
+c Try to adapt solver strategies
+c 
+c Adjusting for low decision levels.
+c
+c Activating Chanseok Strategy: moved 13948 clauses to the permanent set.
+c Removing of non permanent clauses.
+
+equivalent
+
+time: 32.4649
+kartik@kartik:~/logic_obfuscation/neos$ ./bin/neos -d ex ./netlist/bench/traditional_multiplier8.bench ./lockednetlist/32bitxorlock/bench/tradtional_multiplier8_xor_enc32.bench 100
+running combinatonal attack...
+iteration:    1; variables: 886 clauses: 2749 assignments: 1  propagations: 1258
+iteration:    2; variables: 1710 clauses: 4850 assignments: 404  propagations: 5849
+iteration:    3; variables: 2534 clauses: 6938 assignments: 841  propagations: 14073
+iteration:    4; variables: 3358 clauses: 9028 assignments: 1265  propagations: 30161
+iteration:    5; variables: 4182 clauses: 11102 assignments: 1691  propagations: 76501
+iteration:    6; variables: 5006 clauses: 13178 assignments: 2121  propagations: 96745
+c
+c Try to adapt solver strategies
+c 
+c Nothing extreme in this problem, continue with glucose default strategies.
+c
+
+Finished! 
+iteration=6
+key=01010001110110110111111101000110
+c
+c Try to adapt solver strategies
+c 
+c Adjusting for low decision levels.
+c
+c Activating Chanseok Strategy: moved 13948 clauses to the permanent set.
+c Removing of non permanent clauses.
+
+equivalent
+
+time: 48.0999
+kartik@kartik:~/logic_obfuscation/neos$ ./bin/neos -d ex ./netlist/bench/traditional_multiplier8.bench ./lockednetlist/32bitxorlock/bench/tradtional_multiplier8_xor_enc32.bench 100
+running combinatonal attack...
+iteration:    1; variables: 886 clauses: 2749 assignments: 1  propagations: 1258
+iteration:    2; variables: 1710 clauses: 4850 assignments: 405  propagations: 4187
+iteration:    3; variables: 2534 clauses: 6938 assignments: 833  propagations: 24569
+iteration:    4; variables: 3358 clauses: 9006 assignments: 1264  propagations: 37733
+iteration:    5; variables: 4182 clauses: 11092 assignments: 1665  propagations: 60488
+iteration:    6; variables: 5006 clauses: 13174 assignments: 2068  propagations: 79953
+iteration:    7; variables: 5830 clauses: 15256 assignments: 2482  propagations: 100323
+iteration:    8; variables: 6654 clauses: 17322 assignments: 2938  propagations: 116132
+c
+c Try to adapt solver strategies
+c 
+c Nothing extreme in this problem, continue with glucose default strategies.
+c
+
+Finished! 
+iteration=8
+key=01010001110110110111111101000110
+c
+c Try to adapt solver strategies
+c 
+c Adjusting for low decision levels.
+c
+c Activating Chanseok Strategy: moved 13948 clauses to the permanent set.
+c Removing of non permanent clauses.
+
+equivalent
+
+time: 43.4629
+kartik@kartik:~/logic_obfuscation/neos$ ./bin/neos -d ex ./netlist/bench/traditional_multiplier8.bench ./lockednetlist/32bitxorlock/bench/tradtional_multiplier8_xor_enc32.bench 100
+running combinatonal attack...
+iteration:    1; variables: 886 clauses: 2749 assignments: 1  propagations: 1258
+iteration:    2; variables: 1710 clauses: 4850 assignments: 404  propagations: 3719
+iteration:    3; variables: 2534 clauses: 6934 assignments: 831  propagations: 10258
+iteration:    4; variables: 3358 clauses: 9026 assignments: 1253  propagations: 14543
+iteration:    5; variables: 4182 clauses: 11106 assignments: 1662  propagations: 49473
+iteration:    6; variables: 5006 clauses: 13188 assignments: 2057  propagations: 121645
+iteration:    7; variables: 5830 clauses: 15276 assignments: 2477  propagations: 130385
+c
+c Try to adapt solver strategies
+c 
+c Nothing extreme in this problem, continue with glucose default strategies.
+c
+
+Finished! 
+iteration=7
+key=01010001110110110111111101000110
+c
+c Try to adapt solver strategies
+c 
+c Adjusting for low decision levels.
+c
+c Activating Chanseok Strategy: moved 13948 clauses to the permanent set.
+c Removing of non permanent clauses.
+
+equivalent
+
+time: 42.8974
+kartik@kartik:~/logic_obfuscation/neos$ ./bin/neos -d ex ./netlist/bench/traditional_multiplier8.bench ./lockednetlist/32bitxorlock/bench/tradtional_multiplier8_xor_enc32.bench 100
+running combinatonal attack...
+iteration:    1; variables: 886 clauses: 2749 assignments: 1  propagations: 1258
+iteration:    2; variables: 1710 clauses: 4850 assignments: 404  propagations: 4591
+iteration:    3; variables: 2534 clauses: 6916 assignments: 840  propagations: 23835
+iteration:    4; variables: 3358 clauses: 9000 assignments: 1236  propagations: 27985
+iteration:    5; variables: 4182 clauses: 11088 assignments: 1638  propagations: 74579
+iteration:    6; variables: 5006 clauses: 13174 assignments: 2078  propagations: 105185
+iteration:    7; variables: 5830 clauses: 15268 assignments: 2484  propagations: 118567
+iteration:    8; variables: 6654 clauses: 17324 assignments: 2940  propagations: 132272
+
+Finished! 
+iteration=8
+key=01010001110110110111111101000110
+c
+c Try to adapt solver strategies
+c 
+c Adjusting for low decision levels.
+c
+c Activating Chanseok Strategy: moved 13948 clauses to the permanent set.
+c Removing of non permanent clauses.
+
+equivalent
+
+time: 27.0518
+kartik@kartik:~/logic_obfuscation/neos$ ./bin/neos -d ex ./netlist/bench/traditional_multiplier8.bench ./lockednetlist/32bitxorlock/bench/tradtional_multiplier8_xor_enc32.bench 100
+running combinatonal attack...
+iteration:    1; variables: 886 clauses: 2749 assignments: 1  propagations: 1258
+iteration:    2; variables: 1710 clauses: 4850 assignments: 403  propagations: 4156
+iteration:    3; variables: 2534 clauses: 6926 assignments: 842  propagations: 22974
+iteration:    4; variables: 3358 clauses: 9040 assignments: 1236  propagations: 39849
+iteration:    5; variables: 4182 clauses: 11112 assignments: 1678  propagations: 72834
+iteration:    6; variables: 5006 clauses: 13198 assignments: 2128  propagations: 87757
+c
+c Try to adapt solver strategies
+c 
+c Nothing extreme in this problem, continue with glucose default strategies.
+c
+
+Finished! 
+iteration=6
+key=01010001110110110111111101000110
+c
+c Try to adapt solver strategies
+c 
+c Adjusting for low decision levels.
+c
+c Activating Chanseok Strategy: moved 13948 clauses to the permanent set.
+c Removing of non permanent clauses.
+
+equivalent
+
+time: 32.4649
+kartik@kartik:~/logic_obfuscation/neos$ 
+
+
+
