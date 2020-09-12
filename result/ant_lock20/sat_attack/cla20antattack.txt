@@ -4008,9 +4008,6 @@ key=1110111010100000100011101111101000001000
 
 incorrect key
 
-for input=00000011010111101001011011000111
-result_o[0]:0;  result_o[1]:0;  result_o[2]:0;  result_o[3]:0;  result_o[4]:0;  result_o[5]:0;  result_o[6]:0;  result_o[7]:0;  result_o[8]:0;  result_o[9]:0;  result_o[10]:0;  result_o[11]:0;  result_o[12]:0;  result_o[13]:0;  result_o[14]:0;  result_o[15]:0;  result_o[16]:0;  
-key-err: 0
 
 time: 1499.31
 kartik@kartik:~/LogicLocking/neos$ 

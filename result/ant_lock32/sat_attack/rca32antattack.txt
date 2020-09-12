@@ -7025,7 +7025,7 @@ Finished!
 iteration=4000
 key=0011011100010100001010000000001000110111000101000010100000000010
 
-equivalent
+incorrect key
 
 time: 1971.66
 kartik@kartik:~/LogicLocking/neos$ 
