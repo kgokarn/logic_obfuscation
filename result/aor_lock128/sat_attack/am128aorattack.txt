@@ -1,0 +1,981 @@
+kartik@kartik:~/logic_obfuscation/neos$ ./bin/neos -d ex ./netlist/bench/array_multiplier8.bench ./lockednetlist/128bitaorlock/bench/array_multiplier8_aor_enc128.bench 200
+running combinatonal attack...
+iteration:    1; variables: 1280 clauses: 3257 assignments: 1  propagations: 1280
+iteration:    2; variables: 2306 clauses: 5936 assignments: 317  propagations: 5484
+iteration:    3; variables: 3332 clauses: 8588 assignments: 665  propagations: 13798
+iteration:    4; variables: 4358 clauses: 11236 assignments: 1017  propagations: 24659
+iteration:    5; variables: 5384 clauses: 13906 assignments: 1327  propagations: 56456
+iteration:    6; variables: 6410 clauses: 16574 assignments: 1677  propagations: 108300
+iteration:    7; variables: 7436 clauses: 19218 assignments: 2049  propagations: 135557
+iteration:    8; variables: 8462 clauses: 21904 assignments: 2373  propagations: 196934
+iteration:    9; variables: 9488 clauses: 24596 assignments: 2691  propagations: 463320
+iteration:   10; variables: 10514 clauses: 27288 assignments: 2999  propagations: 525760
+iteration:   11; variables: 11540 clauses: 29978 assignments: 3331  propagations: 642510
+iteration:   12; variables: 12566 clauses: 32682 assignments: 3619  propagations: 697983
+iteration:   13; variables: 13592 clauses: 35280 assignments: 4053  propagations: 722776
+iteration:   14; variables: 14618 clauses: 37932 assignments: 4425  propagations: 757723
+iteration:   15; variables: 15644 clauses: 40600 assignments: 4767  propagations: 790636
+iteration:   16; variables: 16670 clauses: 43298 assignments: 5071  propagations: 824496
+iteration:   17; variables: 17696 clauses: 45988 assignments: 5369  propagations: 889909
+iteration:   18; variables: 18722 clauses: 48642 assignments: 5729  propagations: 909355
+iteration:   19; variables: 19748 clauses: 51278 assignments: 6119  propagations: 996638
+iteration:   20; variables: 20774 clauses: 53904 assignments: 6521  propagations: 1670775
+
+Finished! 
+iteration=20
+key=01110100001000000110110010011000001100111111000100001101110101010011111011001100110101101000010110111001011000001100101100010100
+c
+c Try to adapt solver strategies
+c 
+c Adjusting for low decision levels.
+c
+c Activating Chanseok Strategy: moved 15397 clauses to the permanent set.
+c Removing of non permanent clauses.
+
+equivalent
+
+time: 40.3742
+kartik@kartik:~/logic_obfuscation/neos$ ./bin/neos -d ex ./netlist/bench/array_multiplier8.bench ./lockednetlist/128bitaorlock/bench/array_multiplier8_aor_enc128.bench 200
+running combinatonal attack...
+iteration:    1; variables: 1280 clauses: 3257 assignments: 1  propagations: 1280
+iteration:    2; variables: 2306 clauses: 5936 assignments: 317  propagations: 4677
+iteration:    3; variables: 3332 clauses: 8576 assignments: 681  propagations: 9530
+iteration:    4; variables: 4358 clauses: 11232 assignments: 1019  propagations: 23916
+iteration:    5; variables: 5384 clauses: 13926 assignments: 1317  propagations: 57363
+iteration:    6; variables: 6410 clauses: 16622 assignments: 1607  propagations: 123206
+iteration:    7; variables: 7436 clauses: 19294 assignments: 1973  propagations: 289841
+iteration:    8; variables: 8462 clauses: 21960 assignments: 2325  propagations: 352532
+iteration:    9; variables: 9488 clauses: 24652 assignments: 2619  propagations: 878867
+iteration:   10; variables: 10514 clauses: 27346 assignments: 2953  propagations: 1052725
+iteration:   11; variables: 11540 clauses: 30056 assignments: 3269  propagations: 1296510
+iteration:   12; variables: 12566 clauses: 32680 assignments: 3684  propagations: 1348464
+iteration:   13; variables: 13592 clauses: 35304 assignments: 4120  propagations: 1400825
+iteration:   14; variables: 14618 clauses: 38000 assignments: 4468  propagations: 1425550
+iteration:   15; variables: 15644 clauses: 40632 assignments: 4866  propagations: 1439069
+iteration:   16; variables: 16670 clauses: 43264 assignments: 5236  propagations: 1451118
+iteration:   17; variables: 17696 clauses: 45908 assignments: 5592  propagations: 1475174
+iteration:   18; variables: 18722 clauses: 48584 assignments: 5926  propagations: 1492856
+iteration:   19; variables: 19748 clauses: 51258 assignments: 6248  propagations: 1802341
+
+Finished! 
+iteration=19
+key=01110100001000000110110010011000001100111111000100001101110101010011111011001100110101101000010110111001011000001100101100010100
+c
+c Try to adapt solver strategies
+c 
+c Adjusting for low decision levels.
+c
+c Activating Chanseok Strategy: moved 15397 clauses to the permanent set.
+c Removing of non permanent clauses.
+
+equivalent
+
+time: 46.9602
+kartik@kartik:~/logic_obfuscation/neos$ ./bin/neos -d ex ./netlist/bench/array_multiplier8.bench ./lockednetlist/128bitaorlock/bench/array_multiplier8_aor_enc128.bench 200
+running combinatonal attack...
+iteration:    1; variables: 1280 clauses: 3257 assignments: 1  propagations: 1280
+iteration:    2; variables: 2306 clauses: 5936 assignments: 317  propagations: 6545
+iteration:    3; variables: 3332 clauses: 8558 assignments: 726  propagations: 18018
+iteration:    4; variables: 4358 clauses: 11236 assignments: 1068  propagations: 28672
+iteration:    5; variables: 5384 clauses: 13898 assignments: 1429  propagations: 60667
+iteration:    6; variables: 6410 clauses: 16558 assignments: 1792  propagations: 152498
+iteration:    7; variables: 7436 clauses: 19198 assignments: 2182  propagations: 172070
+iteration:    8; variables: 8462 clauses: 21858 assignments: 2550  propagations: 321396
+iteration:    9; variables: 9488 clauses: 24510 assignments: 2910  propagations: 468858
+iteration:   10; variables: 10514 clauses: 27166 assignments: 3238  propagations: 510387
+iteration:   11; variables: 11540 clauses: 29830 assignments: 3560  propagations: 628049
+iteration:   12; variables: 12566 clauses: 32490 assignments: 3940  propagations: 658314
+iteration:   13; variables: 13592 clauses: 35162 assignments: 4268  propagations: 726763
+iteration:   14; variables: 14618 clauses: 37852 assignments: 4554  propagations: 741437
+iteration:   15; variables: 15644 clauses: 40482 assignments: 4950  propagations: 784607
+iteration:   16; variables: 16670 clauses: 43136 assignments: 5324  propagations: 838701
+iteration:   17; variables: 17696 clauses: 45790 assignments: 5686  propagations: 873351
+iteration:   18; variables: 18722 clauses: 48430 assignments: 6046  propagations: 1052728
+iteration:   19; variables: 19748 clauses: 51126 assignments: 6380  propagations: 1092109
+c
+c Try to adapt solver strategies
+c 
+c Nothing extreme in this problem, continue with glucose default strategies.
+c
+
+Finished! 
+iteration=19
+key=01110100001000000110110010011000001100111111000100001101110101010011111011001100110101101000010110111001011000001100101100010100
+c
+c Try to adapt solver strategies
+c 
+c Adjusting for low decision levels.
+c
+c Activating Chanseok Strategy: moved 15397 clauses to the permanent set.
+c Removing of non permanent clauses.
+
+equivalent
+
+time: 64.5379
+kartik@kartik:~/logic_obfuscation/neos$ ./bin/neos -d ex ./netlist/bench/array_multiplier8.bench ./lockednetlist/128bitaorlock/bench/array_multiplier8_aor_enc128.bench 200
+running combinatonal attack...
+iteration:    1; variables: 1280 clauses: 3257 assignments: 1  propagations: 1280
+iteration:    2; variables: 2306 clauses: 5936 assignments: 317  propagations: 7926
+iteration:    3; variables: 3332 clauses: 8578 assignments: 677  propagations: 13331
+iteration:    4; variables: 4358 clauses: 11250 assignments: 1017  propagations: 21607
+iteration:    5; variables: 5384 clauses: 13926 assignments: 1337  propagations: 50326
+iteration:    6; variables: 6410 clauses: 16562 assignments: 1727  propagations: 182345
+iteration:    7; variables: 7436 clauses: 19238 assignments: 2053  propagations: 390524
+iteration:    8; variables: 8462 clauses: 21936 assignments: 2343  propagations: 543382
+iteration:    9; variables: 9488 clauses: 24624 assignments: 2643  propagations: 908281
+iteration:   10; variables: 10514 clauses: 27280 assignments: 3005  propagations: 1016775
+iteration:   11; variables: 11540 clauses: 29976 assignments: 3297  propagations: 1034635
+iteration:   12; variables: 12566 clauses: 32690 assignments: 3581  propagations: 1094714
+iteration:   13; variables: 13592 clauses: 35366 assignments: 3905  propagations: 1150304
+iteration:   14; variables: 14618 clauses: 38018 assignments: 4279  propagations: 1161019
+iteration:   15; variables: 15644 clauses: 40668 assignments: 4657  propagations: 1173120
+iteration:   16; variables: 16670 clauses: 43312 assignments: 5049  propagations: 1200019
+iteration:   17; variables: 17696 clauses: 46022 assignments: 5315  propagations: 1297110
+iteration:   18; variables: 18722 clauses: 48676 assignments: 5649  propagations: 1395045
+c
+c Try to adapt solver strategies
+c 
+c Nothing extreme in this problem, continue with glucose default strategies.
+c
+
+Finished! 
+iteration=18
+key=01110100001000000110110010011000001100111111000100001101110101010011111011001100110101101000010110111001011000001100101100010100
+c
+c Try to adapt solver strategies
+c 
+c Adjusting for low decision levels.
+c
+c Activating Chanseok Strategy: moved 15397 clauses to the permanent set.
+c Removing of non permanent clauses.
+
+equivalent
+
+time: 67.6252
+kartik@kartik:~/logic_obfuscation/neos$ ./bin/neos -d ex ./netlist/bench/array_multiplier8.bench ./lockednetlist/128bitaorlock/bench/array_multiplier8_aor_enc128.bench 200
+running combinatonal attack...
+iteration:    1; variables: 1280 clauses: 3257 assignments: 1  propagations: 1280
+iteration:    2; variables: 2306 clauses: 5936 assignments: 317  propagations: 4620
+iteration:    3; variables: 3332 clauses: 8582 assignments: 663  propagations: 11730
+iteration:    4; variables: 4358 clauses: 11220 assignments: 1037  propagations: 24708
+iteration:    5; variables: 5384 clauses: 13866 assignments: 1413  propagations: 39883
+iteration:    6; variables: 6410 clauses: 16560 assignments: 1717  propagations: 63327
+iteration:    7; variables: 7436 clauses: 19176 assignments: 2119  propagations: 78188
+iteration:    8; variables: 8462 clauses: 21882 assignments: 2425  propagations: 116536
+iteration:    9; variables: 9488 clauses: 24600 assignments: 2711  propagations: 141697
+iteration:   10; variables: 10514 clauses: 27302 assignments: 2997  propagations: 151261
+iteration:   11; variables: 11540 clauses: 29986 assignments: 3293  propagations: 228737
+iteration:   12; variables: 12566 clauses: 32696 assignments: 3589  propagations: 240684
+iteration:   13; variables: 13592 clauses: 35374 assignments: 3925  propagations: 268905
+iteration:   14; variables: 14618 clauses: 38036 assignments: 4287  propagations: 365880
+iteration:   15; variables: 15644 clauses: 40668 assignments: 4677  propagations: 415401
+iteration:   16; variables: 16670 clauses: 43354 assignments: 5023  propagations: 473038
+iteration:   17; variables: 17696 clauses: 46012 assignments: 5397  propagations: 533553
+iteration:   18; variables: 18722 clauses: 48680 assignments: 5747  propagations: 581187
+iteration:   19; variables: 19748 clauses: 51348 assignments: 6079  propagations: 622103
+c
+c Try to adapt solver strategies
+c 
+c Nothing extreme in this problem, continue with glucose default strategies.
+c
+
+Finished! 
+iteration=19
+key=01110100001000000110110010011000001100111111000100001101110101010011111011001100110101101000010110111001011000001100101100010100
+c
+c Try to adapt solver strategies
+c 
+c Adjusting for low decision levels.
+c
+c Activating Chanseok Strategy: moved 15397 clauses to the permanent set.
+c Removing of non permanent clauses.
+
+equivalent
+
+time: 47.3704
+kartik@kartik:~/logic_obfuscation/neos$ ./bin/neos -d ex ./netlist/bench/array_multiplier8.bench ./lockednetlist/128bitaorlock/bench/array_multiplier8_aor_enc128.bench 200
+running combinatonal attack...
+iteration:    1; variables: 1280 clauses: 3257 assignments: 1  propagations: 1280
+iteration:    2; variables: 2306 clauses: 5936 assignments: 317  propagations: 6111
+iteration:    3; variables: 3332 clauses: 8568 assignments: 715  propagations: 13658
+iteration:    4; variables: 4358 clauses: 11186 assignments: 1111  propagations: 32376
+iteration:    5; variables: 5384 clauses: 13860 assignments: 1437  propagations: 50881
+iteration:    6; variables: 6410 clauses: 16596 assignments: 1691  propagations: 78591
+iteration:    7; variables: 7436 clauses: 19320 assignments: 1949  propagations: 162136
+iteration:    8; variables: 8462 clauses: 22030 assignments: 2233  propagations: 287034
+iteration:    9; variables: 9488 clauses: 24660 assignments: 2631  propagations: 827327
+iteration:   10; variables: 10514 clauses: 27354 assignments: 2939  propagations: 916529
+iteration:   11; variables: 11540 clauses: 30068 assignments: 3247  propagations: 977812
+iteration:   12; variables: 12566 clauses: 32712 assignments: 3635  propagations: 1063581
+iteration:   13; variables: 13592 clauses: 35396 assignments: 3925  propagations: 1073589
+iteration:   14; variables: 14618 clauses: 38078 assignments: 4215  propagations: 1112017
+iteration:   15; variables: 15644 clauses: 40746 assignments: 4537  propagations: 1123588
+iteration:   16; variables: 16670 clauses: 43386 assignments: 4917  propagations: 1135758
+iteration:   17; variables: 17696 clauses: 45998 assignments: 5333  propagations: 1161684
+iteration:   18; variables: 18722 clauses: 48692 assignments: 5625  propagations: 1177196
+iteration:   19; variables: 19748 clauses: 51384 assignments: 5933  propagations: 1237720
+c
+c Try to adapt solver strategies
+c 
+c Nothing extreme in this problem, continue with glucose default strategies.
+c
+
+Finished! 
+iteration=19
+key=01110100001000000110110010011000001100111111000100001101110101010011111011001100110101101000010110111001011000001100101100010100
+c
+c Try to adapt solver strategies
+c 
+c Adjusting for low decision levels.
+c
+c Activating Chanseok Strategy: moved 15397 clauses to the permanent set.
+c Removing of non permanent clauses.
+
+equivalent
+
+time: 63.4474
+kartik@kartik:~/logic_obfuscation/neos$ ./bin/neos -d ex ./netlist/bench/array_multiplier8.bench ./lockednetlist/128bitaorlock/bench/array_multiplier8_aor_enc128.bench 200
+running combinatonal attack...
+iteration:    1; variables: 1280 clauses: 3257 assignments: 1  propagations: 1280
+iteration:    2; variables: 2306 clauses: 5936 assignments: 317  propagations: 4734
+iteration:    3; variables: 3332 clauses: 8602 assignments: 649  propagations: 9630
+iteration:    4; variables: 4358 clauses: 11308 assignments: 941  propagations: 35476
+iteration:    5; variables: 5384 clauses: 13968 assignments: 1323  propagations: 56256
+iteration:    6; variables: 6410 clauses: 16576 assignments: 1729  propagations: 87702
+iteration:    7; variables: 7436 clauses: 19270 assignments: 2043  propagations: 120118
+iteration:    8; variables: 8462 clauses: 22008 assignments: 2289  propagations: 195476
+iteration:    9; variables: 9488 clauses: 24672 assignments: 2661  propagations: 727334
+iteration:   10; variables: 10514 clauses: 27354 assignments: 2971  propagations: 937022
+iteration:   11; variables: 11540 clauses: 30040 assignments: 3275  propagations: 1147203
+iteration:   12; variables: 12566 clauses: 32730 assignments: 3583  propagations: 1162860
+iteration:   13; variables: 13592 clauses: 35420 assignments: 3887  propagations: 1175074
+iteration:   14; variables: 14618 clauses: 38056 assignments: 4277  propagations: 1245796
+iteration:   15; variables: 15644 clauses: 40710 assignments: 4657  propagations: 1434005
+c
+c Try to adapt solver strategies
+c 
+c Nothing extreme in this problem, continue with glucose default strategies.
+c
+
+Finished! 
+iteration=15
+key=01110100001000000110110010011000001100111111000100001101110101010011111011001100110101101000010110111001011000001100101100010100
+c
+c Try to adapt solver strategies
+c 
+c Adjusting for low decision levels.
+c
+c Activating Chanseok Strategy: moved 15397 clauses to the permanent set.
+c Removing of non permanent clauses.
+
+equivalent
+
+time: 66.9261
+kartik@kartik:~/logic_obfuscation/neos$ ./bin/neos -d ex ./netlist/bench/array_multiplier8.bench ./lockednetlist/128bitaorlock/bench/array_multiplier8_aor_enc128.bench 200
+running combinatonal attack...
+iteration:    1; variables: 1280 clauses: 3257 assignments: 1  propagations: 1280
+iteration:    2; variables: 2306 clauses: 5936 assignments: 317  propagations: 4654
+iteration:    3; variables: 3332 clauses: 8576 assignments: 692  propagations: 12158
+iteration:    4; variables: 4358 clauses: 11262 assignments: 1028  propagations: 36778
+iteration:    5; variables: 5384 clauses: 13910 assignments: 1404  propagations: 75236
+iteration:    6; variables: 6410 clauses: 16554 assignments: 1762  propagations: 111254
+iteration:    7; variables: 7436 clauses: 19250 assignments: 2065  propagations: 207604
+iteration:    8; variables: 8462 clauses: 21942 assignments: 2381  propagations: 359714
+iteration:    9; variables: 9488 clauses: 24612 assignments: 2743  propagations: 424593
+iteration:   10; variables: 10514 clauses: 27270 assignments: 3087  propagations: 528940
+iteration:   11; variables: 11540 clauses: 29950 assignments: 3415  propagations: 568677
+iteration:   12; variables: 12566 clauses: 32628 assignments: 3751  propagations: 591076
+iteration:   13; variables: 13592 clauses: 35296 assignments: 4071  propagations: 600917
+iteration:   14; variables: 14618 clauses: 37948 assignments: 4427  propagations: 617988
+iteration:   15; variables: 15644 clauses: 40556 assignments: 4847  propagations: 652750
+iteration:   16; variables: 16670 clauses: 43222 assignments: 5199  propagations: 675100
+iteration:   17; variables: 17696 clauses: 45922 assignments: 5475  propagations: 715056
+
+Finished! 
+iteration=17
+key=01110100001000000110110010011000001100111111000100001101110101010011111011001100110101101000010110111001011000001100101100010100
+c
+c Try to adapt solver strategies
+c 
+c Adjusting for low decision levels.
+c
+c Activating Chanseok Strategy: moved 15397 clauses to the permanent set.
+c Removing of non permanent clauses.
+
+equivalent
+
+time: 41.0989
+kartik@kartik:~/logic_obfuscation/neos$ ./bin/neos -d ex ./netlist/bench/array_multiplier8.bench ./lockednetlist/128bitaorlock/bench/array_multiplier8_aor_enc128.bench 200
+running combinatonal attack...
+iteration:    1; variables: 1280 clauses: 3257 assignments: 1  propagations: 1280
+iteration:    2; variables: 2306 clauses: 5936 assignments: 317  propagations: 5064
+iteration:    3; variables: 3332 clauses: 8604 assignments: 661  propagations: 16333
+iteration:    4; variables: 4358 clauses: 11266 assignments: 999  propagations: 33824
+iteration:    5; variables: 5384 clauses: 13942 assignments: 1295  propagations: 56394
+iteration:    6; variables: 6410 clauses: 16606 assignments: 1659  propagations: 113504
+iteration:    7; variables: 7436 clauses: 19212 assignments: 2069  propagations: 212828
+iteration:    8; variables: 8462 clauses: 21826 assignments: 2457  propagations: 422661
+iteration:    9; variables: 9488 clauses: 24486 assignments: 2781  propagations: 743455
+iteration:   10; variables: 10514 clauses: 27122 assignments: 3145  propagations: 753126
+iteration:   11; variables: 11540 clauses: 29790 assignments: 3481  propagations: 967665
+iteration:   12; variables: 12566 clauses: 32438 assignments: 3857  propagations: 991704
+iteration:   13; variables: 13592 clauses: 35134 assignments: 4177  propagations: 1003501
+iteration:   14; variables: 14618 clauses: 37828 assignments: 4501  propagations: 1071631
+iteration:   15; variables: 15644 clauses: 40484 assignments: 4857  propagations: 1083854
+iteration:   16; variables: 16670 clauses: 43142 assignments: 5219  propagations: 1105576
+iteration:   17; variables: 17696 clauses: 45770 assignments: 5647  propagations: 1138081
+iteration:   18; variables: 18722 clauses: 48444 assignments: 5981  propagations: 1159266
+iteration:   19; variables: 19748 clauses: 51108 assignments: 6339  propagations: 1179955
+iteration:   20; variables: 20774 clauses: 53806 assignments: 6641  propagations: 1205826
+c
+c Try to adapt solver strategies
+c 
+c Nothing extreme in this problem, continue with glucose default strategies.
+c
+
+Finished! 
+iteration=20
+key=01110100001000000110110010011000001100111111000100001101110101010011111011001100110101101000010110111001011000001100101100010100
+c
+c Try to adapt solver strategies
+c 
+c Adjusting for low decision levels.
+c
+c Activating Chanseok Strategy: moved 15397 clauses to the permanent set.
+c Removing of non permanent clauses.
+
+equivalent
+
+time: 54.1753
+kartik@kartik:~/logic_obfuscation/neos$ ./bin/neos -d ex ./netlist/bench/array_multiplier8.bench ./lockednetlist/128bitaorlock/bench/array_multiplier8_aor_enc128.bench 200
+running combinatonal attack...
+iteration:    1; variables: 1280 clauses: 3257 assignments: 1  propagations: 1280
+iteration:    2; variables: 2306 clauses: 5936 assignments: 317  propagations: 5082
+iteration:    3; variables: 3332 clauses: 8580 assignments: 677  propagations: 14487
+iteration:    4; variables: 4358 clauses: 11192 assignments: 1087  propagations: 21087
+iteration:    5; variables: 5384 clauses: 13790 assignments: 1527  propagations: 29844
+iteration:    6; variables: 6410 clauses: 16430 assignments: 1895  propagations: 75650
+iteration:    7; variables: 7436 clauses: 19052 assignments: 2317  propagations: 112105
+iteration:    8; variables: 8462 clauses: 21682 assignments: 2727  propagations: 135397
+iteration:    9; variables: 9488 clauses: 24336 assignments: 3083  propagations: 349276
+iteration:   10; variables: 10514 clauses: 26976 assignments: 3455  propagations: 953745
+iteration:   11; variables: 11540 clauses: 29642 assignments: 3785  propagations: 1004525
+iteration:   12; variables: 12566 clauses: 32332 assignments: 4095  propagations: 1416166
+iteration:   13; variables: 13592 clauses: 35028 assignments: 4377  propagations: 1425970
+iteration:   14; variables: 14618 clauses: 37720 assignments: 4703  propagations: 1442480
+iteration:   15; variables: 15644 clauses: 40424 assignments: 4997  propagations: 1563384
+iteration:   16; variables: 16670 clauses: 43092 assignments: 5349  propagations: 1580819
+iteration:   17; variables: 17696 clauses: 45748 assignments: 5693  propagations: 1605809
+iteration:   18; variables: 18722 clauses: 48392 assignments: 6075  propagations: 1626300
+iteration:   19; variables: 19748 clauses: 51028 assignments: 6473  propagations: 1641488
+iteration:   20; variables: 20774 clauses: 53668 assignments: 6867  propagations: 1688400
+iteration:   21; variables: 21800 clauses: 56366 assignments: 7193  propagations: 1704656
+iteration:   22; variables: 22826 clauses: 59094 assignments: 7459  propagations: 1723173
+iteration:   23; variables: 23852 clauses: 61738 assignments: 7859  propagations: 1760946
+iteration:   24; variables: 24878 clauses: 64416 assignments: 8167  propagations: 1783148
+iteration:   25; variables: 25904 clauses: 67060 assignments: 8535  propagations: 1811579
+iteration:   26; variables: 26930 clauses: 69762 assignments: 8815  propagations: 1861073
+
+Finished! 
+iteration=26
+key=01110100001000000110110010011000001100111111000100001101110101010011111011001100110101101000010110111001011000001100101100010100
+c
+c Try to adapt solver strategies
+c 
+c Adjusting for low decision levels.
+c
+c Activating Chanseok Strategy: moved 15397 clauses to the permanent set.
+c Removing of non permanent clauses.
+
+equivalent
+
+time: 48.5877
+kartik@kartik:~/logic_obfuscation/neos$ ./bin/neos -d ex ./netlist/bench/array_multiplier8.bench ./lockednetlist/128bitaorlock/bench/array_multiplier8_aor_enc128.bench 200
+running combinatonal attack...
+iteration:    1; variables: 1280 clauses: 3257 assignments: 1  propagations: 1280
+iteration:    2; variables: 2306 clauses: 5936 assignments: 317  propagations: 4427
+iteration:    3; variables: 3332 clauses: 8620 assignments: 621  propagations: 9214
+iteration:    4; variables: 4358 clauses: 11292 assignments: 957  propagations: 18182
+iteration:    5; variables: 5384 clauses: 13930 assignments: 1333  propagations: 33478
+iteration:    6; variables: 6410 clauses: 16580 assignments: 1693  propagations: 87625
+iteration:    7; variables: 7436 clauses: 19234 assignments: 2061  propagations: 156342
+iteration:    8; variables: 8462 clauses: 21888 assignments: 2419  propagations: 196606
+iteration:    9; variables: 9488 clauses: 24558 assignments: 2761  propagations: 204760
+iteration:   10; variables: 10514 clauses: 27238 assignments: 3107  propagations: 255083
+iteration:   11; variables: 11540 clauses: 29984 assignments: 3347  propagations: 263640
+iteration:   12; variables: 12566 clauses: 32728 assignments: 3581  propagations: 318504
+iteration:   13; variables: 13592 clauses: 35470 assignments: 3801  propagations: 333994
+iteration:   14; variables: 14618 clauses: 38154 assignments: 4159  propagations: 410786
+iteration:   15; variables: 15644 clauses: 40890 assignments: 4417  propagations: 444245
+iteration:   16; variables: 16670 clauses: 43542 assignments: 4789  propagations: 465883
+iteration:   17; variables: 17696 clauses: 46244 assignments: 5077  propagations: 479267
+iteration:   18; variables: 18722 clauses: 48930 assignments: 5367  propagations: 498319
+iteration:   19; variables: 19748 clauses: 51590 assignments: 5719  propagations: 540776
+iteration:   20; variables: 20774 clauses: 54264 assignments: 6017  propagations: 563583
+iteration:   21; variables: 21800 clauses: 56930 assignments: 6353  propagations: 603526
+iteration:   22; variables: 22826 clauses: 59612 assignments: 6661  propagations: 765092
+
+Finished! 
+iteration=22
+key=01110100001000000110110010011000001100111111000100001101110101010011111011001100110101101000010110111001011000001100101100010100
+c
+c Try to adapt solver strategies
+c 
+c Adjusting for low decision levels.
+c
+c Activating Chanseok Strategy: moved 15397 clauses to the permanent set.
+c Removing of non permanent clauses.
+
+equivalent
+
+time: 41.8596
+kartik@kartik:~/logic_obfuscation/neos$ ./bin/neos -d ex ./netlist/bench/array_multiplier8.bench ./lockednetlist/128bitaorlock/bench/array_multiplier8_aor_enc128.bench 200
+running combinatonal attack...
+iteration:    1; variables: 1280 clauses: 3257 assignments: 1  propagations: 1280
+iteration:    2; variables: 2306 clauses: 5936 assignments: 317  propagations: 5857
+iteration:    3; variables: 3332 clauses: 8582 assignments: 685  propagations: 13305
+iteration:    4; variables: 4358 clauses: 11222 assignments: 1063  propagations: 26956
+iteration:    5; variables: 5384 clauses: 13842 assignments: 1477  propagations: 47992
+iteration:    6; variables: 6410 clauses: 16494 assignments: 1837  propagations: 58156
+iteration:    7; variables: 7436 clauses: 19130 assignments: 2247  propagations: 79408
+iteration:    8; variables: 8462 clauses: 21826 assignments: 2535  propagations: 229794
+iteration:    9; variables: 9488 clauses: 24510 assignments: 2849  propagations: 330041
+iteration:   10; variables: 10514 clauses: 27132 assignments: 3225  propagations: 543771
+iteration:   11; variables: 11540 clauses: 29814 assignments: 3555  propagations: 552202
+iteration:   12; variables: 12566 clauses: 32470 assignments: 3921  propagations: 619296
+iteration:   13; variables: 13592 clauses: 35136 assignments: 4279  propagations: 641612
+iteration:   14; variables: 14618 clauses: 37792 assignments: 4633  propagations: 685662
+iteration:   15; variables: 15644 clauses: 40488 assignments: 4947  propagations: 747268
+iteration:   16; variables: 16670 clauses: 43146 assignments: 5311  propagations: 784267
+iteration:   17; variables: 17696 clauses: 45852 assignments: 5587  propagations: 803250
+iteration:   18; variables: 18722 clauses: 48490 assignments: 5971  propagations: 822920
+iteration:   19; variables: 19748 clauses: 51108 assignments: 6379  propagations: 851687
+iteration:   20; variables: 20774 clauses: 53742 assignments: 6769  propagations: 885919
+iteration:   21; variables: 21800 clauses: 56426 assignments: 7071  propagations: 909460
+
+Finished! 
+iteration=21
+key=01110100001000000110110010011000001100111111000100001101110101010011111011001100110101101000010110111001011000001100101100010100
+c
+c Try to adapt solver strategies
+c 
+c Adjusting for low decision levels.
+c
+c Activating Chanseok Strategy: moved 15397 clauses to the permanent set.
+c Removing of non permanent clauses.
+
+equivalent
+
+time: 48.9178
+kartik@kartik:~/logic_obfuscation/neos$ ./bin/neos -d ex ./netlist/bench/array_multiplier8.bench ./lockednetlist/128bitaorlock/bench/array_multiplier8_aor_enc128.bench 200
+running combinatonal attack...
+iteration:    1; variables: 1280 clauses: 3257 assignments: 1  propagations: 1280
+iteration:    2; variables: 2306 clauses: 5936 assignments: 317  propagations: 6471
+iteration:    3; variables: 3332 clauses: 8592 assignments: 661  propagations: 19861
+iteration:    4; variables: 4358 clauses: 11230 assignments: 1049  propagations: 26503
+iteration:    5; variables: 5384 clauses: 13886 assignments: 1413  propagations: 34580
+iteration:    6; variables: 6410 clauses: 16540 assignments: 1771  propagations: 73530
+iteration:    7; variables: 7436 clauses: 19202 assignments: 2091  propagations: 156785
+iteration:    8; variables: 8462 clauses: 21912 assignments: 2375  propagations: 298167
+iteration:    9; variables: 9488 clauses: 24584 assignments: 2713  propagations: 477293
+iteration:   10; variables: 10514 clauses: 27284 assignments: 3027  propagations: 721126
+iteration:   11; variables: 11540 clauses: 29946 assignments: 3397  propagations: 749607
+iteration:   12; variables: 12566 clauses: 32612 assignments: 3757  propagations: 810966
+iteration:   13; variables: 13592 clauses: 35282 assignments: 4119  propagations: 858957
+iteration:   14; variables: 14618 clauses: 37900 assignments: 4543  propagations: 907602
+iteration:   15; variables: 15644 clauses: 40546 assignments: 4927  propagations: 968895
+iteration:   16; variables: 16670 clauses: 43184 assignments: 5311  propagations: 986530
+iteration:   17; variables: 17696 clauses: 45884 assignments: 5615  propagations: 1029583
+iteration:   18; variables: 18722 clauses: 48534 assignments: 6001  propagations: 1057684
+iteration:   19; variables: 19748 clauses: 51222 assignments: 6323  propagations: 1119088
+iteration:   20; variables: 20774 clauses: 53898 assignments: 6649  propagations: 1165358
+c
+c Try to adapt solver strategies
+c 
+c Nothing extreme in this problem, continue with glucose default strategies.
+c
+
+Finished! 
+iteration=20
+key=01110100001000000110110010011000001100111111000100001101110101010011111011001100110101101000010110111001011000001100101100010100
+c
+c Try to adapt solver strategies
+c 
+c Adjusting for low decision levels.
+c
+c Activating Chanseok Strategy: moved 15397 clauses to the permanent set.
+c Removing of non permanent clauses.
+
+equivalent
+
+time: 63.9368
+kartik@kartik:~/logic_obfuscation/neos$ ./bin/neos -d ex ./netlist/bench/array_multiplier8.bench ./lockednetlist/128bitaorlock/bench/array_multiplier8_aor_enc128.bench 200
+running combinatonal attack...
+iteration:    1; variables: 1280 clauses: 3257 assignments: 1  propagations: 1280
+iteration:    2; variables: 2306 clauses: 5936 assignments: 317  propagations: 5484
+iteration:    3; variables: 3332 clauses: 8588 assignments: 665  propagations: 13798
+iteration:    4; variables: 4358 clauses: 11236 assignments: 1017  propagations: 24659
+iteration:    5; variables: 5384 clauses: 13906 assignments: 1327  propagations: 56456
+iteration:    6; variables: 6410 clauses: 16574 assignments: 1677  propagations: 108300
+iteration:    7; variables: 7436 clauses: 19218 assignments: 2049  propagations: 135557
+iteration:    8; variables: 8462 clauses: 21904 assignments: 2373  propagations: 196934
+iteration:    9; variables: 9488 clauses: 24596 assignments: 2691  propagations: 463320
+iteration:   10; variables: 10514 clauses: 27288 assignments: 2999  propagations: 525760
+iteration:   11; variables: 11540 clauses: 29978 assignments: 3331  propagations: 642510
+iteration:   12; variables: 12566 clauses: 32682 assignments: 3619  propagations: 697983
+iteration:   13; variables: 13592 clauses: 35280 assignments: 4053  propagations: 722776
+iteration:   14; variables: 14618 clauses: 37932 assignments: 4425  propagations: 757723
+iteration:   15; variables: 15644 clauses: 40600 assignments: 4767  propagations: 790636
+iteration:   16; variables: 16670 clauses: 43298 assignments: 5071  propagations: 824496
+iteration:   17; variables: 17696 clauses: 45988 assignments: 5369  propagations: 889909
+iteration:   18; variables: 18722 clauses: 48642 assignments: 5729  propagations: 909355
+iteration:   19; variables: 19748 clauses: 51278 assignments: 6119  propagations: 996638
+iteration:   20; variables: 20774 clauses: 53904 assignments: 6521  propagations: 1670775
+
+Finished! 
+iteration=20
+key=01110100001000000110110010011000001100111111000100001101110101010011111011001100110101101000010110111001011000001100101100010100
+c
+c Try to adapt solver strategies
+c 
+c Adjusting for low decision levels.
+c
+c Activating Chanseok Strategy: moved 15397 clauses to the permanent set.
+c Removing of non permanent clauses.
+
+equivalent
+
+time: 40.3742
+kartik@kartik:~/logic_obfuscation/neos$ ./bin/neos -d ex ./netlist/bench/array_multiplier8.bench ./lockednetlist/128bitaorlock/bench/array_multiplier8_aor_enc128.bench 200
+running combinatonal attack...
+iteration:    1; variables: 1280 clauses: 3257 assignments: 1  propagations: 1280
+iteration:    2; variables: 2306 clauses: 5936 assignments: 317  propagations: 4677
+iteration:    3; variables: 3332 clauses: 8576 assignments: 681  propagations: 9530
+iteration:    4; variables: 4358 clauses: 11232 assignments: 1019  propagations: 23916
+iteration:    5; variables: 5384 clauses: 13926 assignments: 1317  propagations: 57363
+iteration:    6; variables: 6410 clauses: 16622 assignments: 1607  propagations: 123206
+iteration:    7; variables: 7436 clauses: 19294 assignments: 1973  propagations: 289841
+iteration:    8; variables: 8462 clauses: 21960 assignments: 2325  propagations: 352532
+iteration:    9; variables: 9488 clauses: 24652 assignments: 2619  propagations: 878867
+iteration:   10; variables: 10514 clauses: 27346 assignments: 2953  propagations: 1052725
+iteration:   11; variables: 11540 clauses: 30056 assignments: 3269  propagations: 1296510
+iteration:   12; variables: 12566 clauses: 32680 assignments: 3684  propagations: 1348464
+iteration:   13; variables: 13592 clauses: 35304 assignments: 4120  propagations: 1400825
+iteration:   14; variables: 14618 clauses: 38000 assignments: 4468  propagations: 1425550
+iteration:   15; variables: 15644 clauses: 40632 assignments: 4866  propagations: 1439069
+iteration:   16; variables: 16670 clauses: 43264 assignments: 5236  propagations: 1451118
+iteration:   17; variables: 17696 clauses: 45908 assignments: 5592  propagations: 1475174
+iteration:   18; variables: 18722 clauses: 48584 assignments: 5926  propagations: 1492856
+iteration:   19; variables: 19748 clauses: 51258 assignments: 6248  propagations: 1802341
+
+Finished! 
+iteration=19
+key=01110100001000000110110010011000001100111111000100001101110101010011111011001100110101101000010110111001011000001100101100010100
+c
+c Try to adapt solver strategies
+c 
+c Adjusting for low decision levels.
+c
+c Activating Chanseok Strategy: moved 15397 clauses to the permanent set.
+c Removing of non permanent clauses.
+
+equivalent
+
+time: 46.9602
+kartik@kartik:~/logic_obfuscation/neos$ ./bin/neos -d ex ./netlist/bench/array_multiplier8.bench ./lockednetlist/128bitaorlock/bench/array_multiplier8_aor_enc128.bench 200
+running combinatonal attack...
+iteration:    1; variables: 1280 clauses: 3257 assignments: 1  propagations: 1280
+iteration:    2; variables: 2306 clauses: 5936 assignments: 317  propagations: 6545
+iteration:    3; variables: 3332 clauses: 8558 assignments: 726  propagations: 18018
+iteration:    4; variables: 4358 clauses: 11236 assignments: 1068  propagations: 28672
+iteration:    5; variables: 5384 clauses: 13898 assignments: 1429  propagations: 60667
+iteration:    6; variables: 6410 clauses: 16558 assignments: 1792  propagations: 152498
+iteration:    7; variables: 7436 clauses: 19198 assignments: 2182  propagations: 172070
+iteration:    8; variables: 8462 clauses: 21858 assignments: 2550  propagations: 321396
+iteration:    9; variables: 9488 clauses: 24510 assignments: 2910  propagations: 468858
+iteration:   10; variables: 10514 clauses: 27166 assignments: 3238  propagations: 510387
+iteration:   11; variables: 11540 clauses: 29830 assignments: 3560  propagations: 628049
+iteration:   12; variables: 12566 clauses: 32490 assignments: 3940  propagations: 658314
+iteration:   13; variables: 13592 clauses: 35162 assignments: 4268  propagations: 726763
+iteration:   14; variables: 14618 clauses: 37852 assignments: 4554  propagations: 741437
+iteration:   15; variables: 15644 clauses: 40482 assignments: 4950  propagations: 784607
+iteration:   16; variables: 16670 clauses: 43136 assignments: 5324  propagations: 838701
+iteration:   17; variables: 17696 clauses: 45790 assignments: 5686  propagations: 873351
+iteration:   18; variables: 18722 clauses: 48430 assignments: 6046  propagations: 1052728
+iteration:   19; variables: 19748 clauses: 51126 assignments: 6380  propagations: 1092109
+c
+c Try to adapt solver strategies
+c 
+c Nothing extreme in this problem, continue with glucose default strategies.
+c
+
+Finished! 
+iteration=19
+key=01110100001000000110110010011000001100111111000100001101110101010011111011001100110101101000010110111001011000001100101100010100
+c
+c Try to adapt solver strategies
+c 
+c Adjusting for low decision levels.
+c
+c Activating Chanseok Strategy: moved 15397 clauses to the permanent set.
+c Removing of non permanent clauses.
+
+equivalent
+
+time: 64.5379
+kartik@kartik:~/logic_obfuscation/neos$ ./bin/neos -d ex ./netlist/bench/array_multiplier8.bench ./lockednetlist/128bitaorlock/bench/array_multiplier8_aor_enc128.bench 200
+running combinatonal attack...
+iteration:    1; variables: 1280 clauses: 3257 assignments: 1  propagations: 1280
+iteration:    2; variables: 2306 clauses: 5936 assignments: 317  propagations: 7926
+iteration:    3; variables: 3332 clauses: 8578 assignments: 677  propagations: 13331
+iteration:    4; variables: 4358 clauses: 11250 assignments: 1017  propagations: 21607
+iteration:    5; variables: 5384 clauses: 13926 assignments: 1337  propagations: 50326
+iteration:    6; variables: 6410 clauses: 16562 assignments: 1727  propagations: 182345
+iteration:    7; variables: 7436 clauses: 19238 assignments: 2053  propagations: 390524
+iteration:    8; variables: 8462 clauses: 21936 assignments: 2343  propagations: 543382
+iteration:    9; variables: 9488 clauses: 24624 assignments: 2643  propagations: 908281
+iteration:   10; variables: 10514 clauses: 27280 assignments: 3005  propagations: 1016775
+iteration:   11; variables: 11540 clauses: 29976 assignments: 3297  propagations: 1034635
+iteration:   12; variables: 12566 clauses: 32690 assignments: 3581  propagations: 1094714
+iteration:   13; variables: 13592 clauses: 35366 assignments: 3905  propagations: 1150304
+iteration:   14; variables: 14618 clauses: 38018 assignments: 4279  propagations: 1161019
+iteration:   15; variables: 15644 clauses: 40668 assignments: 4657  propagations: 1173120
+iteration:   16; variables: 16670 clauses: 43312 assignments: 5049  propagations: 1200019
+iteration:   17; variables: 17696 clauses: 46022 assignments: 5315  propagations: 1297110
+iteration:   18; variables: 18722 clauses: 48676 assignments: 5649  propagations: 1395045
+c
+c Try to adapt solver strategies
+c 
+c Nothing extreme in this problem, continue with glucose default strategies.
+c
+
+Finished! 
+iteration=18
+key=01110100001000000110110010011000001100111111000100001101110101010011111011001100110101101000010110111001011000001100101100010100
+c
+c Try to adapt solver strategies
+c 
+c Adjusting for low decision levels.
+c
+c Activating Chanseok Strategy: moved 15397 clauses to the permanent set.
+c Removing of non permanent clauses.
+
+equivalent
+
+time: 67.6252
+kartik@kartik:~/logic_obfuscation/neos$ ./bin/neos -d ex ./netlist/bench/array_multiplier8.bench ./lockednetlist/128bitaorlock/bench/array_multiplier8_aor_enc128.bench 200
+running combinatonal attack...
+iteration:    1; variables: 1280 clauses: 3257 assignments: 1  propagations: 1280
+iteration:    2; variables: 2306 clauses: 5936 assignments: 317  propagations: 4620
+iteration:    3; variables: 3332 clauses: 8582 assignments: 663  propagations: 11730
+iteration:    4; variables: 4358 clauses: 11220 assignments: 1037  propagations: 24708
+iteration:    5; variables: 5384 clauses: 13866 assignments: 1413  propagations: 39883
+iteration:    6; variables: 6410 clauses: 16560 assignments: 1717  propagations: 63327
+iteration:    7; variables: 7436 clauses: 19176 assignments: 2119  propagations: 78188
+iteration:    8; variables: 8462 clauses: 21882 assignments: 2425  propagations: 116536
+iteration:    9; variables: 9488 clauses: 24600 assignments: 2711  propagations: 141697
+iteration:   10; variables: 10514 clauses: 27302 assignments: 2997  propagations: 151261
+iteration:   11; variables: 11540 clauses: 29986 assignments: 3293  propagations: 228737
+iteration:   12; variables: 12566 clauses: 32696 assignments: 3589  propagations: 240684
+iteration:   13; variables: 13592 clauses: 35374 assignments: 3925  propagations: 268905
+iteration:   14; variables: 14618 clauses: 38036 assignments: 4287  propagations: 365880
+iteration:   15; variables: 15644 clauses: 40668 assignments: 4677  propagations: 415401
+iteration:   16; variables: 16670 clauses: 43354 assignments: 5023  propagations: 473038
+iteration:   17; variables: 17696 clauses: 46012 assignments: 5397  propagations: 533553
+iteration:   18; variables: 18722 clauses: 48680 assignments: 5747  propagations: 581187
+iteration:   19; variables: 19748 clauses: 51348 assignments: 6079  propagations: 622103
+c
+c Try to adapt solver strategies
+c 
+c Nothing extreme in this problem, continue with glucose default strategies.
+c
+
+Finished! 
+iteration=19
+key=01110100001000000110110010011000001100111111000100001101110101010011111011001100110101101000010110111001011000001100101100010100
+c
+c Try to adapt solver strategies
+c 
+c Adjusting for low decision levels.
+c
+c Activating Chanseok Strategy: moved 15397 clauses to the permanent set.
+c Removing of non permanent clauses.
+
+equivalent
+
+time: 47.3704
+kartik@kartik:~/logic_obfuscation/neos$ ./bin/neos -d ex ./netlist/bench/array_multiplier8.bench ./lockednetlist/128bitaorlock/bench/array_multiplier8_aor_enc128.bench 200
+running combinatonal attack...
+iteration:    1; variables: 1280 clauses: 3257 assignments: 1  propagations: 1280
+iteration:    2; variables: 2306 clauses: 5936 assignments: 317  propagations: 6111
+iteration:    3; variables: 3332 clauses: 8568 assignments: 715  propagations: 13658
+iteration:    4; variables: 4358 clauses: 11186 assignments: 1111  propagations: 32376
+iteration:    5; variables: 5384 clauses: 13860 assignments: 1437  propagations: 50881
+iteration:    6; variables: 6410 clauses: 16596 assignments: 1691  propagations: 78591
+iteration:    7; variables: 7436 clauses: 19320 assignments: 1949  propagations: 162136
+iteration:    8; variables: 8462 clauses: 22030 assignments: 2233  propagations: 287034
+iteration:    9; variables: 9488 clauses: 24660 assignments: 2631  propagations: 827327
+iteration:   10; variables: 10514 clauses: 27354 assignments: 2939  propagations: 916529
+iteration:   11; variables: 11540 clauses: 30068 assignments: 3247  propagations: 977812
+iteration:   12; variables: 12566 clauses: 32712 assignments: 3635  propagations: 1063581
+iteration:   13; variables: 13592 clauses: 35396 assignments: 3925  propagations: 1073589
+iteration:   14; variables: 14618 clauses: 38078 assignments: 4215  propagations: 1112017
+iteration:   15; variables: 15644 clauses: 40746 assignments: 4537  propagations: 1123588
+iteration:   16; variables: 16670 clauses: 43386 assignments: 4917  propagations: 1135758
+iteration:   17; variables: 17696 clauses: 45998 assignments: 5333  propagations: 1161684
+iteration:   18; variables: 18722 clauses: 48692 assignments: 5625  propagations: 1177196
+iteration:   19; variables: 19748 clauses: 51384 assignments: 5933  propagations: 1237720
+c
+c Try to adapt solver strategies
+c 
+c Nothing extreme in this problem, continue with glucose default strategies.
+c
+
+Finished! 
+iteration=19
+key=01110100001000000110110010011000001100111111000100001101110101010011111011001100110101101000010110111001011000001100101100010100
+c
+c Try to adapt solver strategies
+c 
+c Adjusting for low decision levels.
+c
+c Activating Chanseok Strategy: moved 15397 clauses to the permanent set.
+c Removing of non permanent clauses.
+
+equivalent
+
+time: 63.4474
+kartik@kartik:~/logic_obfuscation/neos$ ./bin/neos -d ex ./netlist/bench/array_multiplier8.bench ./lockednetlist/128bitaorlock/bench/array_multiplier8_aor_enc128.bench 200
+running combinatonal attack...
+iteration:    1; variables: 1280 clauses: 3257 assignments: 1  propagations: 1280
+iteration:    2; variables: 2306 clauses: 5936 assignments: 317  propagations: 4734
+iteration:    3; variables: 3332 clauses: 8602 assignments: 649  propagations: 9630
+iteration:    4; variables: 4358 clauses: 11308 assignments: 941  propagations: 35476
+iteration:    5; variables: 5384 clauses: 13968 assignments: 1323  propagations: 56256
+iteration:    6; variables: 6410 clauses: 16576 assignments: 1729  propagations: 87702
+iteration:    7; variables: 7436 clauses: 19270 assignments: 2043  propagations: 120118
+iteration:    8; variables: 8462 clauses: 22008 assignments: 2289  propagations: 195476
+iteration:    9; variables: 9488 clauses: 24672 assignments: 2661  propagations: 727334
+iteration:   10; variables: 10514 clauses: 27354 assignments: 2971  propagations: 937022
+iteration:   11; variables: 11540 clauses: 30040 assignments: 3275  propagations: 1147203
+iteration:   12; variables: 12566 clauses: 32730 assignments: 3583  propagations: 1162860
+iteration:   13; variables: 13592 clauses: 35420 assignments: 3887  propagations: 1175074
+iteration:   14; variables: 14618 clauses: 38056 assignments: 4277  propagations: 1245796
+iteration:   15; variables: 15644 clauses: 40710 assignments: 4657  propagations: 1434005
+c
+c Try to adapt solver strategies
+c 
+c Nothing extreme in this problem, continue with glucose default strategies.
+c
+
+Finished! 
+iteration=15
+key=01110100001000000110110010011000001100111111000100001101110101010011111011001100110101101000010110111001011000001100101100010100
+c
+c Try to adapt solver strategies
+c 
+c Adjusting for low decision levels.
+c
+c Activating Chanseok Strategy: moved 15397 clauses to the permanent set.
+c Removing of non permanent clauses.
+
+equivalent
+
+time: 66.9261
+kartik@kartik:~/logic_obfuscation/neos$ ./bin/neos -d ex ./netlist/bench/array_multiplier8.bench ./lockednetlist/128bitaorlock/bench/array_multiplier8_aor_enc128.bench 200
+running combinatonal attack...
+iteration:    1; variables: 1280 clauses: 3257 assignments: 1  propagations: 1280
+iteration:    2; variables: 2306 clauses: 5936 assignments: 317  propagations: 4654
+iteration:    3; variables: 3332 clauses: 8576 assignments: 692  propagations: 12158
+iteration:    4; variables: 4358 clauses: 11262 assignments: 1028  propagations: 36778
+iteration:    5; variables: 5384 clauses: 13910 assignments: 1404  propagations: 75236
+iteration:    6; variables: 6410 clauses: 16554 assignments: 1762  propagations: 111254
+iteration:    7; variables: 7436 clauses: 19250 assignments: 2065  propagations: 207604
+iteration:    8; variables: 8462 clauses: 21942 assignments: 2381  propagations: 359714
+iteration:    9; variables: 9488 clauses: 24612 assignments: 2743  propagations: 424593
+iteration:   10; variables: 10514 clauses: 27270 assignments: 3087  propagations: 528940
+iteration:   11; variables: 11540 clauses: 29950 assignments: 3415  propagations: 568677
+iteration:   12; variables: 12566 clauses: 32628 assignments: 3751  propagations: 591076
+iteration:   13; variables: 13592 clauses: 35296 assignments: 4071  propagations: 600917
+iteration:   14; variables: 14618 clauses: 37948 assignments: 4427  propagations: 617988
+iteration:   15; variables: 15644 clauses: 40556 assignments: 4847  propagations: 652750
+iteration:   16; variables: 16670 clauses: 43222 assignments: 5199  propagations: 675100
+iteration:   17; variables: 17696 clauses: 45922 assignments: 5475  propagations: 715056
+
+Finished! 
+iteration=17
+key=01110100001000000110110010011000001100111111000100001101110101010011111011001100110101101000010110111001011000001100101100010100
+c
+c Try to adapt solver strategies
+c 
+c Adjusting for low decision levels.
+c
+c Activating Chanseok Strategy: moved 15397 clauses to the permanent set.
+c Removing of non permanent clauses.
+
+equivalent
+
+time: 41.0989
+kartik@kartik:~/logic_obfuscation/neos$ ./bin/neos -d ex ./netlist/bench/array_multiplier8.bench ./lockednetlist/128bitaorlock/bench/array_multiplier8_aor_enc128.bench 200
+running combinatonal attack...
+iteration:    1; variables: 1280 clauses: 3257 assignments: 1  propagations: 1280
+iteration:    2; variables: 2306 clauses: 5936 assignments: 317  propagations: 5064
+iteration:    3; variables: 3332 clauses: 8604 assignments: 661  propagations: 16333
+iteration:    4; variables: 4358 clauses: 11266 assignments: 999  propagations: 33824
+iteration:    5; variables: 5384 clauses: 13942 assignments: 1295  propagations: 56394
+iteration:    6; variables: 6410 clauses: 16606 assignments: 1659  propagations: 113504
+iteration:    7; variables: 7436 clauses: 19212 assignments: 2069  propagations: 212828
+iteration:    8; variables: 8462 clauses: 21826 assignments: 2457  propagations: 422661
+iteration:    9; variables: 9488 clauses: 24486 assignments: 2781  propagations: 743455
+iteration:   10; variables: 10514 clauses: 27122 assignments: 3145  propagations: 753126
+iteration:   11; variables: 11540 clauses: 29790 assignments: 3481  propagations: 967665
+iteration:   12; variables: 12566 clauses: 32438 assignments: 3857  propagations: 991704
+iteration:   13; variables: 13592 clauses: 35134 assignments: 4177  propagations: 1003501
+iteration:   14; variables: 14618 clauses: 37828 assignments: 4501  propagations: 1071631
+iteration:   15; variables: 15644 clauses: 40484 assignments: 4857  propagations: 1083854
+iteration:   16; variables: 16670 clauses: 43142 assignments: 5219  propagations: 1105576
+iteration:   17; variables: 17696 clauses: 45770 assignments: 5647  propagations: 1138081
+iteration:   18; variables: 18722 clauses: 48444 assignments: 5981  propagations: 1159266
+iteration:   19; variables: 19748 clauses: 51108 assignments: 6339  propagations: 1179955
+iteration:   20; variables: 20774 clauses: 53806 assignments: 6641  propagations: 1205826
+c
+c Try to adapt solver strategies
+c 
+c Nothing extreme in this problem, continue with glucose default strategies.
+c
+
+Finished! 
+iteration=20
+key=01110100001000000110110010011000001100111111000100001101110101010011111011001100110101101000010110111001011000001100101100010100
+c
+c Try to adapt solver strategies
+c 
+c Adjusting for low decision levels.
+c
+c Activating Chanseok Strategy: moved 15397 clauses to the permanent set.
+c Removing of non permanent clauses.
+
+equivalent
+
+time: 54.1753
+kartik@kartik:~/logic_obfuscation/neos$ ./bin/neos -d ex ./netlist/bench/array_multiplier8.bench ./lockednetlist/128bitaorlock/bench/array_multiplier8_aor_enc128.bench 200
+running combinatonal attack...
+iteration:    1; variables: 1280 clauses: 3257 assignments: 1  propagations: 1280
+iteration:    2; variables: 2306 clauses: 5936 assignments: 317  propagations: 5082
+iteration:    3; variables: 3332 clauses: 8580 assignments: 677  propagations: 14487
+iteration:    4; variables: 4358 clauses: 11192 assignments: 1087  propagations: 21087
+iteration:    5; variables: 5384 clauses: 13790 assignments: 1527  propagations: 29844
+iteration:    6; variables: 6410 clauses: 16430 assignments: 1895  propagations: 75650
+iteration:    7; variables: 7436 clauses: 19052 assignments: 2317  propagations: 112105
+iteration:    8; variables: 8462 clauses: 21682 assignments: 2727  propagations: 135397
+iteration:    9; variables: 9488 clauses: 24336 assignments: 3083  propagations: 349276
+iteration:   10; variables: 10514 clauses: 26976 assignments: 3455  propagations: 953745
+iteration:   11; variables: 11540 clauses: 29642 assignments: 3785  propagations: 1004525
+iteration:   12; variables: 12566 clauses: 32332 assignments: 4095  propagations: 1416166
+iteration:   13; variables: 13592 clauses: 35028 assignments: 4377  propagations: 1425970
+iteration:   14; variables: 14618 clauses: 37720 assignments: 4703  propagations: 1442480
+iteration:   15; variables: 15644 clauses: 40424 assignments: 4997  propagations: 1563384
+iteration:   16; variables: 16670 clauses: 43092 assignments: 5349  propagations: 1580819
+iteration:   17; variables: 17696 clauses: 45748 assignments: 5693  propagations: 1605809
+iteration:   18; variables: 18722 clauses: 48392 assignments: 6075  propagations: 1626300
+iteration:   19; variables: 19748 clauses: 51028 assignments: 6473  propagations: 1641488
+iteration:   20; variables: 20774 clauses: 53668 assignments: 6867  propagations: 1688400
+iteration:   21; variables: 21800 clauses: 56366 assignments: 7193  propagations: 1704656
+iteration:   22; variables: 22826 clauses: 59094 assignments: 7459  propagations: 1723173
+iteration:   23; variables: 23852 clauses: 61738 assignments: 7859  propagations: 1760946
+iteration:   24; variables: 24878 clauses: 64416 assignments: 8167  propagations: 1783148
+iteration:   25; variables: 25904 clauses: 67060 assignments: 8535  propagations: 1811579
+iteration:   26; variables: 26930 clauses: 69762 assignments: 8815  propagations: 1861073
+
+Finished! 
+iteration=26
+key=01110100001000000110110010011000001100111111000100001101110101010011111011001100110101101000010110111001011000001100101100010100
+c
+c Try to adapt solver strategies
+c 
+c Adjusting for low decision levels.
+c
+c Activating Chanseok Strategy: moved 15397 clauses to the permanent set.
+c Removing of non permanent clauses.
+
+equivalent
+
+time: 48.5877
+kartik@kartik:~/logic_obfuscation/neos$ ./bin/neos -d ex ./netlist/bench/array_multiplier8.bench ./lockednetlist/128bitaorlock/bench/array_multiplier8_aor_enc128.bench 200
+running combinatonal attack...
+iteration:    1; variables: 1280 clauses: 3257 assignments: 1  propagations: 1280
+iteration:    2; variables: 2306 clauses: 5936 assignments: 317  propagations: 4427
+iteration:    3; variables: 3332 clauses: 8620 assignments: 621  propagations: 9214
+iteration:    4; variables: 4358 clauses: 11292 assignments: 957  propagations: 18182
+iteration:    5; variables: 5384 clauses: 13930 assignments: 1333  propagations: 33478
+iteration:    6; variables: 6410 clauses: 16580 assignments: 1693  propagations: 87625
+iteration:    7; variables: 7436 clauses: 19234 assignments: 2061  propagations: 156342
+iteration:    8; variables: 8462 clauses: 21888 assignments: 2419  propagations: 196606
+iteration:    9; variables: 9488 clauses: 24558 assignments: 2761  propagations: 204760
+iteration:   10; variables: 10514 clauses: 27238 assignments: 3107  propagations: 255083
+iteration:   11; variables: 11540 clauses: 29984 assignments: 3347  propagations: 263640
+iteration:   12; variables: 12566 clauses: 32728 assignments: 3581  propagations: 318504
+iteration:   13; variables: 13592 clauses: 35470 assignments: 3801  propagations: 333994
+iteration:   14; variables: 14618 clauses: 38154 assignments: 4159  propagations: 410786
+iteration:   15; variables: 15644 clauses: 40890 assignments: 4417  propagations: 444245
+iteration:   16; variables: 16670 clauses: 43542 assignments: 4789  propagations: 465883
+iteration:   17; variables: 17696 clauses: 46244 assignments: 5077  propagations: 479267
+iteration:   18; variables: 18722 clauses: 48930 assignments: 5367  propagations: 498319
+iteration:   19; variables: 19748 clauses: 51590 assignments: 5719  propagations: 540776
+iteration:   20; variables: 20774 clauses: 54264 assignments: 6017  propagations: 563583
+iteration:   21; variables: 21800 clauses: 56930 assignments: 6353  propagations: 603526
+iteration:   22; variables: 22826 clauses: 59612 assignments: 6661  propagations: 765092
+
+Finished! 
+iteration=22
+key=01110100001000000110110010011000001100111111000100001101110101010011111011001100110101101000010110111001011000001100101100010100
+c
+c Try to adapt solver strategies
+c 
+c Adjusting for low decision levels.
+c
+c Activating Chanseok Strategy: moved 15397 clauses to the permanent set.
+c Removing of non permanent clauses.
+
+equivalent
+
+time: 41.8596
+kartik@kartik:~/logic_obfuscation/neos$ ./bin/neos -d ex ./netlist/bench/array_multiplier8.bench ./lockednetlist/128bitaorlock/bench/array_multiplier8_aor_enc128.bench 200
+running combinatonal attack...
+iteration:    1; variables: 1280 clauses: 3257 assignments: 1  propagations: 1280
+iteration:    2; variables: 2306 clauses: 5936 assignments: 317  propagations: 5857
+iteration:    3; variables: 3332 clauses: 8582 assignments: 685  propagations: 13305
+iteration:    4; variables: 4358 clauses: 11222 assignments: 1063  propagations: 26956
+iteration:    5; variables: 5384 clauses: 13842 assignments: 1477  propagations: 47992
+iteration:    6; variables: 6410 clauses: 16494 assignments: 1837  propagations: 58156
+iteration:    7; variables: 7436 clauses: 19130 assignments: 2247  propagations: 79408
+iteration:    8; variables: 8462 clauses: 21826 assignments: 2535  propagations: 229794
+iteration:    9; variables: 9488 clauses: 24510 assignments: 2849  propagations: 330041
+iteration:   10; variables: 10514 clauses: 27132 assignments: 3225  propagations: 543771
+iteration:   11; variables: 11540 clauses: 29814 assignments: 3555  propagations: 552202
+iteration:   12; variables: 12566 clauses: 32470 assignments: 3921  propagations: 619296
+iteration:   13; variables: 13592 clauses: 35136 assignments: 4279  propagations: 641612
+iteration:   14; variables: 14618 clauses: 37792 assignments: 4633  propagations: 685662
+iteration:   15; variables: 15644 clauses: 40488 assignments: 4947  propagations: 747268
+iteration:   16; variables: 16670 clauses: 43146 assignments: 5311  propagations: 784267
+iteration:   17; variables: 17696 clauses: 45852 assignments: 5587  propagations: 803250
+iteration:   18; variables: 18722 clauses: 48490 assignments: 5971  propagations: 822920
+iteration:   19; variables: 19748 clauses: 51108 assignments: 6379  propagations: 851687
+iteration:   20; variables: 20774 clauses: 53742 assignments: 6769  propagations: 885919
+iteration:   21; variables: 21800 clauses: 56426 assignments: 7071  propagations: 909460
+
+Finished! 
+iteration=21
+key=01110100001000000110110010011000001100111111000100001101110101010011111011001100110101101000010110111001011000001100101100010100
+c
+c Try to adapt solver strategies
+c 
+c Adjusting for low decision levels.
+c
+c Activating Chanseok Strategy: moved 15397 clauses to the permanent set.
+c Removing of non permanent clauses.
+
+equivalent
+
+time: 48.9178
+kartik@kartik:~/logic_obfuscation/neos$
