@@ -1,0 +1,42 @@
+# //  ModelSim SE-64 6.6d Nov  1 2010 Linux 2.6.32-754.31.1.el6.x86_64
+# //
+# //  Copyright 1991-2010 Mentor Graphics Corporation
+# //              All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND 
+# //  PROPRIETARY INFORMATION WHICH IS THE PROPERTY
+# //  OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+# //  AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Loading project decrca
+# reading /var/autofs/misc/cad/mentor/modelsim-6.6d/modeltech/linux_x86_64/../modelsim.ini
+# Loading project rca32xor
+# Compile of ripple_carry_adder16_tb.v was successful.
+# Compile of ripple_carry_adder16_xor_enc32.v was successful.
+# 2 compiles, 0 failed with no errors. 
+vsim -novopt simulation.ripple_carry_adder16_tb
+# vsim -novopt simulation.ripple_carry_adder16_tb 
+# Refreshing /home/nayakkk/32xor/ripple_carry_adder/sim/simulation.ripple_carry_adder16_tb
+# Loading simulation.ripple_carry_adder16_tb
+# Refreshing /home/nayakkk/32xor/ripple_carry_adder/sim/simulation.ripple_carry_adder16_xor_enc32
+# Loading simulation.ripple_carry_adder16_xor_enc32
+add wave sim:/ripple_carry_adder16_tb/*
+run
+#                    0 add1_i= 0000, add2_i = 0000, keyinput= bdd1c400, result_o = 03a21 
+#                   10 add1_i= 29af, add2_i = 7a1b, keyinput= bdd1c400, result_o = 0bdeb 
+#                   20 add1_i= 1100, add2_i = 1111, keyinput= bdd1c400, result_o = 03a32 
+#                   30 add1_i= 8116, add2_i = 1cce, keyinput= bdd1c400, result_o = 0b4c5 
+#                   35 add1_i= 4482, add2_i = 3bcd, keyinput= bdd1c400, result_o = 09170 
+#                   43 add1_i= 8943, add2_i = ffff, keyinput= bdd1c400, result_o = 19023 
+#                   53 add1_i= abcd, add2_i = 0000, keyinput= bdd1c400, result_o = 0c5ee 
+#                   63 add1_i= 0000, add2_i = 1234, keyinput= bdd1c400, result_o = 00c55 
+#                   73 add1_i= 1111, add2_i = eeaa, keyinput= bdd1c400, result_o = 116dc 
+#                   83 add1_i= 5555, add2_i = aaaa, keyinput= bdd1c400, result_o = 116e0 
+#                   93 add1_i= 8051, add2_i = 8086, keyinput= bdd1c400, result_o = 13bf8 
+#                   98 add1_i= fadc, add2_i = 00dc, keyinput= bdd1c400, result_o = 11599 
+run
+#                  106 add1_i= 4096, add2_i = 2048, keyinput= bdd1c400, result_o = 09aff 
+#                  116 add1_i= 1024, add2_i = 8192, keyinput= bdd1c400, result_o = 0aa97 
+#                  216 add1_i= 0000, add2_i = 0001, keyinput= bdd1c400, result_o = 03a22 
+# ** Note: $finish    : /home/nayakkk/32xor/ripple_carry_adder/sim/ripple_carry_adder16_tb.v(83)
+#    Time: 316 ns  Iteration: 0  Instance: /ripple_carry_adder16_tb

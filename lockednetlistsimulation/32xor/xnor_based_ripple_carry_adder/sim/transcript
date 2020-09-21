@@ -1,0 +1,135 @@
+# //  ModelSim SE-64 6.6d Nov  1 2010 Linux 2.6.32-754.31.1.el6.x86_64
+# //
+# //  Copyright 1991-2010 Mentor Graphics Corporation
+# //              All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND 
+# //  PROPRIETARY INFORMATION WHICH IS THE PROPERTY
+# //  OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+# //  AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Loading project loarca32xor
+# reading /var/autofs/misc/cad/mentor/modelsim-6.6d/modeltech/linux_x86_64/../modelsim.ini
+# Loading project xrca32xor
+# Compile of xnor_based_ripple_carry_adder16_tb.v was successful.
+# Compile of xnor_based_ripple_carry_adder16_xor_enc32.v was successful.
+# 2 compiles, 0 failed with no errors. 
+vsim -novopt simulation.xnor_based_ripple_carry_adder16_tb
+# vsim -novopt simulation.xnor_based_ripple_carry_adder16_tb 
+# Refreshing /home/nayakkk/32xor/xnor_based_ripple_carry_adder/sim/simulation.xnor_based_ripple_carry_adder16_tb
+# Loading simulation.xnor_based_ripple_carry_adder16_tb
+# Refreshing /home/nayakkk/32xor/xnor_based_ripple_carry_adder/sim/simulation.xnor_based_ripple_carry_adder16_xor_enc32
+# Loading simulation.xnor_based_ripple_carry_adder16_xor_enc32
+add wave sim:/xnor_based_ripple_carry_adder16_tb/*
+run
+#                    0 add1_i= 0000, add2_i = 0000, keyinput= b80cb4ad, result_o = 00001 
+add wave sim:/xnor_based_ripple_carry_adder16_tb/*
+run
+#                   10 add1_i= 29af, add2_i = 7a1b, keyinput= b80cb4ad, result_o = 0a3cb 
+#                   20 add1_i= 1100, add2_i = 1111, keyinput= b80cb4ad, result_o = 02212 
+#                   30 add1_i= 8116, add2_i = 1cce, keyinput= b80cb4ad, result_o = 09de5 
+#                   35 add1_i= 4482, add2_i = 3bcd, keyinput= b80cb4ad, result_o = 08050 
+#                   43 add1_i= 8943, add2_i = ffff, keyinput= b80cb4ad, result_o = 18943 
+#                   53 add1_i= abcd, add2_i = 0000, keyinput= b80cb4ad, result_o = 0abc2 
+#                   63 add1_i= 0000, add2_i = 1234, keyinput= b80cb4ad, result_o = 01231 
+#                   73 add1_i= 1111, add2_i = eeaa, keyinput= b80cb4ad, result_o = 0ffb4 
+#                   83 add1_i= 5555, add2_i = aaaa, keyinput= b80cb4ad, result_o = 10000 
+#                   93 add1_i= 8051, add2_i = 8086, keyinput= b80cb4ad, result_o = 100d8 
+#                   98 add1_i= fadc, add2_i = 00dc, keyinput= b80cb4ad, result_o = 0fbb9 
+#                  106 add1_i= 4096, add2_i = 2048, keyinput= b80cb4ad, result_o = 060d1 
+#                  116 add1_i= 1024, add2_i = 8192, keyinput= b80cb4ad, result_o = 091b1 
+#                  216 add1_i= 0000, add2_i = 0001, keyinput= b80cb4ad, result_o = 00002 
+# ** Note: $finish    : /home/nayakkk/32xor/xnor_based_ripple_carry_adder/sim/xnor_based_ripple_carry_adder16_tb.v(83)
+#    Time: 316 ns  Iteration: 0  Instance: /xnor_based_ripple_carry_adder16_tb
+# 1
+# Break in Module xnor_based_ripple_carry_adder16_tb at /home/nayakkk/32xor/xnor_based_ripple_carry_adder/sim/xnor_based_ripple_carry_adder16_tb.v line 83
+# Compile of xnor_based_ripple_carry_adder16_tb.v was successful.
+# Compile of xnor_based_ripple_carry_adder16_xor_enc32.v was successful.
+# 2 compiles, 0 failed with no errors. 
+vsim -novopt simulation.xnor_based_ripple_carry_adder16_tb
+# vsim -novopt simulation.xnor_based_ripple_carry_adder16_tb 
+# Refreshing /home/nayakkk/32xor/xnor_based_ripple_carry_adder/sim/simulation.xnor_based_ripple_carry_adder16_tb
+# Loading simulation.xnor_based_ripple_carry_adder16_tb
+# Refreshing /home/nayakkk/32xor/xnor_based_ripple_carry_adder/sim/simulation.xnor_based_ripple_carry_adder16_xor_enc32
+# Loading simulation.xnor_based_ripple_carry_adder16_xor_enc32
+add wave sim:/xnor_based_ripple_carry_adder16_tb/*
+run
+#                    0 add1_i= 0000, add2_i = 0000, keyinput= 0f0cb4ad, result_o = 18c01 
+#                   10 add1_i= 29af, add2_i = 7a1b, keyinput= 0f0cb4ad, result_o = 11fcb 
+#                   20 add1_i= 1100, add2_i = 1111, keyinput= 0f0cb4ad, result_o = 1ae12 
+#                   30 add1_i= 8116, add2_i = 1cce, keyinput= 0f0cb4ad, result_o = 121e5 
+#                   35 add1_i= 4482, add2_i = 3bcd, keyinput= 0f0cb4ad, result_o = 10450 
+#                   43 add1_i= 8943, add2_i = ffff, keyinput= 0f0cb4ad, result_o = 1fd43 
+#                   53 add1_i= abcd, add2_i = 0000, keyinput= 0f0cb4ad, result_o = 127c2 
+#                   63 add1_i= 0000, add2_i = 1234, keyinput= 0f0cb4ad, result_o = 19e31 
+#                   73 add1_i= 1111, add2_i = eeaa, keyinput= 0f0cb4ad, result_o = 063b4 
+#                   83 add1_i= 5555, add2_i = aaaa, keyinput= 0f0cb4ad, result_o = 06400 
+#                   93 add1_i= 8051, add2_i = 8086, keyinput= 0f0cb4ad, result_o = 18cd8 
+#                   98 add1_i= fadc, add2_i = 00dc, keyinput= 0f0cb4ad, result_o = 197b9 
+#                  106 add1_i= 4096, add2_i = 2048, keyinput= 0f0cb4ad, result_o = 1ecd1 
+#                  116 add1_i= 1024, add2_i = 8192, keyinput= 0f0cb4ad, result_o = 03db1 
+#                  216 add1_i= 0000, add2_i = 0001, keyinput= 0f0cb4ad, result_o = 18c02 
+# ** Note: $finish    : /home/nayakkk/32xor/xnor_based_ripple_carry_adder/sim/xnor_based_ripple_carry_adder16_tb.v(83)
+#    Time: 316 ns  Iteration: 0  Instance: /xnor_based_ripple_carry_adder16_tb
+# 1
+# Break in Module xnor_based_ripple_carry_adder16_tb at /home/nayakkk/32xor/xnor_based_ripple_carry_adder/sim/xnor_based_ripple_carry_adder16_tb.v line 83
+# Compile of xnor_based_ripple_carry_adder16_tb.v was successful.
+# Compile of xnor_based_ripple_carry_adder16_xor_enc32.v was successful.
+# 2 compiles, 0 failed with no errors. 
+vsim -novopt simulation.xnor_based_ripple_carry_adder16_tb
+# vsim -novopt simulation.xnor_based_ripple_carry_adder16_tb 
+# Refreshing /home/nayakkk/32xor/xnor_based_ripple_carry_adder/sim/simulation.xnor_based_ripple_carry_adder16_tb
+# Loading simulation.xnor_based_ripple_carry_adder16_tb
+# Refreshing /home/nayakkk/32xor/xnor_based_ripple_carry_adder/sim/simulation.xnor_based_ripple_carry_adder16_xor_enc32
+# Loading simulation.xnor_based_ripple_carry_adder16_xor_enc32
+add wave sim:/xnor_based_ripple_carry_adder16_tb/*
+run
+#                    0 add1_i= 0000, add2_i = 0000, keyinput= b80304ad, result_o = 0304b 
+#                   10 add1_i= 29af, add2_i = 7a1b, keyinput= b80304ad, result_o = 08389 
+#                   20 add1_i= 1100, add2_i = 1111, keyinput= b80304ad, result_o = 01258 
+#                   30 add1_i= 8116, add2_i = 1cce, keyinput= b80304ad, result_o = 08e17 
+#                   35 add1_i= 4482, add2_i = 3bcd, keyinput= b80304ad, result_o = 0e092 
+#                   43 add1_i= 8943, add2_i = ffff, keyinput= b80304ad, result_o = 15941 
+#                   53 add1_i= abcd, add2_i = 0000, keyinput= b80304ad, result_o = 09c10 
+#                   63 add1_i= 0000, add2_i = 1234, keyinput= b80304ad, result_o = 0027b 
+#                   73 add1_i= 1111, add2_i = eeaa, keyinput= b80304ad, result_o = 0efc6 
+#                   83 add1_i= 5555, add2_i = aaaa, keyinput= b80304ad, result_o = 16002 
+#                   93 add1_i= 8051, add2_i = 8086, keyinput= b80304ad, result_o = 1311a 
+#                   98 add1_i= fadc, add2_i = 00dc, keyinput= b80304ad, result_o = 0abf3 
+#                  106 add1_i= 4096, add2_i = 2048, keyinput= b80304ad, result_o = 0d123 
+#                  116 add1_i= 1024, add2_i = 8192, keyinput= b80304ad, result_o = 081fb 
+#                  216 add1_i= 0000, add2_i = 0001, keyinput= b80304ad, result_o = 03048 
+# ** Note: $finish    : /home/nayakkk/32xor/xnor_based_ripple_carry_adder/sim/xnor_based_ripple_carry_adder16_tb.v(83)
+#    Time: 316 ns  Iteration: 0  Instance: /xnor_based_ripple_carry_adder16_tb
+# 1
+# Break in Module xnor_based_ripple_carry_adder16_tb at /home/nayakkk/32xor/xnor_based_ripple_carry_adder/sim/xnor_based_ripple_carry_adder16_tb.v line 83
+# Compile of xnor_based_ripple_carry_adder16_tb.v was successful.
+# Compile of xnor_based_ripple_carry_adder16_xor_enc32.v was successful.
+# 2 compiles, 0 failed with no errors. 
+vsim -novopt simulation.xnor_based_ripple_carry_adder16_tb
+# vsim -novopt simulation.xnor_based_ripple_carry_adder16_tb 
+# Refreshing /home/nayakkk/32xor/xnor_based_ripple_carry_adder/sim/simulation.xnor_based_ripple_carry_adder16_tb
+# Loading simulation.xnor_based_ripple_carry_adder16_tb
+# Refreshing /home/nayakkk/32xor/xnor_based_ripple_carry_adder/sim/simulation.xnor_based_ripple_carry_adder16_xor_enc32
+# Loading simulation.xnor_based_ripple_carry_adder16_xor_enc32
+add wave sim:/xnor_based_ripple_carry_adder16_tb/*
+run
+#                    0 add1_i= 0000, add2_i = 0000, keyinput= b80cb450, result_o = 0a355 
+#                   10 add1_i= 29af, add2_i = 7a1b, keyinput= b80cb450, result_o = 004ff 
+#                   20 add1_i= 1100, add2_i = 1111, keyinput= b80cb450, result_o = 08366 
+#                   30 add1_i= 8116, add2_i = 1cce, keyinput= b80cb450, result_o = 03f21 
+#                   35 add1_i= 4482, add2_i = 3bcd, keyinput= b80cb450, result_o = 0e194 
+#                   43 add1_i= 8943, add2_i = ffff, keyinput= b80cb450, result_o = 1e607 
+#                   53 add1_i= abcd, add2_i = 0000, keyinput= b80cb450, result_o = 00d16 
+#                   63 add1_i= 0000, add2_i = 1234, keyinput= b80cb450, result_o = 0b505 
+#                   73 add1_i= 1111, add2_i = eeaa, keyinput= b80cb450, result_o = 06080 
+#                   83 add1_i= 5555, add2_i = aaaa, keyinput= b80cb450, result_o = 060c4 
+#                   93 add1_i= 8051, add2_i = 8086, keyinput= b80cb450, result_o = 1a22c 
+#                   98 add1_i= fadc, add2_i = 00dc, keyinput= b80cb450, result_o = 05ced 
+#                  106 add1_i= 4096, add2_i = 2048, keyinput= b80cb450, result_o = 00225 
+#                  116 add1_i= 1024, add2_i = 8192, keyinput= b80cb450, result_o = 030c5 
+#                  216 add1_i= 0000, add2_i = 0001, keyinput= b80cb450, result_o = 0a356 
+# ** Note: $finish    : /home/nayakkk/32xor/xnor_based_ripple_carry_adder/sim/xnor_based_ripple_carry_adder16_tb.v(83)
+#    Time: 316 ns  Iteration: 0  Instance: /xnor_based_ripple_carry_adder16_tb
+# 1
+# Break in Module xnor_based_ripple_carry_adder16_tb at /home/nayakkk/32xor/xnor_based_ripple_carry_adder/sim/xnor_based_ripple_carry_adder16_tb.v line 83

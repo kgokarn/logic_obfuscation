@@ -1,0 +1,8 @@
+/home/nayakkk/32xor/carry_lookahead_adder/sim/carry_lookahead_adder16_xor_enc32.v {1 {vlog -work simulation -vopt -nocovercells /home/nayakkk/32xor/carry_lookahead_adder/sim/carry_lookahead_adder16_xor_enc32.v
+Model Technology ModelSim SE-64 vlog 6.6d Compiler 2010.11 Nov  1 2010
+-- Compiling module carry_lookahead_adder16_xor_enc32
+
+Top level modules:
+	carry_lookahead_adder16_xor_enc32
+
+} {} {}}

@@ -1,0 +1,71 @@
+# //  ModelSim SE-64 6.6d Nov  1 2010 Linux 2.6.32-754.31.1.el6.x86_64
+# //
+# //  Copyright 1991-2010 Mentor Graphics Corporation
+# //              All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND 
+# //  PROPRIETARY INFORMATION WHICH IS THE PROPERTY
+# //  OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+# //  AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Loading project decrca
+# reading /var/autofs/misc/cad/mentor/modelsim-6.6d/modeltech/linux_x86_64/../modelsim.ini
+# Loading project aca32xor
+# Compile of almost_correct_adder16_tb.v was successful.
+# Compile of almost_correct_adder16_xor_enc32.v was successful.
+# 2 compiles, 0 failed with no errors. 
+vsim -novopt simulation.almost_correct_adder16_tb
+# vsim -novopt simulation.almost_correct_adder16_tb 
+# Refreshing /home/nayakkk/32xor/almost_correct_adder/sim/simulation.almost_correct_adder16_tb
+# Loading simulation.almost_correct_adder16_tb
+# Refreshing /home/nayakkk/32xor/almost_correct_adder/sim/simulation.almost_correct_adder16_xor_enc32
+# Loading simulation.almost_correct_adder16_xor_enc32
+add wave sim:/almost_correct_adder16_tb/*
+run
+#                    0 add1_i= 0000, add2_i = 0000, keyinput= f19db8a4, result_o = 04209 
+#                   10 add1_i= 29af, add2_i = 7a1b, keyinput= f19db8a4, result_o = 0a1c3 
+#                   20 add1_i= 1100, add2_i = 1111, keyinput= f19db8a4, result_o = 0621a 
+#                   30 add1_i= 8116, add2_i = 1cce, keyinput= f19db8a4, result_o = 0dfe5 
+#                   35 add1_i= 4482, add2_i = 3bcd, keyinput= f19db8a4, result_o = 0ba48 
+#                   37 add1_i= 8943, add2_i = ffff, keyinput= f19db8a4, result_o = 18d7b 
+#                   47 add1_i= abcd, add2_i = 0000, keyinput= f19db8a4, result_o = 0f9d6 
+#                   57 add1_i= 0000, add2_i = 1234, keyinput= f19db8a4, result_o = 0403d 
+#                   67 add1_i= 1111, add2_i = eeaa, keyinput= f19db8a4, result_o = 13584 
+#                   77 add1_i= 5555, add2_i = aaaa, keyinput= f19db8a4, result_o = 135f8 
+#                   87 add1_i= 8051, add2_i = 8086, keyinput= f19db8a4, result_o = 142d0 
+#                   92 add1_i= fadc, add2_i = 00dc, keyinput= f19db8a4, result_o = 129b9 
+#                   94 add1_i= 4096, add2_i = 2048, keyinput= f19db8a4, result_o = 0a2e7 
+#                  104 add1_i= 1024, add2_i = 8192, keyinput= f19db8a4, result_o = 0d3bf 
+#                  204 add1_i= 0000, add2_i = 0001, keyinput= f19db8a4, result_o = 0420a 
+# ** Note: $finish    : /home/nayakkk/32xor/almost_correct_adder/sim/almost_correct_adder16_tb.v(83)
+#    Time: 304 ns  Iteration: 0  Instance: /almost_correct_adder16_tb
+# 1
+# Break in Module almost_correct_adder16_tb at /home/nayakkk/32xor/almost_correct_adder/sim/almost_correct_adder16_tb.v line 83
+# Compile of almost_correct_adder16_tb.v was successful.
+# Compile of almost_correct_adder16_xor_enc32.v was successful.
+# 2 compiles, 0 failed with no errors. 
+vsim -novopt simulation.almost_correct_adder16_tb
+# vsim -novopt simulation.almost_correct_adder16_tb 
+# Refreshing /home/nayakkk/32xor/almost_correct_adder/sim/simulation.almost_correct_adder16_tb
+# Loading simulation.almost_correct_adder16_tb
+# Refreshing /home/nayakkk/32xor/almost_correct_adder/sim/simulation.almost_correct_adder16_xor_enc32
+# Loading simulation.almost_correct_adder16_xor_enc32
+add wave sim:/almost_correct_adder16_tb/*
+run
+#                    0 add1_i= 0000, add2_i = 0000, keyinput= 1812b8a4, result_o = 08981 
+#                   10 add1_i= 29af, add2_i = 7a1b, keyinput= 1812b8a4, result_o = 02a4b 
+#                   20 add1_i= 1100, add2_i = 1111, keyinput= 1812b8a4, result_o = 0ab92 
+#                   30 add1_i= 8116, add2_i = 1cce, keyinput= 1812b8a4, result_o = 12465 
+#                   35 add1_i= 4482, add2_i = 3bcd, keyinput= 1812b8a4, result_o = 001d0 
+#                   37 add1_i= 8943, add2_i = ffff, keyinput= 1812b8a4, result_o = 108c3 
+#                   47 add1_i= abcd, add2_i = 0000, keyinput= 1812b8a4, result_o = 1324e 
+#                   57 add1_i= 0000, add2_i = 1234, keyinput= 1812b8a4, result_o = 09bb5 
+#                   67 add1_i= 1111, add2_i = eeaa, keyinput= 1812b8a4, result_o = 0863c 
+#                   77 add1_i= 5555, add2_i = aaaa, keyinput= 1812b8a4, result_o = 08440 
+#                   87 add1_i= 8051, add2_i = 8086, keyinput= 1812b8a4, result_o = 18958 
+#                   92 add1_i= fadc, add2_i = 00dc, keyinput= 1812b8a4, result_o = 08239 
+#                   94 add1_i= 4096, add2_i = 2048, keyinput= 1812b8a4, result_o = 0e95f 
+#                  104 add1_i= 1024, add2_i = 8192, keyinput= 1812b8a4, result_o = 11837 
+#                  204 add1_i= 0000, add2_i = 0001, keyinput= 1812b8a4, result_o = 08982 
+# ** Note: $finish    : /home/nayakkk/32xor/almost_correct_adder/sim/almost_correct_adder16_tb.v(83)
+#    Time: 304 ns  Iteration: 0  Instance: /almost_correct_adder16_tb

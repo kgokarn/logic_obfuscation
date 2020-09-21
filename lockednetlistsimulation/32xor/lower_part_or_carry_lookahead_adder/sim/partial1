@@ -1,0 +1,30 @@
+# Compile of lower_part_or_carry_lookahead_adder16_tb.v was successful.
+# Compile of lower_part_or_carry_lookahead_adder16_xor_enc32.v was successful.
+# 2 compiles, 0 failed with no errors. 
+vsim -novopt simulation.lower_part_or_carry_lookahead_adder16_tb
+# vsim -novopt simulation.lower_part_or_carry_lookahead_adder16_tb 
+# Refreshing /home/nayakkk/32xor/lower_part_or_carry_lookahead_adder/sim/simulation.lower_part_or_carry_lookahead_adder16_tb
+# Loading simulation.lower_part_or_carry_lookahead_adder16_tb
+# Refreshing /home/nayakkk/32xor/lower_part_or_carry_lookahead_adder/sim/simulation.lower_part_or_carry_lookahead_adder16_xor_enc32
+# Loading simulation.lower_part_or_carry_lookahead_adder16_xor_enc32
+add wave sim:/lower_part_or_carry_lookahead_adder16_tb/*
+run
+#                    0 add1_i= 0000, add2_i = 0000, keyinput= fb30b8ae, result_o = 10500 
+#                   10 add1_i= 29af, add2_i = 7a1b, keyinput= fb30b8ae, result_o = 194cf 
+#                   20 add1_i= 1100, add2_i = 1111, keyinput= fb30b8ae, result_o = 10711 
+#                   30 add1_i= 8116, add2_i = 1cce, keyinput= fb30b8ae, result_o = 192de 
+#                   35 add1_i= 4482, add2_i = 3bcd, keyinput= fb30b8ae, result_o = 1b34f 
+#                   40 add1_i= 8943, add2_i = ffff, keyinput= fb30b8ae, result_o = 0a83f 
+#                   50 add1_i= abcd, add2_i = 0000, keyinput= fb30b8ae, result_o = 1e8cd 
+#                   60 add1_i= 0000, add2_i = 1234, keyinput= fb30b8ae, result_o = 11734 
+#                   70 add1_i= 1111, add2_i = eeaa, keyinput= fb30b8ae, result_o = 030bb 
+#                   80 add1_i= 5555, add2_i = aaaa, keyinput= fb30b8ae, result_o = 030ff 
+#                   90 add1_i= 8051, add2_i = 8086, keyinput= fb30b8ae, result_o = 005d7 
+#                   95 add1_i= fadc, add2_i = 00dc, keyinput= fb30b8ae, result_o = 03fbc 
+#                  100 add1_i= 4096, add2_i = 2048, keyinput= fb30b8ae, result_o = 1a5de 
+#                  110 add1_i= 1024, add2_i = 8192, keyinput= fb30b8ae, result_o = 196b6 
+#                  210 add1_i= 0000, add2_i = 0001, keyinput= fb30b8ae, result_o = 10501 
+# ** Note: $finish    : /home/nayakkk/32xor/lower_part_or_carry_lookahead_adder/sim/lower_part_or_carry_lookahead_adder16_tb.v(83)
+#    Time: 310 ns  Iteration: 0  Instance: /lower_part_or_carry_lookahead_adder16_tb
+# 1
+# Break in Module lower_part_or_carry_lookahead_adder16_tb at /home/nayakkk/32xor/lower_part_or_carry_lookahead_adder/sim/lower_part_or_carry_lookahead_adder16_tb.v line 83
