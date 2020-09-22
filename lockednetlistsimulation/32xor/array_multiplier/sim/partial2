@@ -1,0 +1,30 @@
+# Compile of array_multiplier8_tb.v was successful.
+# Compile of array_multiplier8_xor_enc32.v was successful.
+# 2 compiles, 0 failed with no errors. 
+vsim -novopt simulation.array_multiplier8_tb
+# vsim -novopt simulation.array_multiplier8_tb 
+# Refreshing /home/nayakkk/32xor/array_multiplier/sim/simulation.array_multiplier8_tb
+# Loading simulation.array_multiplier8_tb
+# Refreshing /home/nayakkk/32xor/array_multiplier/sim/simulation.array_multiplier8_xor_enc32
+# Loading simulation.array_multiplier8_xor_enc32
+add wave sim:/array_multiplier8_tb/*
+run
+#                    0 operand1_i= 00, operand2_i = 00, keyinput = b6af072d, result_o = 2a40 
+#                   10 operand1_i= 29, operand2_i = 7a, keyinput = b6af072d, result_o = 354a 
+#                   20 operand1_i= 11, operand2_i = 11, keyinput = b6af072d, result_o = 2b61 
+#                   30 operand1_i= 81, operand2_i = 1c, keyinput = b6af072d, result_o = 385c 
+#                   50 operand1_i= 44, operand2_i = 3b, keyinput = b6af072d, result_o = 39ec 
+#                   70 operand1_i= 89, operand2_i = ff, keyinput = b6af072d, result_o = b237 
+#                   80 operand1_i= ab, operand2_i = 00, keyinput = b6af072d, result_o = 2a40 
+#                   90 operand1_i= 34, operand2_i = 12, keyinput = b6af072d, result_o = 2de8 
+#                  100 operand1_i= 11, operand2_i = 20, keyinput = b6af072d, result_o = 2c60 
+#                  110 operand1_i= 55, operand2_i = aa, keyinput = b6af072d, result_o = 1ab2 
+#                  120 operand1_i= 80, operand2_i = 80, keyinput = b6af072d, result_o = 6a40 
+#                  125 operand1_i= fa, operand2_i = 00, keyinput = b6af072d, result_o = 2a40 
+#                  135 operand1_i= 40, operand2_i = 20, keyinput = b6af072d, result_o = 3240 
+#                  145 operand1_i= 24, operand2_i = 92, keyinput = b6af072d, result_o = 3ec8 
+#                  245 operand1_i= 00, operand2_i = 01, keyinput = b6af072d, result_o = 2a40 
+# ** Note: $finish    : /home/nayakkk/32xor/array_multiplier/sim/array_multiplier8_tb.v(84)
+#    Time: 345 ns  Iteration: 0  Instance: /array_multiplier8_tb
+# 1
+# Break in Module array_multiplier8_tb at /home/nayakkk/32xor/array_multiplier/sim/array_multiplier8_tb.v line 84
