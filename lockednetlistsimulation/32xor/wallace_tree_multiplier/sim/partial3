@@ -1,0 +1,30 @@
+# Compile of traditional_multiplier8_tb.v was successful.
+# Compile of traditional_multiplier8_xor_enc32.v was successful.
+# 2 compiles, 0 failed with no errors. 
+vsim -novopt simulation.traditional_multiplier8_tb
+# vsim -novopt simulation.traditional_multiplier8_tb 
+# Refreshing /home/nayakkk/32xor/wallace_tree_multiplier/sim/simulation.traditional_multiplier8_tb
+# Loading simulation.traditional_multiplier8_tb
+# Refreshing /home/nayakkk/32xor/wallace_tree_multiplier/sim/simulation.tradtional_multiplier8_xor_enc32
+# Loading simulation.tradtional_multiplier8_xor_enc32
+add wave sim:/traditional_multiplier8_tb/*
+run
+#                    0 operand1_i= 00, operand2_i = 00, keyinput = 62fedb15, result_o = 28c0 
+#                   10 operand1_i= 29, operand2_i = 7a, keyinput = 62fedb15, result_o = 3c4a 
+#                   20 operand1_i= 11, operand2_i = 11, keyinput = 62fedb15, result_o = 29e1 
+#                   30 operand1_i= 81, operand2_i = 1c, keyinput = 62fedb15, result_o = 36fc 
+#                   50 operand1_i= 44, operand2_i = 3b, keyinput = 62fedb15, result_o = 386c 
+#                   70 operand1_i= 89, operand2_i = ff, keyinput = 62fedb15, result_o = a8b7 
+#                   80 operand1_i= ab, operand2_i = 00, keyinput = 62fedb15, result_o = 28c0 
+#                   90 operand1_i= 34, operand2_i = 12, keyinput = 62fedb15, result_o = 2c68 
+#                  100 operand1_i= 11, operand2_i = 20, keyinput = 62fedb15, result_o = 2ae0 
+#                  110 operand1_i= 55, operand2_i = aa, keyinput = 62fedb15, result_o = 60b2 
+#                  120 operand1_i= 80, operand2_i = 80, keyinput = 62fedb15, result_o = 68c0 
+#                  125 operand1_i= fa, operand2_i = 00, keyinput = 62fedb15, result_o = 28c0 
+#                  135 operand1_i= 40, operand2_i = 20, keyinput = 62fedb15, result_o = 30c0 
+#                  145 operand1_i= 24, operand2_i = 92, keyinput = 62fedb15, result_o = 3d48 
+#                  245 operand1_i= 00, operand2_i = 01, keyinput = 62fedb15, result_o = 28c0 
+# ** Note: $finish    : /home/nayakkk/32xor/wallace_tree_multiplier/sim/traditional_multiplier8_tb.v(84)
+#    Time: 345 ns  Iteration: 0  Instance: /traditional_multiplier8_tb
+# 1
+# Break in Module traditional_multiplier8_tb at /home/nayakkk/32xor/wallace_tree_multiplier/sim/traditional_multiplier8_tb.v line 84

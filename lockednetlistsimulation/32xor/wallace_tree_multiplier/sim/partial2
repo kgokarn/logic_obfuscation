@@ -1,0 +1,43 @@
+# //  ModelSim SE-64 6.6d Nov  1 2010 Linux 2.6.32-754.31.1.el6.x86_64
+# //
+# //  Copyright 1991-2010 Mentor Graphics Corporation
+# //              All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND 
+# //  PROPRIETARY INFORMATION WHICH IS THE PROPERTY
+# //  OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+# //  AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Loading project am32xor
+# reading /var/autofs/misc/cad/mentor/modelsim-6.6d/modeltech/linux_x86_64/../modelsim.ini
+# Loading project wtm32xor
+# Compile of traditional_multiplier8_tb.v was successful.
+# Compile of traditional_multiplier8_xor_enc32.v was successful.
+# 2 compiles, 0 failed with no errors. 
+vsim -novopt simulation.traditional_multiplier8_tb
+# vsim -novopt simulation.traditional_multiplier8_tb 
+# Refreshing /home/nayakkk/32xor/wallace_tree_multiplier/sim/simulation.traditional_multiplier8_tb
+# Loading simulation.traditional_multiplier8_tb
+# Refreshing /home/nayakkk/32xor/wallace_tree_multiplier/sim/simulation.tradtional_multiplier8_xor_enc32
+# Loading simulation.tradtional_multiplier8_xor_enc32
+add wave sim:/traditional_multiplier8_tb/*
+run
+#                    0 operand1_i= 00, operand2_i = 00, keyinput = 62f64b8a, result_o = 0580 
+#                   10 operand1_i= 29, operand2_i = 7a, keyinput = 62f64b8a, result_o = 130a 
+#                   20 operand1_i= 11, operand2_i = 11, keyinput = 62f64b8a, result_o = 04a1 
+#                   30 operand1_i= 81, operand2_i = 1c, keyinput = 62f64b8a, result_o = 139c 
+#                   50 operand1_i= 44, operand2_i = 3b, keyinput = 62f64b8a, result_o = 152c 
+#                   70 operand1_i= 89, operand2_i = ff, keyinput = 62f64b8a, result_o = 8bf7 
+#                   80 operand1_i= ab, operand2_i = 00, keyinput = 62f64b8a, result_o = 0580 
+#                   90 operand1_i= 34, operand2_i = 12, keyinput = 62f64b8a, result_o = 0928 
+#                  100 operand1_i= 11, operand2_i = 20, keyinput = 62f64b8a, result_o = 07a0 
+#                  110 operand1_i= 55, operand2_i = aa, keyinput = 62f64b8a, result_o = 3bf2 
+#                  120 operand1_i= 80, operand2_i = 80, keyinput = 62f64b8a, result_o = 4580 
+#                  125 operand1_i= fa, operand2_i = 00, keyinput = 62f64b8a, result_o = 0580 
+#                  135 operand1_i= 40, operand2_i = 20, keyinput = 62f64b8a, result_o = 0d80 
+#                  145 operand1_i= 24, operand2_i = 92, keyinput = 62f64b8a, result_o = 1608 
+#                  245 operand1_i= 00, operand2_i = 01, keyinput = 62f64b8a, result_o = 0580 
+# ** Note: $finish    : /home/nayakkk/32xor/wallace_tree_multiplier/sim/traditional_multiplier8_tb.v(84)
+#    Time: 345 ns  Iteration: 0  Instance: /traditional_multiplier8_tb
+# 1
+# Break in Module traditional_multiplier8_tb at /home/nayakkk/32xor/wallace_tree_multiplier/sim/traditional_multiplier8_tb.v line 84
