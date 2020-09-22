@@ -1,0 +1,30 @@
+# Compile of broke_array_multiplier8_tb.v was successful.
+# Compile of broken_array_multiplier8_xor_enc32.v was successful.
+# 2 compiles, 0 failed with no errors. 
+vsim -novopt simulation.broke_array_multiplier8_tb
+# vsim -novopt simulation.broke_array_multiplier8_tb 
+# Refreshing /home/nayakkk/32xor/broken_array_multiplier/sim/simulation.broke_array_multiplier8_tb
+# Loading simulation.broke_array_multiplier8_tb
+# Refreshing /home/nayakkk/32xor/broken_array_multiplier/sim/simulation.broken_array_multiplier8_xor_enc32
+# Loading simulation.broken_array_multiplier8_xor_enc32
+add wave sim:/broke_array_multiplier8_tb/*
+run
+#                    0 operand1_i= 00, operand2_i = 00, keyinput = b544b006, result_o = 0a40 
+#                   10 operand1_i= 29, operand2_i = 7a, keyinput = b544b006, result_o = 41ca 
+#                   20 operand1_i= 11, operand2_i = 11, keyinput = b544b006, result_o = 0b61 
+#                   30 operand1_i= 81, operand2_i = 1c, keyinput = b544b006, result_o = 345c 
+#                   50 operand1_i= 44, operand2_i = 3b, keyinput = b544b006, result_o = 0de0 
+#                   70 operand1_i= 89, operand2_i = ff, keyinput = b544b006, result_o = 6aaf 
+#                   80 operand1_i= ab, operand2_i = 00, keyinput = b544b006, result_o = 0a40 
+#                   90 operand1_i= 34, operand2_i = 12, keyinput = b544b006, result_o = 09e0 
+#                  100 operand1_i= 11, operand2_i = 20, keyinput = b544b006, result_o = 0860 
+#                  110 operand1_i= 55, operand2_i = aa, keyinput = b544b006, result_o = 46aa 
+#                  120 operand1_i= 80, operand2_i = 80, keyinput = b544b006, result_o = 4a40 
+#                  125 operand1_i= fa, operand2_i = 00, keyinput = b544b006, result_o = 0a40 
+#                  135 operand1_i= 40, operand2_i = 20, keyinput = b544b006, result_o = 1240 
+#                  145 operand1_i= 24, operand2_i = 92, keyinput = b544b006, result_o = 1ac0 
+#                  245 operand1_i= 00, operand2_i = 01, keyinput = b544b006, result_o = 0a40 
+# ** Note: $finish    : /home/nayakkk/32xor/broken_array_multiplier/sim/broke_array_multiplier8_tb.v(84)
+#    Time: 345 ns  Iteration: 0  Instance: /broke_array_multiplier8_tb
+# 1
+# Break in Module broke_array_multiplier8_tb at /home/nayakkk/32xor/broken_array_multiplier/sim/broke_array_multiplier8_tb.v line 84
