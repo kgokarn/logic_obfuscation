@@ -1,0 +1,47 @@
+# //  ModelSim SE-64 6.6d Nov  1 2010 Linux 2.6.32-754.33.1.el6.x86_64
+# //
+# //  Copyright 1991-2010 Mentor Graphics Corporation
+# //              All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND 
+# //  PROPRIETARY INFORMATION WHICH IS THE PROPERTY
+# //  OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+# //  AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Loading project cla32aor
+# reading /var/autofs/misc/cad/mentor/modelsim-6.6d/modeltech/linux_x86_64/../modelsim.ini
+# Loading project udm32aor
+# Compile of underdesigned_multiplier8_aor_enc32.v was successful.
+# Compile of underdesigned_multiplier8_tb.v was successful.
+# 2 compiles, 0 failed with no errors. 
+vsim -novopt simulation.underdesigned_multiplier8_tb
+# vsim -novopt simulation.underdesigned_multiplier8_tb 
+# Refreshing /home/nayakkk/32aor/underdesigned_multiplier/sim/simulation.underdesigned_multiplier8_tb
+# Loading simulation.underdesigned_multiplier8_tb
+# Refreshing /home/nayakkk/32aor/underdesigned_multiplier/sim/simulation.underdesigned_multiplier8_aor_enc32
+# Loading simulation.underdesigned_multiplier8_aor_enc32
+vsim -novopt simulation.underdesigned_multiplier8_tb
+# vsim -novopt simulation.underdesigned_multiplier8_tb 
+# Loading simulation.underdesigned_multiplier8_tb
+# Loading simulation.underdesigned_multiplier8_aor_enc32
+add wave sim:/underdesigned_multiplier8_tb/*
+run
+#                    0 operand1_i= 00, operand2_i = 00, keyinput = d03b333f, result_o = 0a00 
+#                   10 operand1_i= 29, operand2_i = 7a, keyinput = d03b333f, result_o = 158a 
+#                   20 operand1_i= 11, operand2_i = 11, keyinput = d03b333f, result_o = 0c21 
+#                   30 operand1_i= 81, operand2_i = 1c, keyinput = d03b333f, result_o = 181c 
+#                   50 operand1_i= 44, operand2_i = 3b, keyinput = d03b333f, result_o = 18ac 
+#                   70 operand1_i= 89, operand2_i = ff, keyinput = d03b333f, result_o = 1177 
+#                   80 operand1_i= ab, operand2_i = 00, keyinput = d03b333f, result_o = 0a00 
+#                   90 operand1_i= 34, operand2_i = 12, keyinput = d03b333f, result_o = 0e68 
+#                  100 operand1_i= 11, operand2_i = 20, keyinput = d03b333f, result_o = 0c20 
+#                  110 operand1_i= 55, operand2_i = aa, keyinput = d03b333f, result_o = 3832 
+#                  120 operand1_i= 80, operand2_i = 80, keyinput = d03b333f, result_o = 4a00 
+#                  125 operand1_i= fa, operand2_i = 00, keyinput = d03b333f, result_o = 0a00 
+#                  135 operand1_i= 40, operand2_i = 20, keyinput = d03b333f, result_o = 1200 
+#                  145 operand1_i= 24, operand2_i = 92, keyinput = d03b333f, result_o = 1e48 
+#                  245 operand1_i= 00, operand2_i = 01, keyinput = d03b333f, result_o = 0a00 
+# ** Note: $finish    : /home/nayakkk/32aor/underdesigned_multiplier/sim/underdesigned_multiplier8_tb.v(84)
+#    Time: 345 ns  Iteration: 0  Instance: /underdesigned_multiplier8_tb
+# 1
+# Break in Module underdesigned_multiplier8_tb at /home/nayakkk/32aor/underdesigned_multiplier/sim/underdesigned_multiplier8_tb.v line 84

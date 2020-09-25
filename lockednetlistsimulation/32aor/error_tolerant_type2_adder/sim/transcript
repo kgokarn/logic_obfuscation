@@ -1,0 +1,108 @@
+# //  ModelSim SE-64 6.6d Nov  1 2010 Linux 2.6.32-754.33.1.el6.x86_64
+# //
+# //  Copyright 1991-2010 Mentor Graphics Corporation
+# //              All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND 
+# //  PROPRIETARY INFORMATION WHICH IS THE PROPERTY
+# //  OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+# //  AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Loading project cla32aor
+# reading /var/autofs/misc/cad/mentor/modelsim-6.6d/modeltech/linux_x86_64/../modelsim.ini
+# Loading project eta32aor
+# Compile of error_tolerant_type2_adder16_aor_enc32.v was successful.
+# Compile of error_tolerant_type2_adder16_tb.v was successful.
+# 2 compiles, 0 failed with no errors. 
+vsim -novopt simulation.error_tolerant_type2_adder16_tb
+# vsim -novopt simulation.error_tolerant_type2_adder16_tb 
+# Refreshing /home/nayakkk/32aor/error_tolerant_type2_adder/sim/simulation.error_tolerant_type2_adder16_tb
+# Loading simulation.error_tolerant_type2_adder16_tb
+# Refreshing /home/nayakkk/32aor/error_tolerant_type2_adder/sim/simulation.error_tolerant_type2_adder16_aor_enc32
+# Loading simulation.error_tolerant_type2_adder16_aor_enc32
+vsim -novopt simulation.error_tolerant_type2_adder16_tb
+# vsim -novopt simulation.error_tolerant_type2_adder16_tb 
+# Loading simulation.error_tolerant_type2_adder16_tb
+# Loading simulation.error_tolerant_type2_adder16_aor_enc32
+add wave sim:/error_tolerant_type2_adder16_tb/*
+run
+#                    0 add1_i= 0000, add2_i = 0000, keyinput= 93b4c4f3, result_o = 08001 
+#                   10 add1_i= 29af, add2_i = 7a1b, keyinput= 93b4c4f3, result_o = 022c2 
+#                   20 add1_i= 1100, add2_i = 1111, keyinput= 93b4c4f3, result_o = 0a212 
+#                   30 add1_i= 8116, add2_i = 1cce, keyinput= 93b4c4f3, result_o = 09ced 
+#                   35 add1_i= 4482, add2_i = 3bcd, keyinput= 93b4c4f3, result_o = 0f048 
+#                   40 add1_i= 8943, add2_i = ffff, keyinput= 93b4c4f3, result_o = 1084a 
+#                   50 add1_i= abcd, add2_i = 0000, keyinput= 93b4c4f3, result_o = 0aace 
+#                   60 add1_i= 0000, add2_i = 1234, keyinput= 93b4c4f3, result_o = 09235 
+#                   70 add1_i= 1111, add2_i = eeaa, keyinput= 93b4c4f3, result_o = 0febc 
+#                   80 add1_i= 5555, add2_i = aaaa, keyinput= 93b4c4f3, result_o = 0fef8 
+#                   90 add1_i= 8051, add2_i = 8086, keyinput= 93b4c4f3, result_o = 180d0 
+#                   95 add1_i= fadc, add2_i = 00dc, keyinput= 93b4c4f3, result_o = 0fab1 
+#                  100 add1_i= 4096, add2_i = 2048, keyinput= 93b4c4f3, result_o = 0e0df 
+#                  110 add1_i= 1024, add2_i = 8192, keyinput= 93b4c4f3, result_o = 090b7 
+#                  210 add1_i= 0000, add2_i = 0001, keyinput= 93b4c4f3, result_o = 08002 
+# ** Note: $finish    : /home/nayakkk/32aor/error_tolerant_type2_adder/sim/error_tolerant_type2_adder16_tb.v(83)
+#    Time: 310 ns  Iteration: 0  Instance: /error_tolerant_type2_adder16_tb
+# 1
+# Break in Module error_tolerant_type2_adder16_tb at /home/nayakkk/32aor/error_tolerant_type2_adder/sim/error_tolerant_type2_adder16_tb.v line 83
+# Compile of error_tolerant_type2_adder16_aor_enc32.v was successful.
+# Compile of error_tolerant_type2_adder16_tb.v was successful.
+# 2 compiles, 0 failed with no errors. 
+# Compile of error_tolerant_type2_adder16_aor_enc32.v was successful.
+# Compile of error_tolerant_type2_adder16_tb.v was successful.
+# 2 compiles, 0 failed with no errors. 
+vsim -novopt simulation.error_tolerant_type2_adder16_tb
+# vsim -novopt simulation.error_tolerant_type2_adder16_tb 
+# Refreshing /home/nayakkk/32aor/error_tolerant_type2_adder/sim/simulation.error_tolerant_type2_adder16_tb
+# Loading simulation.error_tolerant_type2_adder16_tb
+# Refreshing /home/nayakkk/32aor/error_tolerant_type2_adder/sim/simulation.error_tolerant_type2_adder16_aor_enc32
+# Loading simulation.error_tolerant_type2_adder16_aor_enc32
+add wave sim:/error_tolerant_type2_adder16_tb/*
+run
+#                    0 add1_i= 0000, add2_i = 0000, keyinput= 77b4c4cf, result_o = 04101 
+#                   10 add1_i= 29af, add2_i = 7a1b, keyinput= 77b4c4cf, result_o = 0e4c7 
+#                   20 add1_i= 1100, add2_i = 1111, keyinput= 77b4c4cf, result_o = 06312 
+#                   30 add1_i= 8116, add2_i = 1cce, keyinput= 77b4c4cf, result_o = 0dee5 
+#                   35 add1_i= 4482, add2_i = 3bcd, keyinput= 77b4c4cf, result_o = 0705c 
+#                   40 add1_i= 8943, add2_i = ffff, keyinput= 77b4c4cf, result_o = 1c94f 
+#                   50 add1_i= abcd, add2_i = 0000, keyinput= 77b4c4cf, result_o = 0ecce 
+#                   60 add1_i= 0000, add2_i = 1234, keyinput= 77b4c4cf, result_o = 05335 
+#                   70 add1_i= 1111, add2_i = eeaa, keyinput= 77b4c4cf, result_o = 0f0bc 
+#                   80 add1_i= 5555, add2_i = aaaa, keyinput= 77b4c4cf, result_o = 0f0f0 
+#                   90 add1_i= 8051, add2_i = 8086, keyinput= 77b4c4cf, result_o = 141d8 
+#                   95 add1_i= fadc, add2_i = 00dc, keyinput= 77b4c4cf, result_o = 0fbb9 
+#                  100 add1_i= 4096, add2_i = 2048, keyinput= 77b4c4cf, result_o = 061df 
+#                  110 add1_i= 1024, add2_i = 8192, keyinput= 77b4c4cf, result_o = 0d2b7 
+#                  210 add1_i= 0000, add2_i = 0001, keyinput= 77b4c4cf, result_o = 04102 
+# ** Note: $finish    : /home/nayakkk/32aor/error_tolerant_type2_adder/sim/error_tolerant_type2_adder16_tb.v(83)
+#    Time: 310 ns  Iteration: 0  Instance: /error_tolerant_type2_adder16_tb
+# 1
+# Break in Module error_tolerant_type2_adder16_tb at /home/nayakkk/32aor/error_tolerant_type2_adder/sim/error_tolerant_type2_adder16_tb.v line 83
+# Compile of error_tolerant_type2_adder16_aor_enc32.v was successful.
+# Compile of error_tolerant_type2_adder16_tb.v was successful.
+# 2 compiles, 0 failed with no errors. 
+vsim -novopt simulation.error_tolerant_type2_adder16_tb
+# vsim -novopt simulation.error_tolerant_type2_adder16_tb 
+# Refreshing /home/nayakkk/32aor/error_tolerant_type2_adder/sim/simulation.error_tolerant_type2_adder16_tb
+# Loading simulation.error_tolerant_type2_adder16_tb
+# Refreshing /home/nayakkk/32aor/error_tolerant_type2_adder/sim/simulation.error_tolerant_type2_adder16_aor_enc32
+# Loading simulation.error_tolerant_type2_adder16_aor_enc32
+add wave sim:/error_tolerant_type2_adder16_tb/*
+run
+#                    0 add1_i= 0000, add2_i = 0000, keyinput= 93baf4cf, result_o = 00061 
+#                   10 add1_i= 29af, add2_i = 7a1b, keyinput= 93baf4cf, result_o = 0a3eb 
+#                   20 add1_i= 1100, add2_i = 1111, keyinput= 93baf4cf, result_o = 02272 
+#                   30 add1_i= 8116, add2_i = 1cce, keyinput= 93baf4cf, result_o = 09d25 
+#                   35 add1_i= 4482, add2_i = 3bcd, keyinput= 93baf4cf, result_o = 070a0 
+#                   40 add1_i= 8943, add2_i = ffff, keyinput= 93baf4cf, result_o = 189e3 
+#                   50 add1_i= abcd, add2_i = 0000, keyinput= 93baf4cf, result_o = 0abae 
+#                   60 add1_i= 0000, add2_i = 1234, keyinput= 93baf4cf, result_o = 01275 
+#                   70 add1_i= 1111, add2_i = eeaa, keyinput= 93baf4cf, result_o = 0fffc 
+#                   80 add1_i= 5555, add2_i = aaaa, keyinput= 93baf4cf, result_o = 0ffb0 
+#                   90 add1_i= 8051, add2_i = 8086, keyinput= 93baf4cf, result_o = 100b8 
+#                   95 add1_i= fadc, add2_i = 00dc, keyinput= 93baf4cf, result_o = 0fb79 
+#                  100 add1_i= 4096, add2_i = 2048, keyinput= 93baf4cf, result_o = 0603f 
+#                  110 add1_i= 1024, add2_i = 8192, keyinput= 93baf4cf, result_o = 091f7 
+#                  210 add1_i= 0000, add2_i = 0001, keyinput= 93baf4cf, result_o = 00062 
+# ** Note: $finish    : /home/nayakkk/32aor/error_tolerant_type2_adder/sim/error_tolerant_type2_adder16_tb.v(83)
+#    Time: 310 ns  Iteration: 0  Instance: /error_tolerant_type2_adder16_tb

@@ -1,0 +1,35 @@
+m255
+K3
+13
+cModel Technology
+d/home/nayakkk/32aor/carry_lookahead_adder/sim
+varray_multiplier8_aor_enc32
+V=K5V08OAc7T3M^ZRGT:<E0
+r1
+!s85 0
+31
+IOS4g3Vi_L@ZHjIRFd?M`N0
+Z0 d/home/nayakkk/32aor/array_multiplier/sim
+w1600850706
+8/home/nayakkk/32aor/array_multiplier/sim/array_multiplier8_aor_enc32.v
+F/home/nayakkk/32aor/array_multiplier/sim/array_multiplier8_aor_enc32.v
+L0 2
+Z1 OL;L;6.6d;45
+Z2 !s102 -nocovercells
+Z3 o-work simulation -nocovercells -L mtiAvm -L mtiOvm -L mtiUPF
+!s100 ZXE0g>R8?`Kb0OFonoTaW0
+varray_multiplier8_tb
+VoHCV7ilcATUYmW:a8[G0I0
+r1
+31
+IW3ifnMflUGZj>YNgg7]Po1
+Z4 d/home/nayakkk/32aor/array_multiplier/sim
+w1600952848
+8/home/nayakkk/32aor/array_multiplier/sim/array_multiplier8_tb.v
+F/home/nayakkk/32aor/array_multiplier/sim/array_multiplier8_tb.v
+L0 24
+R1
+R2
+R3
+!s85 0
+!s100 _>0bgNk0DPk1dgLzAD]S[1

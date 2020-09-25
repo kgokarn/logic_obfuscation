@@ -1,0 +1,35 @@
+m255
+K3
+13
+cModel Technology
+d/home/nayakkk/32aor/carry_lookahead_adder/sim
+valmost_correct_adder16_aor_enc32
+VfRHM9e]9PTl]N3WZSeBH_1
+r1
+!s85 0
+31
+IW1PGGJzdf81@Xfc^jBOh40
+Z0 d/home/nayakkk/32aor/almost_correct_adder/sim
+w1600861492
+8/home/nayakkk/32aor/almost_correct_adder/sim/almost_correct_adder16_aor_enc32.v
+F/home/nayakkk/32aor/almost_correct_adder/sim/almost_correct_adder16_aor_enc32.v
+L0 2
+Z1 OL;L;6.6d;45
+Z2 !s102 -nocovercells
+Z3 o-work simulation -nocovercells -L mtiAvm -L mtiOvm -L mtiUPF
+!s100 [;90R6ZFHjmP[Lk24[DOZ0
+valmost_correct_adder16_tb
+VGn=dANEcFAbeocmn>@REo0
+r1
+31
+IeU444i;NdWEPLO6>5T_PF1
+Z4 d/home/nayakkk/32aor/almost_correct_adder/sim
+w1601025606
+8/home/nayakkk/32aor/almost_correct_adder/sim/almost_correct_adder16_tb.v
+F/home/nayakkk/32aor/almost_correct_adder/sim/almost_correct_adder16_tb.v
+L0 23
+R1
+R2
+R3
+!s85 0
+!s100 W9Jn@b^52MEP9OQ=P_i?_1

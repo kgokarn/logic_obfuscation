@@ -1,0 +1,136 @@
+# //  ModelSim SE-64 6.6d Nov  1 2010 Linux 2.6.32-754.33.1.el6.x86_64
+# //
+# //  Copyright 1991-2010 Mentor Graphics Corporation
+# //              All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND 
+# //  PROPRIETARY INFORMATION WHICH IS THE PROPERTY
+# //  OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+# //  AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Loading project am32xor
+# reading /var/autofs/misc/cad/mentor/modelsim-6.6d/modeltech/linux_x86_64/../modelsim.ini
+# Loading project rca32aor
+# Compile of ripple_carry_adder16_aor_enc32.v was successful.
+# Compile of ripple_carry_adder16_tb.v was successful.
+# 2 compiles, 0 failed with no errors. 
+vsim -novopt simulation.ripple_carry_adder16_tb
+# vsim -novopt simulation.ripple_carry_adder16_tb 
+# Refreshing /home/nayakkk/32aor/ripple_carry_adder/sim/simulation.ripple_carry_adder16_tb
+# Loading simulation.ripple_carry_adder16_tb
+# Refreshing /home/nayakkk/32aor/ripple_carry_adder/sim/simulation.ripple_carry_adder16_aor_enc32
+# Loading simulation.ripple_carry_adder16_aor_enc32
+add wave sim:/ripple_carry_adder16_tb/*
+run
+#                    0 add1_i= 0000, add2_i = 0000, keyinput= 01916385, result_o = 00001 
+#                   10 add1_i= 29af, add2_i = 7a1b, keyinput= 01916385, result_o = 0a3cb 
+#                   20 add1_i= 1100, add2_i = 1111, keyinput= 01916385, result_o = 02212 
+#                   30 add1_i= 8116, add2_i = 1cce, keyinput= 01916385, result_o = 09de5 
+#                   35 add1_i= 4482, add2_i = 3bcd, keyinput= 01916385, result_o = 08050 
+#                   43 add1_i= 8943, add2_i = ffff, keyinput= 01916385, result_o = 18943 
+#                   53 add1_i= abcd, add2_i = 0000, keyinput= 01916385, result_o = 0abce 
+#                   63 add1_i= 0000, add2_i = 1234, keyinput= 01916385, result_o = 01235 
+#                   73 add1_i= 1111, add2_i = eeaa, keyinput= 01916385, result_o = 0ffbc 
+#                   83 add1_i= 5555, add2_i = aaaa, keyinput= 01916385, result_o = 10000 
+#                   93 add1_i= 8051, add2_i = 8086, keyinput= 01916385, result_o = 100d8 
+#                   98 add1_i= fadc, add2_i = 00dc, keyinput= 01916385, result_o = 0fbb9 
+#                  106 add1_i= 4096, add2_i = 2048, keyinput= 01916385, result_o = 060df 
+#                  116 add1_i= 1024, add2_i = 8192, keyinput= 01916385, result_o = 091b7 
+#                  216 add1_i= 0000, add2_i = 0001, keyinput= 01916385, result_o = 00002 
+# ** Note: $finish    : /home/nayakkk/32aor/ripple_carry_adder/sim/ripple_carry_adder16_tb.v(83)
+#    Time: 316 ns  Iteration: 0  Instance: /ripple_carry_adder16_tb
+# 1
+# Break in Module ripple_carry_adder16_tb at /home/nayakkk/32aor/ripple_carry_adder/sim/ripple_carry_adder16_tb.v line 83
+run
+run
+run
+# Compile of ripple_carry_adder16_aor_enc32.v was successful.
+# Compile of ripple_carry_adder16_tb.v was successful.
+# 2 compiles, 0 failed with no errors. 
+vsim -novopt simulation.ripple_carry_adder16_tb
+# vsim -novopt simulation.ripple_carry_adder16_tb 
+# Refreshing /home/nayakkk/32aor/ripple_carry_adder/sim/simulation.ripple_carry_adder16_tb
+# Loading simulation.ripple_carry_adder16_tb
+# Refreshing /home/nayakkk/32aor/ripple_carry_adder/sim/simulation.ripple_carry_adder16_aor_enc32
+# Loading simulation.ripple_carry_adder16_aor_enc32
+add wave sim:/ripple_carry_adder16_tb/*
+run
+#                    0 add1_i= 0000, add2_i = 0000, keyinput= fe916385, result_o = 06011 
+#                   10 add1_i= 29af, add2_i = 7a1b, keyinput= fe916385, result_o = 023d7 
+#                   20 add1_i= 1100, add2_i = 1111, keyinput= fe916385, result_o = 06212 
+#                   30 add1_i= 8116, add2_i = 1cce, keyinput= fe916385, result_o = 0fdf5 
+#                   35 add1_i= 4482, add2_i = 3bcd, keyinput= fe916385, result_o = 0bc5c 
+#                   43 add1_i= 8943, add2_i = ffff, keyinput= fe916385, result_o = 1273f 
+#                   53 add1_i= abcd, add2_i = 0000, keyinput= fe916385, result_o = 0ebde 
+#                   63 add1_i= 0000, add2_i = 1234, keyinput= fe916385, result_o = 07235 
+#                   73 add1_i= 1111, add2_i = eeaa, keyinput= fe916385, result_o = 0bfbc 
+#                   83 add1_i= 5555, add2_i = aaaa, keyinput= fe916385, result_o = 13e10 
+#                   93 add1_i= 8051, add2_i = 8086, keyinput= fe916385, result_o = 160d0 
+#                   98 add1_i= fadc, add2_i = 00dc, keyinput= fe916385, result_o = 13bb1 
+#                  106 add1_i= 4096, add2_i = 2048, keyinput= fe916385, result_o = 0a0df 
+#                  116 add1_i= 1024, add2_i = 8192, keyinput= fe916385, result_o = 0f1b7 
+#                  216 add1_i= 0000, add2_i = 0001, keyinput= fe916385, result_o = 06012 
+# ** Note: $finish    : /home/nayakkk/32aor/ripple_carry_adder/sim/ripple_carry_adder16_tb.v(83)
+#    Time: 316 ns  Iteration: 0  Instance: /ripple_carry_adder16_tb
+# 1
+# Break in Module ripple_carry_adder16_tb at /home/nayakkk/32aor/ripple_carry_adder/sim/ripple_carry_adder16_tb.v line 83
+# Compile of ripple_carry_adder16_aor_enc32.v was successful.
+# Compile of ripple_carry_adder16_tb.v was successful.
+# 2 compiles, 0 failed with no errors. 
+vsim -novopt simulation.ripple_carry_adder16_tb
+# vsim -novopt simulation.ripple_carry_adder16_tb 
+# Refreshing /home/nayakkk/32aor/ripple_carry_adder/sim/simulation.ripple_carry_adder16_tb
+# Loading simulation.ripple_carry_adder16_tb
+# Refreshing /home/nayakkk/32aor/ripple_carry_adder/sim/simulation.ripple_carry_adder16_aor_enc32
+# Loading simulation.ripple_carry_adder16_aor_enc32
+add wave sim:/ripple_carry_adder16_tb/*
+run
+#                    0 add1_i= 0000, add2_i = 0000, keyinput= 019f0385, result_o = 02041 
+#                   10 add1_i= 29af, add2_i = 7a1b, keyinput= 019f0385, result_o = 0a1cb 
+#                   20 add1_i= 1100, add2_i = 1111, keyinput= 019f0385, result_o = 02052 
+#                   30 add1_i= 8116, add2_i = 1cce, keyinput= 019f0385, result_o = 0bd25 
+#                   35 add1_i= 4482, add2_i = 3bcd, keyinput= 019f0385, result_o = 08090 
+#                   43 add1_i= 8943, add2_i = ffff, keyinput= 019f0385, result_o = 08803 
+#                   53 add1_i= abcd, add2_i = 0000, keyinput= 019f0385, result_o = 0c9ce 
+#                   63 add1_i= 0000, add2_i = 1234, keyinput= 019f0385, result_o = 03075 
+#                   73 add1_i= 1111, add2_i = eeaa, keyinput= 019f0385, result_o = 11dfc 
+#                   83 add1_i= 5555, add2_i = aaaa, keyinput= 019f0385, result_o = 11d40 
+#                   93 add1_i= 8051, add2_i = 8086, keyinput= 019f0385, result_o = 120d8 
+#                   98 add1_i= fadc, add2_i = 00dc, keyinput= 019f0385, result_o = 019b9 
+#                  106 add1_i= 4096, add2_i = 2048, keyinput= 019f0385, result_o = 0811f 
+#                  116 add1_i= 1024, add2_i = 8192, keyinput= 019f0385, result_o = 0b1f7 
+#                  216 add1_i= 0000, add2_i = 0001, keyinput= 019f0385, result_o = 02042 
+# ** Note: $finish    : /home/nayakkk/32aor/ripple_carry_adder/sim/ripple_carry_adder16_tb.v(83)
+#    Time: 316 ns  Iteration: 0  Instance: /ripple_carry_adder16_tb
+# 1
+# Break in Module ripple_carry_adder16_tb at /home/nayakkk/32aor/ripple_carry_adder/sim/ripple_carry_adder16_tb.v line 83
+# Compile of ripple_carry_adder16_aor_enc32.v was successful.
+# Compile of ripple_carry_adder16_tb.v was successful.
+# 2 compiles, 0 failed with no errors. 
+vsim -novopt simulation.ripple_carry_adder16_tb
+# vsim -novopt simulation.ripple_carry_adder16_tb 
+# Refreshing /home/nayakkk/32aor/ripple_carry_adder/sim/simulation.ripple_carry_adder16_tb
+# Loading simulation.ripple_carry_adder16_tb
+# Refreshing /home/nayakkk/32aor/ripple_carry_adder/sim/simulation.ripple_carry_adder16_aor_enc32
+# Loading simulation.ripple_carry_adder16_aor_enc32
+add wave sim:/ripple_carry_adder16_tb/*
+run
+#                    0 add1_i= 0000, add2_i = 0000, keyinput= 01916300, result_o = 10081 
+#                   10 add1_i= 29af, add2_i = 7a1b, keyinput= 01916300, result_o = 1244b 
+#                   20 add1_i= 1100, add2_i = 1111, keyinput= 01916300, result_o = 12292 
+#                   30 add1_i= 8116, add2_i = 1cce, keyinput= 01916300, result_o = 11e65 
+#                   35 add1_i= 4482, add2_i = 3bcd, keyinput= 01916300, result_o = 100d0 
+#                   43 add1_i= 8943, add2_i = ffff, keyinput= 01916300, result_o = 10943 
+#                   53 add1_i= abcd, add2_i = 0000, keyinput= 01916300, result_o = 12c4e 
+#                   63 add1_i= 0000, add2_i = 1234, keyinput= 01916300, result_o = 112b5 
+#                   73 add1_i= 1111, add2_i = eeaa, keyinput= 01916300, result_o = 1003c 
+#                   83 add1_i= 5555, add2_i = aaaa, keyinput= 01916300, result_o = 10000 
+#                   93 add1_i= 8051, add2_i = 8086, keyinput= 01916300, result_o = 10158 
+#                   98 add1_i= fadc, add2_i = 00dc, keyinput= 01916300, result_o = 17bb9 
+#                  106 add1_i= 4096, add2_i = 2048, keyinput= 01916300, result_o = 1615f 
+#                  116 add1_i= 1024, add2_i = 8192, keyinput= 01916300, result_o = 11237 
+#                  216 add1_i= 0000, add2_i = 0001, keyinput= 01916300, result_o = 10082 
+# ** Note: $finish    : /home/nayakkk/32aor/ripple_carry_adder/sim/ripple_carry_adder16_tb.v(83)
+#    Time: 316 ns  Iteration: 0  Instance: /ripple_carry_adder16_tb
+# 1
+# Break in Module ripple_carry_adder16_tb at /home/nayakkk/32aor/ripple_carry_adder/sim/ripple_carry_adder16_tb.v line 83

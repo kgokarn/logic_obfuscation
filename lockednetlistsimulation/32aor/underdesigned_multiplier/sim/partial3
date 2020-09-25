@@ -1,0 +1,30 @@
+# Compile of underdesigned_multiplier8_aor_enc32.v was successful.
+# Compile of underdesigned_multiplier8_tb.v was successful.
+# 2 compiles, 0 failed with no errors. 
+vsim -novopt simulation.underdesigned_multiplier8_tb
+# vsim -novopt simulation.underdesigned_multiplier8_tb 
+# Refreshing /home/nayakkk/32aor/underdesigned_multiplier/sim/simulation.underdesigned_multiplier8_tb
+# Loading simulation.underdesigned_multiplier8_tb
+# Refreshing /home/nayakkk/32aor/underdesigned_multiplier/sim/simulation.underdesigned_multiplier8_aor_enc32
+# Loading simulation.underdesigned_multiplier8_aor_enc32
+add wave sim:/underdesigned_multiplier8_tb/*
+run
+#                    0 operand1_i= 00, operand2_i = 00, keyinput = bf3b33cc, result_o = 0080 
+#                   10 operand1_i= 29, operand2_i = 7a, keyinput = bf3b33cc, result_o = 1402 
+#                   20 operand1_i= 11, operand2_i = 11, keyinput = bf3b33cc, result_o = 01a1 
+#                   30 operand1_i= 81, operand2_i = 1c, keyinput = bf3b33cc, result_o = 1294 
+#                   50 operand1_i= 44, operand2_i = 3b, keyinput = bf3b33cc, result_o = 1024 
+#                   70 operand1_i= 89, operand2_i = ff, keyinput = bf3b33cc, result_o = 28f7 
+#                   80 operand1_i= ab, operand2_i = 00, keyinput = bf3b33cc, result_o = 0080 
+#                   90 operand1_i= 34, operand2_i = 12, keyinput = bf3b33cc, result_o = 0420 
+#                  100 operand1_i= 11, operand2_i = 20, keyinput = bf3b33cc, result_o = 02a0 
+#                  110 operand1_i= 55, operand2_i = aa, keyinput = bf3b33cc, result_o = 4072 
+#                  120 operand1_i= 80, operand2_i = 80, keyinput = bf3b33cc, result_o = 4080 
+#                  125 operand1_i= fa, operand2_i = 00, keyinput = bf3b33cc, result_o = 0080 
+#                  135 operand1_i= 40, operand2_i = 20, keyinput = bf3b33cc, result_o = 0880 
+#                  145 operand1_i= 24, operand2_i = 92, keyinput = bf3b33cc, result_o = 1900 
+#                  245 operand1_i= 00, operand2_i = 01, keyinput = bf3b33cc, result_o = 0080 
+# ** Note: $finish    : /home/nayakkk/32aor/underdesigned_multiplier/sim/underdesigned_multiplier8_tb.v(84)
+#    Time: 345 ns  Iteration: 0  Instance: /underdesigned_multiplier8_tb
+# 1
+# Break in Module underdesigned_multiplier8_tb at /home/nayakkk/32aor/underdesigned_multiplier/sim/underdesigned_multiplier8_tb.v line 84

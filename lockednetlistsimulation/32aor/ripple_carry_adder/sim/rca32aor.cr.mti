@@ -1,0 +1,15 @@
+/home/nayakkk/32aor/ripple_carry_adder/sim/ripple_carry_adder16_aor_enc32.v {1 {vlog -work simulation -vopt -nocovercells /home/nayakkk/32aor/ripple_carry_adder/sim/ripple_carry_adder16_aor_enc32.v
+Model Technology ModelSim SE-64 vlog 6.6d Compiler 2010.11 Nov  1 2010
+-- Compiling module ripple_carry_adder16_aor_enc32
+
+Top level modules:
+	ripple_carry_adder16_aor_enc32
+
+} {} {}} /home/nayakkk/32aor/ripple_carry_adder/sim/ripple_carry_adder16_tb.v {1 {vlog -work simulation -vopt -nocovercells /home/nayakkk/32aor/ripple_carry_adder/sim/ripple_carry_adder16_tb.v
+Model Technology ModelSim SE-64 vlog 6.6d Compiler 2010.11 Nov  1 2010
+-- Compiling module ripple_carry_adder16_tb
+
+Top level modules:
+	ripple_carry_adder16_tb
+
+} {} {}}

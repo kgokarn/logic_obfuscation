@@ -1,0 +1,47 @@
+# //  ModelSim SE-64 6.6d Nov  1 2010 Linux 2.6.32-754.33.1.el6.x86_64
+# //
+# //  Copyright 1991-2010 Mentor Graphics Corporation
+# //              All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND 
+# //  PROPRIETARY INFORMATION WHICH IS THE PROPERTY
+# //  OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+# //  AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Loading project cla32aor
+# reading /var/autofs/misc/cad/mentor/modelsim-6.6d/modeltech/linux_x86_64/../modelsim.ini
+# Loading project bam32aor
+# Compile of broke_array_multiplier8_tb.v was successful.
+# Compile of broken_array_multiplier8_aor_enc32.v was successful.
+# 2 compiles, 0 failed with no errors. 
+vsim -novopt simulation.broke_array_multiplier8_tb
+# vsim -novopt simulation.broke_array_multiplier8_tb 
+# Refreshing /home/nayakkk/32aor/broken_array_multiplier/sim/simulation.broke_array_multiplier8_tb
+# Loading simulation.broke_array_multiplier8_tb
+# Refreshing /home/nayakkk/32aor/broken_array_multiplier/sim/simulation.broken_array_multiplier8_aor_enc32
+# Loading simulation.broken_array_multiplier8_aor_enc32
+vsim -novopt simulation.broke_array_multiplier8_tb
+# vsim -novopt simulation.broke_array_multiplier8_tb 
+# Loading simulation.broke_array_multiplier8_tb
+# Loading simulation.broken_array_multiplier8_aor_enc32
+add wave sim:/broke_array_multiplier8_tb/*
+run
+#                    0 operand1_i= 00, operand2_i = 00, keyinput = df80593a, result_o = 2400 
+#                   10 operand1_i= 29, operand2_i = 7a, keyinput = df80593a, result_o = 378a 
+#                   20 operand1_i= 11, operand2_i = 11, keyinput = df80593a, result_o = 2521 
+#                   30 operand1_i= 81, operand2_i = 1c, keyinput = df80593a, result_o = 261c 
+#                   50 operand1_i= 44, operand2_i = 3b, keyinput = df80593a, result_o = 37a0 
+#                   70 operand1_i= 89, operand2_i = ff, keyinput = df80593a, result_o = 846f 
+#                   80 operand1_i= ab, operand2_i = 00, keyinput = df80593a, result_o = 2400 
+#                   90 operand1_i= 34, operand2_i = 12, keyinput = df80593a, result_o = 27a0 
+#                  100 operand1_i= 11, operand2_i = 20, keyinput = df80593a, result_o = 2620 
+#                  110 operand1_i= 55, operand2_i = aa, keyinput = df80593a, result_o = 386a 
+#                  120 operand1_i= 80, operand2_i = 80, keyinput = df80593a, result_o = 6400 
+#                  125 operand1_i= fa, operand2_i = 00, keyinput = df80593a, result_o = 2400 
+#                  135 operand1_i= 40, operand2_i = 20, keyinput = df80593a, result_o = 2c00 
+#                  145 operand1_i= 24, operand2_i = 92, keyinput = df80593a, result_o = 3880 
+#                  245 operand1_i= 00, operand2_i = 01, keyinput = df80593a, result_o = 2400 
+# ** Note: $finish    : /home/nayakkk/32aor/broken_array_multiplier/sim/broke_array_multiplier8_tb.v(84)
+#    Time: 345 ns  Iteration: 0  Instance: /broke_array_multiplier8_tb
+# 1
+# Break in Module broke_array_multiplier8_tb at /home/nayakkk/32aor/broken_array_multiplier/sim/broke_array_multiplier8_tb.v line 84

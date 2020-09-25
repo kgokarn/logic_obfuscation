@@ -1,0 +1,135 @@
+# //  ModelSim SE-64 6.6d Nov  1 2010 Linux 2.6.32-754.33.1.el6.x86_64
+# //
+# //  Copyright 1991-2010 Mentor Graphics Corporation
+# //              All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND 
+# //  PROPRIETARY INFORMATION WHICH IS THE PROPERTY
+# //  OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+# //  AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Loading project cla32aor
+# reading /var/autofs/misc/cad/mentor/modelsim-6.6d/modeltech/linux_x86_64/../modelsim.ini
+# Loading project loacla32aor
+# Compile of lower_part_or_carry_lookahead_adder16_aor_enc32.v was successful.
+# Compile of lower_part_or_carry_lookahead_adder16_tb.v was successful.
+# 2 compiles, 0 failed with no errors. 
+vsim -novopt simulation.lower_part_or_carry_lookahead_adder16_tb
+# vsim -novopt simulation.lower_part_or_carry_lookahead_adder16_tb 
+# Refreshing /home/nayakkk/32aor/lower_part_or_carry_lookahead_adder/sim/simulation.lower_part_or_carry_lookahead_adder16_tb
+# Loading simulation.lower_part_or_carry_lookahead_adder16_tb
+# Refreshing /home/nayakkk/32aor/lower_part_or_carry_lookahead_adder/sim/simulation.lower_part_or_carry_lookahead_adder16_aor_enc32
+# Loading simulation.lower_part_or_carry_lookahead_adder16_aor_enc32
+vsim -novopt simulation.lower_part_or_carry_lookahead_adder16_tb
+# vsim -novopt simulation.lower_part_or_carry_lookahead_adder16_tb 
+# Loading simulation.lower_part_or_carry_lookahead_adder16_tb
+# Loading simulation.lower_part_or_carry_lookahead_adder16_aor_enc32
+add wave sim:/lower_part_or_carry_lookahead_adder16_tb/*
+run
+#                    0 add1_i= 0000, add2_i = 0000, keyinput= 96de5f1f, result_o = 00000 
+#                   10 add1_i= 29af, add2_i = 7a1b, keyinput= 96de5f1f, result_o = 0a3cf 
+#                   20 add1_i= 1100, add2_i = 1111, keyinput= 96de5f1f, result_o = 02211 
+#                   30 add1_i= 8116, add2_i = 1cce, keyinput= 96de5f1f, result_o = 09dde 
+#                   35 add1_i= 4482, add2_i = 3bcd, keyinput= 96de5f1f, result_o = 0804f 
+#                   40 add1_i= 8943, add2_i = ffff, keyinput= 96de5f1f, result_o = 1893f 
+#                   50 add1_i= abcd, add2_i = 0000, keyinput= 96de5f1f, result_o = 0abcd 
+#                   60 add1_i= 0000, add2_i = 1234, keyinput= 96de5f1f, result_o = 01234 
+#                   70 add1_i= 1111, add2_i = eeaa, keyinput= 96de5f1f, result_o = 0ffbb 
+#                   80 add1_i= 5555, add2_i = aaaa, keyinput= 96de5f1f, result_o = 0ffff 
+#                   90 add1_i= 8051, add2_i = 8086, keyinput= 96de5f1f, result_o = 100d7 
+#                   95 add1_i= fadc, add2_i = 00dc, keyinput= 96de5f1f, result_o = 0fbbc 
+#                  100 add1_i= 4096, add2_i = 2048, keyinput= 96de5f1f, result_o = 060de 
+#                  110 add1_i= 1024, add2_i = 8192, keyinput= 96de5f1f, result_o = 091b6 
+#                  210 add1_i= 0000, add2_i = 0001, keyinput= 96de5f1f, result_o = 00001 
+# ** Note: $finish    : /home/nayakkk/32aor/lower_part_or_carry_lookahead_adder/sim/lower_part_or_carry_lookahead_adder16_tb.v(83)
+#    Time: 310 ns  Iteration: 0  Instance: /lower_part_or_carry_lookahead_adder16_tb
+# 1
+# Break in Module lower_part_or_carry_lookahead_adder16_tb at /home/nayakkk/32aor/lower_part_or_carry_lookahead_adder/sim/lower_part_or_carry_lookahead_adder16_tb.v line 83
+# Compile of lower_part_or_carry_lookahead_adder16_aor_enc32.v was successful.
+# Compile of lower_part_or_carry_lookahead_adder16_tb.v was successful.
+# 2 compiles, 0 failed with no errors. 
+vsim -novopt simulation.lower_part_or_carry_lookahead_adder16_tb
+# vsim -novopt simulation.lower_part_or_carry_lookahead_adder16_tb 
+# Refreshing /home/nayakkk/32aor/lower_part_or_carry_lookahead_adder/sim/simulation.lower_part_or_carry_lookahead_adder16_tb
+# Loading simulation.lower_part_or_carry_lookahead_adder16_tb
+# Refreshing /home/nayakkk/32aor/lower_part_or_carry_lookahead_adder/sim/simulation.lower_part_or_carry_lookahead_adder16_aor_enc32
+# Loading simulation.lower_part_or_carry_lookahead_adder16_aor_enc32
+add wave sim:/lower_part_or_carry_lookahead_adder16_tb/*
+run
+#                    0 add1_i= 0000, add2_i = 0000, keyinput= 96de5ff0, result_o = 00840 
+#                   10 add1_i= 29af, add2_i = 7a1b, keyinput= 96de5ff0, result_o = 029cf 
+#                   20 add1_i= 1100, add2_i = 1111, keyinput= 96de5ff0, result_o = 02a51 
+#                   30 add1_i= 8116, add2_i = 1cce, keyinput= 96de5ff0, result_o = 02e1e 
+#                   35 add1_i= 4482, add2_i = 3bcd, keyinput= 96de5ff0, result_o = 00a8f 
+#                   40 add1_i= 8943, add2_i = ffff, keyinput= 96de5ff0, result_o = 10b7f 
+#                   50 add1_i= abcd, add2_i = 0000, keyinput= 96de5ff0, result_o = 03e0d 
+#                   60 add1_i= 0000, add2_i = 1234, keyinput= 96de5ff0, result_o = 01874 
+#                   70 add1_i= 1111, add2_i = eeaa, keyinput= 96de5ff0, result_o = 10dfb 
+#                   80 add1_i= 5555, add2_i = aaaa, keyinput= 96de5ff0, result_o = 10a3f 
+#                   90 add1_i= 8051, add2_i = 8086, keyinput= 96de5ff0, result_o = 10917 
+#                   95 add1_i= fadc, add2_i = 00dc, keyinput= 96de5ff0, result_o = 009fc 
+#                  100 add1_i= 4096, add2_i = 2048, keyinput= 96de5ff0, result_o = 0691e 
+#                  110 add1_i= 1024, add2_i = 8192, keyinput= 96de5ff0, result_o = 019f6 
+#                  210 add1_i= 0000, add2_i = 0001, keyinput= 96de5ff0, result_o = 00841 
+# ** Note: $finish    : /home/nayakkk/32aor/lower_part_or_carry_lookahead_adder/sim/lower_part_or_carry_lookahead_adder16_tb.v(83)
+#    Time: 310 ns  Iteration: 0  Instance: /lower_part_or_carry_lookahead_adder16_tb
+# 1
+# Break in Module lower_part_or_carry_lookahead_adder16_tb at /home/nayakkk/32aor/lower_part_or_carry_lookahead_adder/sim/lower_part_or_carry_lookahead_adder16_tb.v line 83
+# Compile of lower_part_or_carry_lookahead_adder16_aor_enc32.v was successful.
+# Compile of lower_part_or_carry_lookahead_adder16_tb.v was successful.
+# 2 compiles, 0 failed with no errors. 
+vsim -novopt simulation.lower_part_or_carry_lookahead_adder16_tb
+# vsim -novopt simulation.lower_part_or_carry_lookahead_adder16_tb 
+# Refreshing /home/nayakkk/32aor/lower_part_or_carry_lookahead_adder/sim/simulation.lower_part_or_carry_lookahead_adder16_tb
+# Loading simulation.lower_part_or_carry_lookahead_adder16_tb
+# Refreshing /home/nayakkk/32aor/lower_part_or_carry_lookahead_adder/sim/simulation.lower_part_or_carry_lookahead_adder16_aor_enc32
+# Loading simulation.lower_part_or_carry_lookahead_adder16_aor_enc32
+add wave sim:/lower_part_or_carry_lookahead_adder16_tb/*
+run
+#                    0 add1_i= 0000, add2_i = 0000, keyinput= 00de5f1f, result_o = 06000 
+#                   10 add1_i= 29af, add2_i = 7a1b, keyinput= 00de5f1f, result_o = 0a32f 
+#                   20 add1_i= 1100, add2_i = 1111, keyinput= 00de5f1f, result_o = 06211 
+#                   30 add1_i= 8116, add2_i = 1cce, keyinput= 00de5f1f, result_o = 0fd5e 
+#                   35 add1_i= 4482, add2_i = 3bcd, keyinput= 00de5f1f, result_o = 0804f 
+#                   40 add1_i= 8943, add2_i = ffff, keyinput= 00de5f1f, result_o = 189bf 
+#                   50 add1_i= abcd, add2_i = 0000, keyinput= 00de5f1f, result_o = 0cb4d 
+#                   60 add1_i= 0000, add2_i = 1234, keyinput= 00de5f1f, result_o = 07234 
+#                   70 add1_i= 1111, add2_i = eeaa, keyinput= 00de5f1f, result_o = 11f3b 
+#                   80 add1_i= 5555, add2_i = aaaa, keyinput= 00de5f1f, result_o = 11f7f 
+#                   90 add1_i= 8051, add2_i = 8086, keyinput= 00de5f1f, result_o = 16057 
+#                   95 add1_i= fadc, add2_i = 00dc, keyinput= 00de5f1f, result_o = 11b9c 
+#                  100 add1_i= 4096, add2_i = 2048, keyinput= 00de5f1f, result_o = 0805e 
+#                  110 add1_i= 1024, add2_i = 8192, keyinput= 00de5f1f, result_o = 0f136 
+#                  210 add1_i= 0000, add2_i = 0001, keyinput= 00de5f1f, result_o = 06001 
+# ** Note: $finish    : /home/nayakkk/32aor/lower_part_or_carry_lookahead_adder/sim/lower_part_or_carry_lookahead_adder16_tb.v(83)
+#    Time: 310 ns  Iteration: 0  Instance: /lower_part_or_carry_lookahead_adder16_tb
+# 1
+# Break in Module lower_part_or_carry_lookahead_adder16_tb at /home/nayakkk/32aor/lower_part_or_carry_lookahead_adder/sim/lower_part_or_carry_lookahead_adder16_tb.v line 83
+# Compile of lower_part_or_carry_lookahead_adder16_aor_enc32.v was successful.
+# Compile of lower_part_or_carry_lookahead_adder16_tb.v was successful.
+# 2 compiles, 0 failed with no errors. 
+vsim -novopt simulation.lower_part_or_carry_lookahead_adder16_tb
+# vsim -novopt simulation.lower_part_or_carry_lookahead_adder16_tb 
+# Refreshing /home/nayakkk/32aor/lower_part_or_carry_lookahead_adder/sim/simulation.lower_part_or_carry_lookahead_adder16_tb
+# Loading simulation.lower_part_or_carry_lookahead_adder16_tb
+# Refreshing /home/nayakkk/32aor/lower_part_or_carry_lookahead_adder/sim/simulation.lower_part_or_carry_lookahead_adder16_aor_enc32
+# Loading simulation.lower_part_or_carry_lookahead_adder16_aor_enc32
+add wave sim:/lower_part_or_carry_lookahead_adder16_tb/*
+run
+#                    0 add1_i= 0000, add2_i = 0000, keyinput= 96df0f1f, result_o = 08200 
+#                   10 add1_i= 29af, add2_i = 7a1b, keyinput= 96df0f1f, result_o = 0a3cf 
+#                   20 add1_i= 1100, add2_i = 1111, keyinput= 96df0f1f, result_o = 0a201 
+#                   30 add1_i= 8116, add2_i = 1cce, keyinput= 96df0f1f, result_o = 11fce 
+#                   35 add1_i= 4482, add2_i = 3bcd, keyinput= 96df0f1f, result_o = 0824f 
+#                   40 add1_i= 8943, add2_i = ffff, keyinput= 96df0f1f, result_o = 18b2f 
+#                   50 add1_i= abcd, add2_i = 0000, keyinput= 96df0f1f, result_o = 12bcd 
+#                   60 add1_i= 0000, add2_i = 1234, keyinput= 96df0f1f, result_o = 09224 
+#                   70 add1_i= 1111, add2_i = eeaa, keyinput= 96df0f1f, result_o = 17fab 
+#                   80 add1_i= 5555, add2_i = aaaa, keyinput= 96df0f1f, result_o = 17fef 
+#                   90 add1_i= 8051, add2_i = 8086, keyinput= 96df0f1f, result_o = 182c7 
+#                   95 add1_i= fadc, add2_i = 00dc, keyinput= 96df0f1f, result_o = 17bac 
+#                  100 add1_i= 4096, add2_i = 2048, keyinput= 96df0f1f, result_o = 0e2ce 
+#                  110 add1_i= 1024, add2_i = 8192, keyinput= 96df0f1f, result_o = 113a6 
+#                  210 add1_i= 0000, add2_i = 0001, keyinput= 96df0f1f, result_o = 08201 
+# ** Note: $finish    : /home/nayakkk/32aor/lower_part_or_carry_lookahead_adder/sim/lower_part_or_carry_lookahead_adder16_tb.v(83)
+#    Time: 310 ns  Iteration: 0  Instance: /lower_part_or_carry_lookahead_adder16_tb

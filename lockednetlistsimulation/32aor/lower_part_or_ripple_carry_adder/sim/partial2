@@ -1,0 +1,30 @@
+# Compile of lower_part_or_ripple_carry_adder16_aor_enc32.v was successful.
+# Compile of lower_part_or_ripple_carry_adder16_tb.v was successful.
+# 2 compiles, 0 failed with no errors. 
+vsim -novopt simulation.lower_part_or_ripple_carry_adder16_tb
+# vsim -novopt simulation.lower_part_or_ripple_carry_adder16_tb 
+# Refreshing /home/nayakkk/32aor/lower_part_or_ripple_carry_adder/sim/simulation.lower_part_or_ripple_carry_adder16_tb
+# Loading simulation.lower_part_or_ripple_carry_adder16_tb
+# Refreshing /home/nayakkk/32aor/lower_part_or_ripple_carry_adder/sim/simulation.lower_part_or_ripple_carry_adder16_aor_enc32
+# Loading simulation.lower_part_or_ripple_carry_adder16_aor_enc32
+add wave sim:/lower_part_or_ripple_carry_adder16_tb/*
+run
+#                    0 add1_i= 0000, add2_i = 0000, keyinput= 34a70de0, result_o = 02000 
+#                   10 add1_i= 29af, add2_i = 7a1b, keyinput= 34a70de0, result_o = 0a3cb 
+#                   20 add1_i= 1100, add2_i = 1111, keyinput= 34a70de0, result_o = 02211 
+#                   30 add1_i= 8116, add2_i = 1cce, keyinput= 34a70de0, result_o = 0bdda 
+#                   35 add1_i= 4482, add2_i = 3bcd, keyinput= 34a70de0, result_o = 0804b 
+#                   40 add1_i= 8943, add2_i = ffff, keyinput= 34a70de0, result_o = 184bb 
+#                   50 add1_i= abcd, add2_i = 0000, keyinput= 34a70de0, result_o = 0cbc9 
+#                   60 add1_i= 0000, add2_i = 1234, keyinput= 34a70de0, result_o = 03230 
+#                   70 add1_i= 1111, add2_i = eeaa, keyinput= 34a70de0, result_o = 11fbb 
+#                   80 add1_i= 5555, add2_i = aaaa, keyinput= 34a70de0, result_o = 11bfb 
+#                   90 add1_i= 8051, add2_i = 8086, keyinput= 34a70de0, result_o = 120d3 
+#                   95 add1_i= fadc, add2_i = 00dc, keyinput= 34a70de0, result_o = 11b38 
+#                  100 add1_i= 4096, add2_i = 2048, keyinput= 34a70de0, result_o = 080da 
+#                  110 add1_i= 1024, add2_i = 8192, keyinput= 34a70de0, result_o = 0b1b2 
+#                  210 add1_i= 0000, add2_i = 0001, keyinput= 34a70de0, result_o = 02001 
+# ** Note: $finish    : /home/nayakkk/32aor/lower_part_or_ripple_carry_adder/sim/lower_part_or_ripple_carry_adder16_tb.v(83)
+#    Time: 310 ns  Iteration: 0  Instance: /lower_part_or_ripple_carry_adder16_tb
+# 1
+# Break in Module lower_part_or_ripple_carry_adder16_tb at /home/nayakkk/32aor/lower_part_or_ripple_carry_adder/sim/lower_part_or_ripple_carry_adder16_tb.v line 83

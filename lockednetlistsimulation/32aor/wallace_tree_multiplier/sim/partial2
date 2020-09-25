@@ -1,0 +1,30 @@
+# Compile of traditional_multiplier8_aor_enc32.v was successful.
+# Compile of traditional_multiplier8_tb.v was successful.
+# 2 compiles, 0 failed with no errors. 
+vsim -novopt simulation.traditional_multiplier8_tb
+# vsim -novopt simulation.traditional_multiplier8_tb 
+# Refreshing /home/nayakkk/32aor/wallace_tree_multiplier/sim/simulation.traditional_multiplier8_tb
+# Loading simulation.traditional_multiplier8_tb
+# Refreshing /home/nayakkk/32aor/wallace_tree_multiplier/sim/simulation.traditional_multiplier8_aor_enc32
+# Loading simulation.traditional_multiplier8_aor_enc32
+add wave sim:/traditional_multiplier8_tb/*
+run
+#                    0 operand1_i= 00, operand2_i = 00, keyinput = f58b6605, result_o = 1500 
+#                   10 operand1_i= 29, operand2_i = 7a, keyinput = f58b6605, result_o = 248a 
+#                   20 operand1_i= 11, operand2_i = 11, keyinput = f58b6605, result_o = 1621 
+#                   30 operand1_i= 81, operand2_i = 1c, keyinput = f58b6605, result_o = 1f1c 
+#                   50 operand1_i= 44, operand2_i = 3b, keyinput = f58b6605, result_o = 20ac 
+#                   70 operand1_i= 89, operand2_i = ff, keyinput = f58b6605, result_o = 8c77 
+#                   80 operand1_i= ab, operand2_i = 00, keyinput = f58b6605, result_o = 1500 
+#                   90 operand1_i= 34, operand2_i = 12, keyinput = f58b6605, result_o = 18a8 
+#                  100 operand1_i= 11, operand2_i = 20, keyinput = f58b6605, result_o = 1720 
+#                  110 operand1_i= 55, operand2_i = aa, keyinput = f58b6605, result_o = 4972 
+#                  120 operand1_i= 80, operand2_i = 80, keyinput = f58b6605, result_o = 5500 
+#                  125 operand1_i= fa, operand2_i = 00, keyinput = f58b6605, result_o = 1500 
+#                  135 operand1_i= 40, operand2_i = 20, keyinput = f58b6605, result_o = 1d00 
+#                  145 operand1_i= 24, operand2_i = 92, keyinput = f58b6605, result_o = 1988 
+#                  245 operand1_i= 00, operand2_i = 01, keyinput = f58b6605, result_o = 1500 
+# ** Note: $finish    : /home/nayakkk/32aor/wallace_tree_multiplier/sim/traditional_multiplier8_tb.v(84)
+#    Time: 345 ns  Iteration: 0  Instance: /traditional_multiplier8_tb
+# 1
+# Break in Module traditional_multiplier8_tb at /home/nayakkk/32aor/wallace_tree_multiplier/sim/traditional_multiplier8_tb.v line 84

@@ -1,0 +1,28 @@
+# Compile of eqaul_segmentation_adder16_aor_enc32.v was successful.
+# Compile of equal_segmentation_adder16_tb.v was successful.
+# 2 compiles, 0 failed with no errors. 
+vsim -novopt simulation.equal_segmentation_adder16_tb
+# vsim -novopt simulation.equal_segmentation_adder16_tb 
+# Refreshing /home/nayakkk/32aor/equal_segmentation_adder/sim/simulation.equal_segmentation_adder16_tb
+# Loading simulation.equal_segmentation_adder16_tb
+# Refreshing /home/nayakkk/32aor/equal_segmentation_adder/sim/simulation.equal_segmentation_adder16_aor_enc32
+# Loading simulation.equal_segmentation_adder16_aor_enc32
+add wave sim:/equal_segmentation_adder16_tb/*
+run
+#                    0 add1_i= 0000, add2_i = 0000, keyinput= e43a05ee, result_o = 08260 
+#                   10 add1_i= 29af, add2_i = 7a1b, keyinput= e43a05ee, result_o = 093d2 
+#                   20 add1_i= 1100, add2_i = 1111, keyinput= e43a05ee, result_o = 08271 
+#                   30 add1_i= 8116, add2_i = 1cce, keyinput= e43a05ee, result_o = 11f34 
+#                   35 add1_i= 4482, add2_i = 3bcd, keyinput= e43a05ee, result_o = 0dfa7 
+#                   37 add1_i= 8943, add2_i = ffff, keyinput= e43a05ee, result_o = 1da52 
+#                   47 add1_i= abcd, add2_i = 0000, keyinput= e43a05ee, result_o = 10b25 
+#                   57 add1_i= 0000, add2_i = 1234, keyinput= e43a05ee, result_o = 09254 
+#                   67 add1_i= 1111, add2_i = eeaa, keyinput= e43a05ee, result_o = 15fd3 
+#                   77 add1_i= 5555, add2_i = aaaa, keyinput= e43a05ee, result_o = 15f17 
+#                   87 add1_i= 8051, add2_i = 8086, keyinput= e43a05ee, result_o = 18237 
+#                   92 add1_i= fadc, add2_i = 00dc, keyinput= e43a05ee, result_o = 15ae0 
+#                   97 add1_i= 4096, add2_i = 2048, keyinput= e43a05ee, result_o = 0c236 
+#                  107 add1_i= 1024, add2_i = 8192, keyinput= e43a05ee, result_o = 113d6 
+#                  207 add1_i= 0000, add2_i = 0001, keyinput= e43a05ee, result_o = 08261 
+# ** Note: $finish    : /home/nayakkk/32aor/equal_segmentation_adder/sim/equal_segmentation_adder16_tb.v(83)
+#    Time: 307 ns  Iteration: 0  Instance: /equal_segmentation_adder16_tb

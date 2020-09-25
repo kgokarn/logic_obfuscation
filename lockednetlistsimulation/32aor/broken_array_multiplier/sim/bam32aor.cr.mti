@@ -1,0 +1,15 @@
+/home/nayakkk/32aor/broken_array_multiplier/sim/broke_array_multiplier8_tb.v {1 {vlog -work simulation -vopt -nocovercells /home/nayakkk/32aor/broken_array_multiplier/sim/broke_array_multiplier8_tb.v
+Model Technology ModelSim SE-64 vlog 6.6d Compiler 2010.11 Nov  1 2010
+-- Compiling module broke_array_multiplier8_tb
+
+Top level modules:
+	broke_array_multiplier8_tb
+
+} {} {}} /home/nayakkk/32aor/broken_array_multiplier/sim/broken_array_multiplier8_aor_enc32.v {1 {vlog -work simulation -vopt -nocovercells /home/nayakkk/32aor/broken_array_multiplier/sim/broken_array_multiplier8_aor_enc32.v
+Model Technology ModelSim SE-64 vlog 6.6d Compiler 2010.11 Nov  1 2010
+-- Compiling module broken_array_multiplier8_aor_enc32
+
+Top level modules:
+	broken_array_multiplier8_aor_enc32
+
+} {} {}}

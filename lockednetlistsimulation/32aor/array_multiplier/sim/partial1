@@ -1,0 +1,47 @@
+# //  ModelSim SE-64 6.6d Nov  1 2010 Linux 2.6.32-754.33.1.el6.x86_64
+# //
+# //  Copyright 1991-2010 Mentor Graphics Corporation
+# //              All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND 
+# //  PROPRIETARY INFORMATION WHICH IS THE PROPERTY
+# //  OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+# //  AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Loading project cla32aor
+# reading /var/autofs/misc/cad/mentor/modelsim-6.6d/modeltech/linux_x86_64/../modelsim.ini
+# Loading project am32aor
+# Compile of array_multiplier8_aor_enc32.v was successful.
+# Compile of array_multiplier8_tb.v was successful.
+# 2 compiles, 0 failed with no errors. 
+vsim -novopt simulation.array_multiplier8_tb
+# vsim -novopt simulation.array_multiplier8_tb 
+# Refreshing /home/nayakkk/32aor/array_multiplier/sim/simulation.array_multiplier8_tb
+# Loading simulation.array_multiplier8_tb
+# Refreshing /home/nayakkk/32aor/array_multiplier/sim/simulation.array_multiplier8_aor_enc32
+# Loading simulation.array_multiplier8_aor_enc32
+vsim -novopt simulation.array_multiplier8_tb
+# vsim -novopt simulation.array_multiplier8_tb 
+# Loading simulation.array_multiplier8_tb
+# Loading simulation.array_multiplier8_aor_enc32
+add wave sim:/array_multiplier8_tb/*
+run
+#                    0 operand1_i= 00, operand2_i = 00, keyinput = 09301537, result_o = 2014 
+#                   10 operand1_i= 29, operand2_i = 7a, keyinput = 09301537, result_o = 3b8e 
+#                   20 operand1_i= 11, operand2_i = 11, keyinput = 09301537, result_o = 2124 
+#                   30 operand1_i= 81, operand2_i = 1c, keyinput = 09301537, result_o = 2e24 
+#                   50 operand1_i= 44, operand2_i = 3b, keyinput = 09301537, result_o = 2fbc 
+#                   70 operand1_i= 89, operand2_i = ff, keyinput = 09301537, result_o = a87e 
+#                   80 operand1_i= ab, operand2_i = 00, keyinput = 09301537, result_o = 2014 
+#                   90 operand1_i= 34, operand2_i = 12, keyinput = 09301537, result_o = 23bc 
+#                  100 operand1_i= 11, operand2_i = 20, keyinput = 09301537, result_o = 2034 
+#                  110 operand1_i= 55, operand2_i = aa, keyinput = 09301537, result_o = 5666 
+#                  120 operand1_i= 80, operand2_i = 80, keyinput = 09301537, result_o = 6014 
+#                  125 operand1_i= fa, operand2_i = 00, keyinput = 09301537, result_o = 2014 
+#                  135 operand1_i= 40, operand2_i = 20, keyinput = 09301537, result_o = 2814 
+#                  145 operand1_i= 24, operand2_i = 92, keyinput = 09301537, result_o = 349c 
+#                  245 operand1_i= 00, operand2_i = 01, keyinput = 09301537, result_o = 2014 
+# ** Note: $finish    : /home/nayakkk/32aor/array_multiplier/sim/array_multiplier8_tb.v(84)
+#    Time: 345 ns  Iteration: 0  Instance: /array_multiplier8_tb
+# 1
+# Break in Module array_multiplier8_tb at /home/nayakkk/32aor/array_multiplier/sim/array_multiplier8_tb.v line 84

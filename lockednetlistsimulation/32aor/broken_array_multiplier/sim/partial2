@@ -1,0 +1,33 @@
+# Compile of broke_array_multiplier8_tb.v was successful.
+# Compile of broken_array_multiplier8_aor_enc32.v was successful.
+# 2 compiles, 0 failed with no errors. 
+# Compile of broke_array_multiplier8_tb.v was successful.
+# Compile of broken_array_multiplier8_aor_enc32.v was successful.
+# 2 compiles, 0 failed with no errors. 
+vsim -novopt simulation.broke_array_multiplier8_tb
+# vsim -novopt simulation.broke_array_multiplier8_tb 
+# Refreshing /home/nayakkk/32aor/broken_array_multiplier/sim/simulation.broke_array_multiplier8_tb
+# Loading simulation.broke_array_multiplier8_tb
+# Refreshing /home/nayakkk/32aor/broken_array_multiplier/sim/simulation.broken_array_multiplier8_aor_enc32
+# Loading simulation.broken_array_multiplier8_aor_enc32
+add wave sim:/broke_array_multiplier8_tb/*
+run
+#                    0 operand1_i= 00, operand2_i = 00, keyinput = 578fa93a, result_o = 09e0 
+#                   10 operand1_i= 29, operand2_i = 7a, keyinput = 578fa93a, result_o = 1cca 
+#                   20 operand1_i= 11, operand2_i = 11, keyinput = 578fa93a, result_o = 0ae1 
+#                   30 operand1_i= 81, operand2_i = 1c, keyinput = 578fa93a, result_o = 0ffc 
+#                   50 operand1_i= 44, operand2_i = 3b, keyinput = 578fa93a, result_o = 1fe0 
+#                   70 operand1_i= 89, operand2_i = ff, keyinput = 578fa93a, result_o = 78cf 
+#                   80 operand1_i= ab, operand2_i = 00, keyinput = 578fa93a, result_o = 09e0 
+#                   90 operand1_i= 34, operand2_i = 12, keyinput = 578fa93a, result_o = 0ce0 
+#                  100 operand1_i= 11, operand2_i = 20, keyinput = 578fa93a, result_o = 0b80 
+#                  110 operand1_i= 55, operand2_i = aa, keyinput = 578fa93a, result_o = 3f8a 
+#                  120 operand1_i= 80, operand2_i = 80, keyinput = 578fa93a, result_o = 49e0 
+#                  125 operand1_i= fa, operand2_i = 00, keyinput = 578fa93a, result_o = 09e0 
+#                  135 operand1_i= 40, operand2_i = 20, keyinput = 578fa93a, result_o = 11e0 
+#                  145 operand1_i= 24, operand2_i = 92, keyinput = 578fa93a, result_o = 1de0 
+#                  245 operand1_i= 00, operand2_i = 01, keyinput = 578fa93a, result_o = 09e0 
+# ** Note: $finish    : /home/nayakkk/32aor/broken_array_multiplier/sim/broke_array_multiplier8_tb.v(84)
+#    Time: 345 ns  Iteration: 0  Instance: /broke_array_multiplier8_tb
+# 1
+# Break in Module broke_array_multiplier8_tb at /home/nayakkk/32aor/broken_array_multiplier/sim/broke_array_multiplier8_tb.v line 84
