@@ -1,0 +1,15 @@
+/home/nayakkk/64xor/almost_correct_adder/sim/almost_correct_adder32_xor_enc64.v {1 {vlog -work simulation -vopt -nocovercells /home/nayakkk/64xor/almost_correct_adder/sim/almost_correct_adder32_xor_enc64.v
+Model Technology ModelSim SE-64 vlog 6.6d Compiler 2010.11 Nov  1 2010
+-- Compiling module almost_correct_adder32_xor_enc64
+
+Top level modules:
+	almost_correct_adder32_xor_enc64
+
+} {} {}} /home/nayakkk/64xor/almost_correct_adder/sim/almost_correct_adder32_tb.v {1 {vlog -work simulation -vopt -nocovercells /home/nayakkk/64xor/almost_correct_adder/sim/almost_correct_adder32_tb.v
+Model Technology ModelSim SE-64 vlog 6.6d Compiler 2010.11 Nov  1 2010
+-- Compiling module almost_correct_adder32_tb
+
+Top level modules:
+	almost_correct_adder32_tb
+
+} {} {}}

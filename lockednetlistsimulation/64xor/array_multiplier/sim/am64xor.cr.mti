@@ -1,0 +1,15 @@
+/home/nayakkk/64xor/array_multiplier/sim/array_multiplier8_tb.v {1 {vlog -work simulation -vopt -nocovercells /home/nayakkk/64xor/array_multiplier/sim/array_multiplier8_tb.v
+Model Technology ModelSim SE-64 vlog 6.6d Compiler 2010.11 Nov  1 2010
+-- Compiling module array_multiplier8_tb
+
+Top level modules:
+	array_multiplier8_tb
+
+} {} {}} /home/nayakkk/64xor/array_multiplier/sim/array_multiplier8_xor_enc64.v {1 {vlog -work simulation -vopt -nocovercells /home/nayakkk/64xor/array_multiplier/sim/array_multiplier8_xor_enc64.v
+Model Technology ModelSim SE-64 vlog 6.6d Compiler 2010.11 Nov  1 2010
+-- Compiling module array_multiplier8_xor_enc64
+
+Top level modules:
+	array_multiplier8_xor_enc64
+
+} {} {}}

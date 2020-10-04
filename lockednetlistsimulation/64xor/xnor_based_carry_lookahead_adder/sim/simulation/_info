@@ -1,0 +1,35 @@
+m255
+K3
+13
+cModel Technology
+d/home/nayakkk/64aor/ripple_carry_adder/sim
+vxnor_based_carry_lookahead_adder32_tb
+V<50;bf:DN`<iGF;U=MN>E2
+r1
+31
+I<j`FlMVb8Cb1PBn;>`KSn3
+Z0 d/home/nayakkk/64xor/xnor_based_carry_lookahead_adder/sim
+w1601802836
+8/home/nayakkk/64xor/xnor_based_carry_lookahead_adder/sim/xnor_based_carry_lookahead_adder32_tb.v
+F/home/nayakkk/64xor/xnor_based_carry_lookahead_adder/sim/xnor_based_carry_lookahead_adder32_tb.v
+L0 23
+Z1 OL;L;6.6d;45
+Z2 o-work simulation -nocovercells -L mtiAvm -L mtiOvm -L mtiUPF
+Z3 !s102 -nocovercells
+!s85 0
+!s100 z2KR^L=8R9APD3nl=M34^0
+vxnor_based_carry_lookahead_adder32_xor_enc64
+VR<4VDoIgW4OHPHJ:bWJ=<1
+r1
+!s85 0
+31
+Ifj[P:7=cRfkiW>Zn<b;hS0
+Z4 d/home/nayakkk/64xor/xnor_based_carry_lookahead_adder/sim
+w1601362348
+8/home/nayakkk/64xor/xnor_based_carry_lookahead_adder/sim/xnor_based_carry_lookahead_adder32_xor_enc64.v
+F/home/nayakkk/64xor/xnor_based_carry_lookahead_adder/sim/xnor_based_carry_lookahead_adder32_xor_enc64.v
+L0 2
+R1
+R3
+R2
+!s100 8V9YllUM?Aga?J;zZco^G3
