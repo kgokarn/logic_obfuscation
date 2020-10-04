@@ -1,0 +1,46 @@
+# //  ModelSim SE-64 6.6d Nov  1 2010 Linux 2.6.32-754.33.1.el6.x86_64
+# //
+# //  Copyright 1991-2010 Mentor Graphics Corporation
+# //              All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND 
+# //  PROPRIETARY INFORMATION WHICH IS THE PROPERTY
+# //  OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+# //  AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Loading project cla32aor
+# reading /var/autofs/misc/cad/mentor/modelsim-6.6d/modeltech/linux_x86_64/../modelsim.ini
+# Loading project esa64aor
+# Compile of equal_segmentation_adder32_aor_enc64.v was successful.
+# Compile of equal_segmentation_adder32_tb.v was successful.
+# 2 compiles, 0 failed with no errors. 
+vsim -novopt simulation.equal_segmentation_adder32_tb
+# vsim -novopt simulation.equal_segmentation_adder32_tb 
+# Refreshing /home/nayakkk/64aor/equal_segmentation_adder/sim/simulation.equal_segmentation_adder32_tb
+# Loading simulation.equal_segmentation_adder32_tb
+# Refreshing /home/nayakkk/64aor/equal_segmentation_adder/sim/simulation.equal_segmentation_adder32_aor_enc64
+# Loading simulation.equal_segmentation_adder32_aor_enc64
+vsim -novopt simulation.equal_segmentation_adder32_tb
+# vsim -novopt simulation.equal_segmentation_adder32_tb 
+# Loading simulation.equal_segmentation_adder32_tb
+# Loading simulation.equal_segmentation_adder32_aor_enc64
+add wave sim:/equal_segmentation_adder32_tb/*
+run
+#                    0 add1_i= 00000000, add2_i = 00000000, keyinput= 0ca62a6ba0d1a712, result_o = 000000000 
+#                   10 add1_i= 29af2430, add2_i = 7a1b9abc, keyinput= 0ca62a6ba0d1a712, result_o = 0a3cabeec 
+#                   20 add1_i= 11003456, add2_i = 11112323, keyinput= 0ca62a6ba0d1a712, result_o = 022115779 
+#                   30 add1_i= 81160873, add2_i = 1cce0178, keyinput= 0ca62a6ba0d1a712, result_o = 09de409eb 
+#                   35 add1_i= 20202012, add2_i = deadbeef, keyinput= 0ca62a6ba0d1a712, result_o = 0fecdde01 
+#                   43 add1_i= 8943deaf, add2_i = daadbaad, keyinput= 0ca62a6ba0d1a712, result_o = 163f0985c 
+#                   53 add1_i= abcd1234, add2_i = 00000000, keyinput= 0ca62a6ba0d1a712, result_o = 0abcd1234 
+#                   63 add1_i= 00000000, add2_i = 12345678, keyinput= 0ca62a6ba0d1a712, result_o = 012345678 
+#                   73 add1_i= 11114477, add2_i = eeaa0000, keyinput= 0ca62a6ba0d1a712, result_o = 0ffbb4477 
+#                   83 add1_i= 55555555, add2_i = aaaaaaaa, keyinput= 0ca62a6ba0d1a712, result_o = 0ffffffff 
+#                   93 add1_i= 80519860, add2_i = 8086ba3e, keyinput= 0ca62a6ba0d1a712, result_o = 100d7529e 
+#                   98 add1_i= fadc0720, add2_i = 00dc0810, keyinput= 0ca62a6ba0d1a712, result_o = 0fab80f30 
+run
+#                  106 add1_i= 40962048, add2_i = 20484096, keyinput= 0ca62a6ba0d1a712, result_o = 060de60de 
+#                  116 add1_i= 10242048, add2_i = 81924096, keyinput= 0ca62a6ba0d1a712, result_o = 091b660de 
+#                  216 add1_i= 00000001, add2_i = deafbeef, keyinput= 0ca62a6ba0d1a712, result_o = 0deafbef0 
+# ** Note: $finish    : /home/nayakkk/64aor/equal_segmentation_adder/sim/equal_segmentation_adder32_tb.v(83)
+#    Time: 316 ns  Iteration: 0  Instance: /equal_segmentation_adder32_tb

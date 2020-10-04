@@ -1,0 +1,15 @@
+/home/nayakkk/64aor/xnor_based_ripple_carry_adder/sim/xnor_based_ripple_carry_adder32_aor_enc64.v {1 {vlog -work simualtion -vopt -nocovercells /home/nayakkk/64aor/xnor_based_ripple_carry_adder/sim/xnor_based_ripple_carry_adder32_aor_enc64.v
+Model Technology ModelSim SE-64 vlog 6.6d Compiler 2010.11 Nov  1 2010
+-- Compiling module xnor_based_ripple_carry_adder32_aor_enc64
+
+Top level modules:
+	xnor_based_ripple_carry_adder32_aor_enc64
+
+} {} {}} /home/nayakkk/64aor/xnor_based_ripple_carry_adder/sim/xnor_based_ripple_carry_adder32_tb.v {1 {vlog -work simualtion -vopt -nocovercells /home/nayakkk/64aor/xnor_based_ripple_carry_adder/sim/xnor_based_ripple_carry_adder32_tb.v
+Model Technology ModelSim SE-64 vlog 6.6d Compiler 2010.11 Nov  1 2010
+-- Compiling module xnor_based_ripple_carry_adder32_tb
+
+Top level modules:
+	xnor_based_ripple_carry_adder32_tb
+
+} {} {}}

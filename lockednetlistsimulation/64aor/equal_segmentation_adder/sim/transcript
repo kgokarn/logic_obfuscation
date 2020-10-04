@@ -1,0 +1,266 @@
+# //  ModelSim SE-64 6.6d Nov  1 2010 Linux 2.6.32-754.33.1.el6.x86_64
+# //
+# //  Copyright 1991-2010 Mentor Graphics Corporation
+# //              All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND 
+# //  PROPRIETARY INFORMATION WHICH IS THE PROPERTY
+# //  OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+# //  AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Loading project rca64aor
+# reading /var/autofs/misc/cad/mentor/modelsim-6.6d/modeltech/linux_x86_64/../modelsim.ini
+# Loading project esa64aor
+# Compile of equal_segmentation_adder32_aor_enc64.v was successful.
+# Compile of equal_segmentation_adder32_tb.v was successful.
+# 2 compiles, 0 failed with no errors. 
+vsim -novopt simulation.equal_segmentation_adder32_tb
+# vsim -novopt simulation.equal_segmentation_adder32_tb 
+# Refreshing /home/nayakkk/64aor/equal_segmentation_adder/sim/simulation.equal_segmentation_adder32_tb
+# Loading simulation.equal_segmentation_adder32_tb
+# Refreshing /home/nayakkk/64aor/equal_segmentation_adder/sim/simulation.equal_segmentation_adder32_aor_enc64
+# Loading simulation.equal_segmentation_adder32_aor_enc64
+add wave sim:/equal_segmentation_adder32_tb/*
+run
+#                    0 add1_i= 00000000, add2_i = 00000000, keyinput= 0ca62a6ba0d1a712, result_o = 000000000 
+#                   10 add1_i= 29af2430, add2_i = 7a1b9abc, keyinput= 0ca62a6ba0d1a712, result_o = 0a3cabeec 
+#                   20 add1_i= 11003456, add2_i = 11112323, keyinput= 0ca62a6ba0d1a712, result_o = 022115779 
+#                   30 add1_i= 81160873, add2_i = 1cce0178, keyinput= 0ca62a6ba0d1a712, result_o = 09de409eb 
+#                   35 add1_i= 20202012, add2_i = deadbeef, keyinput= 0ca62a6ba0d1a712, result_o = 0fecdde01 
+#                   43 add1_i= 8943deaf, add2_i = daadbaad, keyinput= 0ca62a6ba0d1a712, result_o = 163f0985c 
+#                   53 add1_i= abcd1234, add2_i = 00000000, keyinput= 0ca62a6ba0d1a712, result_o = 0abcd1234 
+#                   63 add1_i= 00000000, add2_i = 12345678, keyinput= 0ca62a6ba0d1a712, result_o = 012345678 
+#                   73 add1_i= 11114477, add2_i = eeaa0000, keyinput= 0ca62a6ba0d1a712, result_o = 0ffbb4477 
+#                   83 add1_i= 55555555, add2_i = aaaaaaaa, keyinput= 0ca62a6ba0d1a712, result_o = 0ffffffff 
+#                   93 add1_i= 80519860, add2_i = 8086ba3e, keyinput= 0ca62a6ba0d1a712, result_o = 100d7529e 
+#                   98 add1_i= fadc0720, add2_i = 00dc0810, keyinput= 0ca62a6ba0d1a712, result_o = 0fab80f30 
+#                  106 add1_i= 40962048, add2_i = 20484096, keyinput= 0ca62a6ba0d1a712, result_o = 060de60de 
+#                  116 add1_i= 10242048, add2_i = 81924096, keyinput= 0ca62a6ba0d1a712, result_o = 091b660de 
+#                  126 add1_i= 00000001, add2_i = deafbeef, keyinput= 0ca62a6ba0d1a712, result_o = 0deafbef0 
+#                  136 add1_i= 00000000, add2_i = 00000000, keyinput= 0ca62a6ba0d1a702, result_o = 000000080 
+#                  146 add1_i= 29af2430, add2_i = 7a1b9abc, keyinput= 0ca62a6ba0d1a702, result_o = 0a3cabe6c 
+#                  156 add1_i= 11003456, add2_i = 11112323, keyinput= 0ca62a6ba0d1a702, result_o = 0221157f9 
+#                  166 add1_i= 81160873, add2_i = 1cce0178, keyinput= 0ca62a6ba0d1a702, result_o = 09de409eb 
+#                  171 add1_i= 20202012, add2_i = deadbeef, keyinput= 0ca62a6ba0d1a702, result_o = 0fecdde01 
+#                  179 add1_i= 8943deaf, add2_i = daadbaad, keyinput= 0ca62a6ba0d1a702, result_o = 163f098dc 
+#                  189 add1_i= abcd1234, add2_i = 00000000, keyinput= 0ca62a6ba0d1a702, result_o = 0abcd12b4 
+#                  199 add1_i= 00000000, add2_i = 12345678, keyinput= 0ca62a6ba0d1a702, result_o = 0123456f8 
+#                  209 add1_i= 11114477, add2_i = eeaa0000, keyinput= 0ca62a6ba0d1a702, result_o = 0ffbb44f7 
+#                  219 add1_i= 55555555, add2_i = aaaaaaaa, keyinput= 0ca62a6ba0d1a702, result_o = 0ffffff7f 
+#                  229 add1_i= 80519860, add2_i = 8086ba3e, keyinput= 0ca62a6ba0d1a702, result_o = 100d7529e 
+#                  234 add1_i= fadc0720, add2_i = 00dc0810, keyinput= 0ca62a6ba0d1a702, result_o = 0fab80fb0 
+#                  242 add1_i= 40962048, add2_i = 20484096, keyinput= 0ca62a6ba0d1a702, result_o = 060de605e 
+#                  252 add1_i= 10242048, add2_i = 81924096, keyinput= 0ca62a6ba0d1a702, result_o = 091b6605e 
+#                  262 add1_i= 00000001, add2_i = deafbeef, keyinput= 0ca62a6ba0d1a702, result_o = 0deafbe70 
+#                  272 add1_i= 00000000, add2_i = 00000000, keyinput= 0ca62a6ba0d1a700, result_o = 000000084 
+#                  282 add1_i= 29af2430, add2_i = 7a1b9abc, keyinput= 0ca62a6ba0d1a700, result_o = 0a3cabe70 
+#                  292 add1_i= 11003456, add2_i = 11112323, keyinput= 0ca62a6ba0d1a700, result_o = 0221157f9 
+#                  302 add1_i= 81160873, add2_i = 1cce0178, keyinput= 0ca62a6ba0d1a700, result_o = 09de409ef 
+#                  307 add1_i= 20202012, add2_i = deadbeef, keyinput= 0ca62a6ba0d1a700, result_o = 0fecdde01 
+#                  315 add1_i= 8943deaf, add2_i = daadbaad, keyinput= 0ca62a6ba0d1a700, result_o = 163f098dc 
+#                  325 add1_i= abcd1234, add2_i = 00000000, keyinput= 0ca62a6ba0d1a700, result_o = 0abcd12b8 
+#                  335 add1_i= 00000000, add2_i = 12345678, keyinput= 0ca62a6ba0d1a700, result_o = 0123456fc 
+#                  345 add1_i= 11114477, add2_i = eeaa0000, keyinput= 0ca62a6ba0d1a700, result_o = 0ffbb44fb 
+#                  355 add1_i= 55555555, add2_i = aaaaaaaa, keyinput= 0ca62a6ba0d1a700, result_o = 0ffffff03 
+#                  365 add1_i= 80519860, add2_i = 8086ba3e, keyinput= 0ca62a6ba0d1a700, result_o = 100d752a2 
+#                  370 add1_i= fadc0720, add2_i = 00dc0810, keyinput= 0ca62a6ba0d1a700, result_o = 0fab80fb4 
+#                  378 add1_i= 40962048, add2_i = 20484096, keyinput= 0ca62a6ba0d1a700, result_o = 060de6062 
+#                  388 add1_i= 10242048, add2_i = 81924096, keyinput= 0ca62a6ba0d1a700, result_o = 091b66062 
+#                  398 add1_i= 00000001, add2_i = deafbeef, keyinput= 0ca62a6ba0d1a700, result_o = 0deafbe70 
+#                  408 add1_i= 00000000, add2_i = 00000000, keyinput= 0ca62a6ba0d1a740, result_o = 000000084 
+#                  418 add1_i= 29af2430, add2_i = 7a1b9abc, keyinput= 0ca62a6ba0d1a740, result_o = 0a3cabe70 
+#                  428 add1_i= 11003456, add2_i = 11112323, keyinput= 0ca62a6ba0d1a740, result_o = 0221157f9 
+#                  438 add1_i= 81160873, add2_i = 1cce0178, keyinput= 0ca62a6ba0d1a740, result_o = 09de409ef 
+#                  443 add1_i= 20202012, add2_i = deadbeef, keyinput= 0ca62a6ba0d1a740, result_o = 0fecdde01 
+#                  451 add1_i= 8943deaf, add2_i = daadbaad, keyinput= 0ca62a6ba0d1a740, result_o = 163f098dc 
+#                  461 add1_i= abcd1234, add2_i = 00000000, keyinput= 0ca62a6ba0d1a740, result_o = 0abcd12b8 
+#                  471 add1_i= 00000000, add2_i = 12345678, keyinput= 0ca62a6ba0d1a740, result_o = 0123456fc 
+#                  481 add1_i= 11114477, add2_i = eeaa0000, keyinput= 0ca62a6ba0d1a740, result_o = 0ffbb44fb 
+#                  491 add1_i= 55555555, add2_i = aaaaaaaa, keyinput= 0ca62a6ba0d1a740, result_o = 0ffffff03 
+#                  501 add1_i= 80519860, add2_i = 8086ba3e, keyinput= 0ca62a6ba0d1a740, result_o = 100d742a2 
+#                  506 add1_i= fadc0720, add2_i = 00dc0810, keyinput= 0ca62a6ba0d1a740, result_o = 0fab80fb4 
+#                  514 add1_i= 40962048, add2_i = 20484096, keyinput= 0ca62a6ba0d1a740, result_o = 060de6062 
+#                  524 add1_i= 10242048, add2_i = 81924096, keyinput= 0ca62a6ba0d1a740, result_o = 091b66062 
+#                  534 add1_i= 00000001, add2_i = deafbeef, keyinput= 0ca62a6ba0d1a740, result_o = 0deafbe70 
+#                  544 add1_i= 00000000, add2_i = 00000000, keyinput= 0ca62a6ba0d1a748, result_o = 000080084 
+#                  554 add1_i= 29af2430, add2_i = 7a1b9abc, keyinput= 0ca62a6ba0d1a748, result_o = 0a3c2be70 
+#                  564 add1_i= 11003456, add2_i = 11112323, keyinput= 0ca62a6ba0d1a748, result_o = 0221957f9 
+#                  574 add1_i= 81160873, add2_i = 1cce0178, keyinput= 0ca62a6ba0d1a748, result_o = 09de409ef 
+#                  579 add1_i= 20202012, add2_i = deadbeef, keyinput= 0ca62a6ba0d1a748, result_o = 0fed5de01 
+#                  587 add1_i= 8943deaf, add2_i = daadbaad, keyinput= 0ca62a6ba0d1a748, result_o = 163f098dc 
+#                  597 add1_i= abcd1234, add2_i = 00000000, keyinput= 0ca62a6ba0d1a748, result_o = 0abcd12b8 
+#                  607 add1_i= 00000000, add2_i = 12345678, keyinput= 0ca62a6ba0d1a748, result_o = 0123c56fc 
+#                  617 add1_i= 11114477, add2_i = eeaa0000, keyinput= 0ca62a6ba0d1a748, result_o = 0ffc344fb 
+#                  627 add1_i= 55555555, add2_i = aaaaaaaa, keyinput= 0ca62a6ba0d1a748, result_o = 0ff07ff03 
+#                  637 add1_i= 80519860, add2_i = 8086ba3e, keyinput= 0ca62a6ba0d1a748, result_o = 100df42a2 
+#                  642 add1_i= fadc0720, add2_i = 00dc0810, keyinput= 0ca62a6ba0d1a748, result_o = 0fab00fb4 
+#                  650 add1_i= 40962048, add2_i = 20484096, keyinput= 0ca62a6ba0d1a748, result_o = 060e66062 
+#                  660 add1_i= 10242048, add2_i = 81924096, keyinput= 0ca62a6ba0d1a748, result_o = 091be6062 
+#                  670 add1_i= 00000001, add2_i = deafbeef, keyinput= 0ca62a6ba0d1a748, result_o = 0deb7be70 
+#                  680 add1_i= 00000000, add2_i = 00000000, keyinput= 0ca62a6ba0d1a74d, result_o = 100080094 
+#                  690 add1_i= 29af2430, add2_i = 7a1b9abc, keyinput= 0ca62a6ba0d1a74d, result_o = 1a3c2be70 
+#                  700 add1_i= 11003456, add2_i = 11112323, keyinput= 0ca62a6ba0d1a74d, result_o = 122195789 
+#                  710 add1_i= 81160873, add2_i = 1cce0178, keyinput= 0ca62a6ba0d1a74d, result_o = 19de409ff 
+#                  715 add1_i= 20202012, add2_i = deadbeef, keyinput= 0ca62a6ba0d1a74d, result_o = 1fed5de01 
+#                  723 add1_i= 8943deaf, add2_i = daadbaad, keyinput= 0ca62a6ba0d1a74d, result_o = 163f098dc 
+#                  733 add1_i= abcd1234, add2_i = 00000000, keyinput= 0ca62a6ba0d1a74d, result_o = 1abcd12c8 
+#                  743 add1_i= 00000000, add2_i = 12345678, keyinput= 0ca62a6ba0d1a74d, result_o = 1123c568c 
+#                  753 add1_i= 11114477, add2_i = eeaa0000, keyinput= 0ca62a6ba0d1a74d, result_o = 1ffc3448b 
+#                  763 add1_i= 55555555, add2_i = aaaaaaaa, keyinput= 0ca62a6ba0d1a74d, result_o = 1ff07ff03 
+#                  773 add1_i= 80519860, add2_i = 8086ba3e, keyinput= 0ca62a6ba0d1a74d, result_o = 100df42a2 
+#                  778 add1_i= fadc0720, add2_i = 00dc0810, keyinput= 0ca62a6ba0d1a74d, result_o = 1fab00fc4 
+#                  786 add1_i= 40962048, add2_i = 20484096, keyinput= 0ca62a6ba0d1a74d, result_o = 160e66062 
+#                  796 add1_i= 10242048, add2_i = 81924096, keyinput= 0ca62a6ba0d1a74d, result_o = 191be6062 
+#                  806 add1_i= 00000001, add2_i = deafbeef, keyinput= 0ca62a6ba0d1a74d, result_o = 1deb7be70 
+#                  816 add1_i= 00000000, add2_i = 00000000, keyinput= 1ca62a6ba0d1a712, result_o = 000000800 
+#                  826 add1_i= 29af2430, add2_i = 7a1b9abc, keyinput= 1ca62a6ba0d1a712, result_o = 0a3cac6ec 
+#                  836 add1_i= 11003456, add2_i = 11112323, keyinput= 1ca62a6ba0d1a712, result_o = 022115f79 
+#                  846 add1_i= 81160873, add2_i = 1cce0178, keyinput= 1ca62a6ba0d1a712, result_o = 09de409eb 
+#                  851 add1_i= 20202012, add2_i = deadbeef, keyinput= 1ca62a6ba0d1a712, result_o = 0fecde601 
+#                  859 add1_i= 8943deaf, add2_i = daadbaad, keyinput= 1ca62a6ba0d1a712, result_o = 163f0905c 
+#                  869 add1_i= abcd1234, add2_i = 00000000, keyinput= 1ca62a6ba0d1a712, result_o = 0abcd1a34 
+#                  879 add1_i= 00000000, add2_i = 12345678, keyinput= 1ca62a6ba0d1a712, result_o = 012345e78 
+#                  889 add1_i= 11114477, add2_i = eeaa0000, keyinput= 1ca62a6ba0d1a712, result_o = 0ffbb4c77 
+#                  899 add1_i= 55555555, add2_i = aaaaaaaa, keyinput= 1ca62a6ba0d1a712, result_o = 0ffff07ff 
+#                  909 add1_i= 80519860, add2_i = 8086ba3e, keyinput= 1ca62a6ba0d1a712, result_o = 100d7529e 
+#                  914 add1_i= fadc0720, add2_i = 00dc0810, keyinput= 1ca62a6ba0d1a712, result_o = 0fab81730 
+#                  922 add1_i= 40962048, add2_i = 20484096, keyinput= 1ca62a6ba0d1a712, result_o = 060de68de 
+#                  932 add1_i= 10242048, add2_i = 81924096, keyinput= 1ca62a6ba0d1a712, result_o = 091b668de 
+#                  942 add1_i= 00000001, add2_i = deafbeef, keyinput= 1ca62a6ba0d1a712, result_o = 0deafc6f0 
+#                  952 add1_i= 00000000, add2_i = 00000000, keyinput= 3ca62a6ba0d1a712, result_o = 000008800 
+#                  962 add1_i= 29af2430, add2_i = 7a1b9abc, keyinput= 3ca62a6ba0d1a712, result_o = 0a3cac6ec 
+#                  972 add1_i= 11003456, add2_i = 11112323, keyinput= 3ca62a6ba0d1a712, result_o = 02211df79 
+#                  982 add1_i= 81160873, add2_i = 1cce0178, keyinput= 3ca62a6ba0d1a712, result_o = 09de489eb 
+#                  987 add1_i= 20202012, add2_i = deadbeef, keyinput= 3ca62a6ba0d1a712, result_o = 0fecde601 
+#                  995 add1_i= 8943deaf, add2_i = daadbaad, keyinput= 3ca62a6ba0d1a712, result_o = 163f0905c 
+#                 1005 add1_i= abcd1234, add2_i = 00000000, keyinput= 3ca62a6ba0d1a712, result_o = 0abcd9a34 
+#                 1015 add1_i= 00000000, add2_i = 12345678, keyinput= 3ca62a6ba0d1a712, result_o = 01234de78 
+#                 1025 add1_i= 11114477, add2_i = eeaa0000, keyinput= 3ca62a6ba0d1a712, result_o = 0ffbbcc77 
+#                 1035 add1_i= 55555555, add2_i = aaaaaaaa, keyinput= 3ca62a6ba0d1a712, result_o = 0ffff87ff 
+#                 1045 add1_i= 80519860, add2_i = 8086ba3e, keyinput= 3ca62a6ba0d1a712, result_o = 100d7d29e 
+#                 1050 add1_i= fadc0720, add2_i = 00dc0810, keyinput= 3ca62a6ba0d1a712, result_o = 0fab89730 
+#                 1058 add1_i= 40962048, add2_i = 20484096, keyinput= 3ca62a6ba0d1a712, result_o = 060dee8de 
+#                 1068 add1_i= 10242048, add2_i = 81924096, keyinput= 3ca62a6ba0d1a712, result_o = 091b6e8de 
+#                 1078 add1_i= 00000001, add2_i = deafbeef, keyinput= 3ca62a6ba0d1a712, result_o = 0deafc6f0 
+#                 1088 add1_i= 00000000, add2_i = 00000000, keyinput= 7ca62a6ba0d1a712, result_o = 040008800 
+#                 1098 add1_i= 29af2430, add2_i = 7a1b9abc, keyinput= 7ca62a6ba0d1a712, result_o = 0a3cac6ec 
+#                 1108 add1_i= 11003456, add2_i = 11112323, keyinput= 7ca62a6ba0d1a712, result_o = 06211df79 
+#                 1118 add1_i= 81160873, add2_i = 1cce0178, keyinput= 7ca62a6ba0d1a712, result_o = 0dde489eb 
+#                 1123 add1_i= 20202012, add2_i = deadbeef, keyinput= 7ca62a6ba0d1a712, result_o = 13ecde601 
+#                 1131 add1_i= 8943deaf, add2_i = daadbaad, keyinput= 7ca62a6ba0d1a712, result_o = 1a3f0905c 
+#                 1141 add1_i= abcd1234, add2_i = 00000000, keyinput= 7ca62a6ba0d1a712, result_o = 0ebcd9a34 
+#                 1151 add1_i= 00000000, add2_i = 12345678, keyinput= 7ca62a6ba0d1a712, result_o = 05234de78 
+#                 1161 add1_i= 11114477, add2_i = eeaa0000, keyinput= 7ca62a6ba0d1a712, result_o = 13fbbcc77 
+#                 1171 add1_i= 55555555, add2_i = aaaaaaaa, keyinput= 7ca62a6ba0d1a712, result_o = 0ffff87ff 
+#                 1181 add1_i= 80519860, add2_i = 8086ba3e, keyinput= 7ca62a6ba0d1a712, result_o = 140d7d29e 
+#                 1186 add1_i= fadc0720, add2_i = 00dc0810, keyinput= 7ca62a6ba0d1a712, result_o = 0fab89730 
+#                 1194 add1_i= 40962048, add2_i = 20484096, keyinput= 7ca62a6ba0d1a712, result_o = 060dee8de 
+#                 1204 add1_i= 10242048, add2_i = 81924096, keyinput= 7ca62a6ba0d1a712, result_o = 0d1b6e8de 
+#                 1214 add1_i= 00000001, add2_i = deafbeef, keyinput= 7ca62a6ba0d1a712, result_o = 11eafc6f0 
+#                 1224 add1_i= 00000000, add2_i = 00000000, keyinput= fca62a6ba0d1a712, result_o = 040008802 
+#                 1234 add1_i= 29af2430, add2_i = 7a1b9abc, keyinput= fca62a6ba0d1a712, result_o = 0a3cac6ee 
+#                 1244 add1_i= 11003456, add2_i = 11112323, keyinput= fca62a6ba0d1a712, result_o = 06211df7b 
+#                 1254 add1_i= 81160873, add2_i = 1cce0178, keyinput= fca62a6ba0d1a712, result_o = 0dde489eb 
+#                 1259 add1_i= 20202012, add2_i = deadbeef, keyinput= fca62a6ba0d1a712, result_o = 13ecde603 
+#                 1267 add1_i= 8943deaf, add2_i = daadbaad, keyinput= fca62a6ba0d1a712, result_o = 1a3f0905e 
+#                 1277 add1_i= abcd1234, add2_i = 00000000, keyinput= fca62a6ba0d1a712, result_o = 0ebcd9a36 
+#                 1287 add1_i= 00000000, add2_i = 12345678, keyinput= fca62a6ba0d1a712, result_o = 05234de7a 
+#                 1297 add1_i= 11114477, add2_i = eeaa0000, keyinput= fca62a6ba0d1a712, result_o = 13fbbcc77 
+#                 1307 add1_i= 55555555, add2_i = aaaaaaaa, keyinput= fca62a6ba0d1a712, result_o = 0ffff87ff 
+#                 1317 add1_i= 80519860, add2_i = 8086ba3e, keyinput= fca62a6ba0d1a712, result_o = 140d7d29e 
+#                 1322 add1_i= fadc0720, add2_i = 00dc0810, keyinput= fca62a6ba0d1a712, result_o = 0fab89732 
+#                 1330 add1_i= 40962048, add2_i = 20484096, keyinput= fca62a6ba0d1a712, result_o = 060dee8de 
+#                 1340 add1_i= 10242048, add2_i = 81924096, keyinput= fca62a6ba0d1a712, result_o = 0d1b6e8de 
+#                 1350 add1_i= 00000001, add2_i = deafbeef, keyinput= fca62a6ba0d1a712, result_o = 11eafc6f2 
+#                 1360 add1_i= 00000000, add2_i = 00000000, keyinput= ffa62a6ba0d1a712, result_o = 040008802 
+#                 1370 add1_i= 29af2430, add2_i = 7a1b9abc, keyinput= ffa62a6ba0d1a712, result_o = 0e3cac6ee 
+#                 1380 add1_i= 11003456, add2_i = 11112323, keyinput= ffa62a6ba0d1a712, result_o = 06211df7b 
+#                 1390 add1_i= 81160873, add2_i = 1cce0178, keyinput= ffa62a6ba0d1a712, result_o = 0dde489eb 
+#                 1395 add1_i= 20202012, add2_i = deadbeef, keyinput= ffa62a6ba0d1a712, result_o = 17ecde603 
+#                 1403 add1_i= 8943deaf, add2_i = daadbaad, keyinput= ffa62a6ba0d1a712, result_o = 1e3f0905e 
+#                 1413 add1_i= abcd1234, add2_i = 00000000, keyinput= ffa62a6ba0d1a712, result_o = 0ebcd9a36 
+#                 1423 add1_i= 00000000, add2_i = 12345678, keyinput= ffa62a6ba0d1a712, result_o = 05234de7a 
+#                 1433 add1_i= 11114477, add2_i = eeaa0000, keyinput= ffa62a6ba0d1a712, result_o = 17fbbcc77 
+#                 1443 add1_i= 55555555, add2_i = aaaaaaaa, keyinput= ffa62a6ba0d1a712, result_o = 0ffff87ff 
+#                 1453 add1_i= 80519860, add2_i = 8086ba3e, keyinput= ffa62a6ba0d1a712, result_o = 140d7d29e 
+#                 1458 add1_i= fadc0720, add2_i = 00dc0810, keyinput= ffa62a6ba0d1a712, result_o = 0fab89732 
+#                 1466 add1_i= 40962048, add2_i = 20484096, keyinput= ffa62a6ba0d1a712, result_o = 060dee8de 
+#                 1476 add1_i= 10242048, add2_i = 81924096, keyinput= ffa62a6ba0d1a712, result_o = 0d1b6e8de 
+#                 1486 add1_i= 00000001, add2_i = deafbeef, keyinput= ffa62a6ba0d1a712, result_o = 15eafc6f2 
+#                 1496 add1_i= 00000000, add2_i = 00000000, keyinput= 0ca62a6aa0d1a712, result_o = 000000000 
+#                 1506 add1_i= 29af2430, add2_i = 7a1b9abc, keyinput= 0ca62a6aa0d1a712, result_o = 0a3cabeec 
+#                 1516 add1_i= 11003456, add2_i = 11112323, keyinput= 0ca62a6aa0d1a712, result_o = 022115779 
+#                 1526 add1_i= 81160873, add2_i = 1cce0178, keyinput= 0ca62a6aa0d1a712, result_o = 09dc409eb 
+#                 1531 add1_i= 20202012, add2_i = deadbeef, keyinput= 0ca62a6aa0d1a712, result_o = 0feadde01 
+#                 1539 add1_i= 8943deaf, add2_i = daadbaad, keyinput= 0ca62a6aa0d1a712, result_o = 163f0985c 
+#                 1549 add1_i= abcd1234, add2_i = 00000000, keyinput= 0ca62a6aa0d1a712, result_o = 0abcd1234 
+#                 1559 add1_i= 00000000, add2_i = 12345678, keyinput= 0ca62a6aa0d1a712, result_o = 012345678 
+#                 1569 add1_i= 11114477, add2_i = eeaa0000, keyinput= 0ca62a6aa0d1a712, result_o = 0ffbb4477 
+#                 1579 add1_i= 55555555, add2_i = aaaaaaaa, keyinput= 0ca62a6aa0d1a712, result_o = 0ffffffff 
+#                 1589 add1_i= 80519860, add2_i = 8086ba3e, keyinput= 0ca62a6aa0d1a712, result_o = 100d7529e 
+#                 1594 add1_i= fadc0720, add2_i = 00dc0810, keyinput= 0ca62a6aa0d1a712, result_o = 0fa980f30 
+#                 1602 add1_i= 40962048, add2_i = 20484096, keyinput= 0ca62a6aa0d1a712, result_o = 060de60de 
+#                 1612 add1_i= 10242048, add2_i = 81924096, keyinput= 0ca62a6aa0d1a712, result_o = 0919660de 
+#                 1622 add1_i= 00000001, add2_i = deafbeef, keyinput= 0ca62a6aa0d1a712, result_o = 0deafbef0 
+#                 1632 add1_i= 00000000, add2_i = 00000000, keyinput= 0ca62a68a0d1a712, result_o = 000000000 
+#                 1642 add1_i= 29af2430, add2_i = 7a1b9abc, keyinput= 0ca62a68a0d1a712, result_o = 0a3cabeec 
+#                 1652 add1_i= 11003456, add2_i = 11112323, keyinput= 0ca62a68a0d1a712, result_o = 022115779 
+#                 1662 add1_i= 81160873, add2_i = 1cce0178, keyinput= 0ca62a68a0d1a712, result_o = 08dc409eb 
+#                 1667 add1_i= 20202012, add2_i = deadbeef, keyinput= 0ca62a68a0d1a712, result_o = 0eeadde01 
+#                 1675 add1_i= 8943deaf, add2_i = daadbaad, keyinput= 0ca62a68a0d1a712, result_o = 163f0985c 
+#                 1685 add1_i= abcd1234, add2_i = 00000000, keyinput= 0ca62a68a0d1a712, result_o = 0abcd1234 
+#                 1695 add1_i= 00000000, add2_i = 12345678, keyinput= 0ca62a68a0d1a712, result_o = 002345678 
+#                 1705 add1_i= 11114477, add2_i = eeaa0000, keyinput= 0ca62a68a0d1a712, result_o = 0efbb4477 
+#                 1715 add1_i= 55555555, add2_i = aaaaaaaa, keyinput= 0ca62a68a0d1a712, result_o = 0efffffff 
+#                 1725 add1_i= 80519860, add2_i = 8086ba3e, keyinput= 0ca62a68a0d1a712, result_o = 100d7529e 
+#                 1730 add1_i= fadc0720, add2_i = 00dc0810, keyinput= 0ca62a68a0d1a712, result_o = 0ea980f30 
+#                 1738 add1_i= 40962048, add2_i = 20484096, keyinput= 0ca62a68a0d1a712, result_o = 060de60de 
+#                 1748 add1_i= 10242048, add2_i = 81924096, keyinput= 0ca62a68a0d1a712, result_o = 0819660de 
+#                 1758 add1_i= 00000001, add2_i = deafbeef, keyinput= 0ca62a68a0d1a712, result_o = 0ceafbef0 
+#                 1768 add1_i= 00000000, add2_i = 00000000, keyinput= 0ca62a60a0d1a712, result_o = 000000000 
+#                 1778 add1_i= 29af2430, add2_i = 7a1b9abc, keyinput= 0ca62a60a0d1a712, result_o = 0a3cabeec 
+#                 1788 add1_i= 11003456, add2_i = 11112323, keyinput= 0ca62a60a0d1a712, result_o = 022015779 
+#                 1798 add1_i= 81160873, add2_i = 1cce0178, keyinput= 0ca62a60a0d1a712, result_o = 08dc409eb 
+#                 1803 add1_i= 20202012, add2_i = deadbeef, keyinput= 0ca62a60a0d1a712, result_o = 0eeadde01 
+#                 1811 add1_i= 8943deaf, add2_i = daadbaad, keyinput= 0ca62a60a0d1a712, result_o = 163e0985c 
+#                 1821 add1_i= abcd1234, add2_i = 00000000, keyinput= 0ca62a60a0d1a712, result_o = 0abcd1234 
+#                 1831 add1_i= 00000000, add2_i = 12345678, keyinput= 0ca62a60a0d1a712, result_o = 002245678 
+#                 1841 add1_i= 11114477, add2_i = eeaa0000, keyinput= 0ca62a60a0d1a712, result_o = 0efab4477 
+#                 1851 add1_i= 55555555, add2_i = aaaaaaaa, keyinput= 0ca62a60a0d1a712, result_o = 0efefffff 
+#                 1861 add1_i= 80519860, add2_i = 8086ba3e, keyinput= 0ca62a60a0d1a712, result_o = 100c7529e 
+#                 1866 add1_i= fadc0720, add2_i = 00dc0810, keyinput= 0ca62a60a0d1a712, result_o = 0ea880f30 
+#                 1874 add1_i= 40962048, add2_i = 20484096, keyinput= 0ca62a60a0d1a712, result_o = 060ce60de 
+#                 1884 add1_i= 10242048, add2_i = 81924096, keyinput= 0ca62a60a0d1a712, result_o = 0818660de 
+#                 1894 add1_i= 00000001, add2_i = deafbeef, keyinput= 0ca62a60a0d1a712, result_o = 0ceafbef0 
+#                 1904 add1_i= 00000000, add2_i = 00000000, keyinput= 0ca62a6020d1a712, result_o = 000000000 
+#                 1914 add1_i= 29af2430, add2_i = 7a1b9abc, keyinput= 0ca62a6020d1a712, result_o = 0a3cabeac 
+#                 1924 add1_i= 11003456, add2_i = 11112323, keyinput= 0ca62a6020d1a712, result_o = 022015739 
+#                 1934 add1_i= 81160873, add2_i = 1cce0178, keyinput= 0ca62a6020d1a712, result_o = 08dc409eb 
+#                 1939 add1_i= 20202012, add2_i = deadbeef, keyinput= 0ca62a6020d1a712, result_o = 0eeaddec1 
+#                 1947 add1_i= 8943deaf, add2_i = daadbaad, keyinput= 0ca62a6020d1a712, result_o = 163e0981c 
+#                 1957 add1_i= abcd1234, add2_i = 00000000, keyinput= 0ca62a6020d1a712, result_o = 0abcd1234 
+#                 1967 add1_i= 00000000, add2_i = 12345678, keyinput= 0ca62a6020d1a712, result_o = 002245678 
+#                 1977 add1_i= 11114477, add2_i = eeaa0000, keyinput= 0ca62a6020d1a712, result_o = 0efab4437 
+#                 1987 add1_i= 55555555, add2_i = aaaaaaaa, keyinput= 0ca62a6020d1a712, result_o = 0efefffbf 
+#                 1997 add1_i= 80519860, add2_i = 8086ba3e, keyinput= 0ca62a6020d1a712, result_o = 100c7529e 
+#                 2002 add1_i= fadc0720, add2_i = 00dc0810, keyinput= 0ca62a6020d1a712, result_o = 0ea880f30 
+#                 2010 add1_i= 40962048, add2_i = 20484096, keyinput= 0ca62a6020d1a712, result_o = 060ce609e 
+#                 2020 add1_i= 10242048, add2_i = 81924096, keyinput= 0ca62a6020d1a712, result_o = 08186609e 
+#                 2030 add1_i= 00000001, add2_i = deafbeef, keyinput= 0ca62a6020d1a712, result_o = 0ceafbef0 
+#                 2040 add1_i= 00000000, add2_i = 00000000, keyinput= 0ca62a6400d1a712, result_o = 000000004 
+#                 2050 add1_i= 29af2430, add2_i = 7a1b9abc, keyinput= 0ca62a6400d1a712, result_o = 0a3cabe30 
+#                 2060 add1_i= 11003456, add2_i = 11112323, keyinput= 0ca62a6400d1a712, result_o = 022015739 
+#                 2070 add1_i= 81160873, add2_i = 1cce0178, keyinput= 0ca62a6400d1a712, result_o = 08dc409ef 
+#                 2075 add1_i= 20202012, add2_i = deadbeef, keyinput= 0ca62a6400d1a712, result_o = 0eeadde41 
+#                 2083 add1_i= 8943deaf, add2_i = daadbaad, keyinput= 0ca62a6400d1a712, result_o = 163e0981c 
+#                 2093 add1_i= abcd1234, add2_i = 00000000, keyinput= 0ca62a6400d1a712, result_o = 0abcd1238 
+#                 2103 add1_i= 00000000, add2_i = 12345678, keyinput= 0ca62a6400d1a712, result_o = 00224567c 
+#                 2113 add1_i= 11114477, add2_i = eeaa0000, keyinput= 0ca62a6400d1a712, result_o = 0efab443b 
+#                 2123 add1_i= 55555555, add2_i = aaaaaaaa, keyinput= 0ca62a6400d1a712, result_o = 0efefff83 
+#                 2133 add1_i= 80519860, add2_i = 8086ba3e, keyinput= 0ca62a6400d1a712, result_o = 100c752a2 
+#                 2138 add1_i= fadc0720, add2_i = 00dc0810, keyinput= 0ca62a6400d1a712, result_o = 0ea880f34 
+#                 2146 add1_i= 40962048, add2_i = 20484096, keyinput= 0ca62a6400d1a712, result_o = 060ce6022 
+#                 2156 add1_i= 10242048, add2_i = 81924096, keyinput= 0ca62a6400d1a712, result_o = 081866022 
+#                 2166 add1_i= 00000001, add2_i = deafbeef, keyinput= 0ca62a6400d1a712, result_o = 0ceafbe70 
+# ** Note: $finish    : /home/nayakkk/64aor/equal_segmentation_adder/sim/equal_segmentation_adder32_tb.v(794)
+#    Time: 2176 ns  Iteration: 0  Instance: /equal_segmentation_adder32_tb

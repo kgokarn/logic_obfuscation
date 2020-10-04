@@ -1,0 +1,46 @@
+# //  ModelSim SE-64 6.6d Nov  1 2010 Linux 2.6.32-754.33.1.el6.x86_64
+# //
+# //  Copyright 1991-2010 Mentor Graphics Corporation
+# //              All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND 
+# //  PROPRIETARY INFORMATION WHICH IS THE PROPERTY
+# //  OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+# //  AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Loading project cla32aor
+# reading /var/autofs/misc/cad/mentor/modelsim-6.6d/modeltech/linux_x86_64/../modelsim.ini
+# Loading project cla64aor
+# Compile of carry_lookahead_adder32_aor_enc64.v was successful.
+# Compile of carry_lookahead_adder32_tb.v was successful.
+# 2 compiles, 0 failed with no errors. 
+vsim -novopt simulation.carry_lookahead_adder32_tb
+# vsim -novopt simulation.carry_lookahead_adder32_tb 
+# Refreshing /home/nayakkk/64aor/carry_lookahead_adder/sim/simulation.carry_lookahead_adder32_tb
+# Loading simulation.carry_lookahead_adder32_tb
+# Refreshing /home/nayakkk/64aor/carry_lookahead_adder/sim/simulation.carry_lookahead_adder32_aor_enc64
+# Loading simulation.carry_lookahead_adder32_aor_enc64
+vsim -novopt simulation.carry_lookahead_adder32_tb
+# vsim -novopt simulation.carry_lookahead_adder32_tb 
+# Loading simulation.carry_lookahead_adder32_tb
+# Loading simulation.carry_lookahead_adder32_aor_enc64
+add wave sim:/carry_lookahead_adder32_tb/*
+run
+#                    0 add1_i= 00000000, add2_i = 00000000, keyinput= ed06c024c5bf39e2, result_o = 000000001 
+#                   10 add1_i= 29af2430, add2_i = 7a1b9abc, keyinput= ed06c024c5bf39e2, result_o = 0a3cabeed 
+#                   20 add1_i= 11003456, add2_i = 11112323, keyinput= ed06c024c5bf39e2, result_o = 02211577a 
+#                   30 add1_i= 81160873, add2_i = 1cce0178, keyinput= ed06c024c5bf39e2, result_o = 09de409ec 
+#                   35 add1_i= 20202012, add2_i = deadbeef, keyinput= ed06c024c5bf39e2, result_o = 0fecddf02 
+#                   43 add1_i= 8943deaf, add2_i = daadbaad, keyinput= ed06c024c5bf39e2, result_o = 163f1995d 
+#                   53 add1_i= abcd1234, add2_i = 00000000, keyinput= ed06c024c5bf39e2, result_o = 0abcd1235 
+#                   63 add1_i= 00000000, add2_i = 12345678, keyinput= ed06c024c5bf39e2, result_o = 012345679 
+#                   73 add1_i= 11114477, add2_i = eeaa0000, keyinput= ed06c024c5bf39e2, result_o = 0ffbb4478 
+#                   83 add1_i= 55555555, add2_i = aaaaaaaa, keyinput= ed06c024c5bf39e2, result_o = 100000000 
+#                   93 add1_i= 80519860, add2_i = 8086ba3e, keyinput= ed06c024c5bf39e2, result_o = 100d8529f 
+#                   98 add1_i= fadc0720, add2_i = 00dc0810, keyinput= ed06c024c5bf39e2, result_o = 0fbb80f31 
+run
+#                  106 add1_i= 40962048, add2_i = 20484096, keyinput= ed06c024c5bf39e2, result_o = 060de60df 
+#                  116 add1_i= 10242048, add2_i = 81924096, keyinput= ed06c024c5bf39e2, result_o = 091b660df 
+#                  216 add1_i= 00000001, add2_i = deafbeef, keyinput= ed06c024c5bf39e2, result_o = 0deafbef1 
+# ** Note: $finish    : /home/nayakkk/64aor/carry_lookahead_adder/sim/carry_lookahead_adder32_tb.v(83)
+#    Time: 316 ns  Iteration: 0  Instance: /carry_lookahead_adder32_tb

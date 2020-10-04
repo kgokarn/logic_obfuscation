@@ -1,0 +1,35 @@
+m255
+K3
+13
+cModel Technology
+d/home/nayakkk/32aor/carry_lookahead_adder/sim
+vxnor_based_ripple_carry_adder32_aor_enc64
+Vjo?m1hk8am73UjM6lcl;d3
+r1
+!s85 0
+31
+I0W5oEDRFMQneiPnL:g9j[1
+Z0 d/home/nayakkk/64aor/xnor_based_ripple_carry_adder/sim
+w1601253580
+8/home/nayakkk/64aor/xnor_based_ripple_carry_adder/sim/xnor_based_ripple_carry_adder32_aor_enc64.v
+F/home/nayakkk/64aor/xnor_based_ripple_carry_adder/sim/xnor_based_ripple_carry_adder32_aor_enc64.v
+L0 2
+Z1 OL;L;6.6d;45
+Z2 !s102 -nocovercells
+Z3 o-work simualtion -nocovercells -L mtiAvm -L mtiOvm -L mtiUPF
+!s100 La=;Bf8AGcod<=@NB3;dm2
+vxnor_based_ripple_carry_adder32_tb
+VMcD720R:7AZ`jNIOFhe8?1
+r1
+31
+IBS6WdYGVIV1fgoa<jRz?o3
+Z4 d/home/nayakkk/64aor/xnor_based_ripple_carry_adder/sim
+w1601540872
+8/home/nayakkk/64aor/xnor_based_ripple_carry_adder/sim/xnor_based_ripple_carry_adder32_tb.v
+F/home/nayakkk/64aor/xnor_based_ripple_carry_adder/sim/xnor_based_ripple_carry_adder32_tb.v
+L0 23
+R1
+R2
+R3
+!s85 0
+!s100 b>@YVSHNS9PJX8L:lzV=T2
