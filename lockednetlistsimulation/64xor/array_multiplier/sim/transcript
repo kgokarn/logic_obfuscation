@@ -262,5 +262,36 @@ run
 #                 2610 operand1_i= 40, operand2_i = 20, keyinput = 220f485dfc74fe94, result_o = 2c80 
 #                 2620 operand1_i= 24, operand2_i = 92, keyinput = 220f485dfc74fe94, result_o = 3908 
 #                 2630 operand1_i= 00, operand2_i = 01, keyinput = 220f485dfc74fe94, result_o = 2480 
-# ** Note: $finish    : /home/nayakkk/64xor/array_multiplier/sim/array_multiplier8_tb.v(789)
-#    Time: 2640 ns  Iteration: 0  Instance: /array_multiplier8_tb
+# Other exact keys
+#                 2640 operand1_i= 00, operand2_i = 00, keyinput = 220f485c1b54fe94, result_o = 0000 
+#                 2650 operand1_i= 29, operand2_i = 7a, keyinput = 220f485c1b54fe94, result_o = 138a 
+#                 2660 operand1_i= 11, operand2_i = 11, keyinput = 220f485c1b54fe94, result_o = 0121 
+#                 2670 operand1_i= 81, operand2_i = 1c, keyinput = 220f485c1b54fe94, result_o = 0e1c 
+#                 2690 operand1_i= 44, operand2_i = 3b, keyinput = 220f485c1b54fe94, result_o = 0fac 
+#                 2710 operand1_i= 89, operand2_i = ff, keyinput = 220f485c1b54fe94, result_o = 8877 
+#                 2720 operand1_i= ab, operand2_i = 00, keyinput = 220f485c1b54fe94, result_o = 0000 
+#                 2730 operand1_i= 34, operand2_i = 12, keyinput = 220f485c1b54fe94, result_o = 03a8 
+#                 2740 operand1_i= 11, operand2_i = 20, keyinput = 220f485c1b54fe94, result_o = 0220 
+#                 2750 operand1_i= 55, operand2_i = aa, keyinput = 220f485c1b54fe94, result_o = 3872 
+#                 2760 operand1_i= 80, operand2_i = 80, keyinput = 220f485c1b54fe94, result_o = 4000 
+#                 2765 operand1_i= fa, operand2_i = 00, keyinput = 220f485c1b54fe94, result_o = 0000 
+#                 2775 operand1_i= 40, operand2_i = 20, keyinput = 220f485c1b54fe94, result_o = 0800 
+#                 2785 operand1_i= 24, operand2_i = 92, keyinput = 220f485c1b54fe94, result_o = 1488 
+#                 2795 operand1_i= 00, operand2_i = 01, keyinput = 220f485c1b54fe94, result_o = 0000 
+#                 2805 operand1_i= 00, operand2_i = 00, keyinput = 220f487d1b74ee94, result_o = 0000 
+#                 2815 operand1_i= 29, operand2_i = 7a, keyinput = 220f487d1b74ee94, result_o = 138a 
+#                 2825 operand1_i= 11, operand2_i = 11, keyinput = 220f487d1b74ee94, result_o = 0121 
+#                 2835 operand1_i= 81, operand2_i = 1c, keyinput = 220f487d1b74ee94, result_o = 0e1c 
+#                 2855 operand1_i= 44, operand2_i = 3b, keyinput = 220f487d1b74ee94, result_o = 0fac 
+#                 2875 operand1_i= 89, operand2_i = ff, keyinput = 220f487d1b74ee94, result_o = 8877 
+#                 2885 operand1_i= ab, operand2_i = 00, keyinput = 220f487d1b74ee94, result_o = 0000 
+#                 2895 operand1_i= 34, operand2_i = 12, keyinput = 220f487d1b74ee94, result_o = 03a8 
+#                 2905 operand1_i= 11, operand2_i = 20, keyinput = 220f487d1b74ee94, result_o = 0220 
+#                 2915 operand1_i= 55, operand2_i = aa, keyinput = 220f487d1b74ee94, result_o = 3872 
+#                 2925 operand1_i= 80, operand2_i = 80, keyinput = 220f487d1b74ee94, result_o = 4000 
+#                 2930 operand1_i= fa, operand2_i = 00, keyinput = 220f487d1b74ee94, result_o = 0000 
+#                 2940 operand1_i= 40, operand2_i = 20, keyinput = 220f487d1b74ee94, result_o = 0800 
+#                 2950 operand1_i= 24, operand2_i = 92, keyinput = 220f487d1b74ee94, result_o = 1488 
+#                 2960 operand1_i= 00, operand2_i = 01, keyinput = 220f487d1b74ee94, result_o = 0000 
+# ** Note: $finish    : /home/nayakkk/64xor/array_multiplier/sim/array_multiplier8_tb.v(885)
+#    Time: 2970 ns  Iteration: 0  Instance: /array_multiplier8_tb

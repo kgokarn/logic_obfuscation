@@ -262,5 +262,36 @@ run
 #                 2146 add1_i= 40962048, add2_i = 20484096, keyinput= 9ba22e0d33c96cae, result_o = 060dee2df 
 #                 2156 add1_i= 10242048, add2_i = 81924096, keyinput= 9ba22e0d33c96cae, result_o = 09186e2df 
 #                 2166 add1_i= 00000001, add2_i = deafbeef, keyinput= 9ba22e0d33c96cae, result_o = 0deaf30f1 
-# ** Note: $finish    : /home/nayakkk/64xor/almost_correct_adder/sim/almost_correct_adder32_tb.v(796)
-#    Time: 2176 ns  Iteration: 0  Instance: /almost_correct_adder32_tb
+# other exact keys
+#                 2176 add1_i= 00000000, add2_i = 00000000, keyinput= 9ba22a7333c96c8e, result_o = 000000001 
+#                 2186 add1_i= 29af2430, add2_i = 7a1b9abc, keyinput= 9ba22a7333c96c8e, result_o = 0a3cabeed 
+#                 2196 add1_i= 11003456, add2_i = 11112323, keyinput= 9ba22a7333c96c8e, result_o = 02211577a 
+#                 2206 add1_i= 81160873, add2_i = 1cce0178, keyinput= 9ba22a7333c96c8e, result_o = 09de409ec 
+#                 2211 add1_i= 20202012, add2_i = deadbeef, keyinput= 9ba22a7333c96c8e, result_o = 0fecdde02 
+#                 2219 add1_i= 8943deaf, add2_i = daadbaad, keyinput= 9ba22a7333c96c8e, result_o = 163f1995d 
+#                 2229 add1_i= abcd1234, add2_i = 00000000, keyinput= 9ba22a7333c96c8e, result_o = 0abcd1235 
+#                 2239 add1_i= 00000000, add2_i = 12345678, keyinput= 9ba22a7333c96c8e, result_o = 012345679 
+#                 2249 add1_i= 11114477, add2_i = eeaa0000, keyinput= 9ba22a7333c96c8e, result_o = 0ffbb4478 
+#                 2259 add1_i= 55555555, add2_i = aaaaaaaa, keyinput= 9ba22a7333c96c8e, result_o = 0ffffff80 
+#                 2269 add1_i= 80519860, add2_i = 8086ba3e, keyinput= 9ba22a7333c96c8e, result_o = 100d8529f 
+#                 2274 add1_i= fadc0720, add2_i = 00dc0810, keyinput= 9ba22a7333c96c8e, result_o = 0fbb80f31 
+#                 2282 add1_i= 40962048, add2_i = 20484096, keyinput= 9ba22a7333c96c8e, result_o = 060de60df 
+#                 2292 add1_i= 10242048, add2_i = 81924096, keyinput= 9ba22a7333c96c8e, result_o = 091b660df 
+#                 2302 add1_i= 00000001, add2_i = deafbeef, keyinput= 9ba22a7333c96c8e, result_o = 0deafbef1 
+#                 2312 add1_i= 00000000, add2_i = 00000000, keyinput= 9baa2a7333c9688e, result_o = 000000001 
+#                 2322 add1_i= 29af2430, add2_i = 7a1b9abc, keyinput= 9baa2a7333c9688e, result_o = 0a3cabeed 
+#                 2332 add1_i= 11003456, add2_i = 11112323, keyinput= 9baa2a7333c9688e, result_o = 02211577a 
+#                 2342 add1_i= 81160873, add2_i = 1cce0178, keyinput= 9baa2a7333c9688e, result_o = 09de409ec 
+#                 2347 add1_i= 20202012, add2_i = deadbeef, keyinput= 9baa2a7333c9688e, result_o = 0fecdde02 
+#                 2355 add1_i= 8943deaf, add2_i = daadbaad, keyinput= 9baa2a7333c9688e, result_o = 163f1995d 
+#                 2365 add1_i= abcd1234, add2_i = 00000000, keyinput= 9baa2a7333c9688e, result_o = 0abcd1235 
+#                 2375 add1_i= 00000000, add2_i = 12345678, keyinput= 9baa2a7333c9688e, result_o = 012345679 
+#                 2385 add1_i= 11114477, add2_i = eeaa0000, keyinput= 9baa2a7333c9688e, result_o = 0ffbb4478 
+#                 2395 add1_i= 55555555, add2_i = aaaaaaaa, keyinput= 9baa2a7333c9688e, result_o = 0ffffff80 
+#                 2405 add1_i= 80519860, add2_i = 8086ba3e, keyinput= 9baa2a7333c9688e, result_o = 100d8529f 
+#                 2410 add1_i= fadc0720, add2_i = 00dc0810, keyinput= 9baa2a7333c9688e, result_o = 0fbb80f31 
+#                 2418 add1_i= 40962048, add2_i = 20484096, keyinput= 9baa2a7333c9688e, result_o = 060de60df 
+#                 2428 add1_i= 10242048, add2_i = 81924096, keyinput= 9baa2a7333c9688e, result_o = 091b660df 
+#                 2438 add1_i= 00000001, add2_i = deafbeef, keyinput= 9baa2a7333c9688e, result_o = 0deafbef1 
+# ** Note: $finish    : /home/nayakkk/64xor/almost_correct_adder/sim/almost_correct_adder32_tb.v(892)
+#    Time: 2448 ns  Iteration: 0  Instance: /almost_correct_adder32_tb

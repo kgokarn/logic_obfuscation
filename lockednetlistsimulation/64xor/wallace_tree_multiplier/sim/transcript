@@ -262,5 +262,21 @@ run
 #                 2610 operand1_i= 40, operand2_i = 20, keyinput = 192f7ff051667dec, result_o = 0950 
 #                 2620 operand1_i= 24, operand2_i = 92, keyinput = 192f7ff051667dec, result_o = 15d8 
 #                 2630 operand1_i= 00, operand2_i = 01, keyinput = 192f7ff051667dec, result_o = 0150 
-# ** Note: $finish    : /home/nayakkk/64xor/wallace_tree_multiplier/sim/traditional_multiplier8_tb.v(799)
-#    Time: 2640 ns  Iteration: 0  Instance: /traditional_multiplier8_tb
+# Other exact keys
+#                 2640 operand1_i= 00, operand2_i = 00, keyinput = 190f7f0351627dec, result_o = 0000 
+#                 2650 operand1_i= 29, operand2_i = 7a, keyinput = 190f7f0351627dec, result_o = 138a 
+#                 2660 operand1_i= 11, operand2_i = 11, keyinput = 190f7f0351627dec, result_o = 0121 
+#                 2670 operand1_i= 81, operand2_i = 1c, keyinput = 190f7f0351627dec, result_o = 0e1c 
+#                 2690 operand1_i= 44, operand2_i = 3b, keyinput = 190f7f0351627dec, result_o = 0fac 
+#                 2710 operand1_i= 89, operand2_i = ff, keyinput = 190f7f0351627dec, result_o = 8877 
+#                 2720 operand1_i= ab, operand2_i = 00, keyinput = 190f7f0351627dec, result_o = 0000 
+#                 2730 operand1_i= 34, operand2_i = 12, keyinput = 190f7f0351627dec, result_o = 03a8 
+#                 2740 operand1_i= 11, operand2_i = 20, keyinput = 190f7f0351627dec, result_o = 0220 
+#                 2750 operand1_i= 55, operand2_i = aa, keyinput = 190f7f0351627dec, result_o = 3872 
+#                 2760 operand1_i= 80, operand2_i = 80, keyinput = 190f7f0351627dec, result_o = 4000 
+#                 2765 operand1_i= fa, operand2_i = 00, keyinput = 190f7f0351627dec, result_o = 0000 
+#                 2775 operand1_i= 40, operand2_i = 20, keyinput = 190f7f0351627dec, result_o = 0800 
+#                 2785 operand1_i= 24, operand2_i = 92, keyinput = 190f7f0351627dec, result_o = 1488 
+#                 2795 operand1_i= 00, operand2_i = 01, keyinput = 190f7f0351627dec, result_o = 0000 
+# ** Note: $finish    : /home/nayakkk/64xor/wallace_tree_multiplier/sim/traditional_multiplier8_tb.v(847)
+#    Time: 2805 ns  Iteration: 0  Instance: /traditional_multiplier8_tb

@@ -11,15 +11,19 @@
 # Loading project rca64aor
 # reading /var/autofs/misc/cad/mentor/modelsim-6.6d/modeltech/linux_x86_64/../modelsim.ini
 # Loading project bam64xor
+# Compile of broke_array_multiplier8_tb.v failed with 1 errors.
+# Compile of broken_array_multiplier8_xor_enc64.v failed with 1 errors.
+# 2 compiles, 2 failed with 2 errors. 
+# reading /var/autofs/misc/cad/mentor/modelsim-6.6d/modeltech/linux_x86_64/../modelsim.ini
+# Loading project bam64xor
 # Compile of broke_array_multiplier8_tb.v was successful.
 # Compile of broken_array_multiplier8_xor_enc64.v was successful.
 # 2 compiles, 0 failed with no errors. 
-# Load canceled
 vsim -novopt simulation.broke_array_multiplier8_tb
 # vsim -novopt simulation.broke_array_multiplier8_tb 
-# Refreshing /home/nayakkk/64aor/broken_array_multiplier/sim/simulation.broke_array_multiplier8_tb
+# Refreshing /home/nayakkk/64xor/broken_array_multiplier/sim/simulation.broke_array_multiplier8_tb
 # Loading simulation.broke_array_multiplier8_tb
-# Refreshing /home/nayakkk/64aor/broken_array_multiplier/sim/simulation.broken_array_multiplier8_xor_enc64
+# Refreshing /home/nayakkk/64xor/broken_array_multiplier/sim/simulation.broken_array_multiplier8_xor_enc64
 # Loading simulation.broken_array_multiplier8_xor_enc64
 add wave sim:/broke_array_multiplier8_tb/*
 run
@@ -263,5 +267,36 @@ run
 #                 5310 operand1_i= 40, operand2_i = 20, keyinput = 3a7437fe2f48b327, result_o = 1850 
 #                 5320 operand1_i= 24, operand2_i = 92, keyinput = 3a7437fe2f48b327, result_o = 2450 
 #                 5420 operand1_i= 00, operand2_i = 01, keyinput = 3a7437fe2f48b327, result_o = 1050 
-# ** Note: $finish    : /home/nayakkk/64xor/broken_array_multiplier/sim/broke_array_multiplier8_tb.v(804)
-#    Time: 5520 ns  Iteration: 0  Instance: /broke_array_multiplier8_tb
+# Other exact keys
+#                 5520 operand1_i= 00, operand2_i = 00, keyinput = 3875372d2b48b387, result_o = 0000 
+#                 5530 operand1_i= 29, operand2_i = 7a, keyinput = 3875372d2b48b387, result_o = 138a 
+#                 5540 operand1_i= 11, operand2_i = 11, keyinput = 3875372d2b48b387, result_o = 0121 
+#                 5550 operand1_i= 81, operand2_i = 1c, keyinput = 3875372d2b48b387, result_o = 061c 
+#                 5570 operand1_i= 44, operand2_i = 3b, keyinput = 3875372d2b48b387, result_o = 17a0 
+#                 5590 operand1_i= 89, operand2_i = ff, keyinput = 3875372d2b48b387, result_o = 806f 
+#                 5600 operand1_i= ab, operand2_i = 00, keyinput = 3875372d2b48b387, result_o = 0000 
+#                 5610 operand1_i= 34, operand2_i = 12, keyinput = 3875372d2b48b387, result_o = 03a0 
+#                 5620 operand1_i= 11, operand2_i = 20, keyinput = 3875372d2b48b387, result_o = 0220 
+#                 5630 operand1_i= 55, operand2_i = aa, keyinput = 3875372d2b48b387, result_o = 386a 
+#                 5640 operand1_i= 80, operand2_i = 80, keyinput = 3875372d2b48b387, result_o = 4000 
+#                 5645 operand1_i= fa, operand2_i = 00, keyinput = 3875372d2b48b387, result_o = 0000 
+#                 5655 operand1_i= 40, operand2_i = 20, keyinput = 3875372d2b48b387, result_o = 0800 
+#                 5665 operand1_i= 24, operand2_i = 92, keyinput = 3875372d2b48b387, result_o = 1480 
+#                 5675 operand1_i= 00, operand2_i = 01, keyinput = 3875372d2b48b387, result_o = 0000 
+#                 5685 operand1_i= 00, operand2_i = 00, keyinput = 3a75372d2b48b307, result_o = 0000 
+#                 5695 operand1_i= 29, operand2_i = 7a, keyinput = 3a75372d2b48b307, result_o = 138a 
+#                 5705 operand1_i= 11, operand2_i = 11, keyinput = 3a75372d2b48b307, result_o = 0121 
+#                 5715 operand1_i= 81, operand2_i = 1c, keyinput = 3a75372d2b48b307, result_o = 061c 
+#                 5735 operand1_i= 44, operand2_i = 3b, keyinput = 3a75372d2b48b307, result_o = 17a0 
+#                 5755 operand1_i= 89, operand2_i = ff, keyinput = 3a75372d2b48b307, result_o = 806f 
+#                 5765 operand1_i= ab, operand2_i = 00, keyinput = 3a75372d2b48b307, result_o = 0000 
+#                 5775 operand1_i= 34, operand2_i = 12, keyinput = 3a75372d2b48b307, result_o = 03a0 
+#                 5785 operand1_i= 11, operand2_i = 20, keyinput = 3a75372d2b48b307, result_o = 0220 
+#                 5795 operand1_i= 55, operand2_i = aa, keyinput = 3a75372d2b48b307, result_o = 386a 
+#                 5805 operand1_i= 80, operand2_i = 80, keyinput = 3a75372d2b48b307, result_o = 4000 
+#                 5810 operand1_i= fa, operand2_i = 00, keyinput = 3a75372d2b48b307, result_o = 0000 
+#                 5820 operand1_i= 40, operand2_i = 20, keyinput = 3a75372d2b48b307, result_o = 0800 
+#                 5830 operand1_i= 24, operand2_i = 92, keyinput = 3a75372d2b48b307, result_o = 1480 
+#                 5840 operand1_i= 00, operand2_i = 01, keyinput = 3a75372d2b48b307, result_o = 0000 
+# ** Note: $finish    : /home/nayakkk/64xor/broken_array_multiplier/sim/broke_array_multiplier8_tb.v(899)
+#    Time: 5850 ns  Iteration: 0  Instance: /broke_array_multiplier8_tb

@@ -262,5 +262,36 @@ run
 #                 2146 add1_i= 40962048, add2_i = 20484096, keyinput= b4503aa8f07c268f, result_o = 0f4e2e0ee 
 #                 2156 add1_i= 10242048, add2_i = 81924096, keyinput= b4503aa8f07c268f, result_o = 125bae0ee 
 #                 2166 add1_i= 00000001, add2_i = deafbeef, keyinput= b4503aa8f07c268f, result_o = 152b33ef0 
-# ** Note: $finish    : /home/nayakkk/64xor/equal_segmentation_adder/sim/equal_segmentation_adder32_tb.v(794)
-#    Time: 2176 ns  Iteration: 0  Instance: /equal_segmentation_adder32_tb
+# other exact keys
+#                 2176 add1_i= 00000000, add2_i = 00000000, keyinput= b4503a4de07c268f, result_o = 000000000 
+#                 2186 add1_i= 29af2430, add2_i = 7a1b9abc, keyinput= b4503a4de07c268f, result_o = 0a3cabeec 
+#                 2196 add1_i= 11003456, add2_i = 11112323, keyinput= b4503a4de07c268f, result_o = 022115779 
+#                 2206 add1_i= 81160873, add2_i = 1cce0178, keyinput= b4503a4de07c268f, result_o = 09de409eb 
+#                 2211 add1_i= 20202012, add2_i = deadbeef, keyinput= b4503a4de07c268f, result_o = 0fecdde01 
+#                 2219 add1_i= 8943deaf, add2_i = daadbaad, keyinput= b4503a4de07c268f, result_o = 163f0985c 
+#                 2229 add1_i= abcd1234, add2_i = 00000000, keyinput= b4503a4de07c268f, result_o = 0abcd1234 
+#                 2239 add1_i= 00000000, add2_i = 12345678, keyinput= b4503a4de07c268f, result_o = 012345678 
+#                 2249 add1_i= 11114477, add2_i = eeaa0000, keyinput= b4503a4de07c268f, result_o = 0ffbb4477 
+#                 2259 add1_i= 55555555, add2_i = aaaaaaaa, keyinput= b4503a4de07c268f, result_o = 0ffffffff 
+#                 2269 add1_i= 80519860, add2_i = 8086ba3e, keyinput= b4503a4de07c268f, result_o = 100d7529e 
+#                 2274 add1_i= fadc0720, add2_i = 00dc0810, keyinput= b4503a4de07c268f, result_o = 0fab80f30 
+#                 2282 add1_i= 40962048, add2_i = 20484096, keyinput= b4503a4de07c268f, result_o = 060de60de 
+#                 2292 add1_i= 10242048, add2_i = 81924096, keyinput= b4503a4de07c268f, result_o = 091b660de 
+#                 2302 add1_i= 00000001, add2_i = deafbeef, keyinput= b4503a4de07c268f, result_o = 0deafbef0 
+#                 2312 add1_i= 00000000, add2_i = 00000000, keyinput= b4503a4de0fca68f, result_o = 000000000 
+#                 2322 add1_i= 29af2430, add2_i = 7a1b9abc, keyinput= b4503a4de0fca68f, result_o = 0a3cabeec 
+#                 2332 add1_i= 11003456, add2_i = 11112323, keyinput= b4503a4de0fca68f, result_o = 022115779 
+#                 2342 add1_i= 81160873, add2_i = 1cce0178, keyinput= b4503a4de0fca68f, result_o = 09de409eb 
+#                 2347 add1_i= 20202012, add2_i = deadbeef, keyinput= b4503a4de0fca68f, result_o = 0fecdde01 
+#                 2355 add1_i= 8943deaf, add2_i = daadbaad, keyinput= b4503a4de0fca68f, result_o = 163f0985c 
+#                 2365 add1_i= abcd1234, add2_i = 00000000, keyinput= b4503a4de0fca68f, result_o = 0abcd1234 
+#                 2375 add1_i= 00000000, add2_i = 12345678, keyinput= b4503a4de0fca68f, result_o = 012345678 
+#                 2385 add1_i= 11114477, add2_i = eeaa0000, keyinput= b4503a4de0fca68f, result_o = 0ffbb4477 
+#                 2395 add1_i= 55555555, add2_i = aaaaaaaa, keyinput= b4503a4de0fca68f, result_o = 0ffffffff 
+#                 2405 add1_i= 80519860, add2_i = 8086ba3e, keyinput= b4503a4de0fca68f, result_o = 100d7529e 
+#                 2410 add1_i= fadc0720, add2_i = 00dc0810, keyinput= b4503a4de0fca68f, result_o = 0fab80f30 
+#                 2418 add1_i= 40962048, add2_i = 20484096, keyinput= b4503a4de0fca68f, result_o = 060de60de 
+#                 2428 add1_i= 10242048, add2_i = 81924096, keyinput= b4503a4de0fca68f, result_o = 091b660de 
+#                 2438 add1_i= 00000001, add2_i = deafbeef, keyinput= b4503a4de0fca68f, result_o = 0deafbef0 
+# ** Note: $finish    : /home/nayakkk/64xor/equal_segmentation_adder/sim/equal_segmentation_adder32_tb.v(890)
+#    Time: 2448 ns  Iteration: 0  Instance: /equal_segmentation_adder32_tb

@@ -262,5 +262,21 @@ run
 #                 2146 add1_i= 40962048, add2_i = 20484096, keyinput= 661b004443685aeb, result_o = 060e06101 
 #                 2156 add1_i= 10242048, add2_i = 81924096, keyinput= 661b004443685aeb, result_o = 091b46101 
 #                 2166 add1_i= 00000001, add2_i = deafbeef, keyinput= 661b004443685aeb, result_o = 0deadbf05 
-# ** Note: $finish    : /home/nayakkk/64xor/xnor_based_carry_lookahead_adder/sim/xnor_based_carry_lookahead_adder32_tb.v(795)
-#    Time: 2176 ns  Iteration: 0  Instance: /xnor_based_carry_lookahead_adder32_tb
+# other exact keys
+#                 2176 add1_i= 00000000, add2_i = 00000000, keyinput= 641b0ba4436a5aeb, result_o = 000000001 
+#                 2186 add1_i= 29af2430, add2_i = 7a1b9abc, keyinput= 641b0ba4436a5aeb, result_o = 0a3cabe61 
+#                 2196 add1_i= 11003456, add2_i = 11112323, keyinput= 641b0ba4436a5aeb, result_o = 02211570a 
+#                 2206 add1_i= 81160873, add2_i = 1cce0178, keyinput= 641b0ba4436a5aeb, result_o = 09de409e4 
+#                 2211 add1_i= 20202012, add2_i = deadbeef, keyinput= 641b0ba4436a5aeb, result_o = 0fecddf02 
+#                 2219 add1_i= 8943deaf, add2_i = daadbaad, keyinput= 641b0ba4436a5aeb, result_o = 163f1995d 
+#                 2229 add1_i= abcd1234, add2_i = 00000000, keyinput= 641b0ba4436a5aeb, result_o = 0abcd1201 
+#                 2239 add1_i= 00000000, add2_i = 12345678, keyinput= 641b0ba4436a5aeb, result_o = 012345601 
+#                 2249 add1_i= 11114477, add2_i = eeaa0000, keyinput= 641b0ba4436a5aeb, result_o = 0ffbb4408 
+#                 2259 add1_i= 55555555, add2_i = aaaaaaaa, keyinput= 641b0ba4436a5aeb, result_o = 100000000 
+#                 2269 add1_i= 80519860, add2_i = 8086ba3e, keyinput= 641b0ba4436a5aeb, result_o = 100d85281 
+#                 2274 add1_i= fadc0720, add2_i = 00dc0810, keyinput= 641b0ba4436a5aeb, result_o = 0fbb80f01 
+#                 2282 add1_i= 40962048, add2_i = 20484096, keyinput= 641b0ba4436a5aeb, result_o = 060de6001 
+#                 2292 add1_i= 10242048, add2_i = 81924096, keyinput= 641b0ba4436a5aeb, result_o = 091b66001 
+#                 2302 add1_i= 00000001, add2_i = deafbeef, keyinput= 641b0ba4436a5aeb, result_o = 0deafbe11 
+# ** Note: $finish    : /home/nayakkk/64xor/xnor_based_carry_lookahead_adder/sim/xnor_based_carry_lookahead_adder32_tb.v(842)
+#    Time: 2312 ns  Iteration: 0  Instance: /xnor_based_carry_lookahead_adder32_tb

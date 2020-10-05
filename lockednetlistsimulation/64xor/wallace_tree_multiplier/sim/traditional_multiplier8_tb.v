@@ -796,6 +796,54 @@ initial begin
    operand2_i = 8'h01;
   #10
 
+$display("Other exact keys");
+   keyinput = 64'h190F7F0351627DEC;
+   operand1_i = 8'h00;
+   operand2_i = 8'h00;
+   #10
+   operand1_i = 8'h29;
+   operand2_i = 8'h7A;
+   #10
+   operand1_i = 8'h11;
+   operand2_i = 8'h11;
+   #10
+   operand1_i = 8'h81;
+   operand2_i = 8'h1C;
+   #20
+   operand1_i = 8'h44;
+   operand2_i = 8'h3B;
+   #20
+   operand1_i = 8'h89;
+   operand2_i = 8'hFF;
+   #10
+   operand1_i = 8'hAB;
+   operand2_i = 8'h00;
+   #10
+   operand1_i = 8'h34;
+   operand2_i = 8'h12;
+   #10
+   operand1_i = 16'h11;
+   operand2_i = 16'h20;
+  #10
+   operand1_i = 8'h55;
+   operand2_i = 8'hAA;
+  #10
+   operand1_i = 8'h80;
+   operand2_i = 8'h80;
+  #5
+  operand1_i = 8'hFA;
+  operand2_i = 8'h00;
+ #10
+  operand1_i = 8'h40;
+  operand2_i = 8'h20;
+ #10
+  operand1_i = 8'h24;
+  operand2_i = 8'h92;
+  #10
+   operand1_i = 8'h00;
+   operand2_i = 8'h01;
+  #10
+
    $finish;
     
    

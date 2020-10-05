@@ -7,17 +7,17 @@ varray_multiplier8_tb
 VoHCV7ilcATUYmW:a8[G0I0
 r1
 31
-IVd^f@YfgF^z7WB39Zl3a=2
+IXd?IHGRcgml^^Ooko?=883
 Z0 d/home/nayakkk/64xor/array_multiplier/sim
-w1601809709
+w1601928207
 8/home/nayakkk/64xor/array_multiplier/sim/array_multiplier8_tb.v
 F/home/nayakkk/64xor/array_multiplier/sim/array_multiplier8_tb.v
 L0 24
 Z1 OL;L;6.6d;45
-Z2 o-work simulation -nocovercells -L mtiAvm -L mtiOvm -L mtiUPF
-Z3 !s102 -nocovercells
+Z2 !s102 -nocovercells
+Z3 o-work simulation -nocovercells -L mtiAvm -L mtiOvm -L mtiUPF
 !s85 0
-!s100 @zz5:O6J_VgQ61nZa?gE?1
+!s100 Df^hfD_z6imfNClnEPZo20
 varray_multiplier8_xor_enc64
 VN6U@nM>TJS0MV5?kL8Eh91
 r1
@@ -30,6 +30,6 @@ w1601362388
 F/home/nayakkk/64xor/array_multiplier/sim/array_multiplier8_xor_enc64.v
 L0 2
 R1
-R3
 R2
+R3
 !s100 jj:KSWcRhn`L;aEAP@>_L2

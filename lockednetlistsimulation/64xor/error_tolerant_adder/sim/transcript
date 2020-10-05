@@ -262,5 +262,36 @@ run
 #                 2146 add1_i= 40962048, add2_i = 20484096, keyinput= 5a21065ff9a7176d, result_o = 060d6687f 
 #                 2156 add1_i= 10242048, add2_i = 81924096, keyinput= 5a21065ff9a7176d, result_o = 191be687f 
 #                 2166 add1_i= 00000001, add2_i = deafbeef, keyinput= 5a21065ff9a7176d, result_o = 1dea7b691 
-# ** Note: $finish    : /home/nayakkk/64xor/error_tolerant_adder/sim/error_tolerant_type2_adder32_tb.v(795)
-#    Time: 2176 ns  Iteration: 0  Instance: /error_tolerant_type2_adder32_tb
+# other exact keys
+#                 2176 add1_i= 00000000, add2_i = 00000000, keyinput= 5a29065a09a7576d, result_o = 000000001 
+#                 2186 add1_i= 29af2430, add2_i = 7a1b9abc, keyinput= 5a29065a09a7576d, result_o = 0a3cabeed 
+#                 2196 add1_i= 11003456, add2_i = 11112323, keyinput= 5a29065a09a7576d, result_o = 02211577a 
+#                 2206 add1_i= 81160873, add2_i = 1cce0178, keyinput= 5a29065a09a7576d, result_o = 09de409ec 
+#                 2211 add1_i= 20202012, add2_i = deadbeef, keyinput= 5a29065a09a7576d, result_o = 0fecdde02 
+#                 2219 add1_i= 8943deaf, add2_i = daadbaad, keyinput= 5a29065a09a7576d, result_o = 163f1995d 
+#                 2229 add1_i= abcd1234, add2_i = 00000000, keyinput= 5a29065a09a7576d, result_o = 0abcd1235 
+#                 2239 add1_i= 00000000, add2_i = 12345678, keyinput= 5a29065a09a7576d, result_o = 012345679 
+#                 2249 add1_i= 11114477, add2_i = eeaa0000, keyinput= 5a29065a09a7576d, result_o = 0ffbb4478 
+#                 2259 add1_i= 55555555, add2_i = aaaaaaaa, keyinput= 5a29065a09a7576d, result_o = 0fffffff0 
+#                 2269 add1_i= 80519860, add2_i = 8086ba3e, keyinput= 5a29065a09a7576d, result_o = 100d8529f 
+#                 2274 add1_i= fadc0720, add2_i = 00dc0810, keyinput= 5a29065a09a7576d, result_o = 0fbb80f31 
+#                 2282 add1_i= 40962048, add2_i = 20484096, keyinput= 5a29065a09a7576d, result_o = 060de60df 
+#                 2292 add1_i= 10242048, add2_i = 81924096, keyinput= 5a29065a09a7576d, result_o = 091b660df 
+#                 2302 add1_i= 00000001, add2_i = deafbeef, keyinput= 5a29065a09a7576d, result_o = 0deafbef1 
+#                 2312 add1_i= 00000000, add2_i = 00000000, keyinput= 5a29064a09a7d76d, result_o = 000000001 
+#                 2322 add1_i= 29af2430, add2_i = 7a1b9abc, keyinput= 5a29064a09a7d76d, result_o = 0a3cabeed 
+#                 2332 add1_i= 11003456, add2_i = 11112323, keyinput= 5a29064a09a7d76d, result_o = 02211577a 
+#                 2342 add1_i= 81160873, add2_i = 1cce0178, keyinput= 5a29064a09a7d76d, result_o = 09de409ec 
+#                 2347 add1_i= 20202012, add2_i = deadbeef, keyinput= 5a29064a09a7d76d, result_o = 0fecdde02 
+#                 2355 add1_i= 8943deaf, add2_i = daadbaad, keyinput= 5a29064a09a7d76d, result_o = 163f1995d 
+#                 2365 add1_i= abcd1234, add2_i = 00000000, keyinput= 5a29064a09a7d76d, result_o = 0abcd1235 
+#                 2375 add1_i= 00000000, add2_i = 12345678, keyinput= 5a29064a09a7d76d, result_o = 012345679 
+#                 2385 add1_i= 11114477, add2_i = eeaa0000, keyinput= 5a29064a09a7d76d, result_o = 0ffbb4478 
+#                 2395 add1_i= 55555555, add2_i = aaaaaaaa, keyinput= 5a29064a09a7d76d, result_o = 0fffffff0 
+#                 2405 add1_i= 80519860, add2_i = 8086ba3e, keyinput= 5a29064a09a7d76d, result_o = 100d8529f 
+#                 2410 add1_i= fadc0720, add2_i = 00dc0810, keyinput= 5a29064a09a7d76d, result_o = 0fbb80f31 
+#                 2418 add1_i= 40962048, add2_i = 20484096, keyinput= 5a29064a09a7d76d, result_o = 060de60df 
+#                 2428 add1_i= 10242048, add2_i = 81924096, keyinput= 5a29064a09a7d76d, result_o = 091b660df 
+#                 2438 add1_i= 00000001, add2_i = deafbeef, keyinput= 5a29064a09a7d76d, result_o = 0deafbef1 
+# ** Note: $finish    : /home/nayakkk/64xor/error_tolerant_adder/sim/error_tolerant_type2_adder32_tb.v(891)
+#    Time: 2448 ns  Iteration: 0  Instance: /error_tolerant_type2_adder32_tb
