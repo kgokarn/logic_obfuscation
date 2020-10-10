@@ -14,11 +14,12 @@ def main():
         if ("abcdef" in read_line):
             file_ptr.close()
             break
-    print(time_list)
+
     mid = int(len(time_list)/2)
     time_list.sort()
-    print(time_list)
+    print(time_list[0])
     print(time_list[mid])
+    print(time_list[len(time_list)-1])
 
 
 if __name__ == '__main__':
