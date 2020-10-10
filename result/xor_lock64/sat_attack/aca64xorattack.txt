@@ -621,3 +621,4 @@ equivalent
 
 time: 0.123797
 kartik@kartik:~/logic_obfuscation/neos$ 
+abcdef
