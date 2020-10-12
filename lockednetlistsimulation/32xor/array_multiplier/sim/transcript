@@ -1,4 +1,4 @@
-# //  ModelSim SE-64 6.6d Nov  1 2010 Linux 2.6.32-754.31.1.el6.x86_64
+# //  ModelSim SE-64 6.6d Nov  1 2010 Linux 2.6.32-754.33.1.el6.x86_64
 # //
 # //  Copyright 1991-2010 Mentor Graphics Corporation
 # //              All Rights Reserved.
@@ -8,7 +8,7 @@
 # //  OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
 # //  AND IS SUBJECT TO LICENSE TERMS.
 # //
-# Loading project xcla32xor
+# Loading project rca64aor
 # reading /var/autofs/misc/cad/mentor/modelsim-6.6d/modeltech/linux_x86_64/../modelsim.ini
 # Loading project am32xor
 # Compile of array_multiplier8_tb.v was successful.
@@ -21,88 +21,246 @@ vsim -novopt simulation.array_multiplier8_tb
 # Refreshing /home/nayakkk/32xor/array_multiplier/sim/simulation.array_multiplier8_xor_enc32
 # Loading simulation.array_multiplier8_xor_enc32
 add wave sim:/array_multiplier8_tb/*
-vsim -novopt simulation.array_multiplier8_tb
-# vsim -novopt simulation.array_multiplier8_tb 
-# Loading simulation.array_multiplier8_tb
-# Loading simulation.array_multiplier8_xor_enc32
-add wave sim:/array_multiplier8_tb/*
 run
-#                    0 operand1_i= 00, operand2_i = 00, keyinput = 0fa1e72d, result_o = 0110 
-#                   10 operand1_i= 29, operand2_i = 7a, keyinput = 0fa1e72d, result_o = 118a 
-#                   20 operand1_i= 11, operand2_i = 11, keyinput = 0fa1e72d, result_o = 0231 
-#                   30 operand1_i= 81, operand2_i = 1c, keyinput = 0fa1e72d, result_o = 0f3c 
-#                   50 operand1_i= 44, operand2_i = 3b, keyinput = 0fa1e72d, result_o = 10bc 
-#                   70 operand1_i= 89, operand2_i = ff, keyinput = 0fa1e72d, result_o = 8a67 
-#                   80 operand1_i= ab, operand2_i = 00, keyinput = 0fa1e72d, result_o = 0110 
-#                   90 operand1_i= 34, operand2_i = 12, keyinput = 0fa1e72d, result_o = 04b8 
-#                  100 operand1_i= 11, operand2_i = 20, keyinput = 0fa1e72d, result_o = 0330 
-#                  110 operand1_i= 55, operand2_i = aa, keyinput = 0fa1e72d, result_o = 3772 
-#                  120 operand1_i= 80, operand2_i = 80, keyinput = 0fa1e72d, result_o = 4110 
-#                  125 operand1_i= fa, operand2_i = 00, keyinput = 0fa1e72d, result_o = 0110 
-#                  135 operand1_i= 40, operand2_i = 20, keyinput = 0fa1e72d, result_o = 0910 
-#                  145 operand1_i= 24, operand2_i = 92, keyinput = 0fa1e72d, result_o = 1598 
-#                  245 operand1_i= 00, operand2_i = 01, keyinput = 0fa1e72d, result_o = 0110 
-# ** Note: $finish    : /home/nayakkk/32xor/array_multiplier/sim/array_multiplier8_tb.v(84)
-#    Time: 345 ns  Iteration: 0  Instance: /array_multiplier8_tb
-# 1
-# Break in Module array_multiplier8_tb at /home/nayakkk/32xor/array_multiplier/sim/array_multiplier8_tb.v line 84
-# Compile of array_multiplier8_tb.v was successful.
-# Compile of array_multiplier8_xor_enc32.v was successful.
-# 2 compiles, 0 failed with no errors. 
-vsim -novopt simulation.array_multiplier8_tb
-# vsim -novopt simulation.array_multiplier8_tb 
-# Refreshing /home/nayakkk/32xor/array_multiplier/sim/simulation.array_multiplier8_tb
-# Loading simulation.array_multiplier8_tb
-# Refreshing /home/nayakkk/32xor/array_multiplier/sim/simulation.array_multiplier8_xor_enc32
-# Loading simulation.array_multiplier8_xor_enc32
-add wave sim:/array_multiplier8_tb/*
-run
-#                    0 operand1_i= 00, operand2_i = 00, keyinput = b6af072d, result_o = 2a40 
-#                   10 operand1_i= 29, operand2_i = 7a, keyinput = b6af072d, result_o = 354a 
-#                   20 operand1_i= 11, operand2_i = 11, keyinput = b6af072d, result_o = 2b61 
-#                   30 operand1_i= 81, operand2_i = 1c, keyinput = b6af072d, result_o = 385c 
-#                   50 operand1_i= 44, operand2_i = 3b, keyinput = b6af072d, result_o = 39ec 
-#                   70 operand1_i= 89, operand2_i = ff, keyinput = b6af072d, result_o = b237 
-#                   80 operand1_i= ab, operand2_i = 00, keyinput = b6af072d, result_o = 2a40 
-#                   90 operand1_i= 34, operand2_i = 12, keyinput = b6af072d, result_o = 2de8 
-#                  100 operand1_i= 11, operand2_i = 20, keyinput = b6af072d, result_o = 2c60 
-#                  110 operand1_i= 55, operand2_i = aa, keyinput = b6af072d, result_o = 1ab2 
-#                  120 operand1_i= 80, operand2_i = 80, keyinput = b6af072d, result_o = 6a40 
-#                  125 operand1_i= fa, operand2_i = 00, keyinput = b6af072d, result_o = 2a40 
-#                  135 operand1_i= 40, operand2_i = 20, keyinput = b6af072d, result_o = 3240 
-#                  145 operand1_i= 24, operand2_i = 92, keyinput = b6af072d, result_o = 3ec8 
-#                  245 operand1_i= 00, operand2_i = 01, keyinput = b6af072d, result_o = 2a40 
-# ** Note: $finish    : /home/nayakkk/32xor/array_multiplier/sim/array_multiplier8_tb.v(84)
-#    Time: 345 ns  Iteration: 0  Instance: /array_multiplier8_tb
-# 1
-# Break in Module array_multiplier8_tb at /home/nayakkk/32xor/array_multiplier/sim/array_multiplier8_tb.v line 84
-# Compile of array_multiplier8_tb.v was successful.
-# Compile of array_multiplier8_xor_enc32.v was successful.
-# 2 compiles, 0 failed with no errors. 
-vsim -novopt simulation.array_multiplier8_tb
-# vsim -novopt simulation.array_multiplier8_tb 
-# Refreshing /home/nayakkk/32xor/array_multiplier/sim/simulation.array_multiplier8_tb
-# Loading simulation.array_multiplier8_tb
-# Refreshing /home/nayakkk/32xor/array_multiplier/sim/simulation.array_multiplier8_xor_enc32
-# Loading simulation.array_multiplier8_xor_enc32
-add wave sim:/array_multiplier8_tb/*
-run
-#                    0 operand1_i= 00, operand2_i = 00, keyinput = b6a1e7f0, result_o = 3220 
-#                   10 operand1_i= 29, operand2_i = 7a, keyinput = b6a1e7f0, result_o = 45aa 
-#                   20 operand1_i= 11, operand2_i = 11, keyinput = b6a1e7f0, result_o = 3341 
-#                   30 operand1_i= 81, operand2_i = 1c, keyinput = b6a1e7f0, result_o = 403c 
-#                   50 operand1_i= 44, operand2_i = 3b, keyinput = b6a1e7f0, result_o = 3ecc 
-#                   70 operand1_i= 89, operand2_i = ff, keyinput = b6a1e7f0, result_o = 7997 
-#                   80 operand1_i= ab, operand2_i = 00, keyinput = b6a1e7f0, result_o = 3220 
-#                   90 operand1_i= 34, operand2_i = 12, keyinput = b6a1e7f0, result_o = 3688 
-#                  100 operand1_i= 11, operand2_i = 20, keyinput = b6a1e7f0, result_o = 3440 
-#                  110 operand1_i= 55, operand2_i = aa, keyinput = b6a1e7f0, result_o = 5752 
-#                  120 operand1_i= 80, operand2_i = 80, keyinput = b6a1e7f0, result_o = 7220 
-#                  125 operand1_i= fa, operand2_i = 00, keyinput = b6a1e7f0, result_o = 3220 
-#                  135 operand1_i= 40, operand2_i = 20, keyinput = b6a1e7f0, result_o = 3a20 
-#                  145 operand1_i= 24, operand2_i = 92, keyinput = b6a1e7f0, result_o = 47a8 
-#                  245 operand1_i= 00, operand2_i = 01, keyinput = b6a1e7f0, result_o = 3220 
-# ** Note: $finish    : /home/nayakkk/32xor/array_multiplier/sim/array_multiplier8_tb.v(84)
-#    Time: 345 ns  Iteration: 0  Instance: /array_multiplier8_tb
-# 1
-# Break in Module array_multiplier8_tb at /home/nayakkk/32xor/array_multiplier/sim/array_multiplier8_tb.v line 84
+#                    0 operand1_i= 00, operand2_i = 00, keyinput = b6a1e72d, result_o = 0000 
+#                   10 operand1_i= 29, operand2_i = 7a, keyinput = b6a1e72d, result_o = 138a 
+#                   20 operand1_i= 11, operand2_i = 11, keyinput = b6a1e72d, result_o = 0121 
+#                   30 operand1_i= 81, operand2_i = 1c, keyinput = b6a1e72d, result_o = 0e1c 
+#                   50 operand1_i= 44, operand2_i = 3b, keyinput = b6a1e72d, result_o = 0fac 
+#                   70 operand1_i= 89, operand2_i = ff, keyinput = b6a1e72d, result_o = 8877 
+#                   80 operand1_i= ab, operand2_i = 00, keyinput = b6a1e72d, result_o = 0000 
+#                   90 operand1_i= 34, operand2_i = 12, keyinput = b6a1e72d, result_o = 03a8 
+#                  100 operand1_i= 11, operand2_i = 20, keyinput = b6a1e72d, result_o = 0220 
+#                  110 operand1_i= 55, operand2_i = aa, keyinput = b6a1e72d, result_o = 3872 
+#                  120 operand1_i= 80, operand2_i = 80, keyinput = b6a1e72d, result_o = 4000 
+#                  125 operand1_i= fa, operand2_i = 00, keyinput = b6a1e72d, result_o = 0000 
+#                  135 operand1_i= 40, operand2_i = 20, keyinput = b6a1e72d, result_o = 0800 
+#                  145 operand1_i= 24, operand2_i = 92, keyinput = b6a1e72d, result_o = 1488 
+#                  155 operand1_i= 00, operand2_i = 01, keyinput = b6a1e72d, result_o = 0000 
+#                  165 operand1_i= 00, operand2_i = 00, keyinput = b6a1e73d, result_o = 1000 
+#                  175 operand1_i= 29, operand2_i = 7a, keyinput = b6a1e73d, result_o = 238a 
+#                  185 operand1_i= 11, operand2_i = 11, keyinput = b6a1e73d, result_o = 1121 
+#                  195 operand1_i= 81, operand2_i = 1c, keyinput = b6a1e73d, result_o = 1e1c 
+#                  215 operand1_i= 44, operand2_i = 3b, keyinput = b6a1e73d, result_o = 1fac 
+#                  235 operand1_i= 89, operand2_i = ff, keyinput = b6a1e73d, result_o = 9877 
+#                  245 operand1_i= ab, operand2_i = 00, keyinput = b6a1e73d, result_o = 1000 
+#                  255 operand1_i= 34, operand2_i = 12, keyinput = b6a1e73d, result_o = 13a8 
+#                  265 operand1_i= 11, operand2_i = 20, keyinput = b6a1e73d, result_o = 1220 
+#                  275 operand1_i= 55, operand2_i = aa, keyinput = b6a1e73d, result_o = 3872 
+#                  285 operand1_i= 80, operand2_i = 80, keyinput = b6a1e73d, result_o = 5000 
+#                  290 operand1_i= fa, operand2_i = 00, keyinput = b6a1e73d, result_o = 1000 
+#                  300 operand1_i= 40, operand2_i = 20, keyinput = b6a1e73d, result_o = 1800 
+#                  310 operand1_i= 24, operand2_i = 92, keyinput = b6a1e73d, result_o = 2488 
+#                  320 operand1_i= 00, operand2_i = 01, keyinput = b6a1e73d, result_o = 1000 
+#                  330 operand1_i= 00, operand2_i = 00, keyinput = b6a1e77d, result_o = 1200 
+#                  340 operand1_i= 29, operand2_i = 7a, keyinput = b6a1e77d, result_o = 258a 
+#                  350 operand1_i= 11, operand2_i = 11, keyinput = b6a1e77d, result_o = 1321 
+#                  360 operand1_i= 81, operand2_i = 1c, keyinput = b6a1e77d, result_o = 201c 
+#                  380 operand1_i= 44, operand2_i = 3b, keyinput = b6a1e77d, result_o = 21ac 
+#                  400 operand1_i= 89, operand2_i = ff, keyinput = b6a1e77d, result_o = 9a77 
+#                  410 operand1_i= ab, operand2_i = 00, keyinput = b6a1e77d, result_o = 1200 
+#                  420 operand1_i= 34, operand2_i = 12, keyinput = b6a1e77d, result_o = 15a8 
+#                  430 operand1_i= 11, operand2_i = 20, keyinput = b6a1e77d, result_o = 1420 
+#                  440 operand1_i= 55, operand2_i = aa, keyinput = b6a1e77d, result_o = 3a72 
+#                  450 operand1_i= 80, operand2_i = 80, keyinput = b6a1e77d, result_o = 5200 
+#                  455 operand1_i= fa, operand2_i = 00, keyinput = b6a1e77d, result_o = 1200 
+#                  465 operand1_i= 40, operand2_i = 20, keyinput = b6a1e77d, result_o = 1a00 
+#                  475 operand1_i= 24, operand2_i = 92, keyinput = b6a1e77d, result_o = 2688 
+#                  485 operand1_i= 00, operand2_i = 01, keyinput = b6a1e77d, result_o = 1200 
+#                  495 operand1_i= 00, operand2_i = 00, keyinput = b6a1e7fd, result_o = 3200 
+#                  505 operand1_i= 29, operand2_i = 7a, keyinput = b6a1e7fd, result_o = 458a 
+#                  515 operand1_i= 11, operand2_i = 11, keyinput = b6a1e7fd, result_o = 3321 
+#                  525 operand1_i= 81, operand2_i = 1c, keyinput = b6a1e7fd, result_o = 401c 
+#                  545 operand1_i= 44, operand2_i = 3b, keyinput = b6a1e7fd, result_o = 41ac 
+#                  565 operand1_i= 89, operand2_i = ff, keyinput = b6a1e7fd, result_o = 7a77 
+#                  575 operand1_i= ab, operand2_i = 00, keyinput = b6a1e7fd, result_o = 3200 
+#                  585 operand1_i= 34, operand2_i = 12, keyinput = b6a1e7fd, result_o = 35a8 
+#                  595 operand1_i= 11, operand2_i = 20, keyinput = b6a1e7fd, result_o = 3420 
+#                  605 operand1_i= 55, operand2_i = aa, keyinput = b6a1e7fd, result_o = 5a72 
+#                  615 operand1_i= 80, operand2_i = 80, keyinput = b6a1e7fd, result_o = 7200 
+#                  620 operand1_i= fa, operand2_i = 00, keyinput = b6a1e7fd, result_o = 3200 
+#                  630 operand1_i= 40, operand2_i = 20, keyinput = b6a1e7fd, result_o = 3a00 
+#                  640 operand1_i= 24, operand2_i = 92, keyinput = b6a1e7fd, result_o = 4688 
+#                  650 operand1_i= 00, operand2_i = 01, keyinput = b6a1e7fd, result_o = 3200 
+#                  660 operand1_i= 00, operand2_i = 00, keyinput = b6a1e7ff, result_o = 3220 
+#                  670 operand1_i= 29, operand2_i = 7a, keyinput = b6a1e7ff, result_o = 45aa 
+#                  680 operand1_i= 11, operand2_i = 11, keyinput = b6a1e7ff, result_o = 3341 
+#                  690 operand1_i= 81, operand2_i = 1c, keyinput = b6a1e7ff, result_o = 403c 
+#                  710 operand1_i= 44, operand2_i = 3b, keyinput = b6a1e7ff, result_o = 41cc 
+#                  730 operand1_i= 89, operand2_i = ff, keyinput = b6a1e7ff, result_o = 7a57 
+#                  740 operand1_i= ab, operand2_i = 00, keyinput = b6a1e7ff, result_o = 3220 
+#                  750 operand1_i= 34, operand2_i = 12, keyinput = b6a1e7ff, result_o = 3588 
+#                  760 operand1_i= 11, operand2_i = 20, keyinput = b6a1e7ff, result_o = 3440 
+#                  770 operand1_i= 55, operand2_i = aa, keyinput = b6a1e7ff, result_o = 5a52 
+#                  780 operand1_i= 80, operand2_i = 80, keyinput = b6a1e7ff, result_o = 7220 
+#                  785 operand1_i= fa, operand2_i = 00, keyinput = b6a1e7ff, result_o = 3220 
+#                  795 operand1_i= 40, operand2_i = 20, keyinput = b6a1e7ff, result_o = 3a20 
+#                  805 operand1_i= 24, operand2_i = 92, keyinput = b6a1e7ff, result_o = 46a8 
+#                  815 operand1_i= 00, operand2_i = 01, keyinput = b6a1e7ff, result_o = 3220 
+#                  825 operand1_i= 00, operand2_i = 00, keyinput = b6a1e7db, result_o = 3230 
+#                  835 operand1_i= 29, operand2_i = 7a, keyinput = b6a1e7db, result_o = 457a 
+#                  845 operand1_i= 11, operand2_i = 11, keyinput = b6a1e7db, result_o = 3311 
+#                  855 operand1_i= 81, operand2_i = 1c, keyinput = b6a1e7db, result_o = 404c 
+#                  875 operand1_i= 44, operand2_i = 3b, keyinput = b6a1e7db, result_o = 42dc 
+#                  895 operand1_i= 89, operand2_i = ff, keyinput = b6a1e7db, result_o = 79a7 
+#                  905 operand1_i= ab, operand2_i = 00, keyinput = b6a1e7db, result_o = 3230 
+#                  915 operand1_i= 34, operand2_i = 12, keyinput = b6a1e7db, result_o = 3698 
+#                  925 operand1_i= 11, operand2_i = 20, keyinput = b6a1e7db, result_o = 3450 
+#                  935 operand1_i= 55, operand2_i = aa, keyinput = b6a1e7db, result_o = 6b62 
+#                  945 operand1_i= 80, operand2_i = 80, keyinput = b6a1e7db, result_o = 7230 
+#                  950 operand1_i= fa, operand2_i = 00, keyinput = b6a1e7db, result_o = 3230 
+#                  960 operand1_i= 40, operand2_i = 20, keyinput = b6a1e7db, result_o = 3a30 
+#                  970 operand1_i= 24, operand2_i = 92, keyinput = b6a1e7db, result_o = 47b8 
+#                  980 operand1_i= 00, operand2_i = 01, keyinput = b6a1e7db, result_o = 3230 
+#                  990 operand1_i= 00, operand2_i = 00, keyinput = b2a1e72d, result_o = 0400 
+#                 1000 operand1_i= 29, operand2_i = 7a, keyinput = b2a1e72d, result_o = 178a 
+#                 1010 operand1_i= 11, operand2_i = 11, keyinput = b2a1e72d, result_o = 0521 
+#                 1020 operand1_i= 81, operand2_i = 1c, keyinput = b2a1e72d, result_o = 0a1c 
+#                 1040 operand1_i= 44, operand2_i = 3b, keyinput = b2a1e72d, result_o = 0bac 
+#                 1060 operand1_i= 89, operand2_i = ff, keyinput = b2a1e72d, result_o = 8c77 
+#                 1070 operand1_i= ab, operand2_i = 00, keyinput = b2a1e72d, result_o = 0400 
+#                 1080 operand1_i= 34, operand2_i = 12, keyinput = b2a1e72d, result_o = 07a8 
+#                 1090 operand1_i= 11, operand2_i = 20, keyinput = b2a1e72d, result_o = 0620 
+#                 1100 operand1_i= 55, operand2_i = aa, keyinput = b2a1e72d, result_o = 3c72 
+#                 1110 operand1_i= 80, operand2_i = 80, keyinput = b2a1e72d, result_o = 4400 
+#                 1115 operand1_i= fa, operand2_i = 00, keyinput = b2a1e72d, result_o = 0400 
+#                 1125 operand1_i= 40, operand2_i = 20, keyinput = b2a1e72d, result_o = 0c00 
+#                 1135 operand1_i= 24, operand2_i = 92, keyinput = b2a1e72d, result_o = 1088 
+#                 1145 operand1_i= 00, operand2_i = 01, keyinput = b2a1e72d, result_o = 0400 
+#                 1155 operand1_i= 00, operand2_i = 00, keyinput = b0a1e72d, result_o = 0400 
+#                 1165 operand1_i= 29, operand2_i = 7a, keyinput = b0a1e72d, result_o = 0b8a 
+#                 1175 operand1_i= 11, operand2_i = 11, keyinput = b0a1e72d, result_o = 0521 
+#                 1185 operand1_i= 81, operand2_i = 1c, keyinput = b0a1e72d, result_o = 0a1c 
+#                 1205 operand1_i= 44, operand2_i = 3b, keyinput = b0a1e72d, result_o = 0bac 
+#                 1225 operand1_i= 89, operand2_i = ff, keyinput = b0a1e72d, result_o = 8c77 
+#                 1235 operand1_i= ab, operand2_i = 00, keyinput = b0a1e72d, result_o = 0400 
+#                 1245 operand1_i= 34, operand2_i = 12, keyinput = b0a1e72d, result_o = 03a8 
+#                 1255 operand1_i= 11, operand2_i = 20, keyinput = b0a1e72d, result_o = 0620 
+#                 1265 operand1_i= 55, operand2_i = aa, keyinput = b0a1e72d, result_o = 3c72 
+#                 1275 operand1_i= 80, operand2_i = 80, keyinput = b0a1e72d, result_o = 4400 
+#                 1280 operand1_i= fa, operand2_i = 00, keyinput = b0a1e72d, result_o = 0400 
+#                 1290 operand1_i= 40, operand2_i = 20, keyinput = b0a1e72d, result_o = 0c00 
+#                 1300 operand1_i= 24, operand2_i = 92, keyinput = b0a1e72d, result_o = 1c88 
+#                 1310 operand1_i= 00, operand2_i = 01, keyinput = b0a1e72d, result_o = 0400 
+#                 1320 operand1_i= 00, operand2_i = 00, keyinput = b8a1e72d, result_o = 0400 
+#                 1330 operand1_i= 29, operand2_i = 7a, keyinput = b8a1e72d, result_o = 128a 
+#                 1340 operand1_i= 11, operand2_i = 11, keyinput = b8a1e72d, result_o = 0521 
+#                 1350 operand1_i= 81, operand2_i = 1c, keyinput = b8a1e72d, result_o = 0a1c 
+#                 1370 operand1_i= 44, operand2_i = 3b, keyinput = b8a1e72d, result_o = 0bac 
+#                 1390 operand1_i= 89, operand2_i = ff, keyinput = b8a1e72d, result_o = 8d77 
+#                 1400 operand1_i= ab, operand2_i = 00, keyinput = b8a1e72d, result_o = 0400 
+#                 1410 operand1_i= 34, operand2_i = 12, keyinput = b8a1e72d, result_o = 03a8 
+#                 1420 operand1_i= 11, operand2_i = 20, keyinput = b8a1e72d, result_o = 0620 
+#                 1430 operand1_i= 55, operand2_i = aa, keyinput = b8a1e72d, result_o = 3c72 
+#                 1440 operand1_i= 80, operand2_i = 80, keyinput = b8a1e72d, result_o = 4400 
+#                 1445 operand1_i= fa, operand2_i = 00, keyinput = b8a1e72d, result_o = 0400 
+#                 1455 operand1_i= 40, operand2_i = 20, keyinput = b8a1e72d, result_o = 0c00 
+#                 1465 operand1_i= 24, operand2_i = 92, keyinput = b8a1e72d, result_o = 1c88 
+#                 1475 operand1_i= 00, operand2_i = 01, keyinput = b8a1e72d, result_o = 0400 
+#                 1485 operand1_i= 00, operand2_i = 00, keyinput = b9a1e72d, result_o = 0408 
+#                 1495 operand1_i= 29, operand2_i = 7a, keyinput = b9a1e72d, result_o = 1282 
+#                 1505 operand1_i= 11, operand2_i = 11, keyinput = b9a1e72d, result_o = 0529 
+#                 1515 operand1_i= 81, operand2_i = 1c, keyinput = b9a1e72d, result_o = 0a14 
+#                 1535 operand1_i= 44, operand2_i = 3b, keyinput = b9a1e72d, result_o = 0ba4 
+#                 1555 operand1_i= 89, operand2_i = ff, keyinput = b9a1e72d, result_o = 8d7f 
+#                 1565 operand1_i= ab, operand2_i = 00, keyinput = b9a1e72d, result_o = 0408 
+#                 1575 operand1_i= 34, operand2_i = 12, keyinput = b9a1e72d, result_o = 03a0 
+#                 1585 operand1_i= 11, operand2_i = 20, keyinput = b9a1e72d, result_o = 0628 
+#                 1595 operand1_i= 55, operand2_i = aa, keyinput = b9a1e72d, result_o = 3c7a 
+#                 1605 operand1_i= 80, operand2_i = 80, keyinput = b9a1e72d, result_o = 4408 
+#                 1610 operand1_i= fa, operand2_i = 00, keyinput = b9a1e72d, result_o = 0408 
+#                 1620 operand1_i= 40, operand2_i = 20, keyinput = b9a1e72d, result_o = 0c08 
+#                 1630 operand1_i= 24, operand2_i = 92, keyinput = b9a1e72d, result_o = 1c80 
+#                 1640 operand1_i= 00, operand2_i = 01, keyinput = b9a1e72d, result_o = 0408 
+#                 1650 operand1_i= 00, operand2_i = 00, keyinput = d9a1e72d, result_o = 0600 
+#                 1660 operand1_i= 29, operand2_i = 7a, keyinput = d9a1e72d, result_o = 109a 
+#                 1670 operand1_i= 11, operand2_i = 11, keyinput = d9a1e72d, result_o = 0721 
+#                 1680 operand1_i= 81, operand2_i = 1c, keyinput = d9a1e72d, result_o = 082c 
+#                 1700 operand1_i= 44, operand2_i = 3b, keyinput = d9a1e72d, result_o = 09ac 
+#                 1720 operand1_i= 89, operand2_i = ff, keyinput = d9a1e72d, result_o = 8f77 
+#                 1730 operand1_i= ab, operand2_i = 00, keyinput = d9a1e72d, result_o = 0600 
+#                 1740 operand1_i= 34, operand2_i = 12, keyinput = d9a1e72d, result_o = 01a8 
+#                 1750 operand1_i= 11, operand2_i = 20, keyinput = d9a1e72d, result_o = 0420 
+#                 1760 operand1_i= 55, operand2_i = aa, keyinput = d9a1e72d, result_o = 3e62 
+#                 1770 operand1_i= 80, operand2_i = 80, keyinput = d9a1e72d, result_o = 4600 
+#                 1775 operand1_i= fa, operand2_i = 00, keyinput = d9a1e72d, result_o = 0600 
+#                 1785 operand1_i= 40, operand2_i = 20, keyinput = d9a1e72d, result_o = 0e00 
+#                 1795 operand1_i= 24, operand2_i = 92, keyinput = d9a1e72d, result_o = 1288 
+#                 1805 operand1_i= 00, operand2_i = 01, keyinput = d9a1e72d, result_o = 0600 
+#                 1815 operand1_i= 00, operand2_i = 00, keyinput = b6a3e72d, result_o = 0400 
+#                 1825 operand1_i= 29, operand2_i = 7a, keyinput = b6a3e72d, result_o = 0f8a 
+#                 1835 operand1_i= 11, operand2_i = 11, keyinput = b6a3e72d, result_o = 0521 
+#                 1845 operand1_i= 81, operand2_i = 1c, keyinput = b6a3e72d, result_o = 121c 
+#                 1865 operand1_i= 44, operand2_i = 3b, keyinput = b6a3e72d, result_o = 13ac 
+#                 1885 operand1_i= 89, operand2_i = ff, keyinput = b6a3e72d, result_o = 8c77 
+#                 1895 operand1_i= ab, operand2_i = 00, keyinput = b6a3e72d, result_o = 0400 
+#                 1905 operand1_i= 34, operand2_i = 12, keyinput = b6a3e72d, result_o = 07a8 
+#                 1915 operand1_i= 11, operand2_i = 20, keyinput = b6a3e72d, result_o = 0620 
+#                 1925 operand1_i= 55, operand2_i = aa, keyinput = b6a3e72d, result_o = 3c72 
+#                 1935 operand1_i= 80, operand2_i = 80, keyinput = b6a3e72d, result_o = 4400 
+#                 1940 operand1_i= fa, operand2_i = 00, keyinput = b6a3e72d, result_o = 0400 
+#                 1950 operand1_i= 40, operand2_i = 20, keyinput = b6a3e72d, result_o = 0c00 
+#                 1960 operand1_i= 24, operand2_i = 92, keyinput = b6a3e72d, result_o = 1888 
+#                 1970 operand1_i= 00, operand2_i = 01, keyinput = b6a3e72d, result_o = 0400 
+#                 1980 operand1_i= 00, operand2_i = 00, keyinput = b6a7e72d, result_o = 2400 
+#                 1990 operand1_i= 29, operand2_i = 7a, keyinput = b6a7e72d, result_o = 2f8a 
+#                 2000 operand1_i= 11, operand2_i = 11, keyinput = b6a7e72d, result_o = 2521 
+#                 2010 operand1_i= 81, operand2_i = 1c, keyinput = b6a7e72d, result_o = 321c 
+#                 2030 operand1_i= 44, operand2_i = 3b, keyinput = b6a7e72d, result_o = 33ac 
+#                 2050 operand1_i= 89, operand2_i = ff, keyinput = b6a7e72d, result_o = ac77 
+#                 2060 operand1_i= ab, operand2_i = 00, keyinput = b6a7e72d, result_o = 2400 
+#                 2070 operand1_i= 34, operand2_i = 12, keyinput = b6a7e72d, result_o = 27a8 
+#                 2080 operand1_i= 11, operand2_i = 20, keyinput = b6a7e72d, result_o = 2620 
+#                 2090 operand1_i= 55, operand2_i = aa, keyinput = b6a7e72d, result_o = 1c72 
+#                 2100 operand1_i= 80, operand2_i = 80, keyinput = b6a7e72d, result_o = 6400 
+#                 2105 operand1_i= fa, operand2_i = 00, keyinput = b6a7e72d, result_o = 2400 
+#                 2115 operand1_i= 40, operand2_i = 20, keyinput = b6a7e72d, result_o = 2c00 
+#                 2125 operand1_i= 24, operand2_i = 92, keyinput = b6a7e72d, result_o = 3888 
+#                 2135 operand1_i= 00, operand2_i = 01, keyinput = b6a7e72d, result_o = 2400 
+#                 2145 operand1_i= 00, operand2_i = 00, keyinput = b6afe72d, result_o = 2600 
+#                 2155 operand1_i= 29, operand2_i = 7a, keyinput = b6afe72d, result_o = 318a 
+#                 2165 operand1_i= 11, operand2_i = 11, keyinput = b6afe72d, result_o = 2721 
+#                 2175 operand1_i= 81, operand2_i = 1c, keyinput = b6afe72d, result_o = 341c 
+#                 2195 operand1_i= 44, operand2_i = 3b, keyinput = b6afe72d, result_o = 35ac 
+#                 2215 operand1_i= 89, operand2_i = ff, keyinput = b6afe72d, result_o = aa77 
+#                 2225 operand1_i= ab, operand2_i = 00, keyinput = b6afe72d, result_o = 2600 
+#                 2235 operand1_i= 34, operand2_i = 12, keyinput = b6afe72d, result_o = 29a8 
+#                 2245 operand1_i= 11, operand2_i = 20, keyinput = b6afe72d, result_o = 2820 
+#                 2255 operand1_i= 55, operand2_i = aa, keyinput = b6afe72d, result_o = 1e72 
+#                 2265 operand1_i= 80, operand2_i = 80, keyinput = b6afe72d, result_o = 6600 
+#                 2270 operand1_i= fa, operand2_i = 00, keyinput = b6afe72d, result_o = 2600 
+#                 2280 operand1_i= 40, operand2_i = 20, keyinput = b6afe72d, result_o = 2e00 
+#                 2290 operand1_i= 24, operand2_i = 92, keyinput = b6afe72d, result_o = 3a88 
+#                 2300 operand1_i= 00, operand2_i = 01, keyinput = b6afe72d, result_o = 2600 
+#                 2310 operand1_i= 00, operand2_i = 00, keyinput = b6afc72d, result_o = 2640 
+#                 2320 operand1_i= 29, operand2_i = 7a, keyinput = b6afc72d, result_o = 314a 
+#                 2330 operand1_i= 11, operand2_i = 11, keyinput = b6afc72d, result_o = 2761 
+#                 2340 operand1_i= 81, operand2_i = 1c, keyinput = b6afc72d, result_o = 345c 
+#                 2360 operand1_i= 44, operand2_i = 3b, keyinput = b6afc72d, result_o = 35ec 
+#                 2380 operand1_i= 89, operand2_i = ff, keyinput = b6afc72d, result_o = ae37 
+#                 2390 operand1_i= ab, operand2_i = 00, keyinput = b6afc72d, result_o = 2640 
+#                 2400 operand1_i= 34, operand2_i = 12, keyinput = b6afc72d, result_o = 29e8 
+#                 2410 operand1_i= 11, operand2_i = 20, keyinput = b6afc72d, result_o = 2860 
+#                 2420 operand1_i= 55, operand2_i = aa, keyinput = b6afc72d, result_o = 1eb2 
+#                 2430 operand1_i= 80, operand2_i = 80, keyinput = b6afc72d, result_o = 6640 
+#                 2435 operand1_i= fa, operand2_i = 00, keyinput = b6afc72d, result_o = 2640 
+#                 2445 operand1_i= 40, operand2_i = 20, keyinput = b6afc72d, result_o = 2e40 
+#                 2455 operand1_i= 24, operand2_i = 92, keyinput = b6afc72d, result_o = 3ac8 
+#                 2465 operand1_i= 00, operand2_i = 01, keyinput = b6afc72d, result_o = 2640 
+#                 2475 operand1_i= 00, operand2_i = 00, keyinput = b6af072d, result_o = 2a40 
+#                 2485 operand1_i= 29, operand2_i = 7a, keyinput = b6af072d, result_o = 354a 
+#                 2495 operand1_i= 11, operand2_i = 11, keyinput = b6af072d, result_o = 2b61 
+#                 2505 operand1_i= 81, operand2_i = 1c, keyinput = b6af072d, result_o = 385c 
+#                 2525 operand1_i= 44, operand2_i = 3b, keyinput = b6af072d, result_o = 39ec 
+#                 2545 operand1_i= 89, operand2_i = ff, keyinput = b6af072d, result_o = b237 
+#                 2555 operand1_i= ab, operand2_i = 00, keyinput = b6af072d, result_o = 2a40 
+#                 2565 operand1_i= 34, operand2_i = 12, keyinput = b6af072d, result_o = 2de8 
+#                 2575 operand1_i= 11, operand2_i = 20, keyinput = b6af072d, result_o = 2c60 
+#                 2585 operand1_i= 55, operand2_i = aa, keyinput = b6af072d, result_o = 1ab2 
+#                 2595 operand1_i= 80, operand2_i = 80, keyinput = b6af072d, result_o = 6a40 
+#                 2600 operand1_i= fa, operand2_i = 00, keyinput = b6af072d, result_o = 2a40 
+#                 2610 operand1_i= 40, operand2_i = 20, keyinput = b6af072d, result_o = 3240 
+#                 2620 operand1_i= 24, operand2_i = 92, keyinput = b6af072d, result_o = 3ec8 
+#                 2630 operand1_i= 00, operand2_i = 01, keyinput = b6af072d, result_o = 2a40 
+# ** Note: $finish    : /home/nayakkk/32xor/array_multiplier/sim/array_multiplier8_tb.v(789)
+#    Time: 2640 ns  Iteration: 0  Instance: /array_multiplier8_tb

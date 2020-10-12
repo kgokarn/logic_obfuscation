@@ -24,7 +24,7 @@
 module traditional_multiplier8_tb;
 reg [7:0]operand1_i;
 reg [7:0]operand2_i;
-reg [31:0]keyinput = 32'h62FEDB15;
+reg [31:0]keyinput;
 wire [15:0]result_o;
 
 
@@ -35,6 +35,7 @@ initial begin
    $dumpvars(2,traditional_multiplier8_tb);
 
    
+    keyinput = 32'h62FEDB8A;
    operand1_i = 8'h00;
    operand2_i = 8'h00;
    #10
@@ -76,10 +77,715 @@ initial begin
  #10
   operand1_i = 8'h24;
   operand2_i = 8'h92;
-  #100
+  #10
    operand1_i = 8'h00;
    operand2_i = 8'h01;
-  #100
+  #10
+
+   keyinput = 32'h62FEDBCA;
+   operand1_i = 8'h00;
+   operand2_i = 8'h00;
+   #10
+   operand1_i = 8'h29;
+   operand2_i = 8'h7A;
+   #10
+   operand1_i = 8'h11;
+   operand2_i = 8'h11;
+   #10
+   operand1_i = 8'h81;
+   operand2_i = 8'h1C;
+   #20
+   operand1_i = 8'h44;
+   operand2_i = 8'h3B;
+   #20
+   operand1_i = 8'h89;
+   operand2_i = 8'hFF;
+   #10
+   operand1_i = 8'hAB;
+   operand2_i = 8'h00;
+   #10
+   operand1_i = 8'h34;
+   operand2_i = 8'h12;
+   #10
+   operand1_i = 16'h11;
+   operand2_i = 16'h20;
+  #10
+   operand1_i = 8'h55;
+   operand2_i = 8'hAA;
+  #10
+   operand1_i = 8'h80;
+   operand2_i = 8'h80;
+  #5
+  operand1_i = 8'hFA;
+  operand2_i = 8'h00;
+ #10
+  operand1_i = 8'h40;
+  operand2_i = 8'h20;
+ #10
+  operand1_i = 8'h24;
+  operand2_i = 8'h92;
+  #10
+   operand1_i = 8'h00;
+   operand2_i = 8'h01;
+  #10
+
+   keyinput = 32'h62FEDBEA;
+   operand1_i = 8'h00;
+   operand2_i = 8'h00;
+   #10
+   operand1_i = 8'h29;
+   operand2_i = 8'h7A;
+   #10
+   operand1_i = 8'h11;
+   operand2_i = 8'h11;
+   #10
+   operand1_i = 8'h81;
+   operand2_i = 8'h1C;
+   #20
+   operand1_i = 8'h44;
+   operand2_i = 8'h3B;
+   #20
+   operand1_i = 8'h89;
+   operand2_i = 8'hFF;
+   #10
+   operand1_i = 8'hAB;
+   operand2_i = 8'h00;
+   #10
+   operand1_i = 8'h34;
+   operand2_i = 8'h12;
+   #10
+   operand1_i = 16'h11;
+   operand2_i = 16'h20;
+  #10
+   operand1_i = 8'h55;
+   operand2_i = 8'hAA;
+  #10
+   operand1_i = 8'h80;
+   operand2_i = 8'h80;
+  #5
+  operand1_i = 8'hFA;
+  operand2_i = 8'h00;
+ #10
+  operand1_i = 8'h40;
+  operand2_i = 8'h20;
+ #10
+  operand1_i = 8'h24;
+  operand2_i = 8'h92;
+  #10
+   operand1_i = 8'h00;
+   operand2_i = 8'h01;
+  #10
+
+   keyinput = 32'h62FEDB6A;
+   operand1_i = 8'h00;
+   operand2_i = 8'h00;
+   #10
+   operand1_i = 8'h29;
+   operand2_i = 8'h7A;
+   #10
+   operand1_i = 8'h11;
+   operand2_i = 8'h11;
+   #10
+   operand1_i = 8'h81;
+   operand2_i = 8'h1C;
+   #20
+   operand1_i = 8'h44;
+   operand2_i = 8'h3B;
+   #20
+   operand1_i = 8'h89;
+   operand2_i = 8'hFF;
+   #10
+   operand1_i = 8'hAB;
+   operand2_i = 8'h00;
+   #10
+   operand1_i = 8'h34;
+   operand2_i = 8'h12;
+   #10
+   operand1_i = 16'h11;
+   operand2_i = 16'h20;
+  #10
+   operand1_i = 8'h55;
+   operand2_i = 8'hAA;
+  #10
+   operand1_i = 8'h80;
+   operand2_i = 8'h80;
+  #5
+  operand1_i = 8'hFA;
+  operand2_i = 8'h00;
+ #10
+  operand1_i = 8'h40;
+  operand2_i = 8'h20;
+ #10
+  operand1_i = 8'h24;
+  operand2_i = 8'h92;
+  #10
+   operand1_i = 8'h00;
+   operand2_i = 8'h01;
+  #10
+
+   keyinput = 32'h62FEDB7A;
+   operand1_i = 8'h00;
+   operand2_i = 8'h00;
+   #10
+   operand1_i = 8'h29;
+   operand2_i = 8'h7A;
+   #10
+   operand1_i = 8'h11;
+   operand2_i = 8'h11;
+   #10
+   operand1_i = 8'h81;
+   operand2_i = 8'h1C;
+   #20
+   operand1_i = 8'h44;
+   operand2_i = 8'h3B;
+   #20
+   operand1_i = 8'h89;
+   operand2_i = 8'hFF;
+   #10
+   operand1_i = 8'hAB;
+   operand2_i = 8'h00;
+   #10
+   operand1_i = 8'h34;
+   operand2_i = 8'h12;
+   #10
+   operand1_i = 16'h11;
+   operand2_i = 16'h20;
+  #10
+   operand1_i = 8'h55;
+   operand2_i = 8'hAA;
+  #10
+   operand1_i = 8'h80;
+   operand2_i = 8'h80;
+  #5
+  operand1_i = 8'hFA;
+  operand2_i = 8'h00;
+ #10
+  operand1_i = 8'h40;
+  operand2_i = 8'h20;
+ #10
+  operand1_i = 8'h24;
+  operand2_i = 8'h92;
+  #10
+   operand1_i = 8'h00;
+   operand2_i = 8'h01;
+  #10
+
+   keyinput = 32'h62FEDB7F;
+   operand1_i = 8'h00;
+   operand2_i = 8'h00;
+   #10
+   operand1_i = 8'h29;
+   operand2_i = 8'h7A;
+   #10
+   operand1_i = 8'h11;
+   operand2_i = 8'h11;
+   #10
+   operand1_i = 8'h81;
+   operand2_i = 8'h1C;
+   #20
+   operand1_i = 8'h44;
+   operand2_i = 8'h3B;
+   #20
+   operand1_i = 8'h89;
+   operand2_i = 8'hFF;
+   #10
+   operand1_i = 8'hAB;
+   operand2_i = 8'h00;
+   #10
+   operand1_i = 8'h34;
+   operand2_i = 8'h12;
+   #10
+   operand1_i = 16'h11;
+   operand2_i = 16'h20;
+  #10
+   operand1_i = 8'h55;
+   operand2_i = 8'hAA;
+  #10
+   operand1_i = 8'h80;
+   operand2_i = 8'h80;
+  #5
+  operand1_i = 8'hFA;
+  operand2_i = 8'h00;
+ #10
+  operand1_i = 8'h40;
+  operand2_i = 8'h20;
+ #10
+  operand1_i = 8'h24;
+  operand2_i = 8'h92;
+  #10
+   operand1_i = 8'h00;
+   operand2_i = 8'h01;
+  #10
+
+   keyinput = 32'h22FEDB8A;
+   operand1_i = 8'h00;
+   operand2_i = 8'h00;
+   #10
+   operand1_i = 8'h29;
+   operand2_i = 8'h7A;
+   #10
+   operand1_i = 8'h11;
+   operand2_i = 8'h11;
+   #10
+   operand1_i = 8'h81;
+   operand2_i = 8'h1C;
+   #20
+   operand1_i = 8'h44;
+   operand2_i = 8'h3B;
+   #20
+   operand1_i = 8'h89;
+   operand2_i = 8'hFF;
+   #10
+   operand1_i = 8'hAB;
+   operand2_i = 8'h00;
+   #10
+   operand1_i = 8'h34;
+   operand2_i = 8'h12;
+   #10
+   operand1_i = 16'h11;
+   operand2_i = 16'h20;
+  #10
+   operand1_i = 8'h55;
+   operand2_i = 8'hAA;
+  #10
+   operand1_i = 8'h80;
+   operand2_i = 8'h80;
+  #5
+  operand1_i = 8'hFA;
+  operand2_i = 8'h00;
+ #10
+  operand1_i = 8'h40;
+  operand2_i = 8'h20;
+ #10
+  operand1_i = 8'h24;
+  operand2_i = 8'h92;
+  #10
+   operand1_i = 8'h00;
+   operand2_i = 8'h01;
+  #10
+
+   keyinput = 32'h23FEDB8A;
+   operand1_i = 8'h00;
+   operand2_i = 8'h00;
+   #10
+   operand1_i = 8'h29;
+   operand2_i = 8'h7A;
+   #10
+   operand1_i = 8'h11;
+   operand2_i = 8'h11;
+   #10
+   operand1_i = 8'h81;
+   operand2_i = 8'h1C;
+   #20
+   operand1_i = 8'h44;
+   operand2_i = 8'h3B;
+   #20
+   operand1_i = 8'h89;
+   operand2_i = 8'hFF;
+   #10
+   operand1_i = 8'hAB;
+   operand2_i = 8'h00;
+   #10
+   operand1_i = 8'h34;
+   operand2_i = 8'h12;
+   #10
+   operand1_i = 16'h11;
+   operand2_i = 16'h20;
+  #10
+   operand1_i = 8'h55;
+   operand2_i = 8'hAA;
+  #10
+   operand1_i = 8'h80;
+   operand2_i = 8'h80;
+  #5
+  operand1_i = 8'hFA;
+  operand2_i = 8'h00;
+ #10
+  operand1_i = 8'h40;
+  operand2_i = 8'h20;
+ #10
+  operand1_i = 8'h24;
+  operand2_i = 8'h92;
+  #10
+   operand1_i = 8'h00;
+   operand2_i = 8'h01;
+  #10
+
+   keyinput = 32'h27FEDB8A;
+   operand1_i = 8'h00;
+   operand2_i = 8'h00;
+   #10
+   operand1_i = 8'h29;
+   operand2_i = 8'h7A;
+   #10
+   operand1_i = 8'h11;
+   operand2_i = 8'h11;
+   #10
+   operand1_i = 8'h81;
+   operand2_i = 8'h1C;
+   #20
+   operand1_i = 8'h44;
+   operand2_i = 8'h3B;
+   #20
+   operand1_i = 8'h89;
+   operand2_i = 8'hFF;
+   #10
+   operand1_i = 8'hAB;
+   operand2_i = 8'h00;
+   #10
+   operand1_i = 8'h34;
+   operand2_i = 8'h12;
+   #10
+   operand1_i = 16'h11;
+   operand2_i = 16'h20;
+  #10
+   operand1_i = 8'h55;
+   operand2_i = 8'hAA;
+  #10
+   operand1_i = 8'h80;
+   operand2_i = 8'h80;
+  #5
+  operand1_i = 8'hFA;
+  operand2_i = 8'h00;
+ #10
+  operand1_i = 8'h40;
+  operand2_i = 8'h20;
+ #10
+  operand1_i = 8'h24;
+  operand2_i = 8'h92;
+  #10
+   operand1_i = 8'h00;
+   operand2_i = 8'h01;
+  #10
+
+   keyinput = 32'h2FFEDB8A;
+   operand1_i = 8'h00;
+   operand2_i = 8'h00;
+   #10
+   operand1_i = 8'h29;
+   operand2_i = 8'h7A;
+   #10
+   operand1_i = 8'h11;
+   operand2_i = 8'h11;
+   #10
+   operand1_i = 8'h81;
+   operand2_i = 8'h1C;
+   #20
+   operand1_i = 8'h44;
+   operand2_i = 8'h3B;
+   #20
+   operand1_i = 8'h89;
+   operand2_i = 8'hFF;
+   #10
+   operand1_i = 8'hAB;
+   operand2_i = 8'h00;
+   #10
+   operand1_i = 8'h34;
+   operand2_i = 8'h12;
+   #10
+   operand1_i = 16'h11;
+   operand2_i = 16'h20;
+  #10
+   operand1_i = 8'h55;
+   operand2_i = 8'hAA;
+  #10
+   operand1_i = 8'h80;
+   operand2_i = 8'h80;
+  #5
+  operand1_i = 8'hFA;
+  operand2_i = 8'h00;
+ #10
+  operand1_i = 8'h40;
+  operand2_i = 8'h20;
+ #10
+  operand1_i = 8'h24;
+  operand2_i = 8'h92;
+  #10
+   operand1_i = 8'h00;
+   operand2_i = 8'h01;
+  #10
+
+   keyinput = 32'hBFFEDB8A;
+   operand1_i = 8'h00;
+   operand2_i = 8'h00;
+   #10
+   operand1_i = 8'h29;
+   operand2_i = 8'h7A;
+   #10
+   operand1_i = 8'h11;
+   operand2_i = 8'h11;
+   #10
+   operand1_i = 8'h81;
+   operand2_i = 8'h1C;
+   #20
+   operand1_i = 8'h44;
+   operand2_i = 8'h3B;
+   #20
+   operand1_i = 8'h89;
+   operand2_i = 8'hFF;
+   #10
+   operand1_i = 8'hAB;
+   operand2_i = 8'h00;
+   #10
+   operand1_i = 8'h34;
+   operand2_i = 8'h12;
+   #10
+   operand1_i = 16'h11;
+   operand2_i = 16'h20;
+  #10
+   operand1_i = 8'h55;
+   operand2_i = 8'hAA;
+  #10
+   operand1_i = 8'h80;
+   operand2_i = 8'h80;
+  #5
+  operand1_i = 8'hFA;
+  operand2_i = 8'h00;
+ #10
+  operand1_i = 8'h40;
+  operand2_i = 8'h20;
+ #10
+  operand1_i = 8'h24;
+  operand2_i = 8'h92;
+  #10
+   operand1_i = 8'h00;
+   operand2_i = 8'h01;
+  #10
+
+   keyinput = 32'h62FCDB8A;
+   operand1_i = 8'h00;
+   operand2_i = 8'h00;
+   #10
+   operand1_i = 8'h29;
+   operand2_i = 8'h7A;
+   #10
+   operand1_i = 8'h11;
+   operand2_i = 8'h11;
+   #10
+   operand1_i = 8'h81;
+   operand2_i = 8'h1C;
+   #20
+   operand1_i = 8'h44;
+   operand2_i = 8'h3B;
+   #20
+   operand1_i = 8'h89;
+   operand2_i = 8'hFF;
+   #10
+   operand1_i = 8'hAB;
+   operand2_i = 8'h00;
+   #10
+   operand1_i = 8'h34;
+   operand2_i = 8'h12;
+   #10
+   operand1_i = 16'h11;
+   operand2_i = 16'h20;
+  #10
+   operand1_i = 8'h55;
+   operand2_i = 8'hAA;
+  #10
+   operand1_i = 8'h80;
+   operand2_i = 8'h80;
+  #5
+  operand1_i = 8'hFA;
+  operand2_i = 8'h00;
+ #10
+  operand1_i = 8'h40;
+  operand2_i = 8'h20;
+ #10
+  operand1_i = 8'h24;
+  operand2_i = 8'h92;
+  #10
+   operand1_i = 8'h00;
+   operand2_i = 8'h01;
+  #10
+
+   keyinput = 32'h62FCCB8A;
+   operand1_i = 8'h00;
+   operand2_i = 8'h00;
+   #10
+   operand1_i = 8'h29;
+   operand2_i = 8'h7A;
+   #10
+   operand1_i = 8'h11;
+   operand2_i = 8'h11;
+   #10
+   operand1_i = 8'h81;
+   operand2_i = 8'h1C;
+   #20
+   operand1_i = 8'h44;
+   operand2_i = 8'h3B;
+   #20
+   operand1_i = 8'h89;
+   operand2_i = 8'hFF;
+   #10
+   operand1_i = 8'hAB;
+   operand2_i = 8'h00;
+   #10
+   operand1_i = 8'h34;
+   operand2_i = 8'h12;
+   #10
+   operand1_i = 16'h11;
+   operand2_i = 16'h20;
+  #10
+   operand1_i = 8'h55;
+   operand2_i = 8'hAA;
+  #10
+   operand1_i = 8'h80;
+   operand2_i = 8'h80;
+  #5
+  operand1_i = 8'hFA;
+  operand2_i = 8'h00;
+ #10
+  operand1_i = 8'h40;
+  operand2_i = 8'h20;
+ #10
+  operand1_i = 8'h24;
+  operand2_i = 8'h92;
+  #10
+   operand1_i = 8'h00;
+   operand2_i = 8'h01;
+  #10
+
+   keyinput = 32'h62F8CB8A;
+   operand1_i = 8'h00;
+   operand2_i = 8'h00;
+   #10
+   operand1_i = 8'h29;
+   operand2_i = 8'h7A;
+   #10
+   operand1_i = 8'h11;
+   operand2_i = 8'h11;
+   #10
+   operand1_i = 8'h81;
+   operand2_i = 8'h1C;
+   #20
+   operand1_i = 8'h44;
+   operand2_i = 8'h3B;
+   #20
+   operand1_i = 8'h89;
+   operand2_i = 8'hFF;
+   #10
+   operand1_i = 8'hAB;
+   operand2_i = 8'h00;
+   #10
+   operand1_i = 8'h34;
+   operand2_i = 8'h12;
+   #10
+   operand1_i = 16'h11;
+   operand2_i = 16'h20;
+  #10
+   operand1_i = 8'h55;
+   operand2_i = 8'hAA;
+  #10
+   operand1_i = 8'h80;
+   operand2_i = 8'h80;
+  #5
+  operand1_i = 8'hFA;
+  operand2_i = 8'h00;
+ #10
+  operand1_i = 8'h40;
+  operand2_i = 8'h20;
+ #10
+  operand1_i = 8'h24;
+  operand2_i = 8'h92;
+  #10
+   operand1_i = 8'h00;
+   operand2_i = 8'h01;
+  #10
+
+   keyinput = 32'h62F84B8A;
+   operand1_i = 8'h00;
+   operand2_i = 8'h00;
+   #10
+   operand1_i = 8'h29;
+   operand2_i = 8'h7A;
+   #10
+   operand1_i = 8'h11;
+   operand2_i = 8'h11;
+   #10
+   operand1_i = 8'h81;
+   operand2_i = 8'h1C;
+   #20
+   operand1_i = 8'h44;
+   operand2_i = 8'h3B;
+   #20
+   operand1_i = 8'h89;
+   operand2_i = 8'hFF;
+   #10
+   operand1_i = 8'hAB;
+   operand2_i = 8'h00;
+   #10
+   operand1_i = 8'h34;
+   operand2_i = 8'h12;
+   #10
+   operand1_i = 16'h11;
+   operand2_i = 16'h20;
+  #10
+   operand1_i = 8'h55;
+   operand2_i = 8'hAA;
+  #10
+   operand1_i = 8'h80;
+   operand2_i = 8'h80;
+  #5
+  operand1_i = 8'hFA;
+  operand2_i = 8'h00;
+ #10
+  operand1_i = 8'h40;
+  operand2_i = 8'h20;
+ #10
+  operand1_i = 8'h24;
+  operand2_i = 8'h92;
+  #10
+   operand1_i = 8'h00;
+   operand2_i = 8'h01;
+  #10
+
+   keyinput = 32'h62F00B8A;
+   operand1_i = 8'h00;
+   operand2_i = 8'h00;
+   #10
+   operand1_i = 8'h29;
+   operand2_i = 8'h7A;
+   #10
+   operand1_i = 8'h11;
+   operand2_i = 8'h11;
+   #10
+   operand1_i = 8'h81;
+   operand2_i = 8'h1C;
+   #20
+   operand1_i = 8'h44;
+   operand2_i = 8'h3B;
+   #20
+   operand1_i = 8'h89;
+   operand2_i = 8'hFF;
+   #10
+   operand1_i = 8'hAB;
+   operand2_i = 8'h00;
+   #10
+   operand1_i = 8'h34;
+   operand2_i = 8'h12;
+   #10
+   operand1_i = 16'h11;
+   operand2_i = 16'h20;
+  #10
+   operand1_i = 8'h55;
+   operand2_i = 8'hAA;
+  #10
+   operand1_i = 8'h80;
+   operand2_i = 8'h80;
+  #5
+  operand1_i = 8'hFA;
+  operand2_i = 8'h00;
+ #10
+  operand1_i = 8'h40;
+  operand2_i = 8'h20;
+ #10
+  operand1_i = 8'h24;
+  operand2_i = 8'h92;
+  #10
+   operand1_i = 8'h00;
+   operand2_i = 8'h01;
+  #10
   
    $finish;
     

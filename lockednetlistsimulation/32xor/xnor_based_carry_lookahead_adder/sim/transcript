@@ -1,4 +1,4 @@
-# //  ModelSim SE-64 6.6d Nov  1 2010 Linux 2.6.32-754.31.1.el6.x86_64
+# //  ModelSim SE-64 6.6d Nov  1 2010 Linux 2.6.32-754.33.1.el6.x86_64
 # //
 # //  Copyright 1991-2010 Mentor Graphics Corporation
 # //              All Rights Reserved.
@@ -8,7 +8,9 @@
 # //  OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
 # //  AND IS SUBJECT TO LICENSE TERMS.
 # //
-# Loading project loacla32xor
+# Loading project rca64aor
+# reading /var/autofs/misc/cad/mentor/modelsim-6.6d/modeltech/linux_x86_64/../modelsim.ini
+# Loading project xcla64aor
 # reading /var/autofs/misc/cad/mentor/modelsim-6.6d/modeltech/linux_x86_64/../modelsim.ini
 # Loading project xcla32xor
 # Compile of xnor_based_carry_lookahead_adder16_tb.v was successful.
@@ -20,6 +22,10 @@ vsim -novopt simulation.xnor_based_carry_lookahead_adder16_tb
 # Loading simulation.xnor_based_carry_lookahead_adder16_tb
 # Refreshing /home/nayakkk/32xor/xnor_based_carry_lookahead_adder/sim/simulation.xnor_based_carry_lookahead_adder16_xor_enc32
 # Loading simulation.xnor_based_carry_lookahead_adder16_xor_enc32
+vsim -novopt simulation.xnor_based_carry_lookahead_adder16_tb
+# vsim -novopt simulation.xnor_based_carry_lookahead_adder16_tb 
+# Loading simulation.xnor_based_carry_lookahead_adder16_tb
+# Loading simulation.xnor_based_carry_lookahead_adder16_xor_enc32
 add wave sim:/xnor_based_carry_lookahead_adder16_tb/*
 run
 #                    0 add1_i= 0000, add2_i = 0000, keyinput= 094f5c9d, result_o = 00001 
@@ -27,167 +33,271 @@ run
 #                   20 add1_i= 1100, add2_i = 1111, keyinput= 094f5c9d, result_o = 02212 
 #                   30 add1_i= 8116, add2_i = 1cce, keyinput= 094f5c9d, result_o = 09de5 
 #                   35 add1_i= 4482, add2_i = 3bcd, keyinput= 094f5c9d, result_o = 08050 
-#                   37 add1_i= 8943, add2_i = ffff, keyinput= 094f5c9d, result_o = 18943 
-#                   47 add1_i= abcd, add2_i = 0000, keyinput= 094f5c9d, result_o = 0abc2 
-#                   57 add1_i= 0000, add2_i = 1234, keyinput= 094f5c9d, result_o = 01231 
-#                   67 add1_i= 1111, add2_i = eeaa, keyinput= 094f5c9d, result_o = 0ffb4 
-#                   77 add1_i= 5555, add2_i = aaaa, keyinput= 094f5c9d, result_o = 10000 
-#                   87 add1_i= 8051, add2_i = 8086, keyinput= 094f5c9d, result_o = 100d8 
-#                   92 add1_i= fadc, add2_i = 00dc, keyinput= 094f5c9d, result_o = 0fbb9 
-#                   94 add1_i= 4096, add2_i = 2048, keyinput= 094f5c9d, result_o = 060d1 
-#                  104 add1_i= 1024, add2_i = 8192, keyinput= 094f5c9d, result_o = 091b1 
-#                  204 add1_i= 0000, add2_i = 0001, keyinput= 094f5c9d, result_o = 00002 
-# ** Note: $finish    : /home/nayakkk/32xor/xnor_based_carry_lookahead_adder/sim/xnor_based_carry_lookahead_adder16_tb.v(83)
-#    Time: 304 ns  Iteration: 0  Instance: /xnor_based_carry_lookahead_adder16_tb
-# 1
-# Break in Module xnor_based_carry_lookahead_adder16_tb at /home/nayakkk/32xor/xnor_based_carry_lookahead_adder/sim/xnor_based_carry_lookahead_adder16_tb.v line 83
-# Compile of xnor_based_carry_lookahead_adder16_tb.v was successful.
-# Compile of xnor_based_carry_lookahead_adder16_xor_enc32.v was successful.
-# 2 compiles, 0 failed with no errors. 
-vsim -novopt simulation.xnor_based_carry_lookahead_adder16_tb
-# vsim -novopt simulation.xnor_based_carry_lookahead_adder16_tb 
-# Refreshing /home/nayakkk/32xor/xnor_based_carry_lookahead_adder/sim/simulation.xnor_based_carry_lookahead_adder16_tb
-# Loading simulation.xnor_based_carry_lookahead_adder16_tb
-# Refreshing /home/nayakkk/32xor/xnor_based_carry_lookahead_adder/sim/simulation.xnor_based_carry_lookahead_adder16_xor_enc32
-# Loading simulation.xnor_based_carry_lookahead_adder16_xor_enc32
-add wave sim:/xnor_based_carry_lookahead_adder16_tb/*
-run
-#                    0 add1_i= 0000, add2_i = 0000, keyinput= 094f5e8d, result_o = 00001 
-#                   10 add1_i= 29af, add2_i = 7a1b, keyinput= 094f5e8d, result_o = 0a3cb 
-#                   20 add1_i= 1100, add2_i = 1111, keyinput= 094f5e8d, result_o = 02212 
-#                   30 add1_i= 8116, add2_i = 1cce, keyinput= 094f5e8d, result_o = 09de5 
-#                   35 add1_i= 4482, add2_i = 3bcd, keyinput= 094f5e8d, result_o = 08050 
-#                   37 add1_i= 8943, add2_i = ffff, keyinput= 094f5e8d, result_o = 18943 
-#                   47 add1_i= abcd, add2_i = 0000, keyinput= 094f5e8d, result_o = 0abc2 
-#                   57 add1_i= 0000, add2_i = 1234, keyinput= 094f5e8d, result_o = 01231 
-#                   67 add1_i= 1111, add2_i = eeaa, keyinput= 094f5e8d, result_o = 0ffb4 
-#                   77 add1_i= 5555, add2_i = aaaa, keyinput= 094f5e8d, result_o = 10000 
-#                   87 add1_i= 8051, add2_i = 8086, keyinput= 094f5e8d, result_o = 100d8 
-#                   92 add1_i= fadc, add2_i = 00dc, keyinput= 094f5e8d, result_o = 0fbb9 
-#                   94 add1_i= 4096, add2_i = 2048, keyinput= 094f5e8d, result_o = 060d1 
-#                  104 add1_i= 1024, add2_i = 8192, keyinput= 094f5e8d, result_o = 091b1 
-#                  204 add1_i= 0000, add2_i = 0001, keyinput= 094f5e8d, result_o = 00002 
-# ** Note: $finish    : /home/nayakkk/32xor/xnor_based_carry_lookahead_adder/sim/xnor_based_carry_lookahead_adder16_tb.v(83)
-#    Time: 304 ns  Iteration: 0  Instance: /xnor_based_carry_lookahead_adder16_tb
-# 1
-# Break in Module xnor_based_carry_lookahead_adder16_tb at /home/nayakkk/32xor/xnor_based_carry_lookahead_adder/sim/xnor_based_carry_lookahead_adder16_tb.v line 83
-# Compile of xnor_based_carry_lookahead_adder16_tb.v was successful.
-# Compile of xnor_based_carry_lookahead_adder16_xor_enc32.v was successful.
-# 2 compiles, 0 failed with no errors. 
-vsim -novopt simulation.xnor_based_carry_lookahead_adder16_tb
-# vsim -novopt simulation.xnor_based_carry_lookahead_adder16_tb 
-# Refreshing /home/nayakkk/32xor/xnor_based_carry_lookahead_adder/sim/simulation.xnor_based_carry_lookahead_adder16_tb
-# Loading simulation.xnor_based_carry_lookahead_adder16_tb
-# Refreshing /home/nayakkk/32xor/xnor_based_carry_lookahead_adder/sim/simulation.xnor_based_carry_lookahead_adder16_xor_enc32
-# Loading simulation.xnor_based_carry_lookahead_adder16_xor_enc32
-add wave sim:/xnor_based_carry_lookahead_adder16_tb/*
-run
-#                    0 add1_i= 0000, add2_i = 0000, keyinput= 094e5e85, result_o = 00001 
-#                   10 add1_i= 29af, add2_i = 7a1b, keyinput= 094e5e85, result_o = 0a3cb 
-#                   20 add1_i= 1100, add2_i = 1111, keyinput= 094e5e85, result_o = 02212 
-#                   30 add1_i= 8116, add2_i = 1cce, keyinput= 094e5e85, result_o = 09de5 
-#                   35 add1_i= 4482, add2_i = 3bcd, keyinput= 094e5e85, result_o = 08050 
-#                   37 add1_i= 8943, add2_i = ffff, keyinput= 094e5e85, result_o = 18943 
-#                   47 add1_i= abcd, add2_i = 0000, keyinput= 094e5e85, result_o = 0abc2 
-#                   57 add1_i= 0000, add2_i = 1234, keyinput= 094e5e85, result_o = 01231 
-#                   67 add1_i= 1111, add2_i = eeaa, keyinput= 094e5e85, result_o = 0ffb4 
-#                   77 add1_i= 5555, add2_i = aaaa, keyinput= 094e5e85, result_o = 10000 
-#                   87 add1_i= 8051, add2_i = 8086, keyinput= 094e5e85, result_o = 100d8 
-#                   92 add1_i= fadc, add2_i = 00dc, keyinput= 094e5e85, result_o = 0fbb9 
-#                   94 add1_i= 4096, add2_i = 2048, keyinput= 094e5e85, result_o = 060d1 
-#                  104 add1_i= 1024, add2_i = 8192, keyinput= 094e5e85, result_o = 091b1 
-#                  204 add1_i= 0000, add2_i = 0001, keyinput= 094e5e85, result_o = 00002 
-# ** Note: $finish    : /home/nayakkk/32xor/xnor_based_carry_lookahead_adder/sim/xnor_based_carry_lookahead_adder16_tb.v(83)
-#    Time: 304 ns  Iteration: 0  Instance: /xnor_based_carry_lookahead_adder16_tb
-# 1
-# Break in Module xnor_based_carry_lookahead_adder16_tb at /home/nayakkk/32xor/xnor_based_carry_lookahead_adder/sim/xnor_based_carry_lookahead_adder16_tb.v line 83
-# Compile of xnor_based_carry_lookahead_adder16_tb.v was successful.
-# Compile of xnor_based_carry_lookahead_adder16_xor_enc32.v was successful.
-# 2 compiles, 0 failed with no errors. 
-vsim -novopt simulation.xnor_based_carry_lookahead_adder16_tb
-# vsim -novopt simulation.xnor_based_carry_lookahead_adder16_tb 
-# Refreshing /home/nayakkk/32xor/xnor_based_carry_lookahead_adder/sim/simulation.xnor_based_carry_lookahead_adder16_tb
-# Loading simulation.xnor_based_carry_lookahead_adder16_tb
-# Refreshing /home/nayakkk/32xor/xnor_based_carry_lookahead_adder/sim/simulation.xnor_based_carry_lookahead_adder16_xor_enc32
-# Loading simulation.xnor_based_carry_lookahead_adder16_xor_enc32
-add wave sim:/xnor_based_carry_lookahead_adder16_tb/*
-run
-#                    0 add1_i= 0000, add2_i = 0000, keyinput= f64f5c9d, result_o = 13013 
-#                   10 add1_i= 29af, add2_i = 7a1b, keyinput= f64f5c9d, result_o = 1b3cb 
-#                   20 add1_i= 1100, add2_i = 1111, keyinput= f64f5c9d, result_o = 13222 
-#                   30 add1_i= 8116, add2_i = 1cce, keyinput= f64f5c9d, result_o = 1ade7 
-#                   35 add1_i= 4482, add2_i = 3bcd, keyinput= f64f5c9d, result_o = 15050 
-#                   37 add1_i= 8943, add2_i = ffff, keyinput= f64f5c9d, result_o = 04903 
-#                   47 add1_i= abcd, add2_i = 0000, keyinput= f64f5c9d, result_o = 1dbd2 
-#                   57 add1_i= 0000, add2_i = 1234, keyinput= f64f5c9d, result_o = 12203 
-#                   67 add1_i= 1111, add2_i = eeaa, keyinput= f64f5c9d, result_o = 02f84 
-#                   77 add1_i= 5555, add2_i = aaaa, keyinput= f64f5c9d, result_o = 02fc0 
-#                   87 add1_i= 8051, add2_i = 8086, keyinput= f64f5c9d, result_o = 030e8 
-#                   92 add1_i= fadc, add2_i = 00dc, keyinput= f64f5c9d, result_o = 1ebbb 
-#                   94 add1_i= 4096, add2_i = 2048, keyinput= f64f5c9d, result_o = 150e3 
-#                  104 add1_i= 1024, add2_i = 8192, keyinput= f64f5c9d, result_o = 181c3 
-#                  204 add1_i= 0000, add2_i = 0001, keyinput= f64f5c9d, result_o = 13012 
-# ** Note: $finish    : /home/nayakkk/32xor/xnor_based_carry_lookahead_adder/sim/xnor_based_carry_lookahead_adder16_tb.v(83)
-#    Time: 304 ns  Iteration: 0  Instance: /xnor_based_carry_lookahead_adder16_tb
-# 1
-# Break in Module xnor_based_carry_lookahead_adder16_tb at /home/nayakkk/32xor/xnor_based_carry_lookahead_adder/sim/xnor_based_carry_lookahead_adder16_tb.v line 83
-# Compile of xnor_based_carry_lookahead_adder16_tb.v was successful.
-# Compile of xnor_based_carry_lookahead_adder16_xor_enc32.v was successful.
-# 2 compiles, 0 failed with no errors. 
-vsim -novopt simulation.xnor_based_carry_lookahead_adder16_tb
-# vsim -novopt simulation.xnor_based_carry_lookahead_adder16_tb 
-# Refreshing /home/nayakkk/32xor/xnor_based_carry_lookahead_adder/sim/simulation.xnor_based_carry_lookahead_adder16_tb
-# Loading simulation.xnor_based_carry_lookahead_adder16_tb
-# Refreshing /home/nayakkk/32xor/xnor_based_carry_lookahead_adder/sim/simulation.xnor_based_carry_lookahead_adder16_xor_enc32
-# Loading simulation.xnor_based_carry_lookahead_adder16_xor_enc32
-add wave sim:/xnor_based_carry_lookahead_adder16_tb/*
-run
-#                    0 add1_i= 0000, add2_i = 0000, keyinput= 0943bc9d, result_o = 02805 
-#                   10 add1_i= 29af, add2_i = 7a1b, keyinput= 0943bc9d, result_o = 08bcf 
-#                   20 add1_i= 1100, add2_i = 1111, keyinput= 0943bc9d, result_o = 00a16 
-#                   30 add1_i= 8116, add2_i = 1cce, keyinput= 0943bc9d, result_o = 0b5e1 
-#                   35 add1_i= 4482, add2_i = 3bcd, keyinput= 0943bc9d, result_o = 05454 
-#                   37 add1_i= 8943, add2_i = ffff, keyinput= 0943bc9d, result_o = 1ad47 
-#                   47 add1_i= abcd, add2_i = 0000, keyinput= 0943bc9d, result_o = 083c6 
-#                   57 add1_i= 0000, add2_i = 1234, keyinput= 0943bc9d, result_o = 03a35 
-#                   67 add1_i= 1111, add2_i = eeaa, keyinput= 0943bc9d, result_o = 0d7b0 
-#                   77 add1_i= 5555, add2_i = aaaa, keyinput= 0943bc9d, result_o = 0d404 
-#                   87 add1_i= 8051, add2_i = 8086, keyinput= 0943bc9d, result_o = 128dc 
-#                   92 add1_i= fadc, add2_i = 00dc, keyinput= 0943bc9d, result_o = 0d3bd 
-#                   94 add1_i= 4096, add2_i = 2048, keyinput= 0943bc9d, result_o = 048d5 
-#                  104 add1_i= 1024, add2_i = 8192, keyinput= 0943bc9d, result_o = 0b9b5 
-#                  204 add1_i= 0000, add2_i = 0001, keyinput= 0943bc9d, result_o = 02806 
-# ** Note: $finish    : /home/nayakkk/32xor/xnor_based_carry_lookahead_adder/sim/xnor_based_carry_lookahead_adder16_tb.v(83)
-#    Time: 304 ns  Iteration: 0  Instance: /xnor_based_carry_lookahead_adder16_tb
-# 1
-# Break in Module xnor_based_carry_lookahead_adder16_tb at /home/nayakkk/32xor/xnor_based_carry_lookahead_adder/sim/xnor_based_carry_lookahead_adder16_tb.v line 83
-# Compile of xnor_based_carry_lookahead_adder16_tb.v was successful.
-# Compile of xnor_based_carry_lookahead_adder16_xor_enc32.v was successful.
-# 2 compiles, 0 failed with no errors. 
-vsim -novopt simulation.xnor_based_carry_lookahead_adder16_tb
-# vsim -novopt simulation.xnor_based_carry_lookahead_adder16_tb 
-# Refreshing /home/nayakkk/32xor/xnor_based_carry_lookahead_adder/sim/simulation.xnor_based_carry_lookahead_adder16_tb
-# Loading simulation.xnor_based_carry_lookahead_adder16_tb
-# Refreshing /home/nayakkk/32xor/xnor_based_carry_lookahead_adder/sim/simulation.xnor_based_carry_lookahead_adder16_xor_enc32
-# Loading simulation.xnor_based_carry_lookahead_adder16_xor_enc32
-add wave sim:/xnor_based_carry_lookahead_adder16_tb/*
-run
-#                    0 add1_i= 0000, add2_i = 0000, keyinput= 094f5c00, result_o = 14009 
-#                   10 add1_i= 29af, add2_i = 7a1b, keyinput= 094f5c00, result_o = 1e5cb 
-#                   20 add1_i= 1100, add2_i = 1111, keyinput= 094f5c00, result_o = 1621a 
-#                   30 add1_i= 8116, add2_i = 1cce, keyinput= 094f5c00, result_o = 1dfe5 
-#                   35 add1_i= 4482, add2_i = 3bcd, keyinput= 094f5c00, result_o = 1c140 
-#                   37 add1_i= 8943, add2_i = ffff, keyinput= 094f5c00, result_o = 0c833 
-#                   47 add1_i= abcd, add2_i = 0000, keyinput= 094f5c00, result_o = 1edd2 
-#                   57 add1_i= 0000, add2_i = 1234, keyinput= 094f5c00, result_o = 15239 
-#                   67 add1_i= 1111, add2_i = eeaa, keyinput= 094f5c00, result_o = 041c4 
-#                   77 add1_i= 5555, add2_i = aaaa, keyinput= 094f5c00, result_o = 04100 
-#                   87 add1_i= 8051, add2_i = 8086, keyinput= 094f5c00, result_o = 040d0 
-#                   92 add1_i= fadc, add2_i = 00dc, keyinput= 094f5c00, result_o = 1bab1 
-#                   94 add1_i= 4096, add2_i = 2048, keyinput= 094f5c00, result_o = 120e1 
-#                  104 add1_i= 1024, add2_i = 8192, keyinput= 094f5c00, result_o = 1d3b9 
-#                  204 add1_i= 0000, add2_i = 0001, keyinput= 094f5c00, result_o = 1400a 
-# ** Note: $finish    : /home/nayakkk/32xor/xnor_based_carry_lookahead_adder/sim/xnor_based_carry_lookahead_adder16_tb.v(83)
-#    Time: 304 ns  Iteration: 0  Instance: /xnor_based_carry_lookahead_adder16_tb
-# 1
-# Break in Module xnor_based_carry_lookahead_adder16_tb at /home/nayakkk/32xor/xnor_based_carry_lookahead_adder/sim/xnor_based_carry_lookahead_adder16_tb.v line 83
+#                   43 add1_i= 8943, add2_i = ffff, keyinput= 094f5c9d, result_o = 18943 
+#                   53 add1_i= abcd, add2_i = 0000, keyinput= 094f5c9d, result_o = 0abc2 
+#                   63 add1_i= 0000, add2_i = 1234, keyinput= 094f5c9d, result_o = 01231 
+#                   73 add1_i= 1111, add2_i = eeaa, keyinput= 094f5c9d, result_o = 0ffb4 
+#                   83 add1_i= 5555, add2_i = aaaa, keyinput= 094f5c9d, result_o = 10000 
+#                   93 add1_i= 8051, add2_i = 8086, keyinput= 094f5c9d, result_o = 100d8 
+#                   98 add1_i= fadc, add2_i = 00dc, keyinput= 094f5c9d, result_o = 0fbb9 
+#                  106 add1_i= 4096, add2_i = 2048, keyinput= 094f5c9d, result_o = 060d1 
+#                  116 add1_i= 1024, add2_i = 8192, keyinput= 094f5c9d, result_o = 091b1 
+#                  126 add1_i= 0000, add2_i = 0001, keyinput= 094f5c9d, result_o = 00002 
+#                  136 add1_i= 0000, add2_i = 0000, keyinput= 094f5c8d, result_o = 04001 
+#                  146 add1_i= 29af, add2_i = 7a1b, keyinput= 094f5c8d, result_o = 0e3cb 
+#                  156 add1_i= 1100, add2_i = 1111, keyinput= 094f5c8d, result_o = 06212 
+#                  166 add1_i= 8116, add2_i = 1cce, keyinput= 094f5c8d, result_o = 0dde5 
+#                  171 add1_i= 4482, add2_i = 3bcd, keyinput= 094f5c8d, result_o = 0c050 
+#                  179 add1_i= 8943, add2_i = ffff, keyinput= 094f5c8d, result_o = 1c943 
+#                  189 add1_i= abcd, add2_i = 0000, keyinput= 094f5c8d, result_o = 0ebc2 
+#                  199 add1_i= 0000, add2_i = 1234, keyinput= 094f5c8d, result_o = 05231 
+#                  209 add1_i= 1111, add2_i = eeaa, keyinput= 094f5c8d, result_o = 0bfb4 
+#                  219 add1_i= 5555, add2_i = aaaa, keyinput= 094f5c8d, result_o = 14000 
+#                  229 add1_i= 8051, add2_i = 8086, keyinput= 094f5c8d, result_o = 140d8 
+#                  234 add1_i= fadc, add2_i = 00dc, keyinput= 094f5c8d, result_o = 0bbb9 
+#                  242 add1_i= 4096, add2_i = 2048, keyinput= 094f5c8d, result_o = 020d1 
+#                  252 add1_i= 1024, add2_i = 8192, keyinput= 094f5c8d, result_o = 0d1b1 
+#                  262 add1_i= 0000, add2_i = 0001, keyinput= 094f5c8d, result_o = 04002 
+#                  272 add1_i= 0000, add2_i = 0000, keyinput= 094f5c0d, result_o = 14001 
+#                  282 add1_i= 29af, add2_i = 7a1b, keyinput= 094f5c0d, result_o = 1e3cb 
+#                  292 add1_i= 1100, add2_i = 1111, keyinput= 094f5c0d, result_o = 16212 
+#                  302 add1_i= 8116, add2_i = 1cce, keyinput= 094f5c0d, result_o = 1dde5 
+#                  307 add1_i= 4482, add2_i = 3bcd, keyinput= 094f5c0d, result_o = 1c050 
+#                  315 add1_i= 8943, add2_i = ffff, keyinput= 094f5c0d, result_o = 0c943 
+#                  325 add1_i= abcd, add2_i = 0000, keyinput= 094f5c0d, result_o = 1ebc2 
+#                  335 add1_i= 0000, add2_i = 1234, keyinput= 094f5c0d, result_o = 15231 
+#                  345 add1_i= 1111, add2_i = eeaa, keyinput= 094f5c0d, result_o = 1bfb4 
+#                  355 add1_i= 5555, add2_i = aaaa, keyinput= 094f5c0d, result_o = 04000 
+#                  365 add1_i= 8051, add2_i = 8086, keyinput= 094f5c0d, result_o = 040d8 
+#                  370 add1_i= fadc, add2_i = 00dc, keyinput= 094f5c0d, result_o = 1bbb9 
+#                  378 add1_i= 4096, add2_i = 2048, keyinput= 094f5c0d, result_o = 120d1 
+#                  388 add1_i= 1024, add2_i = 8192, keyinput= 094f5c0d, result_o = 1d1b1 
+#                  398 add1_i= 0000, add2_i = 0001, keyinput= 094f5c0d, result_o = 14002 
+#                  408 add1_i= 0000, add2_i = 0000, keyinput= 094f5c2d, result_o = 16001 
+#                  418 add1_i= 29af, add2_i = 7a1b, keyinput= 094f5c2d, result_o = 1c3cb 
+#                  428 add1_i= 1100, add2_i = 1111, keyinput= 094f5c2d, result_o = 14212 
+#                  438 add1_i= 8116, add2_i = 1cce, keyinput= 094f5c2d, result_o = 1fde5 
+#                  443 add1_i= 4482, add2_i = 3bcd, keyinput= 094f5c2d, result_o = 12050 
+#                  451 add1_i= 8943, add2_i = ffff, keyinput= 094f5c2d, result_o = 02943 
+#                  461 add1_i= abcd, add2_i = 0000, keyinput= 094f5c2d, result_o = 18bc2 
+#                  471 add1_i= 0000, add2_i = 1234, keyinput= 094f5c2d, result_o = 17231 
+#                  481 add1_i= 1111, add2_i = eeaa, keyinput= 094f5c2d, result_o = 05fb4 
+#                  491 add1_i= 5555, add2_i = aaaa, keyinput= 094f5c2d, result_o = 1a000 
+#                  501 add1_i= 8051, add2_i = 8086, keyinput= 094f5c2d, result_o = 060d8 
+#                  506 add1_i= fadc, add2_i = 00dc, keyinput= 094f5c2d, result_o = 05bb9 
+#                  514 add1_i= 4096, add2_i = 2048, keyinput= 094f5c2d, result_o = 1c0d1 
+#                  524 add1_i= 1024, add2_i = 8192, keyinput= 094f5c2d, result_o = 1f1b1 
+#                  534 add1_i= 0000, add2_i = 0001, keyinput= 094f5c2d, result_o = 16002 
+#                  544 add1_i= 0000, add2_i = 0000, keyinput= 094f5c6d, result_o = 16201 
+#                  554 add1_i= 29af, add2_i = 7a1b, keyinput= 094f5c6d, result_o = 1c1cb 
+#                  564 add1_i= 1100, add2_i = 1111, keyinput= 094f5c6d, result_o = 14012 
+#                  574 add1_i= 8116, add2_i = 1cce, keyinput= 094f5c6d, result_o = 1ffe5 
+#                  579 add1_i= 4482, add2_i = 3bcd, keyinput= 094f5c6d, result_o = 12250 
+#                  587 add1_i= 8943, add2_i = ffff, keyinput= 094f5c6d, result_o = 02b43 
+#                  597 add1_i= abcd, add2_i = 0000, keyinput= 094f5c6d, result_o = 189c2 
+#                  607 add1_i= 0000, add2_i = 1234, keyinput= 094f5c6d, result_o = 17031 
+#                  617 add1_i= 1111, add2_i = eeaa, keyinput= 094f5c6d, result_o = 05db4 
+#                  627 add1_i= 5555, add2_i = aaaa, keyinput= 094f5c6d, result_o = 1a200 
+#                  637 add1_i= 8051, add2_i = 8086, keyinput= 094f5c6d, result_o = 062d8 
+#                  642 add1_i= fadc, add2_i = 00dc, keyinput= 094f5c6d, result_o = 059b9 
+#                  650 add1_i= 4096, add2_i = 2048, keyinput= 094f5c6d, result_o = 1c2d1 
+#                  660 add1_i= 1024, add2_i = 8192, keyinput= 094f5c6d, result_o = 1f3b1 
+#                  670 add1_i= 0000, add2_i = 0001, keyinput= 094f5c6d, result_o = 16202 
+#                  680 add1_i= 0000, add2_i = 0000, keyinput= 094f5c6e, result_o = 16009 
+#                  690 add1_i= 29af, add2_i = 7a1b, keyinput= 094f5c6e, result_o = 1c7cb 
+#                  700 add1_i= 1100, add2_i = 1111, keyinput= 094f5c6e, result_o = 1421a 
+#                  710 add1_i= 8116, add2_i = 1cce, keyinput= 094f5c6e, result_o = 1fde5 
+#                  715 add1_i= 4482, add2_i = 3bcd, keyinput= 094f5c6e, result_o = 1dc40 
+#                  723 add1_i= 8943, add2_i = ffff, keyinput= 094f5c6e, result_o = 02b33 
+#                  733 add1_i= abcd, add2_i = 0000, keyinput= 094f5c6e, result_o = 18fd2 
+#                  743 add1_i= 0000, add2_i = 1234, keyinput= 094f5c6e, result_o = 17639 
+#                  753 add1_i= 1111, add2_i = eeaa, keyinput= 094f5c6e, result_o = 1a3c4 
+#                  763 add1_i= 5555, add2_i = aaaa, keyinput= 094f5c6e, result_o = 1a200 
+#                  773 add1_i= 8051, add2_i = 8086, keyinput= 094f5c6e, result_o = 060d0 
+#                  778 add1_i= fadc, add2_i = 00dc, keyinput= 094f5c6e, result_o = 05fb1 
+#                  786 add1_i= 4096, add2_i = 2048, keyinput= 094f5c6e, result_o = 1c0e1 
+#                  796 add1_i= 1024, add2_i = 8192, keyinput= 094f5c6e, result_o = 1f1b9 
+#                  806 add1_i= 0000, add2_i = 0001, keyinput= 094f5c6e, result_o = 1600a 
+#                  816 add1_i= 0000, add2_i = 0000, keyinput= 0d4f5c9d, result_o = 01001 
+#                  826 add1_i= 29af, add2_i = 7a1b, keyinput= 0d4f5c9d, result_o = 093cb 
+#                  836 add1_i= 1100, add2_i = 1111, keyinput= 0d4f5c9d, result_o = 03212 
+#                  846 add1_i= 8116, add2_i = 1cce, keyinput= 0d4f5c9d, result_o = 0ade5 
+#                  851 add1_i= 4482, add2_i = 3bcd, keyinput= 0d4f5c9d, result_o = 07050 
+#                  859 add1_i= 8943, add2_i = ffff, keyinput= 0d4f5c9d, result_o = 18943 
+#                  869 add1_i= abcd, add2_i = 0000, keyinput= 0d4f5c9d, result_o = 0bbc2 
+#                  879 add1_i= 0000, add2_i = 1234, keyinput= 0d4f5c9d, result_o = 02231 
+#                  889 add1_i= 1111, add2_i = eeaa, keyinput= 0d4f5c9d, result_o = 10fb4 
+#                  899 add1_i= 5555, add2_i = aaaa, keyinput= 0d4f5c9d, result_o = 0f000 
+#                  909 add1_i= 8051, add2_i = 8086, keyinput= 0d4f5c9d, result_o = 110d8 
+#                  914 add1_i= fadc, add2_i = 00dc, keyinput= 0d4f5c9d, result_o = 10bb9 
+#                  922 add1_i= 4096, add2_i = 2048, keyinput= 0d4f5c9d, result_o = 070d1 
+#                  932 add1_i= 1024, add2_i = 8192, keyinput= 0d4f5c9d, result_o = 0a1b1 
+#                  942 add1_i= 0000, add2_i = 0001, keyinput= 0d4f5c9d, result_o = 01002 
+#                  952 add1_i= 0000, add2_i = 0000, keyinput= 0f4f5c9d, result_o = 11001 
+#                  962 add1_i= 29af, add2_i = 7a1b, keyinput= 0f4f5c9d, result_o = 193cb 
+#                  972 add1_i= 1100, add2_i = 1111, keyinput= 0f4f5c9d, result_o = 13212 
+#                  982 add1_i= 8116, add2_i = 1cce, keyinput= 0f4f5c9d, result_o = 1ade5 
+#                  987 add1_i= 4482, add2_i = 3bcd, keyinput= 0f4f5c9d, result_o = 17050 
+#                  995 add1_i= 8943, add2_i = ffff, keyinput= 0f4f5c9d, result_o = 18943 
+#                 1005 add1_i= abcd, add2_i = 0000, keyinput= 0f4f5c9d, result_o = 1bbc2 
+#                 1015 add1_i= 0000, add2_i = 1234, keyinput= 0f4f5c9d, result_o = 12231 
+#                 1025 add1_i= 1111, add2_i = eeaa, keyinput= 0f4f5c9d, result_o = 00fb4 
+#                 1035 add1_i= 5555, add2_i = aaaa, keyinput= 0f4f5c9d, result_o = 1f000 
+#                 1045 add1_i= 8051, add2_i = 8086, keyinput= 0f4f5c9d, result_o = 010d8 
+#                 1050 add1_i= fadc, add2_i = 00dc, keyinput= 0f4f5c9d, result_o = 10bb9 
+#                 1058 add1_i= 4096, add2_i = 2048, keyinput= 0f4f5c9d, result_o = 170d1 
+#                 1068 add1_i= 1024, add2_i = 8192, keyinput= 0f4f5c9d, result_o = 1a1b1 
+#                 1078 add1_i= 0000, add2_i = 0001, keyinput= 0f4f5c9d, result_o = 11002 
+#                 1088 add1_i= 0000, add2_i = 0000, keyinput= 8f4f5c9d, result_o = 11001 
+#                 1098 add1_i= 29af, add2_i = 7a1b, keyinput= 8f4f5c9d, result_o = 193c9 
+#                 1108 add1_i= 1100, add2_i = 1111, keyinput= 8f4f5c9d, result_o = 13210 
+#                 1118 add1_i= 8116, add2_i = 1cce, keyinput= 8f4f5c9d, result_o = 1ade5 
+#                 1123 add1_i= 4482, add2_i = 3bcd, keyinput= 8f4f5c9d, result_o = 17052 
+#                 1131 add1_i= 8943, add2_i = ffff, keyinput= 8f4f5c9d, result_o = 18941 
+#                 1141 add1_i= abcd, add2_i = 0000, keyinput= 8f4f5c9d, result_o = 1bbc0 
+#                 1151 add1_i= 0000, add2_i = 1234, keyinput= 8f4f5c9d, result_o = 12231 
+#                 1161 add1_i= 1111, add2_i = eeaa, keyinput= 8f4f5c9d, result_o = 00fb6 
+#                 1171 add1_i= 5555, add2_i = aaaa, keyinput= 8f4f5c9d, result_o = 1f002 
+#                 1181 add1_i= 8051, add2_i = 8086, keyinput= 8f4f5c9d, result_o = 010da 
+#                 1186 add1_i= fadc, add2_i = 00dc, keyinput= 8f4f5c9d, result_o = 10bb9 
+#                 1194 add1_i= 4096, add2_i = 2048, keyinput= 8f4f5c9d, result_o = 170d1 
+#                 1204 add1_i= 1024, add2_i = 8192, keyinput= 8f4f5c9d, result_o = 1a1b1 
+#                 1214 add1_i= 0000, add2_i = 0001, keyinput= 8f4f5c9d, result_o = 11000 
+#                 1224 add1_i= 0000, add2_i = 0000, keyinput= cf4f5c9d, result_o = 13001 
+#                 1234 add1_i= 29af, add2_i = 7a1b, keyinput= cf4f5c9d, result_o = 1b3c9 
+#                 1244 add1_i= 1100, add2_i = 1111, keyinput= cf4f5c9d, result_o = 13210 
+#                 1254 add1_i= 8116, add2_i = 1cce, keyinput= cf4f5c9d, result_o = 1ade5 
+#                 1259 add1_i= 4482, add2_i = 3bcd, keyinput= cf4f5c9d, result_o = 19052 
+#                 1267 add1_i= 8943, add2_i = ffff, keyinput= cf4f5c9d, result_o = 18941 
+#                 1277 add1_i= abcd, add2_i = 0000, keyinput= cf4f5c9d, result_o = 1dbc0 
+#                 1287 add1_i= 0000, add2_i = 1234, keyinput= cf4f5c9d, result_o = 12231 
+#                 1297 add1_i= 1111, add2_i = eeaa, keyinput= cf4f5c9d, result_o = 1efb6 
+#                 1307 add1_i= 5555, add2_i = aaaa, keyinput= cf4f5c9d, result_o = 01002 
+#                 1317 add1_i= 8051, add2_i = 8086, keyinput= cf4f5c9d, result_o = 030da 
+#                 1322 add1_i= fadc, add2_i = 00dc, keyinput= cf4f5c9d, result_o = 1ebb9 
+#                 1330 add1_i= 4096, add2_i = 2048, keyinput= cf4f5c9d, result_o = 190d1 
+#                 1340 add1_i= 1024, add2_i = 8192, keyinput= cf4f5c9d, result_o = 181b1 
+#                 1350 add1_i= 0000, add2_i = 0001, keyinput= cf4f5c9d, result_o = 13000 
+#                 1360 add1_i= 0000, add2_i = 0000, keyinput= ff4f5c9d, result_o = 13011 
+#                 1370 add1_i= 29af, add2_i = 7a1b, keyinput= ff4f5c9d, result_o = 1b3c9 
+#                 1380 add1_i= 1100, add2_i = 1111, keyinput= ff4f5c9d, result_o = 13220 
+#                 1390 add1_i= 8116, add2_i = 1cce, keyinput= ff4f5c9d, result_o = 1ade5 
+#                 1395 add1_i= 4482, add2_i = 3bcd, keyinput= ff4f5c9d, result_o = 19052 
+#                 1403 add1_i= 8943, add2_i = ffff, keyinput= ff4f5c9d, result_o = 18901 
+#                 1413 add1_i= abcd, add2_i = 0000, keyinput= ff4f5c9d, result_o = 1dbd0 
+#                 1423 add1_i= 0000, add2_i = 1234, keyinput= ff4f5c9d, result_o = 12201 
+#                 1433 add1_i= 1111, add2_i = eeaa, keyinput= ff4f5c9d, result_o = 1ef86 
+#                 1443 add1_i= 5555, add2_i = aaaa, keyinput= ff4f5c9d, result_o = 1efc2 
+#                 1453 add1_i= 8051, add2_i = 8086, keyinput= ff4f5c9d, result_o = 030ea 
+#                 1458 add1_i= fadc, add2_i = 00dc, keyinput= ff4f5c9d, result_o = 1ebb9 
+#                 1466 add1_i= 4096, add2_i = 2048, keyinput= ff4f5c9d, result_o = 190e1 
+#                 1476 add1_i= 1024, add2_i = 8192, keyinput= ff4f5c9d, result_o = 181c1 
+#                 1486 add1_i= 0000, add2_i = 0001, keyinput= ff4f5c9d, result_o = 13010 
+#                 1496 add1_i= 0000, add2_i = 0000, keyinput= 094fdc9d, result_o = 00005 
+#                 1506 add1_i= 29af, add2_i = 7a1b, keyinput= 094fdc9d, result_o = 0a3cf 
+#                 1516 add1_i= 1100, add2_i = 1111, keyinput= 094fdc9d, result_o = 02216 
+#                 1526 add1_i= 8116, add2_i = 1cce, keyinput= 094fdc9d, result_o = 09de1 
+#                 1531 add1_i= 4482, add2_i = 3bcd, keyinput= 094fdc9d, result_o = 08054 
+#                 1539 add1_i= 8943, add2_i = ffff, keyinput= 094fdc9d, result_o = 18947 
+#                 1549 add1_i= abcd, add2_i = 0000, keyinput= 094fdc9d, result_o = 0abc6 
+#                 1559 add1_i= 0000, add2_i = 1234, keyinput= 094fdc9d, result_o = 01235 
+#                 1569 add1_i= 1111, add2_i = eeaa, keyinput= 094fdc9d, result_o = 0ffb0 
+#                 1579 add1_i= 5555, add2_i = aaaa, keyinput= 094fdc9d, result_o = 10004 
+#                 1589 add1_i= 8051, add2_i = 8086, keyinput= 094fdc9d, result_o = 100dc 
+#                 1594 add1_i= fadc, add2_i = 00dc, keyinput= 094fdc9d, result_o = 0fbbd 
+#                 1602 add1_i= 4096, add2_i = 2048, keyinput= 094fdc9d, result_o = 060d5 
+#                 1612 add1_i= 1024, add2_i = 8192, keyinput= 094fdc9d, result_o = 091b5 
+#                 1622 add1_i= 0000, add2_i = 0001, keyinput= 094fdc9d, result_o = 00006 
+#                 1632 add1_i= 0000, add2_i = 0000, keyinput= 094ffc9d, result_o = 02005 
+#                 1642 add1_i= 29af, add2_i = 7a1b, keyinput= 094ffc9d, result_o = 083cf 
+#                 1652 add1_i= 1100, add2_i = 1111, keyinput= 094ffc9d, result_o = 00216 
+#                 1662 add1_i= 8116, add2_i = 1cce, keyinput= 094ffc9d, result_o = 0bde1 
+#                 1667 add1_i= 4482, add2_i = 3bcd, keyinput= 094ffc9d, result_o = 0a054 
+#                 1675 add1_i= 8943, add2_i = ffff, keyinput= 094ffc9d, result_o = 1a947 
+#                 1685 add1_i= abcd, add2_i = 0000, keyinput= 094ffc9d, result_o = 08bc6 
+#                 1695 add1_i= 0000, add2_i = 1234, keyinput= 094ffc9d, result_o = 03235 
+#                 1705 add1_i= 1111, add2_i = eeaa, keyinput= 094ffc9d, result_o = 0dfb0 
+#                 1715 add1_i= 5555, add2_i = aaaa, keyinput= 094ffc9d, result_o = 12004 
+#                 1725 add1_i= 8051, add2_i = 8086, keyinput= 094ffc9d, result_o = 120dc 
+#                 1730 add1_i= fadc, add2_i = 00dc, keyinput= 094ffc9d, result_o = 0dbbd 
+#                 1738 add1_i= 4096, add2_i = 2048, keyinput= 094ffc9d, result_o = 040d5 
+#                 1748 add1_i= 1024, add2_i = 8192, keyinput= 094ffc9d, result_o = 0b1b5 
+#                 1758 add1_i= 0000, add2_i = 0001, keyinput= 094ffc9d, result_o = 02006 
+#                 1768 add1_i= 0000, add2_i = 0000, keyinput= 094fec9d, result_o = 02005 
+#                 1778 add1_i= 29af, add2_i = 7a1b, keyinput= 094fec9d, result_o = 083cf 
+#                 1788 add1_i= 1100, add2_i = 1111, keyinput= 094fec9d, result_o = 00216 
+#                 1798 add1_i= 8116, add2_i = 1cce, keyinput= 094fec9d, result_o = 085e1 
+#                 1803 add1_i= 4482, add2_i = 3bcd, keyinput= 094fec9d, result_o = 0a054 
+#                 1811 add1_i= 8943, add2_i = ffff, keyinput= 094fec9d, result_o = 1a147 
+#                 1821 add1_i= abcd, add2_i = 0000, keyinput= 094fec9d, result_o = 08bc6 
+#                 1831 add1_i= 0000, add2_i = 1234, keyinput= 094fec9d, result_o = 03235 
+#                 1841 add1_i= 1111, add2_i = eeaa, keyinput= 094fec9d, result_o = 127b0 
+#                 1851 add1_i= 5555, add2_i = aaaa, keyinput= 094fec9d, result_o = 12004 
+#                 1861 add1_i= 8051, add2_i = 8086, keyinput= 094fec9d, result_o = 120dc 
+#                 1866 add1_i= fadc, add2_i = 00dc, keyinput= 094fec9d, result_o = 0dbbd 
+#                 1874 add1_i= 4096, add2_i = 2048, keyinput= 094fec9d, result_o = 040d5 
+#                 1884 add1_i= 1024, add2_i = 8192, keyinput= 094fec9d, result_o = 0b1b5 
+#                 1894 add1_i= 0000, add2_i = 0001, keyinput= 094fec9d, result_o = 02006 
+#                 1904 add1_i= 0000, add2_i = 0000, keyinput= 094eec9d, result_o = 02105 
+#                 1914 add1_i= 29af, add2_i = 7a1b, keyinput= 094eec9d, result_o = 082cf 
+#                 1924 add1_i= 1100, add2_i = 1111, keyinput= 094eec9d, result_o = 00316 
+#                 1934 add1_i= 8116, add2_i = 1cce, keyinput= 094eec9d, result_o = 084e1 
+#                 1939 add1_i= 4482, add2_i = 3bcd, keyinput= 094eec9d, result_o = 0a154 
+#                 1947 add1_i= 8943, add2_i = ffff, keyinput= 094eec9d, result_o = 1a047 
+#                 1957 add1_i= abcd, add2_i = 0000, keyinput= 094eec9d, result_o = 08ac6 
+#                 1967 add1_i= 0000, add2_i = 1234, keyinput= 094eec9d, result_o = 03335 
+#                 1977 add1_i= 1111, add2_i = eeaa, keyinput= 094eec9d, result_o = 126b0 
+#                 1987 add1_i= 5555, add2_i = aaaa, keyinput= 094eec9d, result_o = 12104 
+#                 1997 add1_i= 8051, add2_i = 8086, keyinput= 094eec9d, result_o = 121dc 
+#                 2002 add1_i= fadc, add2_i = 00dc, keyinput= 094eec9d, result_o = 0dabd 
+#                 2010 add1_i= 4096, add2_i = 2048, keyinput= 094eec9d, result_o = 041d5 
+#                 2020 add1_i= 1024, add2_i = 8192, keyinput= 094eec9d, result_o = 0b0b5 
+#                 2030 add1_i= 0000, add2_i = 0001, keyinput= 094eec9d, result_o = 02106 
+#                 2040 add1_i= 0000, add2_i = 0000, keyinput= 0948ec9d, result_o = 12905 
+#                 2050 add1_i= 29af, add2_i = 7a1b, keyinput= 0948ec9d, result_o = 18acf 
+#                 2060 add1_i= 1100, add2_i = 1111, keyinput= 0948ec9d, result_o = 10b16 
+#                 2070 add1_i= 8116, add2_i = 1cce, keyinput= 0948ec9d, result_o = 18ce1 
+#                 2075 add1_i= 4482, add2_i = 3bcd, keyinput= 0948ec9d, result_o = 1a954 
+#                 2083 add1_i= 8943, add2_i = ffff, keyinput= 0948ec9d, result_o = 1a847 
+#                 2093 add1_i= abcd, add2_i = 0000, keyinput= 0948ec9d, result_o = 182c6 
+#                 2103 add1_i= 0000, add2_i = 1234, keyinput= 0948ec9d, result_o = 13b35 
+#                 2113 add1_i= 1111, add2_i = eeaa, keyinput= 0948ec9d, result_o = 12eb0 
+#                 2123 add1_i= 5555, add2_i = aaaa, keyinput= 0948ec9d, result_o = 12904 
+#                 2133 add1_i= 8051, add2_i = 8086, keyinput= 0948ec9d, result_o = 129dc 
+#                 2138 add1_i= fadc, add2_i = 00dc, keyinput= 0948ec9d, result_o = 1d2bd 
+#                 2146 add1_i= 4096, add2_i = 2048, keyinput= 0948ec9d, result_o = 149d5 
+#                 2156 add1_i= 1024, add2_i = 8192, keyinput= 0948ec9d, result_o = 1b8b5 
+#                 2166 add1_i= 0000, add2_i = 0001, keyinput= 0948ec9d, result_o = 12906 
+# other exact keys
+#                 2176 add1_i= 0000, add2_i = 0000, keyinput= 094f5e8d, result_o = 00001 
+#                 2186 add1_i= 29af, add2_i = 7a1b, keyinput= 094f5e8d, result_o = 0a3cb 
+#                 2196 add1_i= 1100, add2_i = 1111, keyinput= 094f5e8d, result_o = 02212 
+#                 2206 add1_i= 8116, add2_i = 1cce, keyinput= 094f5e8d, result_o = 09de5 
+#                 2211 add1_i= 4482, add2_i = 3bcd, keyinput= 094f5e8d, result_o = 08050 
+#                 2219 add1_i= 8943, add2_i = ffff, keyinput= 094f5e8d, result_o = 18943 
+#                 2229 add1_i= abcd, add2_i = 0000, keyinput= 094f5e8d, result_o = 0abc2 
+#                 2239 add1_i= 0000, add2_i = 1234, keyinput= 094f5e8d, result_o = 01231 
+#                 2249 add1_i= 1111, add2_i = eeaa, keyinput= 094f5e8d, result_o = 0ffb4 
+#                 2259 add1_i= 5555, add2_i = aaaa, keyinput= 094f5e8d, result_o = 10000 
+#                 2269 add1_i= 8051, add2_i = 8086, keyinput= 094f5e8d, result_o = 100d8 
+#                 2274 add1_i= fadc, add2_i = 00dc, keyinput= 094f5e8d, result_o = 0fbb9 
+#                 2282 add1_i= 4096, add2_i = 2048, keyinput= 094f5e8d, result_o = 060d1 
+#                 2292 add1_i= 1024, add2_i = 8192, keyinput= 094f5e8d, result_o = 091b1 
+#                 2302 add1_i= 0000, add2_i = 0001, keyinput= 094f5e8d, result_o = 00002 
+#                 2312 add1_i= 0000, add2_i = 0000, keyinput= 094e5e85, result_o = 00001 
+#                 2322 add1_i= 29af, add2_i = 7a1b, keyinput= 094e5e85, result_o = 0a3cb 
+#                 2332 add1_i= 1100, add2_i = 1111, keyinput= 094e5e85, result_o = 02212 
+#                 2342 add1_i= 8116, add2_i = 1cce, keyinput= 094e5e85, result_o = 09de5 
+#                 2347 add1_i= 4482, add2_i = 3bcd, keyinput= 094e5e85, result_o = 08050 
+#                 2355 add1_i= 8943, add2_i = ffff, keyinput= 094e5e85, result_o = 18943 
+#                 2365 add1_i= abcd, add2_i = 0000, keyinput= 094e5e85, result_o = 0abc2 
+#                 2375 add1_i= 0000, add2_i = 1234, keyinput= 094e5e85, result_o = 01231 
+#                 2385 add1_i= 1111, add2_i = eeaa, keyinput= 094e5e85, result_o = 0ffb4 
+#                 2395 add1_i= 5555, add2_i = aaaa, keyinput= 094e5e85, result_o = 10000 
+#                 2405 add1_i= 8051, add2_i = 8086, keyinput= 094e5e85, result_o = 100d8 
+#                 2410 add1_i= fadc, add2_i = 00dc, keyinput= 094e5e85, result_o = 0fbb9 
+#                 2418 add1_i= 4096, add2_i = 2048, keyinput= 094e5e85, result_o = 060d1 
+#                 2428 add1_i= 1024, add2_i = 8192, keyinput= 094e5e85, result_o = 091b1 
+#                 2438 add1_i= 0000, add2_i = 0001, keyinput= 094e5e85, result_o = 00002 
+# ** Note: $finish    : /home/nayakkk/32xor/xnor_based_carry_lookahead_adder/sim/xnor_based_carry_lookahead_adder16_tb.v(885)
+#    Time: 2448 ns  Iteration: 0  Instance: /xnor_based_carry_lookahead_adder16_tb

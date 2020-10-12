@@ -1,4 +1,4 @@
-# //  ModelSim SE-64 6.6d Nov  1 2010 Linux 2.6.32-754.31.1.el6.x86_64
+# //  ModelSim SE-64 6.6d Nov  1 2010 Linux 2.6.32-754.33.1.el6.x86_64
 # //
 # //  Copyright 1991-2010 Mentor Graphics Corporation
 # //              All Rights Reserved.
@@ -8,6 +8,8 @@
 # //  OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
 # //  AND IS SUBJECT TO LICENSE TERMS.
 # //
+# Loading project rca64aor
+# reading /var/autofs/misc/cad/mentor/modelsim-6.6d/modeltech/linux_x86_64/../modelsim.ini
 # Loading project esa32xor
 # Compile of equal_segmentation_adder16_tb.v was successful.
 # Compile of equal_segmentation_adder16_xor_enc32.v was successful.
@@ -20,142 +22,276 @@ vsim -novopt simulation.equal_segmentation_adder16_tb
 # Loading simulation.equal_segmentation_adder16_xor_enc32
 add wave sim:/equal_segmentation_adder16_tb/*
 run
-#                    0 add1_i= 0000, add2_i = 0000, keyinput= 38415223, result_o = 00000 
-#                   10 add1_i= 29af, add2_i = 7a1b, keyinput= 38415223, result_o = 093ba 
-#                   20 add1_i= 1100, add2_i = 1111, keyinput= 38415223, result_o = 02211 
-#                   30 add1_i= 8116, add2_i = 1cce, keyinput= 38415223, result_o = 09dd4 
-#                   35 add1_i= 4482, add2_i = 3bcd, keyinput= 38415223, result_o = 07f4f 
-#                   37 add1_i= 8943, add2_i = ffff, keyinput= 38415223, result_o = 17832 
-#                   47 add1_i= abcd, add2_i = 0000, keyinput= 38415223, result_o = 0abcd 
-#                   57 add1_i= 0000, add2_i = 1234, keyinput= 38415223, result_o = 01234 
-#                   67 add1_i= 1111, add2_i = eeaa, keyinput= 38415223, result_o = 0ffbb 
-#                   77 add1_i= 5555, add2_i = aaaa, keyinput= 38415223, result_o = 0ffff 
-#                   87 add1_i= 8051, add2_i = 8086, keyinput= 38415223, result_o = 100d7 
-#                   92 add1_i= fadc, add2_i = 00dc, keyinput= 38415223, result_o = 0faa8 
-#                   97 add1_i= 4096, add2_i = 2048, keyinput= 38415223, result_o = 060de 
-#                  107 add1_i= 1024, add2_i = 8192, keyinput= 38415223, result_o = 091b6 
-#                  207 add1_i= 0000, add2_i = 0001, keyinput= 38415223, result_o = 00001 
-# ** Note: $finish    : /home/nayakkk/32xor/equal_segmentation_adder/sim/equal_segmentation_adder16_tb.v(83)
-#    Time: 307 ns  Iteration: 0  Instance: /equal_segmentation_adder16_tb
-# 1
-# Break in Module equal_segmentation_adder16_tb at /home/nayakkk/32xor/equal_segmentation_adder/sim/equal_segmentation_adder16_tb.v line 83
-# Compile of equal_segmentation_adder16_tb.v was successful.
-# Compile of equal_segmentation_adder16_xor_enc32.v was successful.
-# 2 compiles, 0 failed with no errors. 
-vsim -novopt simulation.equal_segmentation_adder16_tb
-# vsim -novopt simulation.equal_segmentation_adder16_tb 
-# Refreshing /home/nayakkk/32xor/equal_segmentation_adder/sim/simulation.equal_segmentation_adder16_tb
-# Loading simulation.equal_segmentation_adder16_tb
-# Refreshing /home/nayakkk/32xor/equal_segmentation_adder/sim/simulation.equal_segmentation_adder16_xor_enc32
-# Loading simulation.equal_segmentation_adder16_xor_enc32
-add wave sim:/equal_segmentation_adder16_tb/*
-run
-#                    0 add1_i= 0000, add2_i = 0000, keyinput= 28611323, result_o = 00000 
-#                   10 add1_i= 29af, add2_i = 7a1b, keyinput= 28611323, result_o = 093ba 
-#                   20 add1_i= 1100, add2_i = 1111, keyinput= 28611323, result_o = 02211 
-#                   30 add1_i= 8116, add2_i = 1cce, keyinput= 28611323, result_o = 09dd4 
-#                   35 add1_i= 4482, add2_i = 3bcd, keyinput= 28611323, result_o = 07f4f 
-#                   37 add1_i= 8943, add2_i = ffff, keyinput= 28611323, result_o = 17832 
-#                   47 add1_i= abcd, add2_i = 0000, keyinput= 28611323, result_o = 0abcd 
-#                   57 add1_i= 0000, add2_i = 1234, keyinput= 28611323, result_o = 01234 
-#                   67 add1_i= 1111, add2_i = eeaa, keyinput= 28611323, result_o = 0ffbb 
-#                   77 add1_i= 5555, add2_i = aaaa, keyinput= 28611323, result_o = 0ffff 
-#                   87 add1_i= 8051, add2_i = 8086, keyinput= 28611323, result_o = 100d7 
-#                   92 add1_i= fadc, add2_i = 00dc, keyinput= 28611323, result_o = 0faa8 
-#                   97 add1_i= 4096, add2_i = 2048, keyinput= 28611323, result_o = 060de 
-#                  107 add1_i= 1024, add2_i = 8192, keyinput= 28611323, result_o = 091b6 
-#                  207 add1_i= 0000, add2_i = 0001, keyinput= 28611323, result_o = 00001 
-# ** Note: $finish    : /home/nayakkk/32xor/equal_segmentation_adder/sim/equal_segmentation_adder16_tb.v(83)
-#    Time: 307 ns  Iteration: 0  Instance: /equal_segmentation_adder16_tb
-# 1
-# Break in Module equal_segmentation_adder16_tb at /home/nayakkk/32xor/equal_segmentation_adder/sim/equal_segmentation_adder16_tb.v line 83
-# Compile of equal_segmentation_adder16_tb.v was successful.
-# Compile of equal_segmentation_adder16_xor_enc32.v was successful.
-# 2 compiles, 0 failed with no errors. 
-vsim -novopt simulation.equal_segmentation_adder16_tb
-# vsim -novopt simulation.equal_segmentation_adder16_tb 
-# Refreshing /home/nayakkk/32xor/equal_segmentation_adder/sim/simulation.equal_segmentation_adder16_tb
-# Loading simulation.equal_segmentation_adder16_tb
-# Refreshing /home/nayakkk/32xor/equal_segmentation_adder/sim/simulation.equal_segmentation_adder16_xor_enc32
-# Loading simulation.equal_segmentation_adder16_xor_enc32
-add wave sim:/equal_segmentation_adder16_tb/*
-run
-#                    0 add1_i= 0000, add2_i = 0000, keyinput= ffc1412b, result_o = 00684 
-#                   10 add1_i= 29af, add2_i = 7a1b, keyinput= ffc1412b, result_o = 0913e 
-#                   20 add1_i= 1100, add2_i = 1111, keyinput= ffc1412b, result_o = 02495 
-#                   30 add1_i= 8116, add2_i = 1cce, keyinput= ffc1412b, result_o = 09b50 
-#                   35 add1_i= 4482, add2_i = 3bcd, keyinput= ffc1412b, result_o = 075cb 
-#                   37 add1_i= 8943, add2_i = ffff, keyinput= ffc1412b, result_o = 072b6 
-#                   47 add1_i= abcd, add2_i = 0000, keyinput= ffc1412b, result_o = 0ad49 
-#                   57 add1_i= 0000, add2_i = 1234, keyinput= ffc1412b, result_o = 010b0 
-#                   67 add1_i= 1111, add2_i = eeaa, keyinput= ffc1412b, result_o = 0f53f 
-#                   77 add1_i= 5555, add2_i = aaaa, keyinput= ffc1412b, result_o = 0f57b 
-#                   87 add1_i= 8051, add2_i = 8086, keyinput= ffc1412b, result_o = 00653 
-#                   92 add1_i= fadc, add2_i = 00dc, keyinput= ffc1412b, result_o = 0fc2c 
-#                   97 add1_i= 4096, add2_i = 2048, keyinput= ffc1412b, result_o = 0665a 
-#                  107 add1_i= 1024, add2_i = 8192, keyinput= ffc1412b, result_o = 09732 
-#                  207 add1_i= 0000, add2_i = 0001, keyinput= ffc1412b, result_o = 00685 
-# ** Note: $finish    : /home/nayakkk/32xor/equal_segmentation_adder/sim/equal_segmentation_adder16_tb.v(83)
-#    Time: 307 ns  Iteration: 0  Instance: /equal_segmentation_adder16_tb
-# 1
-# Break in Module equal_segmentation_adder16_tb at /home/nayakkk/32xor/equal_segmentation_adder/sim/equal_segmentation_adder16_tb.v line 83
-# Compile of equal_segmentation_adder16_tb.v was successful.
-# Compile of equal_segmentation_adder16_xor_enc32.v was successful.
-# 2 compiles, 0 failed with no errors. 
-vsim -novopt simulation.equal_segmentation_adder16_tb
-# vsim -novopt simulation.equal_segmentation_adder16_tb 
-# Refreshing /home/nayakkk/32xor/equal_segmentation_adder/sim/simulation.equal_segmentation_adder16_tb
-# Loading simulation.equal_segmentation_adder16_tb
-# Refreshing /home/nayakkk/32xor/equal_segmentation_adder/sim/simulation.equal_segmentation_adder16_xor_enc32
-# Loading simulation.equal_segmentation_adder16_xor_enc32
-add wave sim:/equal_segmentation_adder16_tb/*
-run
-#                    0 add1_i= 0000, add2_i = 0000, keyinput= 28c1002b, result_o = 02080 
-#                   10 add1_i= 29af, add2_i = 7a1b, keyinput= 28c1002b, result_o = 0733a 
-#                   20 add1_i= 1100, add2_i = 1111, keyinput= 28c1002b, result_o = 00291 
-#                   30 add1_i= 8116, add2_i = 1cce, keyinput= 28c1002b, result_o = 0bd54 
-#                   35 add1_i= 4482, add2_i = 3bcd, keyinput= 28c1002b, result_o = 09fcf 
-#                   37 add1_i= 8943, add2_i = ffff, keyinput= 28c1002b, result_o = 198b2 
-#                   47 add1_i= abcd, add2_i = 0000, keyinput= 28c1002b, result_o = 08b4d 
-#                   57 add1_i= 0000, add2_i = 1234, keyinput= 28c1002b, result_o = 032b4 
-#                   67 add1_i= 1111, add2_i = eeaa, keyinput= 28c1002b, result_o = 11f3b 
-#                   77 add1_i= 5555, add2_i = aaaa, keyinput= 28c1002b, result_o = 11f7f 
-#                   87 add1_i= 8051, add2_i = 8086, keyinput= 28c1002b, result_o = 12057 
-#                   92 add1_i= fadc, add2_i = 00dc, keyinput= 28c1002b, result_o = 0da28 
-#                   97 add1_i= 4096, add2_i = 2048, keyinput= 28c1002b, result_o = 0805e 
-#                  107 add1_i= 1024, add2_i = 8192, keyinput= 28c1002b, result_o = 0b136 
-#                  207 add1_i= 0000, add2_i = 0001, keyinput= 28c1002b, result_o = 02081 
-# ** Note: $finish    : /home/nayakkk/32xor/equal_segmentation_adder/sim/equal_segmentation_adder16_tb.v(83)
-#    Time: 307 ns  Iteration: 0  Instance: /equal_segmentation_adder16_tb
-# 1
-# Break in Module equal_segmentation_adder16_tb at /home/nayakkk/32xor/equal_segmentation_adder/sim/equal_segmentation_adder16_tb.v line 83
-# Compile of equal_segmentation_adder16_tb.v was successful.
-# Compile of equal_segmentation_adder16_xor_enc32.v was successful.
-# 2 compiles, 0 failed with no errors. 
-vsim -novopt simulation.equal_segmentation_adder16_tb
-# vsim -novopt simulation.equal_segmentation_adder16_tb 
-# Refreshing /home/nayakkk/32xor/equal_segmentation_adder/sim/simulation.equal_segmentation_adder16_tb
-# Loading simulation.equal_segmentation_adder16_tb
-# Refreshing /home/nayakkk/32xor/equal_segmentation_adder/sim/simulation.equal_segmentation_adder16_xor_enc32
-# Loading simulation.equal_segmentation_adder16_xor_enc32
-add wave sim:/equal_segmentation_adder16_tb/*
-run
-#                    0 add1_i= 0000, add2_i = 0000, keyinput= 28c1418f, result_o = 06000 
-#                   10 add1_i= 29af, add2_i = 7a1b, keyinput= 28c1418f, result_o = 0b3ba 
-#                   20 add1_i= 1100, add2_i = 1111, keyinput= 28c1418f, result_o = 04211 
-#                   30 add1_i= 8116, add2_i = 1cce, keyinput= 28c1418f, result_o = 0fdd4 
-#                   35 add1_i= 4482, add2_i = 3bcd, keyinput= 28c1418f, result_o = 09f4f 
-#                   37 add1_i= 8943, add2_i = ffff, keyinput= 28c1418f, result_o = 19832 
-#                   47 add1_i= abcd, add2_i = 0000, keyinput= 28c1418f, result_o = 0cbcd 
-#                   57 add1_i= 0000, add2_i = 1234, keyinput= 28c1418f, result_o = 07234 
-#                   67 add1_i= 1111, add2_i = eeaa, keyinput= 28c1418f, result_o = 11fbb 
-#                   77 add1_i= 5555, add2_i = aaaa, keyinput= 28c1418f, result_o = 11fff 
-#                   87 add1_i= 8051, add2_i = 8086, keyinput= 28c1418f, result_o = 160d7 
-#                   92 add1_i= fadc, add2_i = 00dc, keyinput= 28c1418f, result_o = 11aa8 
-#                   97 add1_i= 4096, add2_i = 2048, keyinput= 28c1418f, result_o = 080de 
-#                  107 add1_i= 1024, add2_i = 8192, keyinput= 28c1418f, result_o = 0f1b6 
-#                  207 add1_i= 0000, add2_i = 0001, keyinput= 28c1418f, result_o = 06001 
-# ** Note: $finish    : /home/nayakkk/32xor/equal_segmentation_adder/sim/equal_segmentation_adder16_tb.v(83)
-#    Time: 307 ns  Iteration: 0  Instance: /equal_segmentation_adder16_tb
-# 1
-# Break in Module equal_segmentation_adder16_tb at /home/nayakkk/32xor/equal_segmentation_adder/sim/equal_segmentation_adder16_tb.v line 83
+#                    0 add1_i= 0000, add2_i = 0000, keyinput= 28c1412b, result_o = 00000 
+#                   10 add1_i= 29af, add2_i = 7a1b, keyinput= 28c1412b, result_o = 093ba 
+#                   20 add1_i= 1100, add2_i = 1111, keyinput= 28c1412b, result_o = 02211 
+#                   30 add1_i= 8116, add2_i = 1cce, keyinput= 28c1412b, result_o = 09dd4 
+#                   35 add1_i= 4482, add2_i = 3bcd, keyinput= 28c1412b, result_o = 07f4f 
+#                   43 add1_i= 8943, add2_i = ffff, keyinput= 28c1412b, result_o = 17832 
+#                   53 add1_i= abcd, add2_i = 0000, keyinput= 28c1412b, result_o = 0abcd 
+#                   63 add1_i= 0000, add2_i = 1234, keyinput= 28c1412b, result_o = 01234 
+#                   73 add1_i= 1111, add2_i = eeaa, keyinput= 28c1412b, result_o = 0ffbb 
+#                   83 add1_i= 5555, add2_i = aaaa, keyinput= 28c1412b, result_o = 0ffff 
+#                   93 add1_i= 8051, add2_i = 8086, keyinput= 28c1412b, result_o = 100d7 
+#                   98 add1_i= fadc, add2_i = 00dc, keyinput= 28c1412b, result_o = 0faa8 
+#                  106 add1_i= 4096, add2_i = 2048, keyinput= 28c1412b, result_o = 060de 
+#                  116 add1_i= 1024, add2_i = 8192, keyinput= 28c1412b, result_o = 091b6 
+#                  126 add1_i= 0000, add2_i = 0001, keyinput= 28c1412b, result_o = 00001 
+#                  136 add1_i= 0000, add2_i = 0000, keyinput= 28c1413b, result_o = 00400 
+#                  146 add1_i= 29af, add2_i = 7a1b, keyinput= 28c1413b, result_o = 097ba 
+#                  156 add1_i= 1100, add2_i = 1111, keyinput= 28c1413b, result_o = 02611 
+#                  166 add1_i= 8116, add2_i = 1cce, keyinput= 28c1413b, result_o = 091d4 
+#                  171 add1_i= 4482, add2_i = 3bcd, keyinput= 28c1413b, result_o = 07b4f 
+#                  179 add1_i= 8943, add2_i = ffff, keyinput= 28c1413b, result_o = 17432 
+#                  189 add1_i= abcd, add2_i = 0000, keyinput= 28c1413b, result_o = 0afcd 
+#                  199 add1_i= 0000, add2_i = 1234, keyinput= 28c1413b, result_o = 01634 
+#                  209 add1_i= 1111, add2_i = eeaa, keyinput= 28c1413b, result_o = 0f3bb 
+#                  219 add1_i= 5555, add2_i = aaaa, keyinput= 28c1413b, result_o = 0fbff 
+#                  229 add1_i= 8051, add2_i = 8086, keyinput= 28c1413b, result_o = 104d7 
+#                  234 add1_i= fadc, add2_i = 00dc, keyinput= 28c1413b, result_o = 0fea8 
+#                  242 add1_i= 4096, add2_i = 2048, keyinput= 28c1413b, result_o = 064de 
+#                  252 add1_i= 1024, add2_i = 8192, keyinput= 28c1413b, result_o = 095b6 
+#                  262 add1_i= 0000, add2_i = 0001, keyinput= 28c1413b, result_o = 00401 
+#                  272 add1_i= 0000, add2_i = 0000, keyinput= 28c1417b, result_o = 00408 
+#                  282 add1_i= 29af, add2_i = 7a1b, keyinput= 28c1417b, result_o = 097b2 
+#                  292 add1_i= 1100, add2_i = 1111, keyinput= 28c1417b, result_o = 02619 
+#                  302 add1_i= 8116, add2_i = 1cce, keyinput= 28c1417b, result_o = 091dc 
+#                  307 add1_i= 4482, add2_i = 3bcd, keyinput= 28c1417b, result_o = 07b47 
+#                  315 add1_i= 8943, add2_i = ffff, keyinput= 28c1417b, result_o = 1743a 
+#                  325 add1_i= abcd, add2_i = 0000, keyinput= 28c1417b, result_o = 0afc5 
+#                  335 add1_i= 0000, add2_i = 1234, keyinput= 28c1417b, result_o = 0163c 
+#                  345 add1_i= 1111, add2_i = eeaa, keyinput= 28c1417b, result_o = 0f3b3 
+#                  355 add1_i= 5555, add2_i = aaaa, keyinput= 28c1417b, result_o = 0fbf7 
+#                  365 add1_i= 8051, add2_i = 8086, keyinput= 28c1417b, result_o = 104df 
+#                  370 add1_i= fadc, add2_i = 00dc, keyinput= 28c1417b, result_o = 0fea0 
+#                  378 add1_i= 4096, add2_i = 2048, keyinput= 28c1417b, result_o = 064d6 
+#                  388 add1_i= 1024, add2_i = 8192, keyinput= 28c1417b, result_o = 095be 
+#                  398 add1_i= 0000, add2_i = 0001, keyinput= 28c1417b, result_o = 00409 
+#                  408 add1_i= 0000, add2_i = 0000, keyinput= 28c141fb, result_o = 04408 
+#                  418 add1_i= 29af, add2_i = 7a1b, keyinput= 28c141fb, result_o = 097b2 
+#                  428 add1_i= 1100, add2_i = 1111, keyinput= 28c141fb, result_o = 06619 
+#                  438 add1_i= 8116, add2_i = 1cce, keyinput= 28c141fb, result_o = 0d1dc 
+#                  443 add1_i= 4482, add2_i = 3bcd, keyinput= 28c141fb, result_o = 0bb47 
+#                  451 add1_i= 8943, add2_i = ffff, keyinput= 28c141fb, result_o = 1b43a 
+#                  461 add1_i= abcd, add2_i = 0000, keyinput= 28c141fb, result_o = 0efc5 
+#                  471 add1_i= 0000, add2_i = 1234, keyinput= 28c141fb, result_o = 0563c 
+#                  481 add1_i= 1111, add2_i = eeaa, keyinput= 28c141fb, result_o = 133b3 
+#                  491 add1_i= 5555, add2_i = aaaa, keyinput= 28c141fb, result_o = 13bf7 
+#                  501 add1_i= 8051, add2_i = 8086, keyinput= 28c141fb, result_o = 144df 
+#                  506 add1_i= fadc, add2_i = 00dc, keyinput= 28c141fb, result_o = 13ea0 
+#                  514 add1_i= 4096, add2_i = 2048, keyinput= 28c141fb, result_o = 0a4d6 
+#                  524 add1_i= 1024, add2_i = 8192, keyinput= 28c141fb, result_o = 0d5be 
+#                  534 add1_i= 0000, add2_i = 0001, keyinput= 28c141fb, result_o = 04409 
+#                  544 add1_i= 0000, add2_i = 0000, keyinput= 28c141fa, result_o = 04428 
+#                  554 add1_i= 29af, add2_i = 7a1b, keyinput= 28c141fa, result_o = 09792 
+#                  564 add1_i= 1100, add2_i = 1111, keyinput= 28c141fa, result_o = 06639 
+#                  574 add1_i= 8116, add2_i = 1cce, keyinput= 28c141fa, result_o = 0d1fc 
+#                  579 add1_i= 4482, add2_i = 3bcd, keyinput= 28c141fa, result_o = 0bb67 
+#                  587 add1_i= 8943, add2_i = ffff, keyinput= 28c141fa, result_o = 1b41a 
+#                  597 add1_i= abcd, add2_i = 0000, keyinput= 28c141fa, result_o = 0efe5 
+#                  607 add1_i= 0000, add2_i = 1234, keyinput= 28c141fa, result_o = 0561c 
+#                  617 add1_i= 1111, add2_i = eeaa, keyinput= 28c141fa, result_o = 13393 
+#                  627 add1_i= 5555, add2_i = aaaa, keyinput= 28c141fa, result_o = 13bd7 
+#                  637 add1_i= 8051, add2_i = 8086, keyinput= 28c141fa, result_o = 144ff 
+#                  642 add1_i= fadc, add2_i = 00dc, keyinput= 28c141fa, result_o = 13e80 
+#                  650 add1_i= 4096, add2_i = 2048, keyinput= 28c141fa, result_o = 0a4f6 
+#                  660 add1_i= 1024, add2_i = 8192, keyinput= 28c141fa, result_o = 0d59e 
+#                  670 add1_i= 0000, add2_i = 0001, keyinput= 28c141fa, result_o = 04429 
+#                  680 add1_i= 0000, add2_i = 0000, keyinput= 28c141f0, result_o = 04422 
+#                  690 add1_i= 29af, add2_i = 7a1b, keyinput= 28c141f0, result_o = 09798 
+#                  700 add1_i= 1100, add2_i = 1111, keyinput= 28c141f0, result_o = 06633 
+#                  710 add1_i= 8116, add2_i = 1cce, keyinput= 28c141f0, result_o = 0d1f6 
+#                  715 add1_i= 4482, add2_i = 3bcd, keyinput= 28c141f0, result_o = 0bb6d 
+#                  723 add1_i= 8943, add2_i = ffff, keyinput= 28c141f0, result_o = 1b410 
+#                  733 add1_i= abcd, add2_i = 0000, keyinput= 28c141f0, result_o = 0efef 
+#                  743 add1_i= 0000, add2_i = 1234, keyinput= 28c141f0, result_o = 05616 
+#                  753 add1_i= 1111, add2_i = eeaa, keyinput= 28c141f0, result_o = 13399 
+#                  763 add1_i= 5555, add2_i = aaaa, keyinput= 28c141f0, result_o = 13bdd 
+#                  773 add1_i= 8051, add2_i = 8086, keyinput= 28c141f0, result_o = 144f5 
+#                  778 add1_i= fadc, add2_i = 00dc, keyinput= 28c141f0, result_o = 13e8a 
+#                  786 add1_i= 4096, add2_i = 2048, keyinput= 28c141f0, result_o = 0a4fc 
+#                  796 add1_i= 1024, add2_i = 8192, keyinput= 28c141f0, result_o = 0d594 
+#                  806 add1_i= 0000, add2_i = 0001, keyinput= 28c141f0, result_o = 04423 
+#                  816 add1_i= 0000, add2_i = 0000, keyinput= 29c1412b, result_o = 10000 
+#                  826 add1_i= 29af, add2_i = 7a1b, keyinput= 29c1412b, result_o = 193ba 
+#                  836 add1_i= 1100, add2_i = 1111, keyinput= 29c1412b, result_o = 12211 
+#                  846 add1_i= 8116, add2_i = 1cce, keyinput= 29c1412b, result_o = 19dd4 
+#                  851 add1_i= 4482, add2_i = 3bcd, keyinput= 29c1412b, result_o = 17f4f 
+#                  859 add1_i= 8943, add2_i = ffff, keyinput= 29c1412b, result_o = 17832 
+#                  869 add1_i= abcd, add2_i = 0000, keyinput= 29c1412b, result_o = 1abcd 
+#                  879 add1_i= 0000, add2_i = 1234, keyinput= 29c1412b, result_o = 11234 
+#                  889 add1_i= 1111, add2_i = eeaa, keyinput= 29c1412b, result_o = 1ffbb 
+#                  899 add1_i= 5555, add2_i = aaaa, keyinput= 29c1412b, result_o = 1ffff 
+#                  909 add1_i= 8051, add2_i = 8086, keyinput= 29c1412b, result_o = 100d7 
+#                  914 add1_i= fadc, add2_i = 00dc, keyinput= 29c1412b, result_o = 1faa8 
+#                  922 add1_i= 4096, add2_i = 2048, keyinput= 29c1412b, result_o = 160de 
+#                  932 add1_i= 1024, add2_i = 8192, keyinput= 29c1412b, result_o = 191b6 
+#                  942 add1_i= 0000, add2_i = 0001, keyinput= 29c1412b, result_o = 10001 
+#                  952 add1_i= 0000, add2_i = 0000, keyinput= 2bc1412b, result_o = 10004 
+#                  962 add1_i= 29af, add2_i = 7a1b, keyinput= 2bc1412b, result_o = 193be 
+#                  972 add1_i= 1100, add2_i = 1111, keyinput= 2bc1412b, result_o = 12215 
+#                  982 add1_i= 8116, add2_i = 1cce, keyinput= 2bc1412b, result_o = 19dd0 
+#                  987 add1_i= 4482, add2_i = 3bcd, keyinput= 2bc1412b, result_o = 17f4b 
+#                  995 add1_i= 8943, add2_i = ffff, keyinput= 2bc1412b, result_o = 17836 
+#                 1005 add1_i= abcd, add2_i = 0000, keyinput= 2bc1412b, result_o = 1abc9 
+#                 1015 add1_i= 0000, add2_i = 1234, keyinput= 2bc1412b, result_o = 11230 
+#                 1025 add1_i= 1111, add2_i = eeaa, keyinput= 2bc1412b, result_o = 1ffbf 
+#                 1035 add1_i= 5555, add2_i = aaaa, keyinput= 2bc1412b, result_o = 1fffb 
+#                 1045 add1_i= 8051, add2_i = 8086, keyinput= 2bc1412b, result_o = 100d3 
+#                 1050 add1_i= fadc, add2_i = 00dc, keyinput= 2bc1412b, result_o = 1faac 
+#                 1058 add1_i= 4096, add2_i = 2048, keyinput= 2bc1412b, result_o = 160da 
+#                 1068 add1_i= 1024, add2_i = 8192, keyinput= 2bc1412b, result_o = 191b2 
+#                 1078 add1_i= 0000, add2_i = 0001, keyinput= 2bc1412b, result_o = 10005 
+#                 1088 add1_i= 0000, add2_i = 0000, keyinput= 2fc1412b, result_o = 10204 
+#                 1098 add1_i= 29af, add2_i = 7a1b, keyinput= 2fc1412b, result_o = 195be 
+#                 1108 add1_i= 1100, add2_i = 1111, keyinput= 2fc1412b, result_o = 12015 
+#                 1118 add1_i= 8116, add2_i = 1cce, keyinput= 2fc1412b, result_o = 19fd0 
+#                 1123 add1_i= 4482, add2_i = 3bcd, keyinput= 2fc1412b, result_o = 1714b 
+#                 1131 add1_i= 8943, add2_i = ffff, keyinput= 2fc1412b, result_o = 17636 
+#                 1141 add1_i= abcd, add2_i = 0000, keyinput= 2fc1412b, result_o = 1a9c9 
+#                 1151 add1_i= 0000, add2_i = 1234, keyinput= 2fc1412b, result_o = 11430 
+#                 1161 add1_i= 1111, add2_i = eeaa, keyinput= 2fc1412b, result_o = 1f1bf 
+#                 1171 add1_i= 5555, add2_i = aaaa, keyinput= 2fc1412b, result_o = 1f1fb 
+#                 1181 add1_i= 8051, add2_i = 8086, keyinput= 2fc1412b, result_o = 102d3 
+#                 1186 add1_i= fadc, add2_i = 00dc, keyinput= 2fc1412b, result_o = 1f8ac 
+#                 1194 add1_i= 4096, add2_i = 2048, keyinput= 2fc1412b, result_o = 162da 
+#                 1204 add1_i= 1024, add2_i = 8192, keyinput= 2fc1412b, result_o = 193b2 
+#                 1214 add1_i= 0000, add2_i = 0001, keyinput= 2fc1412b, result_o = 10205 
+#                 1224 add1_i= 0000, add2_i = 0000, keyinput= 3fc1412b, result_o = 10284 
+#                 1234 add1_i= 29af, add2_i = 7a1b, keyinput= 3fc1412b, result_o = 1953e 
+#                 1244 add1_i= 1100, add2_i = 1111, keyinput= 3fc1412b, result_o = 12095 
+#                 1254 add1_i= 8116, add2_i = 1cce, keyinput= 3fc1412b, result_o = 19f50 
+#                 1259 add1_i= 4482, add2_i = 3bcd, keyinput= 3fc1412b, result_o = 171cb 
+#                 1267 add1_i= 8943, add2_i = ffff, keyinput= 3fc1412b, result_o = 176b6 
+#                 1277 add1_i= abcd, add2_i = 0000, keyinput= 3fc1412b, result_o = 1a949 
+#                 1287 add1_i= 0000, add2_i = 1234, keyinput= 3fc1412b, result_o = 114b0 
+#                 1297 add1_i= 1111, add2_i = eeaa, keyinput= 3fc1412b, result_o = 1f13f 
+#                 1307 add1_i= 5555, add2_i = aaaa, keyinput= 3fc1412b, result_o = 1f17b 
+#                 1317 add1_i= 8051, add2_i = 8086, keyinput= 3fc1412b, result_o = 10253 
+#                 1322 add1_i= fadc, add2_i = 00dc, keyinput= 3fc1412b, result_o = 1f82c 
+#                 1330 add1_i= 4096, add2_i = 2048, keyinput= 3fc1412b, result_o = 1625a 
+#                 1340 add1_i= 1024, add2_i = 8192, keyinput= 3fc1412b, result_o = 19332 
+#                 1350 add1_i= 0000, add2_i = 0001, keyinput= 3fc1412b, result_o = 10285 
+#                 1360 add1_i= 0000, add2_i = 0000, keyinput= ffc1412b, result_o = 00684 
+#                 1370 add1_i= 29af, add2_i = 7a1b, keyinput= ffc1412b, result_o = 0913e 
+#                 1380 add1_i= 1100, add2_i = 1111, keyinput= ffc1412b, result_o = 02495 
+#                 1390 add1_i= 8116, add2_i = 1cce, keyinput= ffc1412b, result_o = 09b50 
+#                 1395 add1_i= 4482, add2_i = 3bcd, keyinput= ffc1412b, result_o = 075cb 
+#                 1403 add1_i= 8943, add2_i = ffff, keyinput= ffc1412b, result_o = 072b6 
+#                 1413 add1_i= abcd, add2_i = 0000, keyinput= ffc1412b, result_o = 0ad49 
+#                 1423 add1_i= 0000, add2_i = 1234, keyinput= ffc1412b, result_o = 010b0 
+#                 1433 add1_i= 1111, add2_i = eeaa, keyinput= ffc1412b, result_o = 0f53f 
+#                 1443 add1_i= 5555, add2_i = aaaa, keyinput= ffc1412b, result_o = 0f57b 
+#                 1453 add1_i= 8051, add2_i = 8086, keyinput= ffc1412b, result_o = 00653 
+#                 1458 add1_i= fadc, add2_i = 00dc, keyinput= ffc1412b, result_o = 0fc2c 
+#                 1466 add1_i= 4096, add2_i = 2048, keyinput= ffc1412b, result_o = 0665a 
+#                 1476 add1_i= 1024, add2_i = 8192, keyinput= ffc1412b, result_o = 09732 
+#                 1486 add1_i= 0000, add2_i = 0001, keyinput= ffc1412b, result_o = 00685 
+#                 1496 add1_i= 0000, add2_i = 0000, keyinput= 28c0412b, result_o = 00400 
+#                 1506 add1_i= 29af, add2_i = 7a1b, keyinput= 28c0412b, result_o = 097ba 
+#                 1516 add1_i= 1100, add2_i = 1111, keyinput= 28c0412b, result_o = 02611 
+#                 1526 add1_i= 8116, add2_i = 1cce, keyinput= 28c0412b, result_o = 091d4 
+#                 1531 add1_i= 4482, add2_i = 3bcd, keyinput= 28c0412b, result_o = 0734f 
+#                 1539 add1_i= 8943, add2_i = ffff, keyinput= 28c0412b, result_o = 17432 
+#                 1549 add1_i= abcd, add2_i = 0000, keyinput= 28c0412b, result_o = 0afcd 
+#                 1559 add1_i= 0000, add2_i = 1234, keyinput= 28c0412b, result_o = 01634 
+#                 1569 add1_i= 1111, add2_i = eeaa, keyinput= 28c0412b, result_o = 0f3bb 
+#                 1579 add1_i= 5555, add2_i = aaaa, keyinput= 28c0412b, result_o = 0f3ff 
+#                 1589 add1_i= 8051, add2_i = 8086, keyinput= 28c0412b, result_o = 104d7 
+#                 1594 add1_i= fadc, add2_i = 00dc, keyinput= 28c0412b, result_o = 0fea8 
+#                 1602 add1_i= 4096, add2_i = 2048, keyinput= 28c0412b, result_o = 064de 
+#                 1612 add1_i= 1024, add2_i = 8192, keyinput= 28c0412b, result_o = 095b6 
+#                 1622 add1_i= 0000, add2_i = 0001, keyinput= 28c0412b, result_o = 00401 
+#                 1632 add1_i= 0000, add2_i = 0000, keyinput= 28c0012b, result_o = 02400 
+#                 1642 add1_i= 29af, add2_i = 7a1b, keyinput= 28c0012b, result_o = 077ba 
+#                 1652 add1_i= 1100, add2_i = 1111, keyinput= 28c0012b, result_o = 00611 
+#                 1662 add1_i= 8116, add2_i = 1cce, keyinput= 28c0012b, result_o = 0b1d4 
+#                 1667 add1_i= 4482, add2_i = 3bcd, keyinput= 28c0012b, result_o = 0934f 
+#                 1675 add1_i= 8943, add2_i = ffff, keyinput= 28c0012b, result_o = 19432 
+#                 1685 add1_i= abcd, add2_i = 0000, keyinput= 28c0012b, result_o = 08fcd 
+#                 1695 add1_i= 0000, add2_i = 1234, keyinput= 28c0012b, result_o = 03634 
+#                 1705 add1_i= 1111, add2_i = eeaa, keyinput= 28c0012b, result_o = 113bb 
+#                 1715 add1_i= 5555, add2_i = aaaa, keyinput= 28c0012b, result_o = 113ff 
+#                 1725 add1_i= 8051, add2_i = 8086, keyinput= 28c0012b, result_o = 124d7 
+#                 1730 add1_i= fadc, add2_i = 00dc, keyinput= 28c0012b, result_o = 0dea8 
+#                 1738 add1_i= 4096, add2_i = 2048, keyinput= 28c0012b, result_o = 084de 
+#                 1748 add1_i= 1024, add2_i = 8192, keyinput= 28c0012b, result_o = 0b5b6 
+#                 1758 add1_i= 0000, add2_i = 0001, keyinput= 28c0012b, result_o = 02401 
+#                 1768 add1_i= 0000, add2_i = 0000, keyinput= 28c0112b, result_o = 02402 
+#                 1778 add1_i= 29af, add2_i = 7a1b, keyinput= 28c0112b, result_o = 077b8 
+#                 1788 add1_i= 1100, add2_i = 1111, keyinput= 28c0112b, result_o = 00613 
+#                 1798 add1_i= 8116, add2_i = 1cce, keyinput= 28c0112b, result_o = 0b1d2 
+#                 1803 add1_i= 4482, add2_i = 3bcd, keyinput= 28c0112b, result_o = 0934d 
+#                 1811 add1_i= 8943, add2_i = ffff, keyinput= 28c0112b, result_o = 19430 
+#                 1821 add1_i= abcd, add2_i = 0000, keyinput= 28c0112b, result_o = 08fcf 
+#                 1831 add1_i= 0000, add2_i = 1234, keyinput= 28c0112b, result_o = 03636 
+#                 1841 add1_i= 1111, add2_i = eeaa, keyinput= 28c0112b, result_o = 113bd 
+#                 1851 add1_i= 5555, add2_i = aaaa, keyinput= 28c0112b, result_o = 113f1 
+#                 1861 add1_i= 8051, add2_i = 8086, keyinput= 28c0112b, result_o = 124d9 
+#                 1866 add1_i= fadc, add2_i = 00dc, keyinput= 28c0112b, result_o = 0deaa 
+#                 1874 add1_i= 4096, add2_i = 2048, keyinput= 28c0112b, result_o = 084dc 
+#                 1884 add1_i= 1024, add2_i = 8192, keyinput= 28c0112b, result_o = 0b5b8 
+#                 1894 add1_i= 0000, add2_i = 0001, keyinput= 28c0112b, result_o = 02403 
+#                 1904 add1_i= 0000, add2_i = 0000, keyinput= 28c0312b, result_o = 02406 
+#                 1914 add1_i= 29af, add2_i = 7a1b, keyinput= 28c0312b, result_o = 077bc 
+#                 1924 add1_i= 1100, add2_i = 1111, keyinput= 28c0312b, result_o = 00617 
+#                 1934 add1_i= 8116, add2_i = 1cce, keyinput= 28c0312b, result_o = 0b1de 
+#                 1939 add1_i= 4482, add2_i = 3bcd, keyinput= 28c0312b, result_o = 09341 
+#                 1947 add1_i= 8943, add2_i = ffff, keyinput= 28c0312b, result_o = 1943c 
+#                 1957 add1_i= abcd, add2_i = 0000, keyinput= 28c0312b, result_o = 08fcb 
+#                 1967 add1_i= 0000, add2_i = 1234, keyinput= 28c0312b, result_o = 0363a 
+#                 1977 add1_i= 1111, add2_i = eeaa, keyinput= 28c0312b, result_o = 113b9 
+#                 1987 add1_i= 5555, add2_i = aaaa, keyinput= 28c0312b, result_o = 113f5 
+#                 1997 add1_i= 8051, add2_i = 8086, keyinput= 28c0312b, result_o = 124d5 
+#                 2002 add1_i= fadc, add2_i = 00dc, keyinput= 28c0312b, result_o = 0dea6 
+#                 2010 add1_i= 4096, add2_i = 2048, keyinput= 28c0312b, result_o = 084d8 
+#                 2020 add1_i= 1024, add2_i = 8192, keyinput= 28c0312b, result_o = 0b5bc 
+#                 2030 add1_i= 0000, add2_i = 0001, keyinput= 28c0312b, result_o = 02407 
+#                 2040 add1_i= 0000, add2_i = 0000, keyinput= 28cc312b, result_o = 02487 
+#                 2050 add1_i= 29af, add2_i = 7a1b, keyinput= 28cc312b, result_o = 0773d 
+#                 2060 add1_i= 1100, add2_i = 1111, keyinput= 28cc312b, result_o = 00696 
+#                 2070 add1_i= 8116, add2_i = 1cce, keyinput= 28cc312b, result_o = 0b15f 
+#                 2075 add1_i= 4482, add2_i = 3bcd, keyinput= 28cc312b, result_o = 093c0 
+#                 2083 add1_i= 8943, add2_i = ffff, keyinput= 28cc312b, result_o = 194bd 
+#                 2093 add1_i= abcd, add2_i = 0000, keyinput= 28cc312b, result_o = 08f4a 
+#                 2103 add1_i= 0000, add2_i = 1234, keyinput= 28cc312b, result_o = 036bb 
+#                 2113 add1_i= 1111, add2_i = eeaa, keyinput= 28cc312b, result_o = 11338 
+#                 2123 add1_i= 5555, add2_i = aaaa, keyinput= 28cc312b, result_o = 11374 
+#                 2133 add1_i= 8051, add2_i = 8086, keyinput= 28cc312b, result_o = 12454 
+#                 2138 add1_i= fadc, add2_i = 00dc, keyinput= 28cc312b, result_o = 0de27 
+#                 2146 add1_i= 4096, add2_i = 2048, keyinput= 28cc312b, result_o = 08459 
+#                 2156 add1_i= 1024, add2_i = 8192, keyinput= 28cc312b, result_o = 0b53d 
+#                 2166 add1_i= 0000, add2_i = 0001, keyinput= 28cc312b, result_o = 02486 
+# other exact keys
+#                 2176 add1_i= 0000, add2_i = 0000, keyinput= 38415223, result_o = 00000 
+#                 2186 add1_i= 29af, add2_i = 7a1b, keyinput= 38415223, result_o = 093ba 
+#                 2196 add1_i= 1100, add2_i = 1111, keyinput= 38415223, result_o = 02211 
+#                 2206 add1_i= 8116, add2_i = 1cce, keyinput= 38415223, result_o = 09dd4 
+#                 2211 add1_i= 4482, add2_i = 3bcd, keyinput= 38415223, result_o = 07f4f 
+#                 2219 add1_i= 8943, add2_i = ffff, keyinput= 38415223, result_o = 17832 
+#                 2229 add1_i= abcd, add2_i = 0000, keyinput= 38415223, result_o = 0abcd 
+#                 2239 add1_i= 0000, add2_i = 1234, keyinput= 38415223, result_o = 01234 
+#                 2249 add1_i= 1111, add2_i = eeaa, keyinput= 38415223, result_o = 0ffbb 
+#                 2259 add1_i= 5555, add2_i = aaaa, keyinput= 38415223, result_o = 0ffff 
+#                 2269 add1_i= 8051, add2_i = 8086, keyinput= 38415223, result_o = 100d7 
+#                 2274 add1_i= fadc, add2_i = 00dc, keyinput= 38415223, result_o = 0faa8 
+#                 2282 add1_i= 4096, add2_i = 2048, keyinput= 38415223, result_o = 060de 
+#                 2292 add1_i= 1024, add2_i = 8192, keyinput= 38415223, result_o = 091b6 
+#                 2302 add1_i= 0000, add2_i = 0001, keyinput= 38415223, result_o = 00001 
+#                 2312 add1_i= 0000, add2_i = 0000, keyinput= 28611323, result_o = 00000 
+#                 2322 add1_i= 29af, add2_i = 7a1b, keyinput= 28611323, result_o = 093ba 
+#                 2332 add1_i= 1100, add2_i = 1111, keyinput= 28611323, result_o = 02211 
+#                 2342 add1_i= 8116, add2_i = 1cce, keyinput= 28611323, result_o = 09dd4 
+#                 2347 add1_i= 4482, add2_i = 3bcd, keyinput= 28611323, result_o = 07f4f 
+#                 2355 add1_i= 8943, add2_i = ffff, keyinput= 28611323, result_o = 17832 
+#                 2365 add1_i= abcd, add2_i = 0000, keyinput= 28611323, result_o = 0abcd 
+#                 2375 add1_i= 0000, add2_i = 1234, keyinput= 28611323, result_o = 01234 
+#                 2385 add1_i= 1111, add2_i = eeaa, keyinput= 28611323, result_o = 0ffbb 
+#                 2395 add1_i= 5555, add2_i = aaaa, keyinput= 28611323, result_o = 0ffff 
+#                 2405 add1_i= 8051, add2_i = 8086, keyinput= 28611323, result_o = 100d7 
+#                 2410 add1_i= fadc, add2_i = 00dc, keyinput= 28611323, result_o = 0faa8 
+#                 2418 add1_i= 4096, add2_i = 2048, keyinput= 28611323, result_o = 060de 
+#                 2428 add1_i= 1024, add2_i = 8192, keyinput= 28611323, result_o = 091b6 
+#                 2438 add1_i= 0000, add2_i = 0001, keyinput= 28611323, result_o = 00001 
+# ** Note: $finish    : /home/nayakkk/32xor/equal_segmentation_adder/sim/equal_segmentation_adder16_tb.v(884)
+#    Time: 2448 ns  Iteration: 0  Instance: /equal_segmentation_adder16_tb

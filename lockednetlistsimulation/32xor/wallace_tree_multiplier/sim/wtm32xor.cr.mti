@@ -1,4 +1,11 @@
-/home/nayakkk/32xor/wallace_tree_multiplier/sim/traditional_multiplier8_xor_enc32.v {1 {vlog -work simulation -vopt -nocovercells /home/nayakkk/32xor/wallace_tree_multiplier/sim/traditional_multiplier8_xor_enc32.v
+/home/nayakkk/32xor/wallace_tree_multiplier/sim/traditional_multiplier8_tb.v {1 {vlog -work simulation -vopt -nocovercells /home/nayakkk/32xor/wallace_tree_multiplier/sim/traditional_multiplier8_tb.v
+Model Technology ModelSim SE-64 vlog 6.6d Compiler 2010.11 Nov  1 2010
+-- Compiling module traditional_multiplier8_tb
+
+Top level modules:
+	traditional_multiplier8_tb
+
+} {} {}} /home/nayakkk/32xor/wallace_tree_multiplier/sim/traditional_multiplier8_xor_enc32.v {1 {vlog -work simulation -vopt -nocovercells /home/nayakkk/32xor/wallace_tree_multiplier/sim/traditional_multiplier8_xor_enc32.v
 Model Technology ModelSim SE-64 vlog 6.6d Compiler 2010.11 Nov  1 2010
 -- Compiling module tradtional_multiplier8_xor_enc32
 

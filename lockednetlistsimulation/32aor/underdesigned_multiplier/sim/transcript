@@ -8,46 +8,14 @@
 # //  OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
 # //  AND IS SUBJECT TO LICENSE TERMS.
 # //
-# Loading project cla32aor
+# Loading project rca64aor
+# Load canceled
 # reading /var/autofs/misc/cad/mentor/modelsim-6.6d/modeltech/linux_x86_64/../modelsim.ini
 # Loading project udm32aor
 # Compile of underdesigned_multiplier8_aor_enc32.v was successful.
 # Compile of underdesigned_multiplier8_tb.v was successful.
 # 2 compiles, 0 failed with no errors. 
-vsim -novopt simulation.underdesigned_multiplier8_tb
-# vsim -novopt simulation.underdesigned_multiplier8_tb 
-# Refreshing /home/nayakkk/32aor/underdesigned_multiplier/sim/simulation.underdesigned_multiplier8_tb
-# Loading simulation.underdesigned_multiplier8_tb
-# Refreshing /home/nayakkk/32aor/underdesigned_multiplier/sim/simulation.underdesigned_multiplier8_aor_enc32
-# Loading simulation.underdesigned_multiplier8_aor_enc32
-vsim -novopt simulation.underdesigned_multiplier8_tb
-# vsim -novopt simulation.underdesigned_multiplier8_tb 
-# Loading simulation.underdesigned_multiplier8_tb
-# Loading simulation.underdesigned_multiplier8_aor_enc32
-add wave sim:/underdesigned_multiplier8_tb/*
-run
-#                    0 operand1_i= 00, operand2_i = 00, keyinput = d03b333f, result_o = 0a00 
-#                   10 operand1_i= 29, operand2_i = 7a, keyinput = d03b333f, result_o = 158a 
-#                   20 operand1_i= 11, operand2_i = 11, keyinput = d03b333f, result_o = 0c21 
-#                   30 operand1_i= 81, operand2_i = 1c, keyinput = d03b333f, result_o = 181c 
-#                   50 operand1_i= 44, operand2_i = 3b, keyinput = d03b333f, result_o = 18ac 
-#                   70 operand1_i= 89, operand2_i = ff, keyinput = d03b333f, result_o = 1177 
-#                   80 operand1_i= ab, operand2_i = 00, keyinput = d03b333f, result_o = 0a00 
-#                   90 operand1_i= 34, operand2_i = 12, keyinput = d03b333f, result_o = 0e68 
-#                  100 operand1_i= 11, operand2_i = 20, keyinput = d03b333f, result_o = 0c20 
-#                  110 operand1_i= 55, operand2_i = aa, keyinput = d03b333f, result_o = 3832 
-#                  120 operand1_i= 80, operand2_i = 80, keyinput = d03b333f, result_o = 4a00 
-#                  125 operand1_i= fa, operand2_i = 00, keyinput = d03b333f, result_o = 0a00 
-#                  135 operand1_i= 40, operand2_i = 20, keyinput = d03b333f, result_o = 1200 
-#                  145 operand1_i= 24, operand2_i = 92, keyinput = d03b333f, result_o = 1e48 
-#                  245 operand1_i= 00, operand2_i = 01, keyinput = d03b333f, result_o = 0a00 
-# ** Note: $finish    : /home/nayakkk/32aor/underdesigned_multiplier/sim/underdesigned_multiplier8_tb.v(84)
-#    Time: 345 ns  Iteration: 0  Instance: /underdesigned_multiplier8_tb
-# 1
-# Break in Module underdesigned_multiplier8_tb at /home/nayakkk/32aor/underdesigned_multiplier/sim/underdesigned_multiplier8_tb.v line 84
-# Compile of underdesigned_multiplier8_aor_enc32.v was successful.
-# Compile of underdesigned_multiplier8_tb.v was successful.
-# 2 compiles, 0 failed with no errors. 
+# Load canceled
 vsim -novopt simulation.underdesigned_multiplier8_tb
 # vsim -novopt simulation.underdesigned_multiplier8_tb 
 # Refreshing /home/nayakkk/32aor/underdesigned_multiplier/sim/simulation.underdesigned_multiplier8_tb
@@ -56,52 +24,245 @@ vsim -novopt simulation.underdesigned_multiplier8_tb
 # Loading simulation.underdesigned_multiplier8_aor_enc32
 add wave sim:/underdesigned_multiplier8_tb/*
 run
-#                    0 operand1_i= 00, operand2_i = 00, keyinput = bf30733f, result_o = 0080 
-#                   10 operand1_i= 29, operand2_i = 7a, keyinput = bf30733f, result_o = 13ba 
-#                   20 operand1_i= 11, operand2_i = 11, keyinput = bf30733f, result_o = 01a1 
-#                   30 operand1_i= 81, operand2_i = 1c, keyinput = bf30733f, result_o = 0e9c 
-#                   50 operand1_i= 44, operand2_i = 3b, keyinput = bf30733f, result_o = 102c 
-#                   70 operand1_i= 89, operand2_i = ff, keyinput = bf30733f, result_o = 88a7 
-#                   80 operand1_i= ab, operand2_i = 00, keyinput = bf30733f, result_o = 0080 
-#                   90 operand1_i= 34, operand2_i = 12, keyinput = bf30733f, result_o = 0428 
-#                  100 operand1_i= 11, operand2_i = 20, keyinput = bf30733f, result_o = 02a0 
-#                  110 operand1_i= 55, operand2_i = aa, keyinput = bf30733f, result_o = 38f2 
-#                  120 operand1_i= 80, operand2_i = 80, keyinput = bf30733f, result_o = 4080 
-#                  125 operand1_i= fa, operand2_i = 00, keyinput = bf30733f, result_o = 0080 
-#                  135 operand1_i= 40, operand2_i = 20, keyinput = bf30733f, result_o = 0880 
-#                  145 operand1_i= 24, operand2_i = 92, keyinput = bf30733f, result_o = 1508 
-#                  245 operand1_i= 00, operand2_i = 01, keyinput = bf30733f, result_o = 0080 
-# ** Note: $finish    : /home/nayakkk/32aor/underdesigned_multiplier/sim/underdesigned_multiplier8_tb.v(84)
-#    Time: 345 ns  Iteration: 0  Instance: /underdesigned_multiplier8_tb
-# 1
-# Break in Module underdesigned_multiplier8_tb at /home/nayakkk/32aor/underdesigned_multiplier/sim/underdesigned_multiplier8_tb.v line 84
-# Compile of underdesigned_multiplier8_aor_enc32.v was successful.
-# Compile of underdesigned_multiplier8_tb.v was successful.
-# 2 compiles, 0 failed with no errors. 
-vsim -novopt simulation.underdesigned_multiplier8_tb
-# vsim -novopt simulation.underdesigned_multiplier8_tb 
-# Refreshing /home/nayakkk/32aor/underdesigned_multiplier/sim/simulation.underdesigned_multiplier8_tb
-# Loading simulation.underdesigned_multiplier8_tb
-# Refreshing /home/nayakkk/32aor/underdesigned_multiplier/sim/simulation.underdesigned_multiplier8_aor_enc32
-# Loading simulation.underdesigned_multiplier8_aor_enc32
-add wave sim:/underdesigned_multiplier8_tb/*
-run
-#                    0 operand1_i= 00, operand2_i = 00, keyinput = bf3b33cc, result_o = 0080 
-#                   10 operand1_i= 29, operand2_i = 7a, keyinput = bf3b33cc, result_o = 1402 
-#                   20 operand1_i= 11, operand2_i = 11, keyinput = bf3b33cc, result_o = 01a1 
-#                   30 operand1_i= 81, operand2_i = 1c, keyinput = bf3b33cc, result_o = 1294 
-#                   50 operand1_i= 44, operand2_i = 3b, keyinput = bf3b33cc, result_o = 1024 
-#                   70 operand1_i= 89, operand2_i = ff, keyinput = bf3b33cc, result_o = 28f7 
-#                   80 operand1_i= ab, operand2_i = 00, keyinput = bf3b33cc, result_o = 0080 
-#                   90 operand1_i= 34, operand2_i = 12, keyinput = bf3b33cc, result_o = 0420 
-#                  100 operand1_i= 11, operand2_i = 20, keyinput = bf3b33cc, result_o = 02a0 
-#                  110 operand1_i= 55, operand2_i = aa, keyinput = bf3b33cc, result_o = 4072 
-#                  120 operand1_i= 80, operand2_i = 80, keyinput = bf3b33cc, result_o = 4080 
-#                  125 operand1_i= fa, operand2_i = 00, keyinput = bf3b33cc, result_o = 0080 
-#                  135 operand1_i= 40, operand2_i = 20, keyinput = bf3b33cc, result_o = 0880 
-#                  145 operand1_i= 24, operand2_i = 92, keyinput = bf3b33cc, result_o = 1900 
-#                  245 operand1_i= 00, operand2_i = 01, keyinput = bf3b33cc, result_o = 0080 
-# ** Note: $finish    : /home/nayakkk/32aor/underdesigned_multiplier/sim/underdesigned_multiplier8_tb.v(84)
-#    Time: 345 ns  Iteration: 0  Instance: /underdesigned_multiplier8_tb
-# 1
-# Break in Module underdesigned_multiplier8_tb at /home/nayakkk/32aor/underdesigned_multiplier/sim/underdesigned_multiplier8_tb.v line 84
+#                    0 operand1_i= 00, operand2_i = 00, keyinput = bf3b333f, result_o = 0000 
+#                   10 operand1_i= 29, operand2_i = 7a, keyinput = bf3b333f, result_o = 138a 
+#                   20 operand1_i= 11, operand2_i = 11, keyinput = bf3b333f, result_o = 0121 
+#                   30 operand1_i= 81, operand2_i = 1c, keyinput = bf3b333f, result_o = 0e1c 
+#                   50 operand1_i= 44, operand2_i = 3b, keyinput = bf3b333f, result_o = 0fac 
+#                   70 operand1_i= 89, operand2_i = ff, keyinput = bf3b333f, result_o = 8877 
+#                   80 operand1_i= ab, operand2_i = 00, keyinput = bf3b333f, result_o = 0000 
+#                   90 operand1_i= 34, operand2_i = 12, keyinput = bf3b333f, result_o = 03a8 
+#                  100 operand1_i= 11, operand2_i = 20, keyinput = bf3b333f, result_o = 0220 
+#                  110 operand1_i= 55, operand2_i = aa, keyinput = bf3b333f, result_o = 3872 
+#                  120 operand1_i= 80, operand2_i = 80, keyinput = bf3b333f, result_o = 4000 
+#                  125 operand1_i= fa, operand2_i = 00, keyinput = bf3b333f, result_o = 0000 
+#                  135 operand1_i= 40, operand2_i = 20, keyinput = bf3b333f, result_o = 0800 
+#                  145 operand1_i= 24, operand2_i = 92, keyinput = bf3b333f, result_o = 1488 
+#                  155 operand1_i= 00, operand2_i = 01, keyinput = bf3b333f, result_o = 0000 
+#                  165 operand1_i= 00, operand2_i = 00, keyinput = bf3b332f, result_o = 0400 
+#                  175 operand1_i= 29, operand2_i = 7a, keyinput = bf3b332f, result_o = 138a 
+#                  185 operand1_i= 11, operand2_i = 11, keyinput = bf3b332f, result_o = 0521 
+#                  195 operand1_i= 81, operand2_i = 1c, keyinput = bf3b332f, result_o = 121c 
+#                  215 operand1_i= 44, operand2_i = 3b, keyinput = bf3b332f, result_o = 13ac 
+#                  235 operand1_i= 89, operand2_i = ff, keyinput = bf3b332f, result_o = 2c77 
+#                  245 operand1_i= ab, operand2_i = 00, keyinput = bf3b332f, result_o = 0400 
+#                  255 operand1_i= 34, operand2_i = 12, keyinput = bf3b332f, result_o = 07a8 
+#                  265 operand1_i= 11, operand2_i = 20, keyinput = bf3b332f, result_o = 0620 
+#                  275 operand1_i= 55, operand2_i = aa, keyinput = bf3b332f, result_o = 3c72 
+#                  285 operand1_i= 80, operand2_i = 80, keyinput = bf3b332f, result_o = 4400 
+#                  290 operand1_i= fa, operand2_i = 00, keyinput = bf3b332f, result_o = 0400 
+#                  300 operand1_i= 40, operand2_i = 20, keyinput = bf3b332f, result_o = 0c00 
+#                  310 operand1_i= 24, operand2_i = 92, keyinput = bf3b332f, result_o = 1888 
+#                  320 operand1_i= 00, operand2_i = 01, keyinput = bf3b332f, result_o = 0400 
+#                  330 operand1_i= 00, operand2_i = 00, keyinput = bf3b330f, result_o = 0480 
+#                  340 operand1_i= 29, operand2_i = 7a, keyinput = bf3b330f, result_o = 140a 
+#                  350 operand1_i= 11, operand2_i = 11, keyinput = bf3b330f, result_o = 05a1 
+#                  360 operand1_i= 81, operand2_i = 1c, keyinput = bf3b330f, result_o = 129c 
+#                  380 operand1_i= 44, operand2_i = 3b, keyinput = bf3b330f, result_o = 142c 
+#                  400 operand1_i= 89, operand2_i = ff, keyinput = bf3b330f, result_o = 2cf7 
+#                  410 operand1_i= ab, operand2_i = 00, keyinput = bf3b330f, result_o = 0480 
+#                  420 operand1_i= 34, operand2_i = 12, keyinput = bf3b330f, result_o = 0828 
+#                  430 operand1_i= 11, operand2_i = 20, keyinput = bf3b330f, result_o = 06a0 
+#                  440 operand1_i= 55, operand2_i = aa, keyinput = bf3b330f, result_o = 3c72 
+#                  450 operand1_i= 80, operand2_i = 80, keyinput = bf3b330f, result_o = 4480 
+#                  455 operand1_i= fa, operand2_i = 00, keyinput = bf3b330f, result_o = 0480 
+#                  465 operand1_i= 40, operand2_i = 20, keyinput = bf3b330f, result_o = 0c80 
+#                  475 operand1_i= 24, operand2_i = 92, keyinput = bf3b330f, result_o = 1908 
+#                  485 operand1_i= 00, operand2_i = 01, keyinput = bf3b330f, result_o = 0480 
+#                  495 operand1_i= 00, operand2_i = 00, keyinput = bf3b334f, result_o = 0080 
+#                  505 operand1_i= 29, operand2_i = 7a, keyinput = bf3b334f, result_o = 140a 
+#                  515 operand1_i= 11, operand2_i = 11, keyinput = bf3b334f, result_o = 01a1 
+#                  525 operand1_i= 81, operand2_i = 1c, keyinput = bf3b334f, result_o = 129c 
+#                  545 operand1_i= 44, operand2_i = 3b, keyinput = bf3b334f, result_o = 102c 
+#                  565 operand1_i= 89, operand2_i = ff, keyinput = bf3b334f, result_o = 28f7 
+#                  575 operand1_i= ab, operand2_i = 00, keyinput = bf3b334f, result_o = 0080 
+#                  585 operand1_i= 34, operand2_i = 12, keyinput = bf3b334f, result_o = 0428 
+#                  595 operand1_i= 11, operand2_i = 20, keyinput = bf3b334f, result_o = 02a0 
+#                  605 operand1_i= 55, operand2_i = aa, keyinput = bf3b334f, result_o = 3872 
+#                  615 operand1_i= 80, operand2_i = 80, keyinput = bf3b334f, result_o = 4080 
+#                  620 operand1_i= fa, operand2_i = 00, keyinput = bf3b334f, result_o = 0080 
+#                  630 operand1_i= 40, operand2_i = 20, keyinput = bf3b334f, result_o = 0880 
+#                  640 operand1_i= 24, operand2_i = 92, keyinput = bf3b334f, result_o = 1908 
+#                  650 operand1_i= 00, operand2_i = 01, keyinput = bf3b334f, result_o = 0080 
+#                  660 operand1_i= 00, operand2_i = 00, keyinput = bf3b33cf, result_o = 0080 
+#                  670 operand1_i= 29, operand2_i = 7a, keyinput = bf3b33cf, result_o = 140a 
+#                  680 operand1_i= 11, operand2_i = 11, keyinput = bf3b33cf, result_o = 01a1 
+#                  690 operand1_i= 81, operand2_i = 1c, keyinput = bf3b33cf, result_o = 0a9c 
+#                  710 operand1_i= 44, operand2_i = 3b, keyinput = bf3b33cf, result_o = 102c 
+#                  730 operand1_i= 89, operand2_i = ff, keyinput = bf3b33cf, result_o = 28f7 
+#                  740 operand1_i= ab, operand2_i = 00, keyinput = bf3b33cf, result_o = 0080 
+#                  750 operand1_i= 34, operand2_i = 12, keyinput = bf3b33cf, result_o = 0428 
+#                  760 operand1_i= 11, operand2_i = 20, keyinput = bf3b33cf, result_o = 02a0 
+#                  770 operand1_i= 55, operand2_i = aa, keyinput = bf3b33cf, result_o = 3872 
+#                  780 operand1_i= 80, operand2_i = 80, keyinput = bf3b33cf, result_o = 4080 
+#                  785 operand1_i= fa, operand2_i = 00, keyinput = bf3b33cf, result_o = 0080 
+#                  795 operand1_i= 40, operand2_i = 20, keyinput = bf3b33cf, result_o = 0880 
+#                  805 operand1_i= 24, operand2_i = 92, keyinput = bf3b33cf, result_o = 1908 
+#                  815 operand1_i= 00, operand2_i = 01, keyinput = bf3b33cf, result_o = 0080 
+#                  825 operand1_i= 00, operand2_i = 00, keyinput = bf3b33cc, result_o = 0080 
+#                  835 operand1_i= 29, operand2_i = 7a, keyinput = bf3b33cc, result_o = 1402 
+#                  845 operand1_i= 11, operand2_i = 11, keyinput = bf3b33cc, result_o = 01a1 
+#                  855 operand1_i= 81, operand2_i = 1c, keyinput = bf3b33cc, result_o = 1294 
+#                  875 operand1_i= 44, operand2_i = 3b, keyinput = bf3b33cc, result_o = 1024 
+#                  895 operand1_i= 89, operand2_i = ff, keyinput = bf3b33cc, result_o = 28f7 
+#                  905 operand1_i= ab, operand2_i = 00, keyinput = bf3b33cc, result_o = 0080 
+#                  915 operand1_i= 34, operand2_i = 12, keyinput = bf3b33cc, result_o = 0420 
+#                  925 operand1_i= 11, operand2_i = 20, keyinput = bf3b33cc, result_o = 02a0 
+#                  935 operand1_i= 55, operand2_i = aa, keyinput = bf3b33cc, result_o = 4072 
+#                  945 operand1_i= 80, operand2_i = 80, keyinput = bf3b33cc, result_o = 4080 
+#                  950 operand1_i= fa, operand2_i = 00, keyinput = bf3b33cc, result_o = 0080 
+#                  960 operand1_i= 40, operand2_i = 20, keyinput = bf3b33cc, result_o = 0880 
+#                  970 operand1_i= 24, operand2_i = 92, keyinput = bf3b33cc, result_o = 1900 
+#                  980 operand1_i= 00, operand2_i = 01, keyinput = bf3b33cc, result_o = 0080 
+#                  990 operand1_i= 00, operand2_i = 00, keyinput = af3b333f, result_o = 0000 
+#                 1000 operand1_i= 29, operand2_i = 7a, keyinput = af3b333f, result_o = 138a 
+#                 1010 operand1_i= 11, operand2_i = 11, keyinput = af3b333f, result_o = 0121 
+#                 1020 operand1_i= 81, operand2_i = 1c, keyinput = af3b333f, result_o = 0e1c 
+#                 1040 operand1_i= 44, operand2_i = 3b, keyinput = af3b333f, result_o = 0fac 
+#                 1060 operand1_i= 89, operand2_i = ff, keyinput = af3b333f, result_o = 8877 
+#                 1070 operand1_i= ab, operand2_i = 00, keyinput = af3b333f, result_o = 0000 
+#                 1080 operand1_i= 34, operand2_i = 12, keyinput = af3b333f, result_o = 03a8 
+#                 1090 operand1_i= 11, operand2_i = 20, keyinput = af3b333f, result_o = 0220 
+#                 1100 operand1_i= 55, operand2_i = aa, keyinput = af3b333f, result_o = 3872 
+#                 1110 operand1_i= 80, operand2_i = 80, keyinput = af3b333f, result_o = 4000 
+#                 1115 operand1_i= fa, operand2_i = 00, keyinput = af3b333f, result_o = 0000 
+#                 1125 operand1_i= 40, operand2_i = 20, keyinput = af3b333f, result_o = 0800 
+#                 1135 operand1_i= 24, operand2_i = 92, keyinput = af3b333f, result_o = 1488 
+#                 1145 operand1_i= 00, operand2_i = 01, keyinput = af3b333f, result_o = 0000 
+#                 1155 operand1_i= 00, operand2_i = 00, keyinput = ef3b333f, result_o = 0800 
+#                 1165 operand1_i= 29, operand2_i = 7a, keyinput = ef3b333f, result_o = 138a 
+#                 1175 operand1_i= 11, operand2_i = 11, keyinput = ef3b333f, result_o = 0921 
+#                 1185 operand1_i= 81, operand2_i = 1c, keyinput = ef3b333f, result_o = 161c 
+#                 1205 operand1_i= 44, operand2_i = 3b, keyinput = ef3b333f, result_o = 17ac 
+#                 1225 operand1_i= 89, operand2_i = ff, keyinput = ef3b333f, result_o = 1077 
+#                 1235 operand1_i= ab, operand2_i = 00, keyinput = ef3b333f, result_o = 0800 
+#                 1245 operand1_i= 34, operand2_i = 12, keyinput = ef3b333f, result_o = 0ba8 
+#                 1255 operand1_i= 11, operand2_i = 20, keyinput = ef3b333f, result_o = 0a20 
+#                 1265 operand1_i= 55, operand2_i = aa, keyinput = ef3b333f, result_o = 3872 
+#                 1275 operand1_i= 80, operand2_i = 80, keyinput = ef3b333f, result_o = 4800 
+#                 1280 operand1_i= fa, operand2_i = 00, keyinput = ef3b333f, result_o = 0800 
+#                 1290 operand1_i= 40, operand2_i = 20, keyinput = ef3b333f, result_o = 1000 
+#                 1300 operand1_i= 24, operand2_i = 92, keyinput = ef3b333f, result_o = 1c88 
+#                 1310 operand1_i= 00, operand2_i = 01, keyinput = ef3b333f, result_o = 0800 
+#                 1320 operand1_i= 00, operand2_i = 00, keyinput = cf3b333f, result_o = 0800 
+#                 1330 operand1_i= 29, operand2_i = 7a, keyinput = cf3b333f, result_o = 138a 
+#                 1340 operand1_i= 11, operand2_i = 11, keyinput = cf3b333f, result_o = 0921 
+#                 1350 operand1_i= 81, operand2_i = 1c, keyinput = cf3b333f, result_o = 161c 
+#                 1370 operand1_i= 44, operand2_i = 3b, keyinput = cf3b333f, result_o = 17ac 
+#                 1390 operand1_i= 89, operand2_i = ff, keyinput = cf3b333f, result_o = 1077 
+#                 1400 operand1_i= ab, operand2_i = 00, keyinput = cf3b333f, result_o = 0800 
+#                 1410 operand1_i= 34, operand2_i = 12, keyinput = cf3b333f, result_o = 0ba8 
+#                 1420 operand1_i= 11, operand2_i = 20, keyinput = cf3b333f, result_o = 0a20 
+#                 1430 operand1_i= 55, operand2_i = aa, keyinput = cf3b333f, result_o = 3872 
+#                 1440 operand1_i= 80, operand2_i = 80, keyinput = cf3b333f, result_o = 4800 
+#                 1445 operand1_i= fa, operand2_i = 00, keyinput = cf3b333f, result_o = 0800 
+#                 1455 operand1_i= 40, operand2_i = 20, keyinput = cf3b333f, result_o = 1000 
+#                 1465 operand1_i= 24, operand2_i = 92, keyinput = cf3b333f, result_o = 1c88 
+#                 1475 operand1_i= 00, operand2_i = 01, keyinput = cf3b333f, result_o = 0800 
+#                 1485 operand1_i= 00, operand2_i = 00, keyinput = ce3b333f, result_o = 0a00 
+#                 1495 operand1_i= 29, operand2_i = 7a, keyinput = ce3b333f, result_o = 158a 
+#                 1505 operand1_i= 11, operand2_i = 11, keyinput = ce3b333f, result_o = 0a21 
+#                 1515 operand1_i= 81, operand2_i = 1c, keyinput = ce3b333f, result_o = 181c 
+#                 1535 operand1_i= 44, operand2_i = 3b, keyinput = ce3b333f, result_o = 18ac 
+#                 1555 operand1_i= 89, operand2_i = ff, keyinput = ce3b333f, result_o = 1177 
+#                 1565 operand1_i= ab, operand2_i = 00, keyinput = ce3b333f, result_o = 0a00 
+#                 1575 operand1_i= 34, operand2_i = 12, keyinput = ce3b333f, result_o = 0ca8 
+#                 1585 operand1_i= 11, operand2_i = 20, keyinput = ce3b333f, result_o = 0c20 
+#                 1595 operand1_i= 55, operand2_i = aa, keyinput = ce3b333f, result_o = 3a72 
+#                 1605 operand1_i= 80, operand2_i = 80, keyinput = ce3b333f, result_o = 4a00 
+#                 1610 operand1_i= fa, operand2_i = 00, keyinput = ce3b333f, result_o = 0a00 
+#                 1620 operand1_i= 40, operand2_i = 20, keyinput = ce3b333f, result_o = 1200 
+#                 1630 operand1_i= 24, operand2_i = 92, keyinput = ce3b333f, result_o = 1e88 
+#                 1640 operand1_i= 00, operand2_i = 01, keyinput = ce3b333f, result_o = 0a00 
+#                 1650 operand1_i= 00, operand2_i = 00, keyinput = c83b333f, result_o = 0a00 
+#                 1660 operand1_i= 29, operand2_i = 7a, keyinput = c83b333f, result_o = 158a 
+#                 1670 operand1_i= 11, operand2_i = 11, keyinput = c83b333f, result_o = 0c21 
+#                 1680 operand1_i= 81, operand2_i = 1c, keyinput = c83b333f, result_o = 181c 
+#                 1700 operand1_i= 44, operand2_i = 3b, keyinput = c83b333f, result_o = 1aac 
+#                 1720 operand1_i= 89, operand2_i = ff, keyinput = c83b333f, result_o = 1177 
+#                 1730 operand1_i= ab, operand2_i = 00, keyinput = c83b333f, result_o = 0a00 
+#                 1740 operand1_i= 34, operand2_i = 12, keyinput = c83b333f, result_o = 0e68 
+#                 1750 operand1_i= 11, operand2_i = 20, keyinput = c83b333f, result_o = 0c20 
+#                 1760 operand1_i= 55, operand2_i = aa, keyinput = c83b333f, result_o = 3832 
+#                 1770 operand1_i= 80, operand2_i = 80, keyinput = c83b333f, result_o = 4a00 
+#                 1775 operand1_i= fa, operand2_i = 00, keyinput = c83b333f, result_o = 0a00 
+#                 1785 operand1_i= 40, operand2_i = 20, keyinput = c83b333f, result_o = 1200 
+#                 1795 operand1_i= 24, operand2_i = 92, keyinput = c83b333f, result_o = 1e48 
+#                 1805 operand1_i= 00, operand2_i = 01, keyinput = c83b333f, result_o = 0a00 
+#                 1815 operand1_i= 00, operand2_i = 00, keyinput = bf3a333f, result_o = 0000 
+#                 1825 operand1_i= 29, operand2_i = 7a, keyinput = bf3a333f, result_o = 137a 
+#                 1835 operand1_i= 11, operand2_i = 11, keyinput = bf3a333f, result_o = 0121 
+#                 1845 operand1_i= 81, operand2_i = 1c, keyinput = bf3a333f, result_o = 0e1c 
+#                 1865 operand1_i= 44, operand2_i = 3b, keyinput = bf3a333f, result_o = 0fac 
+#                 1885 operand1_i= 89, operand2_i = ff, keyinput = bf3a333f, result_o = 8867 
+#                 1895 operand1_i= ab, operand2_i = 00, keyinput = bf3a333f, result_o = 0000 
+#                 1905 operand1_i= 34, operand2_i = 12, keyinput = bf3a333f, result_o = 03a8 
+#                 1915 operand1_i= 11, operand2_i = 20, keyinput = bf3a333f, result_o = 0220 
+#                 1925 operand1_i= 55, operand2_i = aa, keyinput = bf3a333f, result_o = 3872 
+#                 1935 operand1_i= 80, operand2_i = 80, keyinput = bf3a333f, result_o = 4000 
+#                 1940 operand1_i= fa, operand2_i = 00, keyinput = bf3a333f, result_o = 0000 
+#                 1950 operand1_i= 40, operand2_i = 20, keyinput = bf3a333f, result_o = 0800 
+#                 1960 operand1_i= 24, operand2_i = 92, keyinput = bf3a333f, result_o = 1488 
+#                 1970 operand1_i= 00, operand2_i = 01, keyinput = bf3a333f, result_o = 0000 
+#                 1980 operand1_i= 00, operand2_i = 00, keyinput = bf38333f, result_o = 0000 
+#                 1990 operand1_i= 29, operand2_i = 7a, keyinput = bf38333f, result_o = 133a 
+#                 2000 operand1_i= 11, operand2_i = 11, keyinput = bf38333f, result_o = 0121 
+#                 2010 operand1_i= 81, operand2_i = 1c, keyinput = bf38333f, result_o = 0e1c 
+#                 2030 operand1_i= 44, operand2_i = 3b, keyinput = bf38333f, result_o = 0fac 
+#                 2050 operand1_i= 89, operand2_i = ff, keyinput = bf38333f, result_o = 8827 
+#                 2060 operand1_i= ab, operand2_i = 00, keyinput = bf38333f, result_o = 0000 
+#                 2070 operand1_i= 34, operand2_i = 12, keyinput = bf38333f, result_o = 03a8 
+#                 2080 operand1_i= 11, operand2_i = 20, keyinput = bf38333f, result_o = 0220 
+#                 2090 operand1_i= 55, operand2_i = aa, keyinput = bf38333f, result_o = 3872 
+#                 2100 operand1_i= 80, operand2_i = 80, keyinput = bf38333f, result_o = 4000 
+#                 2105 operand1_i= fa, operand2_i = 00, keyinput = bf38333f, result_o = 0000 
+#                 2115 operand1_i= 40, operand2_i = 20, keyinput = bf38333f, result_o = 0800 
+#                 2125 operand1_i= 24, operand2_i = 92, keyinput = bf38333f, result_o = 1488 
+#                 2135 operand1_i= 00, operand2_i = 01, keyinput = bf38333f, result_o = 0000 
+#                 2145 operand1_i= 00, operand2_i = 00, keyinput = bf30333f, result_o = 0000 
+#                 2155 operand1_i= 29, operand2_i = 7a, keyinput = bf30333f, result_o = 133a 
+#                 2165 operand1_i= 11, operand2_i = 11, keyinput = bf30333f, result_o = 0121 
+#                 2175 operand1_i= 81, operand2_i = 1c, keyinput = bf30333f, result_o = 0e1c 
+#                 2195 operand1_i= 44, operand2_i = 3b, keyinput = bf30333f, result_o = 0fac 
+#                 2215 operand1_i= 89, operand2_i = ff, keyinput = bf30333f, result_o = 8827 
+#                 2225 operand1_i= ab, operand2_i = 00, keyinput = bf30333f, result_o = 0000 
+#                 2235 operand1_i= 34, operand2_i = 12, keyinput = bf30333f, result_o = 03a8 
+#                 2245 operand1_i= 11, operand2_i = 20, keyinput = bf30333f, result_o = 0220 
+#                 2255 operand1_i= 55, operand2_i = aa, keyinput = bf30333f, result_o = 3872 
+#                 2265 operand1_i= 80, operand2_i = 80, keyinput = bf30333f, result_o = 4000 
+#                 2270 operand1_i= fa, operand2_i = 00, keyinput = bf30333f, result_o = 0000 
+#                 2280 operand1_i= 40, operand2_i = 20, keyinput = bf30333f, result_o = 0800 
+#                 2290 operand1_i= 24, operand2_i = 92, keyinput = bf30333f, result_o = 1488 
+#                 2300 operand1_i= 00, operand2_i = 01, keyinput = bf30333f, result_o = 0000 
+#                 2310 operand1_i= 00, operand2_i = 00, keyinput = bf30233f, result_o = 0200 
+#                 2320 operand1_i= 29, operand2_i = 7a, keyinput = bf30233f, result_o = 153a 
+#                 2330 operand1_i= 11, operand2_i = 11, keyinput = bf30233f, result_o = 0321 
+#                 2340 operand1_i= 81, operand2_i = 1c, keyinput = bf30233f, result_o = 101c 
+#                 2360 operand1_i= 44, operand2_i = 3b, keyinput = bf30233f, result_o = 11ac 
+#                 2380 operand1_i= 89, operand2_i = ff, keyinput = bf30233f, result_o = 8827 
+#                 2390 operand1_i= ab, operand2_i = 00, keyinput = bf30233f, result_o = 0200 
+#                 2400 operand1_i= 34, operand2_i = 12, keyinput = bf30233f, result_o = 05a8 
+#                 2410 operand1_i= 11, operand2_i = 20, keyinput = bf30233f, result_o = 0420 
+#                 2420 operand1_i= 55, operand2_i = aa, keyinput = bf30233f, result_o = 3a72 
+#                 2430 operand1_i= 80, operand2_i = 80, keyinput = bf30233f, result_o = 4200 
+#                 2435 operand1_i= fa, operand2_i = 00, keyinput = bf30233f, result_o = 0200 
+#                 2445 operand1_i= 40, operand2_i = 20, keyinput = bf30233f, result_o = 0a00 
+#                 2455 operand1_i= 24, operand2_i = 92, keyinput = bf30233f, result_o = 1688 
+#                 2465 operand1_i= 00, operand2_i = 01, keyinput = bf30233f, result_o = 0200 
+#                 2475 operand1_i= 00, operand2_i = 00, keyinput = bf30433f, result_o = 02c0 
+#                 2485 operand1_i= 29, operand2_i = 7a, keyinput = bf30433f, result_o = 15fa 
+#                 2495 operand1_i= 11, operand2_i = 11, keyinput = bf30433f, result_o = 03e1 
+#                 2505 operand1_i= 81, operand2_i = 1c, keyinput = bf30433f, result_o = 10dc 
+#                 2525 operand1_i= 44, operand2_i = 3b, keyinput = bf30433f, result_o = 126c 
+#                 2545 operand1_i= 89, operand2_i = ff, keyinput = bf30433f, result_o = 88e7 
+#                 2555 operand1_i= ab, operand2_i = 00, keyinput = bf30433f, result_o = 02c0 
+#                 2565 operand1_i= 34, operand2_i = 12, keyinput = bf30433f, result_o = 0668 
+#                 2575 operand1_i= 11, operand2_i = 20, keyinput = bf30433f, result_o = 04e0 
+#                 2585 operand1_i= 55, operand2_i = aa, keyinput = bf30433f, result_o = 3b32 
+#                 2595 operand1_i= 80, operand2_i = 80, keyinput = bf30433f, result_o = 42c0 
+#                 2600 operand1_i= fa, operand2_i = 00, keyinput = bf30433f, result_o = 02c0 
+#                 2610 operand1_i= 40, operand2_i = 20, keyinput = bf30433f, result_o = 0ac0 
+#                 2620 operand1_i= 24, operand2_i = 92, keyinput = bf30433f, result_o = 1748 
+#                 2630 operand1_i= 00, operand2_i = 01, keyinput = bf30433f, result_o = 02c0 
+# ** Note: $finish    : /home/nayakkk/32aor/underdesigned_multiplier/sim/underdesigned_multiplier8_tb.v(790)
+#    Time: 2640 ns  Iteration: 0  Instance: /underdesigned_multiplier8_tb
