@@ -24,772 +24,151 @@
 module broke_array_multiplier8_tb;
 reg [7:0]operand1_i;
 reg [7:0]operand2_i;
-reg [31:0]keyinput = 32'h578059CC;
+reg [31:0]keyinput;
 wire [15:0]result_o;
+
+reg [7:0] Mem[0:19999];
 
 
 broken_array_multiplier8_aor_enc32 bam(operand1_i,operand2_i,keyinput,result_o);
 
+initial $readmemh("data.txt",Mem);
+integer k;
+
 initial begin
-   $dumpfile("broke_array_multiplier8_gatesim.vcd");
-   $dumpvars(3,broke_array_multiplier8_tb);
-
+$display("Correct Key:");
    keyinput = 32'h5780593A;
-   operand1_i = 8'h00;
-   operand2_i = 8'h00;
-   #10
-   operand1_i = 8'h29;
-   operand2_i = 8'h7A;
-   #10
-   operand1_i = 8'h11;
-   operand2_i = 8'h11;
-   #10
-   operand1_i = 8'h81;
-   operand2_i = 8'h1C;
-   #20
-   operand1_i = 8'h44;
-   operand2_i = 8'h3B;
-   #20
-   operand1_i = 8'h89;
-   operand2_i = 8'hFF;
-   #10
-   operand1_i = 8'hAB;
-   operand2_i = 8'h00;
-   #10
-   operand1_i = 8'h34;
-   operand2_i = 8'h12;
-   #10
-   operand1_i = 8'h11;
-   operand2_i = 8'h20;
-  #10
-   operand1_i = 8'h55;
-   operand2_i = 8'hAA;
-  #10
-   operand1_i = 8'h80;
-   operand2_i = 8'h80;
-  #5
-  operand1_i = 8'hFA;
-  operand2_i = 8'h00;
- #10
-  operand1_i = 8'h40;
-  operand2_i = 8'h20;
- #10
-  operand1_i = 8'h24;
-  operand2_i = 8'h92;
-  #10
-   operand1_i = 8'h00;
-   operand2_i = 8'h01;
-  #10
+   for(k=0; k<20001; k=k+2)begin
+    #10
+    operand1_i = Mem[k];
+    operand2_i = Mem[k+1];
+    end
 
+$display("Hamming Distance1:");
    keyinput = 32'h5780592A;
-   operand1_i = 8'h00;
-   operand2_i = 8'h00;
-   #10
-   operand1_i = 8'h29;
-   operand2_i = 8'h7A;
-   #10
-   operand1_i = 8'h11;
-   operand2_i = 8'h11;
-   #10
-   operand1_i = 8'h81;
-   operand2_i = 8'h1C;
-   #20
-   operand1_i = 8'h44;
-   operand2_i = 8'h3B;
-   #20
-   operand1_i = 8'h89;
-   operand2_i = 8'hFF;
-   #10
-   operand1_i = 8'hAB;
-   operand2_i = 8'h00;
-   #10
-   operand1_i = 8'h34;
-   operand2_i = 8'h12;
-   #10
-   operand1_i = 8'h11;
-   operand2_i = 8'h20;
-  #10
-   operand1_i = 8'h55;
-   operand2_i = 8'hAA;
-  #10
-   operand1_i = 8'h80;
-   operand2_i = 8'h80;
-  #5
-  operand1_i = 8'hFA;
-  operand2_i = 8'h00;
- #10
-  operand1_i = 8'h40;
-  operand2_i = 8'h20;
- #10
-  operand1_i = 8'h24;
-  operand2_i = 8'h92;
-  #10
-   operand1_i = 8'h00;
-   operand2_i = 8'h01;
-  #10
+   for(k=0; k<20001; k=k+2)begin
+    #10
+    operand1_i = Mem[k];
+    operand2_i = Mem[k+1];
+    end
 
+$display("Hamming Distance2:");
    keyinput = 32'h5780590A;
-   operand1_i = 8'h00;
-   operand2_i = 8'h00;
-   #10
-   operand1_i = 8'h29;
-   operand2_i = 8'h7A;
-   #10
-   operand1_i = 8'h11;
-   operand2_i = 8'h11;
-   #10
-   operand1_i = 8'h81;
-   operand2_i = 8'h1C;
-   #20
-   operand1_i = 8'h44;
-   operand2_i = 8'h3B;
-   #20
-   operand1_i = 8'h89;
-   operand2_i = 8'hFF;
-   #10
-   operand1_i = 8'hAB;
-   operand2_i = 8'h00;
-   #10
-   operand1_i = 8'h34;
-   operand2_i = 8'h12;
-   #10
-   operand1_i = 8'h11;
-   operand2_i = 8'h20;
-  #10
-   operand1_i = 8'h55;
-   operand2_i = 8'hAA;
-  #10
-   operand1_i = 8'h80;
-   operand2_i = 8'h80;
-  #5
-  operand1_i = 8'hFA;
-  operand2_i = 8'h00;
- #10
-  operand1_i = 8'h40;
-  operand2_i = 8'h20;
- #10
-  operand1_i = 8'h24;
-  operand2_i = 8'h92;
-  #10
-   operand1_i = 8'h00;
-   operand2_i = 8'h01;
-  #10
+   for(k=0; k<20001; k=k+2)begin
+    #10
+    operand1_i = Mem[k];
+    operand2_i = Mem[k+1];
+    end
 
+$display("Hamming Distance3:");
    keyinput = 32'h5780598A;
-   operand1_i = 8'h00;
-   operand2_i = 8'h00;
-   #10
-   operand1_i = 8'h29;
-   operand2_i = 8'h7A;
-   #10
-   operand1_i = 8'h11;
-   operand2_i = 8'h11;
-   #10
-   operand1_i = 8'h81;
-   operand2_i = 8'h1C;
-   #20
-   operand1_i = 8'h44;
-   operand2_i = 8'h3B;
-   #20
-   operand1_i = 8'h89;
-   operand2_i = 8'hFF;
-   #10
-   operand1_i = 8'hAB;
-   operand2_i = 8'h00;
-   #10
-   operand1_i = 8'h34;
-   operand2_i = 8'h12;
-   #10
-   operand1_i = 8'h11;
-   operand2_i = 8'h20;
-  #10
-   operand1_i = 8'h55;
-   operand2_i = 8'hAA;
-  #10
-   operand1_i = 8'h80;
-   operand2_i = 8'h80;
-  #5
-  operand1_i = 8'hFA;
-  operand2_i = 8'h00;
- #10
-  operand1_i = 8'h40;
-  operand2_i = 8'h20;
- #10
-  operand1_i = 8'h24;
-  operand2_i = 8'h92;
-  #10
-   operand1_i = 8'h00;
-   operand2_i = 8'h01;
-  #10
+   for(k=0; k<20001; k=k+2)begin
+    #10
+    operand1_i = Mem[k];
+    operand2_i = Mem[k+1];
+    end
 
+$display("Hamming Distance4:");
    keyinput = 32'h578059CA;
-   operand1_i = 8'h00;
-   operand2_i = 8'h00;
-   #10
-   operand1_i = 8'h29;
-   operand2_i = 8'h7A;
-   #10
-   operand1_i = 8'h11;
-   operand2_i = 8'h11;
-   #10
-   operand1_i = 8'h81;
-   operand2_i = 8'h1C;
-   #20
-   operand1_i = 8'h44;
-   operand2_i = 8'h3B;
-   #20
-   operand1_i = 8'h89;
-   operand2_i = 8'hFF;
-   #10
-   operand1_i = 8'hAB;
-   operand2_i = 8'h00;
-   #10
-   operand1_i = 8'h34;
-   operand2_i = 8'h12;
-   #10
-   operand1_i = 8'h11;
-   operand2_i = 8'h20;
-  #10
-   operand1_i = 8'h55;
-   operand2_i = 8'hAA;
-  #10
-   operand1_i = 8'h80;
-   operand2_i = 8'h80;
-  #5
-  operand1_i = 8'hFA;
-  operand2_i = 8'h00;
- #10
-  operand1_i = 8'h40;
-  operand2_i = 8'h20;
- #10
-  operand1_i = 8'h24;
-  operand2_i = 8'h92;
-  #10
-   operand1_i = 8'h00;
-   operand2_i = 8'h01;
-  #10
+   for(k=0; k<20001; k=k+2)begin
+    #10
+    operand1_i = Mem[k];
+    operand2_i = Mem[k+1];
+    end
 
+$display("Hamming Distance6:");
    keyinput = 32'h578059CF;
-   operand1_i = 8'h00;
-   operand2_i = 8'h00;
-   #10
-   operand1_i = 8'h29;
-   operand2_i = 8'h7A;
-   #10
-   operand1_i = 8'h11;
-   operand2_i = 8'h11;
-   #10
-   operand1_i = 8'h81;
-   operand2_i = 8'h1C;
-   #20
-   operand1_i = 8'h44;
-   operand2_i = 8'h3B;
-   #20
-   operand1_i = 8'h89;
-   operand2_i = 8'hFF;
-   #10
-   operand1_i = 8'hAB;
-   operand2_i = 8'h00;
-   #10
-   operand1_i = 8'h34;
-   operand2_i = 8'h12;
-   #10
-   operand1_i = 8'h11;
-   operand2_i = 8'h20;
-  #10
-   operand1_i = 8'h55;
-   operand2_i = 8'hAA;
-  #10
-   operand1_i = 8'h80;
-   operand2_i = 8'h80;
-  #5
-  operand1_i = 8'hFA;
-  operand2_i = 8'h00;
- #10
-  operand1_i = 8'h40;
-  operand2_i = 8'h20;
- #10
-  operand1_i = 8'h24;
-  operand2_i = 8'h92;
-  #10
-   operand1_i = 8'h00;
-   operand2_i = 8'h01;
-  #10
+   for(k=0; k<20001; k=k+2)begin
+    #10
+    operand1_i = Mem[k];
+    operand2_i = Mem[k+1];
+    end
 
+$display("Hamming Distance1:");
    keyinput = 32'h4780593A;
-   operand1_i = 8'h00;
-   operand2_i = 8'h00;
-   #10
-   operand1_i = 8'h29;
-   operand2_i = 8'h7A;
-   #10
-   operand1_i = 8'h11;
-   operand2_i = 8'h11;
-   #10
-   operand1_i = 8'h81;
-   operand2_i = 8'h1C;
-   #20
-   operand1_i = 8'h44;
-   operand2_i = 8'h3B;
-   #20
-   operand1_i = 8'h89;
-   operand2_i = 8'hFF;
-   #10
-   operand1_i = 8'hAB;
-   operand2_i = 8'h00;
-   #10
-   operand1_i = 8'h34;
-   operand2_i = 8'h12;
-   #10
-   operand1_i = 8'h11;
-   operand2_i = 8'h20;
-  #10
-   operand1_i = 8'h55;
-   operand2_i = 8'hAA;
-  #10
-   operand1_i = 8'h80;
-   operand2_i = 8'h80;
-  #5
-  operand1_i = 8'hFA;
-  operand2_i = 8'h00;
- #10
-  operand1_i = 8'h40;
-  operand2_i = 8'h20;
- #10
-  operand1_i = 8'h24;
-  operand2_i = 8'h92;
-  #10
-   operand1_i = 8'h00;
-   operand2_i = 8'h01;
-  #10
+   for(k=0; k<20001; k=k+2)begin
+    #10
+    operand1_i = Mem[k];
+    operand2_i = Mem[k+1];
+    end
 
+$display("Hamming Distance2:");
    keyinput = 32'h0780593A;
-   operand1_i = 8'h00;
-   operand2_i = 8'h00;
-   #10
-   operand1_i = 8'h29;
-   operand2_i = 8'h7A;
-   #10
-   operand1_i = 8'h11;
-   operand2_i = 8'h11;
-   #10
-   operand1_i = 8'h81;
-   operand2_i = 8'h1C;
-   #20
-   operand1_i = 8'h44;
-   operand2_i = 8'h3B;
-   #20
-   operand1_i = 8'h89;
-   operand2_i = 8'hFF;
-   #10
-   operand1_i = 8'hAB;
-   operand2_i = 8'h00;
-   #10
-   operand1_i = 8'h34;
-   operand2_i = 8'h12;
-   #10
-   operand1_i = 8'h11;
-   operand2_i = 8'h20;
-  #10
-   operand1_i = 8'h55;
-   operand2_i = 8'hAA;
-  #10
-   operand1_i = 8'h80;
-   operand2_i = 8'h80;
-  #5
-  operand1_i = 8'hFA;
-  operand2_i = 8'h00;
- #10
-  operand1_i = 8'h40;
-  operand2_i = 8'h20;
- #10
-  operand1_i = 8'h24;
-  operand2_i = 8'h92;
-  #10
-   operand1_i = 8'h00;
-   operand2_i = 8'h01;
-  #10
-
-   keyinput = 32'h8780593A;
-   operand1_i = 8'h00;
-   operand2_i = 8'h00;
-   #10
-   operand1_i = 8'h29;
-   operand2_i = 8'h7A;
-   #10
-   operand1_i = 8'h11;
-   operand2_i = 8'h11;
-   #10
-   operand1_i = 8'h81;
-   operand2_i = 8'h1C;
-   #20
-   operand1_i = 8'h44;
-   operand2_i = 8'h3B;
-   #20
-   operand1_i = 8'h89;
-   operand2_i = 8'hFF;
-   #10
-   operand1_i = 8'hAB;
-   operand2_i = 8'h00;
-   #10
-   operand1_i = 8'h34;
-   operand2_i = 8'h12;
-   #10
-   operand1_i = 8'h11;
-   operand2_i = 8'h20;
-  #10
-   operand1_i = 8'h55;
-   operand2_i = 8'hAA;
-  #10
-   operand1_i = 8'h80;
-   operand2_i = 8'h80;
-  #5
-  operand1_i = 8'hFA;
-  operand2_i = 8'h00;
- #10
-  operand1_i = 8'h40;
-  operand2_i = 8'h20;
- #10
-  operand1_i = 8'h24;
-  operand2_i = 8'h92;
-  #10
-   operand1_i = 8'h00;
-   operand2_i = 8'h01;
-  #10
-
-   keyinput = 32'hA780593A;
-   operand1_i = 8'h00;
-   operand2_i = 8'h00;
-   #10
-   operand1_i = 8'h29;
-   operand2_i = 8'h7A;
-   #10
-   operand1_i = 8'h11;
-   operand2_i = 8'h11;
-   #10
-   operand1_i = 8'h81;
-   operand2_i = 8'h1C;
-   #20
-   operand1_i = 8'h44;
-   operand2_i = 8'h3B;
-   #20
-   operand1_i = 8'h89;
-   operand2_i = 8'hFF;
-   #10
-   operand1_i = 8'hAB;
-   operand2_i = 8'h00;
-   #10
-   operand1_i = 8'h34;
-   operand2_i = 8'h12;
-   #10
-   operand1_i = 8'h11;
-   operand2_i = 8'h20;
-  #10
-   operand1_i = 8'h55;
-   operand2_i = 8'hAA;
-  #10
-   operand1_i = 8'h80;
-   operand2_i = 8'h80;
-  #5
-  operand1_i = 8'hFA;
-  operand2_i = 8'h00;
- #10
-  operand1_i = 8'h40;
-  operand2_i = 8'h20;
- #10
-  operand1_i = 8'h24;
-  operand2_i = 8'h92;
-  #10
-   operand1_i = 8'h00;
-   operand2_i = 8'h01;
-  #10
-
-   keyinput = 32'hAE80593A;
-   operand1_i = 8'h00;
-   operand2_i = 8'h00;
-   #10
-   operand1_i = 8'h29;
-   operand2_i = 8'h7A;
-   #10
-   operand1_i = 8'h11;
-   operand2_i = 8'h11;
-   #10
-   operand1_i = 8'h81;
-   operand2_i = 8'h1C;
-   #20
-   operand1_i = 8'h44;
-   operand2_i = 8'h3B;
-   #20
-   operand1_i = 8'h89;
-   operand2_i = 8'hFF;
-   #10
-   operand1_i = 8'hAB;
-   operand2_i = 8'h00;
-   #10
-   operand1_i = 8'h34;
-   operand2_i = 8'h12;
-   #10
-   operand1_i = 8'h11;
-   operand2_i = 8'h20;
-  #10
-   operand1_i = 8'h55;
-   operand2_i = 8'hAA;
-  #10
-   operand1_i = 8'h80;
-   operand2_i = 8'h80;
-  #5
-  operand1_i = 8'hFA;
-  operand2_i = 8'h00;
- #10
-  operand1_i = 8'h40;
-  operand2_i = 8'h20;
- #10
-  operand1_i = 8'h24;
-  operand2_i = 8'h92;
-  #10
-   operand1_i = 8'h00;
-   operand2_i = 8'h01;
-  #10
-
-   keyinput = 32'h5781593A;
-   operand1_i = 8'h00;
-   operand2_i = 8'h00;
-   #10
-   operand1_i = 8'h29;
-   operand2_i = 8'h7A;
-   #10
-   operand1_i = 8'h11;
-   operand2_i = 8'h11;
-   #10
-   operand1_i = 8'h81;
-   operand2_i = 8'h1C;
-   #20
-   operand1_i = 8'h44;
-   operand2_i = 8'h3B;
-   #20
-   operand1_i = 8'h89;
-   operand2_i = 8'hFF;
-   #10
-   operand1_i = 8'hAB;
-   operand2_i = 8'h00;
-   #10
-   operand1_i = 8'h34;
-   operand2_i = 8'h12;
-   #10
-   operand1_i = 8'h11;
-   operand2_i = 8'h20;
-  #10
-   operand1_i = 8'h55;
-   operand2_i = 8'hAA;
-  #10
-   operand1_i = 8'h80;
-   operand2_i = 8'h80;
-  #5
-  operand1_i = 8'hFA;
-  operand2_i = 8'h00;
- #10
-  operand1_i = 8'h40;
-  operand2_i = 8'h20;
- #10
-  operand1_i = 8'h24;
-  operand2_i = 8'h92;
-  #10
-   operand1_i = 8'h00;
-   operand2_i = 8'h01;
-  #10
-
-   keyinput = 32'h5783593A;
-   operand1_i = 8'h00;
-   operand2_i = 8'h00;
-   #10
-   operand1_i = 8'h29;
-   operand2_i = 8'h7A;
-   #10
-   operand1_i = 8'h11;
-   operand2_i = 8'h11;
-   #10
-   operand1_i = 8'h81;
-   operand2_i = 8'h1C;
-   #20
-   operand1_i = 8'h44;
-   operand2_i = 8'h3B;
-   #20
-   operand1_i = 8'h89;
-   operand2_i = 8'hFF;
-   #10
-   operand1_i = 8'hAB;
-   operand2_i = 8'h00;
-   #10
-   operand1_i = 8'h34;
-   operand2_i = 8'h12;
-   #10
-   operand1_i = 8'h11;
-   operand2_i = 8'h20;
-  #10
-   operand1_i = 8'h55;
-   operand2_i = 8'hAA;
-  #10
-   operand1_i = 8'h80;
-   operand2_i = 8'h80;
-  #5
-  operand1_i = 8'hFA;
-  operand2_i = 8'h00;
- #10
-  operand1_i = 8'h40;
-  operand2_i = 8'h20;
- #10
-  operand1_i = 8'h24;
-  operand2_i = 8'h92;
-  #10
-   operand1_i = 8'h00;
-   operand2_i = 8'h01;
-  #10
-
-   keyinput = 32'h5787593A;
-   operand1_i = 8'h00;
-   operand2_i = 8'h00;
-   #10
-   operand1_i = 8'h29;
-   operand2_i = 8'h7A;
-   #10
-   operand1_i = 8'h11;
-   operand2_i = 8'h11;
-   #10
-   operand1_i = 8'h81;
-   operand2_i = 8'h1C;
-   #20
-   operand1_i = 8'h44;
-   operand2_i = 8'h3B;
-   #20
-   operand1_i = 8'h89;
-   operand2_i = 8'hFF;
-   #10
-   operand1_i = 8'hAB;
-   operand2_i = 8'h00;
-   #10
-   operand1_i = 8'h34;
-   operand2_i = 8'h12;
-   #10
-   operand1_i = 8'h11;
-   operand2_i = 8'h20;
-  #10
-   operand1_i = 8'h55;
-   operand2_i = 8'hAA;
-  #10
-   operand1_i = 8'h80;
-   operand2_i = 8'h80;
-  #5
-  operand1_i = 8'hFA;
-  operand2_i = 8'h00;
- #10
-  operand1_i = 8'h40;
-  operand2_i = 8'h20;
- #10
-  operand1_i = 8'h24;
-  operand2_i = 8'h92;
-  #10
-   operand1_i = 8'h00;
-   operand2_i = 8'h01;
-  #10
-
-   keyinput = 32'h578F593A;
-   operand1_i = 8'h00;
-   operand2_i = 8'h00;
-   #10
-   operand1_i = 8'h29;
-   operand2_i = 8'h7A;
-   #10
-   operand1_i = 8'h11;
-   operand2_i = 8'h11;
-   #10
-   operand1_i = 8'h81;
-   operand2_i = 8'h1C;
-   #20
-   operand1_i = 8'h44;
-   operand2_i = 8'h3B;
-   #20
-   operand1_i = 8'h89;
-   operand2_i = 8'hFF;
-   #10
-   operand1_i = 8'hAB;
-   operand2_i = 8'h00;
-   #10
-   operand1_i = 8'h34;
-   operand2_i = 8'h12;
-   #10
-   operand1_i = 8'h11;
-   operand2_i = 8'h20;
-  #10
-   operand1_i = 8'h55;
-   operand2_i = 8'hAA;
-  #10
-   operand1_i = 8'h80;
-   operand2_i = 8'h80;
-  #5
-  operand1_i = 8'hFA;
-  operand2_i = 8'h00;
- #10
-  operand1_i = 8'h40;
-  operand2_i = 8'h20;
- #10
-  operand1_i = 8'h24;
-  operand2_i = 8'h92;
-  #10
-   operand1_i = 8'h00;
-   operand2_i = 8'h01;
-  #10
-
-   keyinput = 32'h578FF93A;
-   operand1_i = 8'h00;
-   operand2_i = 8'h00;
-   #10
-   operand1_i = 8'h29;
-   operand2_i = 8'h7A;
-   #10
-   operand1_i = 8'h11;
-   operand2_i = 8'h11;
-   #10
-   operand1_i = 8'h81;
-   operand2_i = 8'h1C;
-   #20
-   operand1_i = 8'h44;
-   operand2_i = 8'h3B;
-   #20
-   operand1_i = 8'h89;
-   operand2_i = 8'hFF;
-   #10
-   operand1_i = 8'hAB;
-   operand2_i = 8'h00;
-   #10
-   operand1_i = 8'h34;
-   operand2_i = 8'h12;
-   #10
-   operand1_i = 8'h11;
-   operand2_i = 8'h20;
-  #10
-   operand1_i = 8'h55;
-   operand2_i = 8'hAA;
-  #10
-   operand1_i = 8'h80;
-   operand2_i = 8'h80;
-  #5
-  operand1_i = 8'hFA;
-  operand2_i = 8'h00;
- #10
-  operand1_i = 8'h40;
-  operand2_i = 8'h20;
- #10
-  operand1_i = 8'h24;
-  operand2_i = 8'h92;
-  #10
-   operand1_i = 8'h00;
-   operand2_i = 8'h01;
-  #10
+   for(k=0; k<20001; k=k+2)begin
+    #10
+    operand1_i = Mem[k];
+    operand2_i = Mem[k+1];
+    end
   
+$display("Hamming Distance3:");
+   keyinput = 32'h8780593A;
+   for(k=0; k<20001; k=k+2)begin
+    #10
+    operand1_i = Mem[k];
+    operand2_i = Mem[k+1];
+    end
+
+$display("Hamming Distance4:");
+   keyinput = 32'hA780593A;
+   for(k=0; k<20001; k=k+2)begin
+    #10
+    operand1_i = Mem[k];
+    operand2_i = Mem[k+1];
+    end
+
+$display("Hamming Distance6:");
+   keyinput = 32'hCAE80593A;
+   for(k=0; k<20001; k=k+2)begin
+    #10
+    operand1_i = Mem[k];
+    operand2_i = Mem[k+1];
+    end
+
+$display("Hamming Distance1:");
+   keyinput = 32'h5781593A;
+   for(k=0; k<20001; k=k+2)begin
+    #10
+    operand1_i = Mem[k];
+    operand2_i = Mem[k+1];
+    end
+
+$display("Hamming Distance2:");
+   keyinput = 32'h5783593A;
+   for(k=0; k<20001; k=k+2)begin
+    #10
+    operand1_i = Mem[k];
+    operand2_i = Mem[k+1];
+    end
+
+$display("Hamming Distance3:");
+   keyinput = 32'h5787593A;
+   for(k=0; k<20001; k=k+2)begin
+    #10
+    operand1_i = Mem[k];
+    operand2_i = Mem[k+1];
+    end
+
+$display("Hamming Distance4:");
+   keyinput = 32'h578F593A;
+   for(k=0; k<20001; k=k+2)begin
+    #10
+    operand1_i = Mem[k];
+    operand2_i = Mem[k+1];
+    end
+
+$display("Hamming Distance6:");
+   keyinput = 32'h578FF93A;
+   for(k=0; k<20001; k=k+2)begin
+    #10
+    operand1_i = Mem[k];
+    operand2_i = Mem[k+1];
+    end
+
    $finish;
     
    
  end
+
 
 initial begin
 
