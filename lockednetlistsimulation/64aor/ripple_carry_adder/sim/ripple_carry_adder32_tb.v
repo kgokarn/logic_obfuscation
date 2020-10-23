@@ -26,770 +26,149 @@ reg [31:0]add2_i;
 reg [63:0]keyinput;
 wire [32:0]result_o;
 
+reg [31:0] Mem[0:19999];
+
 
 ripple_carry_adder32_aor_enc64 rca(add1_i,add2_i,keyinput,result_o);
 
+initial $readmemh("data.txt",Mem);
+integer k;
+
 initial begin
-   $dumpfile("ripple_carry_adder32_gatesim.vcd");
-   $dumpvars(2,ripple_carry_adder32_tb);
-
+$display("Correct Key:");
    keyinput = 64'hA87E0E812FE200DE;
-   add1_i = 32'h0000_0000;
-   add2_i = 32'h0000_0000;
-   #10
-   add1_i = 32'h29AF_2430;
-   add2_i = 32'h7A1B_9ABC;
-   #10
-   add1_i = 32'h1100_3456;
-   add2_i = 32'h1111_2323;
-   #10
-   add1_i = 32'h8116_0873;
-   add2_i = 32'h1CCE_0178;
-   #5
-   add1_i = 32'h2020_2012;
-   add2_i = 32'hDEAD_BEEF;
-   #8
-   add1_i = 32'h8943_DEAF;
-   add2_i = 32'hDAAD_BAAD;
-   #10
-   add1_i = 32'hABCD_1234;
-   add2_i = 32'h0000_0000;
-   #10
-   add1_i = 32'h0000_0000;
-   add2_i = 32'h1234_5678;
-   #10
-   add1_i = 32'h1111_4477;
-   add2_i = 32'hEEAA_0000;
-  #10
-   add1_i = 32'h5555_5555;
-   add2_i = 32'hAAAA_AAAA;
-  #10
-   add1_i = 32'h8051_9860;
-   add2_i = 32'h8086_BA3E;
-  #5
-  add1_i = 32'hFADC_0720;
-  add2_i = 32'h00DC_0810;
- #8
-  add1_i = 32'h4096_2048;
-  add2_i = 32'h2048_4096;
- #10
-  add1_i = 32'h1024_2048;
-  add2_i = 32'h8192_4096;
-  #10
-  add1_i = 32'h0000_0001;
-  add2_i = 32'hDEAF_BEEF;
-  #10
+   for(k=0; k<20001; k=k+2)begin
+    #10
+    add1_i = Mem[k];
+    add2_i = Mem[k+1];
+    end
 
-
+$display("Hamming Distance1:");
    keyinput = 64'hA87E0E812FE200DC;
-   add1_i = 32'h0000_0000;
-   add2_i = 32'h0000_0000;
-   #10
-   add1_i = 32'h29AF_2430;
-   add2_i = 32'h7A1B_9ABC;
-   #10
-   add1_i = 32'h1100_3456;
-   add2_i = 32'h1111_2323;
-   #10
-   add1_i = 32'h8116_0873;
-   add2_i = 32'h1CCE_0178;
-   #5
-   add1_i = 32'h2020_2012;
-   add2_i = 32'hDEAD_BEEF;
-   #8
-   add1_i = 32'h8943_DEAF;
-   add2_i = 32'hDAAD_BAAD;
-   #10
-   add1_i = 32'hABCD_1234;
-   add2_i = 32'h0000_0000;
-   #10
-   add1_i = 32'h0000_0000;
-   add2_i = 32'h1234_5678;
-   #10
-   add1_i = 32'h1111_4477;
-   add2_i = 32'hEEAA_0000;
-  #10
-   add1_i = 32'h5555_5555;
-   add2_i = 32'hAAAA_AAAA;
-  #10
-   add1_i = 32'h8051_9860;
-   add2_i = 32'h8086_BA3E;
-  #5
-  add1_i = 32'hFADC_0720;
-  add2_i = 32'h00DC_0810;
- #8
-  add1_i = 32'h4096_2048;
-  add2_i = 32'h2048_4096;
- #10
-  add1_i = 32'h1024_2048;
-  add2_i = 32'h8192_4096;
-  #10
-  add1_i = 32'h0000_0001;
-  add2_i = 32'hDEAF_BEEF;
-  #10
+   for(k=0; k<20001; k=k+2)begin
+    #10
+    add1_i = Mem[k];
+    add2_i = Mem[k+1];
+    end
 
-
+$display("Hamming Distance2:");
    keyinput = 64'hA87E0E812FE200CC;
-   add1_i = 32'h0000_0000;
-   add2_i = 32'h0000_0000;
-   #10
-   add1_i = 32'h29AF_2430;
-   add2_i = 32'h7A1B_9ABC;
-   #10
-   add1_i = 32'h1100_3456;
-   add2_i = 32'h1111_2323;
-   #10
-   add1_i = 32'h8116_0873;
-   add2_i = 32'h1CCE_0178;
-   #5
-   add1_i = 32'h2020_2012;
-   add2_i = 32'hDEAD_BEEF;
-   #8
-   add1_i = 32'h8943_DEAF;
-   add2_i = 32'hDAAD_BAAD;
-   #10
-   add1_i = 32'hABCD_1234;
-   add2_i = 32'h0000_0000;
-   #10
-   add1_i = 32'h0000_0000;
-   add2_i = 32'h1234_5678;
-   #10
-   add1_i = 32'h1111_4477;
-   add2_i = 32'hEEAA_0000;
-  #10
-   add1_i = 32'h5555_5555;
-   add2_i = 32'hAAAA_AAAA;
-  #10
-   add1_i = 32'h8051_9860;
-   add2_i = 32'h8086_BA3E;
-  #5
-  add1_i = 32'hFADC_0720;
-  add2_i = 32'h00DC_0810;
- #8
-  add1_i = 32'h4096_2048;
-  add2_i = 32'h2048_4096;
- #10
-  add1_i = 32'h1024_2048;
-  add2_i = 32'h8192_4096;
-  #10
-  add1_i = 32'h0000_0001;
-  add2_i = 32'hDEAF_BEEF;
-  #10
+   for(k=0; k<20001; k=k+2)begin
+    #10
+    add1_i = Mem[k];
+    add2_i = Mem[k+1];
+    end
 
+$display("Hamming Distance3:");
    keyinput = 64'hA87E0E812FE2008C;
-   add1_i = 32'h0000_0000;
-   add2_i = 32'h0000_0000;
-   #10
-   add1_i = 32'h29AF_2430;
-   add2_i = 32'h7A1B_9ABC;
-   #10
-   add1_i = 32'h1100_3456;
-   add2_i = 32'h1111_2323;
-   #10
-   add1_i = 32'h8116_0873;
-   add2_i = 32'h1CCE_0178;
-   #5
-   add1_i = 32'h2020_2012;
-   add2_i = 32'hDEAD_BEEF;
-   #8
-   add1_i = 32'h8943_DEAF;
-   add2_i = 32'hDAAD_BAAD;
-   #10
-   add1_i = 32'hABCD_1234;
-   add2_i = 32'h0000_0000;
-   #10
-   add1_i = 32'h0000_0000;
-   add2_i = 32'h1234_5678;
-   #10
-   add1_i = 32'h1111_4477;
-   add2_i = 32'hEEAA_0000;
-  #10
-   add1_i = 32'h5555_5555;
-   add2_i = 32'hAAAA_AAAA;
-  #10
-   add1_i = 32'h8051_9860;
-   add2_i = 32'h8086_BA3E;
-  #5
-  add1_i = 32'hFADC_0720;
-  add2_i = 32'h00DC_0810;
- #8
-  add1_i = 32'h4096_2048;
-  add2_i = 32'h2048_4096;
- #10
-  add1_i = 32'h1024_2048;
-  add2_i = 32'h8192_4096;
-  #10
-  add1_i = 32'h0000_0001;
-  add2_i = 32'hDEAF_BEEF;
-  #10
+   for(k=0; k<20001; k=k+2)begin
+    #10
+    add1_i = Mem[k];
+    add2_i = Mem[k+1];
+    end
 
+$display("Hamming Distance4:");
    keyinput = 64'hA87E0E812FE20088;
-   add1_i = 32'h0000_0000;
-   add2_i = 32'h0000_0000;
-   #10
-   add1_i = 32'h29AF_2430;
-   add2_i = 32'h7A1B_9ABC;
-   #10
-   add1_i = 32'h1100_3456;
-   add2_i = 32'h1111_2323;
-   #10
-   add1_i = 32'h8116_0873;
-   add2_i = 32'h1CCE_0178;
-   #5
-   add1_i = 32'h2020_2012;
-   add2_i = 32'hDEAD_BEEF;
-   #8
-   add1_i = 32'h8943_DEAF;
-   add2_i = 32'hDAAD_BAAD;
-   #10
-   add1_i = 32'hABCD_1234;
-   add2_i = 32'h0000_0000;
-   #10
-   add1_i = 32'h0000_0000;
-   add2_i = 32'h1234_5678;
-   #10
-   add1_i = 32'h1111_4477;
-   add2_i = 32'hEEAA_0000;
-  #10
-   add1_i = 32'h5555_5555;
-   add2_i = 32'hAAAA_AAAA;
-  #10
-   add1_i = 32'h8051_9860;
-   add2_i = 32'h8086_BA3E;
-  #5
-  add1_i = 32'hFADC_0720;
-  add2_i = 32'h00DC_0810;
- #8
-  add1_i = 32'h4096_2048;
-  add2_i = 32'h2048_4096;
- #10
-  add1_i = 32'h1024_2048;
-  add2_i = 32'h8192_4096;
-  #10
-  add1_i = 32'h0000_0001;
-  add2_i = 32'hDEAF_BEEF;
-  #10
+   for(k=0; k<20001; k=k+2)begin
+    #10
+    add1_i = Mem[k];
+    add2_i = Mem[k+1];
+    end
 
+$display("Hamming Distance6:");
    keyinput = 64'hA87E0E812FE20000;
-   add1_i = 32'h0000_0000;
-   add2_i = 32'h0000_0000;
-   #10
-   add1_i = 32'h29AF_2430;
-   add2_i = 32'h7A1B_9ABC;
-   #10
-   add1_i = 32'h1100_3456;
-   add2_i = 32'h1111_2323;
-   #10
-   add1_i = 32'h8116_0873;
-   add2_i = 32'h1CCE_0178;
-   #5
-   add1_i = 32'h2020_2012;
-   add2_i = 32'hDEAD_BEEF;
-   #8
-   add1_i = 32'h8943_DEAF;
-   add2_i = 32'hDAAD_BAAD;
-   #10
-   add1_i = 32'hABCD_1234;
-   add2_i = 32'h0000_0000;
-   #10
-   add1_i = 32'h0000_0000;
-   add2_i = 32'h1234_5678;
-   #10
-   add1_i = 32'h1111_4477;
-   add2_i = 32'hEEAA_0000;
-  #10
-   add1_i = 32'h5555_5555;
-   add2_i = 32'hAAAA_AAAA;
-  #10
-   add1_i = 32'h8051_9860;
-   add2_i = 32'h8086_BA3E;
-  #5
-  add1_i = 32'hFADC_0720;
-  add2_i = 32'h00DC_0810;
- #8
-  add1_i = 32'h4096_2048;
-  add2_i = 32'h2048_4096;
- #10
-  add1_i = 32'h1024_2048;
-  add2_i = 32'h8192_4096;
-  #10
-  add1_i = 32'h0000_0001;
-  add2_i = 32'hDEAF_BEEF;
-  #10
+   for(k=0; k<20001; k=k+2)begin
+    #10
+    add1_i = Mem[k];
+    add2_i = Mem[k+1];
+    end
+
+$display("Hamming Distance1:");  
+   keyinput = 64'h887E0E812FE200DE;
+   for(k=0; k<20001; k=k+2)begin
+    #10
+    add1_i = Mem[k];
+    add2_i = Mem[k+1];
+    end
+
+$display("Hamming Distance2:");   
+   keyinput = 64'h807E0E812FE200DE;
+   for(k=0; k<20001; k=k+2)begin
+    #10
+    add1_i = Mem[k];
+    add2_i = Mem[k+1];
+    end
+
+$display("Hamming Distance3:");   
+   keyinput = 64'h007E0E812FE200DE;
+   for(k=0; k<20001; k=k+2)begin
+    #10
+    add1_i = Mem[k];
+    add2_i = Mem[k+1];
+    end
+
+$display("Hamming Distance4:");    
+   keyinput = 64'h017E0E812FE200DE;
+   for(k=0; k<20001; k=k+2)begin
+    #10
+    add1_i = Mem[k];
+    add2_i = Mem[k+1];
+    end
+
+$display("Hamming Distance6:"); 
+   keyinput = 64'h457E0E812FE200DE;
+   for(k=0; k<20001; k=k+2)begin
+    #10
+    add1_i = Mem[k];
+    add2_i = Mem[k+1];
+    end
+
+$display("Hamming Distance1:"); 
+   keyinput = 64'hA87E0E012FE200DE;
+   for(k=0; k<20001; k=k+2)begin
+    #10
+    add1_i = Mem[k];
+    add2_i = Mem[k+1];
+    end
+
+$display("Hamming Distance2:"); 
+   keyinput = 64'hA87E0C012FE200DE;
+   for(k=0; k<20001; k=k+2)begin
+    #10
+    add1_i = Mem[k];
+    add2_i = Mem[k+1];
+    end
+
+$display("Hamming Distance3:"); 
+   keyinput = 64'hA87E08012FE200DE;
+   for(k=0; k<20001; k=k+2)begin
+    #10
+    add1_i = Mem[k];
+    add2_i = Mem[k+1];
+    end
+
+$display("Hamming Distance4:"); 
+   keyinput = 64'hA87E00012FE200DE;
+   for(k=0; k<20001; k=k+2)begin
+    #10
+    add1_i = Mem[k];
+    add2_i = Mem[k+1];
+    end
+  
+$display("Hamming Distance6:");   
+   keyinput = 64'hA87E01112FE200DE;
+   for(k=0; k<20001; k=k+2)begin
+    #10
+    add1_i = Mem[k];
+    add2_i = Mem[k+1];
+    end
   
   
-  keyinput = 64'h887E0E812FE200DE;
-  add1_i = 32'h0000_0000;
-  add2_i = 32'h0000_0000;
-  #10
-  add1_i = 32'h29AF_2430;
-  add2_i = 32'h7A1B_9ABC;
-  #10
-  add1_i = 32'h1100_3456;
-  add2_i = 32'h1111_2323;
-  #10
-  add1_i = 32'h8116_0873;
-  add2_i = 32'h1CCE_0178;
-  #5
-  add1_i = 32'h2020_2012;
-  add2_i = 32'hDEAD_BEEF;
-  #8
-  add1_i = 32'h8943_DEAF;
-  add2_i = 32'hDAAD_BAAD;
-  #10
-  add1_i = 32'hABCD_1234;
-  add2_i = 32'h0000_0000;
-  #10
-  add1_i = 32'h0000_0000;
-  add2_i = 32'h1234_5678;
-  #10
-  add1_i = 32'h1111_4477;
-  add2_i = 32'hEEAA_0000;
-  #10
-  add1_i = 32'h5555_5555;
-  add2_i = 32'hAAAA_AAAA;
-  #10
-  add1_i = 32'h8051_9860;
-  add2_i = 32'h8086_BA3E;
-  #5
-  add1_i = 32'hFADC_0720;
-  add2_i = 32'h00DC_0810;
-   #8
-  add1_i = 32'h4096_2048;
-  add2_i = 32'h2048_4096;
-  #10
-  add1_i = 32'h1024_2048;
-  add2_i = 32'h8192_4096;
-  #10
-  add1_i = 32'h0000_0001;
-  add2_i = 32'hDEAF_BEEF;
-  #10
+ $finish;
     
-  keyinput = 64'h807E0E812FE200DE;
-    add1_i = 32'h0000_0000;
-  add2_i = 32'h0000_0000;
-  #10
-  add1_i = 32'h29AF_2430;
-  add2_i = 32'h7A1B_9ABC;
-  #10
-  add1_i = 32'h1100_3456;
-  add2_i = 32'h1111_2323;
-  #10
-  add1_i = 32'h8116_0873;
-  add2_i = 32'h1CCE_0178;
-  #5
-  add1_i = 32'h2020_2012;
-  add2_i = 32'hDEAD_BEEF;
-  #8
-  add1_i = 32'h8943_DEAF;
-  add2_i = 32'hDAAD_BAAD;
-  #10
-  add1_i = 32'hABCD_1234;
-  add2_i = 32'h0000_0000;
-  #10
-  add1_i = 32'h0000_0000;
-  add2_i = 32'h1234_5678;
-  #10
-  add1_i = 32'h1111_4477;
-  add2_i = 32'hEEAA_0000;
-  #10
-  add1_i = 32'h5555_5555;
-  add2_i = 32'hAAAA_AAAA;
-  #10
-  add1_i = 32'h8051_9860;
-  add2_i = 32'h8086_BA3E;
-  #5
-  add1_i = 32'hFADC_0720;
-  add2_i = 32'h00DC_0810;
-   #8
-  add1_i = 32'h4096_2048;
-  add2_i = 32'h2048_4096;
-  #10
-  add1_i = 32'h1024_2048;
-  add2_i = 32'h8192_4096;
-  #10
-  add1_i = 32'h0000_0001;
-  add2_i = 32'hDEAF_BEEF;
-  #10
-        
-keyinput = 64'h007E0E812FE200DE;
-  add1_i = 32'h0000_0000;
-  add2_i = 32'h0000_0000;
-  #10
-  add1_i = 32'h29AF_2430;
-  add2_i = 32'h7A1B_9ABC;
-  #10
-  add1_i = 32'h1100_3456;
-  add2_i = 32'h1111_2323;
-  #10
-  add1_i = 32'h8116_0873;
-  add2_i = 32'h1CCE_0178;
-  #5
-  add1_i = 32'h2020_2012;
-  add2_i = 32'hDEAD_BEEF;
-  #8
-  add1_i = 32'h8943_DEAF;
-  add2_i = 32'hDAAD_BAAD;
-  #10
-  add1_i = 32'hABCD_1234;
-  add2_i = 32'h0000_0000;
-  #10
-  add1_i = 32'h0000_0000;
-  add2_i = 32'h1234_5678;
-  #10
-  add1_i = 32'h1111_4477;
-  add2_i = 32'hEEAA_0000;
-  #10
-  add1_i = 32'h5555_5555;
-  add2_i = 32'hAAAA_AAAA;
-  #10
-  add1_i = 32'h8051_9860;
-  add2_i = 32'h8086_BA3E;
-  #5
-  add1_i = 32'hFADC_0720;
-  add2_i = 32'h00DC_0810;
-   #8
-  add1_i = 32'h4096_2048;
-  add2_i = 32'h2048_4096;
-  #10
-  add1_i = 32'h1024_2048;
-  add2_i = 32'h8192_4096;
-  #10
-  add1_i = 32'h0000_0001;
-  add2_i = 32'hDEAF_BEEF;
-  #10
- 
-keyinput = 64'h017E0E812FE200DE; 
-  add1_i = 32'h0000_0000;
-  add2_i = 32'h0000_0000;
-  #10
-  add1_i = 32'h29AF_2430;
-  add2_i = 32'h7A1B_9ABC;
-  #10
-  add1_i = 32'h1100_3456;
-  add2_i = 32'h1111_2323;
-  #10
-  add1_i = 32'h8116_0873;
-  add2_i = 32'h1CCE_0178;
-  #5
-  add1_i = 32'h2020_2012;
-  add2_i = 32'hDEAD_BEEF;
-  #8
-  add1_i = 32'h8943_DEAF;
-  add2_i = 32'hDAAD_BAAD;
-  #10
-  add1_i = 32'hABCD_1234;
-  add2_i = 32'h0000_0000;
-  #10
-  add1_i = 32'h0000_0000;
-  add2_i = 32'h1234_5678;
-  #10
-  add1_i = 32'h1111_4477;
-  add2_i = 32'hEEAA_0000;
-  #10
-  add1_i = 32'h5555_5555;
-  add2_i = 32'hAAAA_AAAA;
-  #10
-  add1_i = 32'h8051_9860;
-  add2_i = 32'h8086_BA3E;
-  #5
-  add1_i = 32'hFADC_0720;
-  add2_i = 32'h00DC_0810;
-   #8
-  add1_i = 32'h4096_2048;
-  add2_i = 32'h2048_4096;
-  #10
-  add1_i = 32'h1024_2048;
-  add2_i = 32'h8192_4096;
-  #10
-  add1_i = 32'h0000_0001;
-  add2_i = 32'hDEAF_BEEF;
-  #10
-
-keyinput = 64'h457E0E812FE200DE; 
-  add1_i = 32'h0000_0000;
-  add2_i = 32'h0000_0000;
-  #10
-  add1_i = 32'h29AF_2430;
-  add2_i = 32'h7A1B_9ABC;
-  #10
-  add1_i = 32'h1100_3456;
-  add2_i = 32'h1111_2323;
-  #10
-  add1_i = 32'h8116_0873;
-  add2_i = 32'h1CCE_0178;
-  #5
-  add1_i = 32'h2020_2012;
-  add2_i = 32'hDEAD_BEEF;
-  #8
-  add1_i = 32'h8943_DEAF;
-  add2_i = 32'hDAAD_BAAD;
-  #10
-  add1_i = 32'hABCD_1234;
-  add2_i = 32'h0000_0000;
-  #10
-  add1_i = 32'h0000_0000;
-  add2_i = 32'h1234_5678;
-  #10
-  add1_i = 32'h1111_4477;
-  add2_i = 32'hEEAA_0000;
-  #10
-  add1_i = 32'h5555_5555;
-  add2_i = 32'hAAAA_AAAA;
-  #10
-  add1_i = 32'h8051_9860;
-  add2_i = 32'h8086_BA3E;
-  #5
-  add1_i = 32'hFADC_0720;
-  add2_i = 32'h00DC_0810;
-   #8
-  add1_i = 32'h4096_2048;
-  add2_i = 32'h2048_4096;
-  #10
-  add1_i = 32'h1024_2048;
-  add2_i = 32'h8192_4096;
-  #10
-  add1_i = 32'h0000_0001;
-  add2_i = 32'hDEAF_BEEF;
-  #10
-
-keyinput = 64'hA87E0E012FE200DE;
-   add1_i = 32'h0000_0000;
-   add2_i = 32'h0000_0000;
-   #10
-   add1_i = 32'h29AF_2430;
-   add2_i = 32'h7A1B_9ABC;
-   #10
-   add1_i = 32'h1100_3456;
-   add2_i = 32'h1111_2323;
-   #10
-   add1_i = 32'h8116_0873;
-   add2_i = 32'h1CCE_0178;
-   #5
-   add1_i = 32'h2020_2012;
-   add2_i = 32'hDEAD_BEEF;
-   #8
-   add1_i = 32'h8943_DEAF;
-   add2_i = 32'hDAAD_BAAD;
-   #10
-   add1_i = 32'hABCD_1234;
-   add2_i = 32'h0000_0000;
-   #10
-   add1_i = 32'h0000_0000;
-   add2_i = 32'h1234_5678;
-   #10
-   add1_i = 32'h1111_4477;
-   add2_i = 32'hEEAA_0000;
-  #10
-   add1_i = 32'h5555_5555;
-   add2_i = 32'hAAAA_AAAA;
-  #10
-   add1_i = 32'h8051_9860;
-   add2_i = 32'h8086_BA3E;
-  #5
-  add1_i = 32'hFADC_0720;
-  add2_i = 32'h00DC_0810;
- #8
-  add1_i = 32'h4096_2048;
-  add2_i = 32'h2048_4096;
- #10
-  add1_i = 32'h1024_2048;
-  add2_i = 32'h8192_4096;
-  #10
-  add1_i = 32'h0000_0001;
-  add2_i = 32'hDEAF_BEEF;
-  #10
-  
-keyinput = 64'hA87E0C012FE200DE;
-   add1_i = 32'h0000_0000;
-   add2_i = 32'h0000_0000;
-   #10
-   add1_i = 32'h29AF_2430;
-   add2_i = 32'h7A1B_9ABC;
-   #10
-   add1_i = 32'h1100_3456;
-   add2_i = 32'h1111_2323;
-   #10
-   add1_i = 32'h8116_0873;
-   add2_i = 32'h1CCE_0178;
-   #5
-   add1_i = 32'h2020_2012;
-   add2_i = 32'hDEAD_BEEF;
-   #8
-   add1_i = 32'h8943_DEAF;
-   add2_i = 32'hDAAD_BAAD;
-   #10
-   add1_i = 32'hABCD_1234;
-   add2_i = 32'h0000_0000;
-   #10
-   add1_i = 32'h0000_0000;
-   add2_i = 32'h1234_5678;
-   #10
-   add1_i = 32'h1111_4477;
-   add2_i = 32'hEEAA_0000;
-  #10
-   add1_i = 32'h5555_5555;
-   add2_i = 32'hAAAA_AAAA;
-  #10
-   add1_i = 32'h8051_9860;
-   add2_i = 32'h8086_BA3E;
-  #5
-  add1_i = 32'hFADC_0720;
-  add2_i = 32'h00DC_0810;
- #8
-  add1_i = 32'h4096_2048;
-  add2_i = 32'h2048_4096;
- #10
-  add1_i = 32'h1024_2048;
-  add2_i = 32'h8192_4096;
-  #10
-  add1_i = 32'h0000_0001;
-  add2_i = 32'hDEAF_BEEF;
-  #10
-
-keyinput = 64'hA87E08012FE200DE;
-   add1_i = 32'h0000_0000;
-   add2_i = 32'h0000_0000;
-   #10
-   add1_i = 32'h29AF_2430;
-   add2_i = 32'h7A1B_9ABC;
-   #10
-   add1_i = 32'h1100_3456;
-   add2_i = 32'h1111_2323;
-   #10
-   add1_i = 32'h8116_0873;
-   add2_i = 32'h1CCE_0178;
-   #5
-   add1_i = 32'h2020_2012;
-   add2_i = 32'hDEAD_BEEF;
-   #8
-   add1_i = 32'h8943_DEAF;
-   add2_i = 32'hDAAD_BAAD;
-   #10
-   add1_i = 32'hABCD_1234;
-   add2_i = 32'h0000_0000;
-   #10
-   add1_i = 32'h0000_0000;
-   add2_i = 32'h1234_5678;
-   #10
-   add1_i = 32'h1111_4477;
-   add2_i = 32'hEEAA_0000;
-  #10
-   add1_i = 32'h5555_5555;
-   add2_i = 32'hAAAA_AAAA;
-  #10
-   add1_i = 32'h8051_9860;
-   add2_i = 32'h8086_BA3E;
-  #5
-  add1_i = 32'hFADC_0720;
-  add2_i = 32'h00DC_0810;
- #8
-  add1_i = 32'h4096_2048;
-  add2_i = 32'h2048_4096;
- #10
-  add1_i = 32'h1024_2048;
-  add2_i = 32'h8192_4096;
-  #10
-  add1_i = 32'h0000_0001;
-  add2_i = 32'hDEAF_BEEF;
-  #10
-
-keyinput = 64'hA87E00012FE200DE;
-   add1_i = 32'h0000_0000;
-   add2_i = 32'h0000_0000;
-   #10
-   add1_i = 32'h29AF_2430;
-   add2_i = 32'h7A1B_9ABC;
-   #10
-   add1_i = 32'h1100_3456;
-   add2_i = 32'h1111_2323;
-   #10
-   add1_i = 32'h8116_0873;
-   add2_i = 32'h1CCE_0178;
-   #5
-   add1_i = 32'h2020_2012;
-   add2_i = 32'hDEAD_BEEF;
-   #8
-   add1_i = 32'h8943_DEAF;
-   add2_i = 32'hDAAD_BAAD;
-   #10
-   add1_i = 32'hABCD_1234;
-   add2_i = 32'h0000_0000;
-   #10
-   add1_i = 32'h0000_0000;
-   add2_i = 32'h1234_5678;
-   #10
-   add1_i = 32'h1111_4477;
-   add2_i = 32'hEEAA_0000;
-  #10
-   add1_i = 32'h5555_5555;
-   add2_i = 32'hAAAA_AAAA;
-  #10
-   add1_i = 32'h8051_9860;
-   add2_i = 32'h8086_BA3E;
-  #5
-  add1_i = 32'hFADC_0720;
-  add2_i = 32'h00DC_0810;
- #8
-  add1_i = 32'h4096_2048;
-  add2_i = 32'h2048_4096;
- #10
-  add1_i = 32'h1024_2048;
-  add2_i = 32'h8192_4096;
-  #10
-  add1_i = 32'h0000_0001;
-  add2_i = 32'hDEAF_BEEF;
-  #10
-
-keyinput = 64'hA87E01112FE200DE;
-   add1_i = 32'h0000_0000;
-   add2_i = 32'h0000_0000;
-   #10
-   add1_i = 32'h29AF_2430;
-   add2_i = 32'h7A1B_9ABC;
-   #10
-   add1_i = 32'h1100_3456;
-   add2_i = 32'h1111_2323;
-   #10
-   add1_i = 32'h8116_0873;
-   add2_i = 32'h1CCE_0178;
-   #5
-   add1_i = 32'h2020_2012;
-   add2_i = 32'hDEAD_BEEF;
-   #8
-   add1_i = 32'h8943_DEAF;
-   add2_i = 32'hDAAD_BAAD;
-   #10
-   add1_i = 32'hABCD_1234;
-   add2_i = 32'h0000_0000;
-   #10
-   add1_i = 32'h0000_0000;
-   add2_i = 32'h1234_5678;
-   #10
-   add1_i = 32'h1111_4477;
-   add2_i = 32'hEEAA_0000;
-  #10
-   add1_i = 32'h5555_5555;
-   add2_i = 32'hAAAA_AAAA;
-  #10
-   add1_i = 32'h8051_9860;
-   add2_i = 32'h8086_BA3E;
-  #5
-  add1_i = 32'hFADC_0720;
-  add2_i = 32'h00DC_0810;
- #8
-  add1_i = 32'h4096_2048;
-  add2_i = 32'h2048_4096;
- #10
-  add1_i = 32'h1024_2048;
-  add2_i = 32'h8192_4096;
-  #10
-  add1_i = 32'h0000_0001;
-  add2_i = 32'hDEAF_BEEF;
-  #10
-    
-    $finish; 
+   
  end
+
 
 initial begin
 
