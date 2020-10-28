@@ -2,264 +2,264 @@
 
 
 RCA:
-Hamming Distance 1 : MED : 0x1000    ER0 =1.0  ER16 = 1.0
-Hamming Distance 2 : MED : 0xffb   ER0 = 1.0  ER16 = 1.0
-Hamming Distance 3: MED : 0xce4 ER0 = 1.0   ER16 = 1.0 
-Hamming Distance 4 : MED : 0xce6 ER0 = 1.0  ER16 = 1.0
-Hamm'ing Distance 6 : MED : 0xd32 ER0 = 1.0   ER16=1.0 
+Hamming Distance 1 : MED : 0x1000  NMED:  0.031291539977692552077   ER0 =1.0  ER16 = 1.0
+Hamming Distance 2 : MED : 0xffb    NMED:  0.031253342297055723698   ER0 = 1.0  ER16 = 1.0
+Hamming Distance 3: MED : 0xce4    NMED:  0.025210469220308943938  ER0 = 1.0   ER16 = 1.0 
+Hamming Distance 4 : MED : 0xce6    NMED:  0.025225748292563673902  ER0 = 1.0  ER16 = 1.0
+Hamm'ing Distance 6 : MED : 0xd32    NMED:  0.025806353038243516618  ER0 = 1.0   ER16=1.0 
 
-Hamming Distance 1 : MED : 0xc00d  ER0 = 0.7502  ER16 = 0.7502
-Hamming Distance 2 : MED : 0xc00d ER0 = 1.0    ER16 = 0.7502
-Hamming Distance 3 : MED : 0xc00a   ER0 =1.0   ER16=0.8132
-Hamming Distance 4: MED : 0xc124   ER0 =1.0  ER16=1.0
-Hamming Distance 6 : MED : 0xc113   ER0 =1.0   ER16=1.0 
+Hamming Distance 1 : MED : 0xc00d    NMED: 0.375597793701966442548    ER0 = 0.7502  ER16 = 0.7502
+Hamming Distance 2 : MED : 0xc00d     NMED: 0.375597793701966442548    ER0 = 1.0    ER16 = 0.7502
+Hamming Distance 3 : MED : 0xc00a     NMED: 0.375574875093584337193   ER0 =1.0   ER16=0.8132
+Hamming Distance 4: MED : 0xc124     NMED: 0.377729224281501629878   ER0 =1.0  ER16=1.0
+Hamming Distance 6 : MED : 0xc113    NMED: 0.377599352167336421715    ER0 =1.0   ER16=1.0 
 
-Hamming Distance 1 : MED : 0xc0   ER0 =0.752  ER16=0.752
-Hamming Distance 2 : MED : 0x1a0   ER0 =1.0  ER16=1.0
-Hamming Distance 3 : MED : 0x1ac   ER0 =1.0  ER16=1.0
-Hamming Distance 4 : MED : 0x1fe3   ER0 =1.0  ER16=1.0
-Hamming Distance 6 : MED : 0x96c   ER0 =1.0  ER16=1.0
+Hamming Distance 1 : MED : 0xc0     NMED: 0.001466790936454338487   ER0 =0.752  ER16=0.752
+Hamming Distance 2 : MED : 0x1a0     NMED: 0.0031780470289844002   ER0 =1.0  ER16=1.0
+Hamming Distance 3 : MED : 0x1ac     NMED:  0.003269721462512796030  ER0 =1.0  ER16=1.0
+Hamming Distance 4 : MED : 0x1fe3     NMED:  0.062361533407691481512  ER0 =1.0  ER16=1.0
+Hamming Distance 6 : MED : 0x96c     NMED: 0.018426561139207625617   ER0 =1.0  ER16=1.0
 
 
 
 CLA:
-Hamming Distance 1 : MED : 0x8000    ER0 =1.0  ER16 = 1.0
-Hamming Distance 2 : MED : 0x7fff   ER0 = 1.0 ER16 = 1.0
-Hamming Distance 3: MED : 0x5fae ER0 = 1.0  ER16 = 1.0
-Hamming Distance 4 : MED : 0x5fae ER0 =1.0  ER16 = 1.0
-Hamm'ing Distance 6 : MED : 0x5fb5 ER0 = 1.0  ER16=1.0
+Hamming Distance 1 : MED : 0x8000    NMED: 0.250332319821540416616      ER0 =1.0  ER16 = 1.0
+Hamming Distance 2 : MED : 0x7fff    NMED: 0.250324680285413048164     ER0 = 1.0 ER16 = 1.0
+Hamming Distance 3: MED : 0x5fae   NMED: 0.187122797903711279854   ER0 = 1.0  ER16 = 1.0
+Hamming Distance 4 : MED : 0x5fae   NMED: 0.187122797903711279854   ER0 =1.0  ER16 = 1.0
+Hamm'ing Distance 6 : MED : 0x5fb5   NMED: 0.187176274656602859014   ER0 = 1.0  ER16=1.0
 
-Hamming Distance 1 : MED : 0xc3  ER0 = 0.3828  ER16 = 0.3828
-Hamming Distance 2 : MED : 0xc9 ER0 = 1.0    ER16 = 0.3839
-Hamming Distance 3 : MED : 0xc3   ER0 =1.0   ER16=0.3724
-Hamming Distance 4: MED : 0x3fff   ER0 =1.0 ER16=1.0
-Hamming Distance 6 : MED : 0x3ff9   ER0 =1.0  ER16=1.0
+Hamming Distance 1 : MED : 0xc3   NMED: 0.001489709544836437553    ER0 = 0.3828  ER16 = 0.3828
+Hamming Distance 2 : MED : 0xc9   NMED: 0.001535546761600635685   ER0 = 1.0    ER16 = 0.3839
+Hamming Distance 3 : MED : 0xc3    NMED: 0.001489709544836437553    ER0 =1.0   ER16=0.3724
+Hamming Distance 4: MED : 0x3fff    NMED:0.125158520374642839856     ER0 =1.0 ER16=1.0
+Hamming Distance 6 : MED : 0x3ff9    NMED: 0.125112683157878656903    ER0 =1.0  ER16=1.0
 
-Hamming Distance 1 : MED : 0x17b1   ER0 =0.3702  ER16=0.3702
-Hamming Distance 2 : MED : 0x17d2   ER0 =1.0  ER16=1.0
-Hamming Distance 3 : MED : 0x1802   ER0 =1.0  ER16=1.0
-Hamming Distance 4 : MED : 0x1805   ER0 =1.0  ER16=1.0
-Hamming Distance 6 : MED : 0x1c50   ER0 =1.0  ER16=1.0
+Hamming Distance 1 : MED : 0x17b1    NMED: 0.046333786612476890454    ER0 =0.3702  ER16=0.3702
+Hamming Distance 2 : MED : 0x17d2     NMED: 0.046585891304679979963   ER0 =1.0  ER16=1.0
+Hamming Distance 3 : MED : 0x1802     NMED: 0.046952589038793561549    ER0 =1.0  ER16=1.0
+Hamming Distance 4 : MED : 0x1805    NMED: 0.046975507647175666903    ER0 =1.0  ER16=1.0
+Hamming Distance 6 : MED : 0x1c50    NMED:  0.055371357851151277452   ER0 =1.0  ER16=1.0
 
 
 ACA:
-MED : 0x205     ER0: 0.0909      ER16:0.0909
+MED : 0x205    NMED:  0.003949640177848400859     ER0: 0.0909      ER16:0.0909
 
-Hamming Distance 1 : MED : 0x220    ER0 =0.535  ER16 = 0.535
-Hamming Distance 2 : MED : 0x224   ER0 = 0.5313  ER16 = 0.5313
-Hamming Distance 3: MED : 0x17dc ER0 = 0.6979  ER16 = 0.6979
-Hamming Distance 4 : MED : 0x17df ER0 = 0.9217  ER16 = 0.7087
-Hamm'ing Distance 6 : MED : 0x17ef ER0 = 0.9736  ER16=0.7413
+Hamming Distance 1 : MED : 0x220     NMED: 0.004155907653287292669    ER0 =0.535  ER16 = 0.535
+Hamming Distance 2 : MED : 0x224    NMED: 0.004186465797796757801    ER0 = 0.5313  ER16 = 0.5313
+Hamming Distance 3: MED : 0x17dc   NMED: 0.046662286665953643661    ER0 = 0.6979  ER16 = 0.6979
+Hamming Distance 4 : MED : 0x17df   NMED: 0.046685205274335742076    ER0 = 0.9217  ER16 = 0.7087
+Hamm'ing Distance 6 : MED : 0x17ef    NMED:  0.046807437852373602605   ER0 = 0.9736  ER16=0.7413
 
-Hamming Distance 1 : MED : 0x3c0  ER0 = 0.5321  ER16 = 0.5321
-Hamming Distance 2 : MED : 0x4de ER0 = 0.796    ER16 = 0.796
-Hamming Distance 3 : MED : 0x4df   ER0 =0.9472   ER16=0.8043
-Hamming Distance 4: MED : 0x540   ER0 =0.9541 ER16=0.8251
-Hamming Distance 6 : MED : 0xc313   ER0 =0.9942  ER16=0.9774
+Hamming Distance 1 : MED : 0x3c0   NMED: 0.007333954682271692435    ER0 = 0.5321  ER16 = 0.5321
+Hamming Distance 2 : MED : 0x4de   NMED:  0.0095188620146984676   ER0 = 0.796    ER16 = 0.796
+Hamming Distance 3 : MED : 0x4df    NMED: 0.009526501550825834316    ER0 =0.9472   ER16=0.8043
+Hamming Distance 4: MED : 0x540    NMED: 0.010267536555180369409    ER0 =0.9541 ER16=0.8251
+Hamming Distance 6 : MED : 0xc313    NMED: 0.381510794664547958632    ER0 =0.9942  ER16=0.9774
 
-Hamming Distance 1 : MED : 0x277   ER0 =0.9971  ER16=0.9971
-Hamming Distance 2 : MED : 0x2e3   ER0 =0.9978  ER16=0.9978
-Hamming Distance 3 : MED : 0x640   ER0 =0.9994  ER16=0.9994
-Hamming Distance 4 : MED : 0x641   ER0 =1.0  ER16=0.9999
-Hamming Distance 6 : MED : 0x63a   ER0 =1.0 ER16=0.9992
+Hamming Distance 1 : MED : 0x277    NMED: 0.004820547296368164931     ER0 =0.9971  ER16=0.9971
+Hamming Distance 2 : MED : 0x2e3    NMED: 0.005645617198123729572    ER0 =0.9978  ER16=0.9978
+Hamming Distance 3 : MED : 0x640    NMED: 0.012223257803786153480     ER0 =0.9994  ER16=0.9994
+Hamming Distance 4 : MED : 0x641    NMED: 0.012230897339913520197    ER0 =1.0  ER16=0.9999
+Hamming Distance 6 : MED : 0x63a    NMED: 0.012177420587021956649    ER0 =1.0 ER16=0.9992
 
 
 ESA:
-MED : 0x833     ER0: 0.8519      ER16:0.7224
+MED : 0x833     NMED: 0.016035386331341959509     ER0: 0.8519      ER16:0.7224
 
-Hamming Distance 1 : MED : 0x95b    ER0 =1.0  ER16 = 1.0
-Hamming Distance 2 : MED : 0x95b   ER0 = 1.0  ER16 = 1.0
-Hamming Distance 3: MED : 0x2e7a ER0 = 1.0  ER16 = 1.0
-Hamming Distance 4: MED : 0x2e7a ER0 = 1.0  ER16 = 1.0
-Hamming Distance 6: MED : 0x2e7a ER0 = 1.0  ER16 = 1.0
+Hamming Distance 1 : MED : 0x95b    NMED:  0.018296689025042400106    ER0 =1.0  ER16 = 1.0
+Hamming Distance 2 : MED : 0x95b    NMED: 0.018296689025042400106    ER0 = 1.0  ER16 = 1.0
+Hamming Distance 3: MED : 0x2e7a     NMED: 0.090895200843404785895   ER0 = 1.0  ER16 = 1.0
+Hamming Distance 4: MED : 0x2e7a    NMED: 0.090895200843404785895   ER0 = 1.0  ER16 = 1.0
+Hamming Distance 6: MED : 0x2e7a    NMED: 0.090895200843404785895   ER0 = 1.0  ER16 = 1.0
 
-Hamming Distance 1 : MED : 0xbede  ER0 = 0.9626  ER16 = 0.9298
-Hamming Distance 2 : MED : 0xbede ER0 = 1.0   ER16 = 0.942
-Hamming Distance 3 : MED : 0xbefb   ER0 =1.0   ER16=1.0
-Hamming Distance 4: MED : 0xbefb   ER0 =1.0 ER16=1.0
-Hamming Distance 6 : MED : 0x49ad   ER0 =1.0  ER16=1.0
+Hamming Distance 1 : MED : 0xbede    NMED:0.373283014255374412382     ER0 = 0.9626  ER16 = 0.9298
+Hamming Distance 2 : MED : 0xbede    NMED:0.373283014255374412382     ER0 = 1.0   ER16 = 0.942
+Hamming Distance 3 : MED : 0xbefb     NMED: 0.373504560803068041963    ER0 =1.0   ER16=1.0
+Hamming Distance 4: MED : 0xbefb    NMED: 0.373504560803068041963    ER0 =1.0 ER16=1.0
+Hamming Distance 6 : MED : 0x49ad    NMED: 0.144089290898256644491    ER0 =1.0  ER16=1.0
 
-Hamming Distance 1 : MED : 0x9ab   ER0 =1.0  ER16=1.0
-Hamming Distance 2 : MED : 0x2123   ER0 =1.0  ER16=1.0
-Hamming Distance 3 : MED : 0x2123   ER0 =1.0  ER16=1.0
-Hamming Distance 4 : MED : 0x2123   ER0 =1.0  ER16=1.0
-Hamming Distance 6 : MED : 0x2123   ER0 =1.0  ER16=1.0
+Hamming Distance 1 : MED : 0x9ab    NMED: 0.018907851915231706219    ER0 =1.0  ER16=1.0
+Hamming Distance 2 : MED : 0x2123    NMED: 0.064806184968448712902    ER0 =1.0  ER16=1.0
+Hamming Distance 3 : MED : 0x2123    NMED: 0.064806184968448712902     ER0 =1.0  ER16=1.0
+Hamming Distance 4 : MED : 0x2123    NMED: 0.064806184968448712902    ER0 =1.0  ER16=1.0
+Hamming Distance 6 : MED : 0x2123    NMED: 0.064806184968448712902   ER0 =1.0  ER16=1.0
 
 
 
 ETA:
-MED : 0x895     ER0: 0.1447      ER16:0.0855
+MED : 0x895     NMED: 0.016784060871823863054     ER0: 0.1447      ER16:0.0855
 
-Hamming Distance 1 : MED : 0x16fb    ER0 =0.9772  ER16 = 0.9757
-Hamming Distance 2 : MED : 0x16fb   ER0 = 0.978  ER16 = 0.9757
-Hamming Distance 3: MED : 0xf7a3 ER0 = 0.999  ER16 = 0.9987
-Hamming Distance 4 : MED : 0xbfd4 ER0 = 1.0  ER16 = 1.0
-Hamm'ing Distance 6 : MED : 0xbfd5 ER0 = 1.0  ER16=1.0
+Hamming Distance 1 : MED : 0x16fb    NMED: 0.044943391037296213930     ER0 =0.9772  ER16 = 0.9757
+Hamming Distance 2 : MED : 0x16fb    NMED: 0.044943391037296213930    ER0 = 0.978  ER16 = 0.9757
+Hamming Distance 3: MED : 0xf7a3   NMED: 0.4843083927943895306    ER0 = 0.999  ER16 = 0.9987
+Hamming Distance 4 : MED : 0xbfd4   NMED: 0.375162340142706551838    ER0 = 1.0  ER16 = 1.0
+Hamm'ing Distance 6 : MED : 0xbfd5    NMED: 0.375169979678833920289   ER0 = 1.0  ER16=1.0
 
-Hamming Distance 1 : MED : 0x895  ER0 = 0.1855  ER16 = 0.0836
-Hamming Distance 2 : MED : 0x8a2 ER0 = 0.7403    ER16 = 0.1036
-Hamming Distance 3 : MED : 0x8a1   ER0 =0.8928   ER16=0.2205
-Hamming Distance 4: MED : 0x8ce   ER0 =1.0   ER16=1.0
-Hamming Distance 6 : MED : 0x6542   ER0 =1.0  ER16=1.0
+Hamming Distance 1 : MED : 0x895   NMED: 0.016784060871823863054     ER0 = 0.1855  ER16 = 0.0836
+Hamming Distance 2 : MED : 0x8a2   NMED:0.016883374841479625167    ER0 = 0.7403    ER16 = 0.1036
+Hamming Distance 3 : MED : 0x8a1    NMED: 0.016875735305352260185     ER0 =0.8928   ER16=0.2205
+Hamming Distance 4: MED : 0x8ce    NMED: 0.017219514431083743355     ER0 =1.0   ER16=1.0
+Hamming Distance 6 : MED : 0x6542    NMED: 0.198032055493590430917    ER0 =1.0  ER16=1.0
 
-Hamming Distance 1 : MED : 0x4a50   ER0 =0.7994  ER16=0.7856
-Hamming Distance 2 : MED : 0x4a73   ER0 =0.8091  ER16=0.7959
-Hamming Distance 3 : MED : 0x4a7f   ER0 =0.8365  ER16=0.826
-Hamming Distance 4 : MED : 0x4a90   ER0 =1.0  ER16=1.0
-Hamming Distance 6 : MED : 0x3a1c   ER0 =1.0  ER16=1.0
+Hamming Distance 1 : MED : 0x4a50    NMED: 0.145334535287017369010    ER0 =0.7994  ER16=0.7856
+Hamming Distance 2 : MED : 0x4a73    NMED: 0.145601919051475181544    ER0 =0.8091  ER16=0.7959
+Hamming Distance 3 : MED : 0x4a7f    NMED: 0.145693593485003602961    ER0 =0.8365  ER16=0.826
+Hamming Distance 4 : MED : 0x4a90    NMED: 0.145823465599168811124    ER0 =1.0  ER16=1.0
+Hamming Distance 6 : MED : 0x3a1c    NMED: 0.113645739430701761541     ER0 =1.0  ER16=1.0
 
 
 LOARCA:
-MED : 0x2     ER0: 0.6826      ER16: 0
+MED : 0x2     NMED: 0.000015279072254732691     ER0: 0.6826      ER16: 0
 
-Hamming Distance 1 : MED : 0x3f    ER0 =1.0  ER16 = 1.0
-Hamming Distance 2 : MED : 0xc03   ER0 =1.0  ER16 = 1.0
-Hamming Distance 3: MED : 0x43a   ER0 =1.0  ER16 = 1.0
-Hamming Distance 4 : MED : 0x800c  ER0 =1.0  ER16 = 1.0
-Hamm'ing Distance 6 : MED : 0x800c  ER0 =1.0  ER16 = 1.0
+Hamming Distance 1 : MED : 0x3f     NMED: 0.000481290776024079843    ER0 =1.0  ER16 = 1.0
+Hamming Distance 2 : MED : 0xc03    NMED: 0.023491573591651514208    ER0 =1.0  ER16 = 1.0
+Hamming Distance 3: MED : 0x43a    NMED: 0.008265978089810386772    ER0 =1.0  ER16 = 1.0
+Hamming Distance 4 : MED : 0x800c    NMED: 0.250423994255068838033     ER0 =1.0  ER16 = 1.0
+Hamm'ing Distance 6 : MED : 0x800c    NMED: 0.250423994255068838033    ER0 =1.0  ER16 = 1.0
 
-Hamming Distance 1 : MED : 0x3ff  ER0 =1.0  ER16 = 1.0
-Hamming Distance 2 : MED : 0xc02f  ER0 =1.0  ER16 = 1.0
-Hamming Distance 3 : MED : 0xbfc4   ER0 =0.9592   ER16=0.8725
-Hamming Distance 4: MED : 0xc07e   ER0 =0.9811 ER16=0.9372
-Hamming Distance 6 : MED : 0xb1bb   ER0 =0.9941  ER16=0.982
+Hamming Distance 1 : MED : 0x3ff    NMED: 0.007815245458295773037   ER0 =1.0  ER16 = 1.0
+Hamming Distance 2 : MED : 0xc02f    NMED: 0.375857537930296858875    ER0 =1.0  ER16 = 1.0
+Hamming Distance 3 : MED : 0xbfc4    NMED: 0.375040107564668656615    ER0 =0.9592   ER16=0.8725
+Hamming Distance 4: MED : 0xc07e    NMED: 0.376461061284358800005    ER0 =0.9811 ER16=0.9372
+Hamming Distance 6 : MED : 0xb1bb    NMED: 0.347591254259041415597    ER0 =0.9941  ER16=0.982
 
-Hamming Distance 1 : MED : 0x2000   ER0 =1.0  ER16 = 1.0
-Hamming Distance 2 : MED : 0x27ef  ER0 =1.0  ER16 = 1.0
-Hamming Distance 3 : MED : 0x285f   ER0 =1.0  ER16 = 1.0
-Hamming Distance 4 : MED : 0x285d   ER0 =1.0  ER16 = 1.0
-Hamming Distance 6 : MED : 0x2830   ER0 =1.0  ER16 = 1.0
+Hamming Distance 1 : MED : 0x2000    NMED: 0.062583079955385104154     ER0 =1.0  ER16 = 1.0
+Hamming Distance 2 : MED : 0x27ef    NMED: 0.078098977830066154682   ER0 =1.0  ER16 = 1.0
+Hamming Distance 3 : MED : 0x285f    NMED:  0.078954605876331185321   ER0 =1.0  ER16 = 1.0
+Hamming Distance 4 : MED : 0x285d    NMED: 0.078939326804076462296    ER0 =1.0  ER16 = 1.0
+Hamming Distance 6 : MED : 0x2830    NMED: 0.078595547678344965248    ER0 =1.0  ER16 = 1.0
 
 
 LOACLA:
-MED : 0x2     ER0: 0.6826      ER16: 0
+MED : 0x2     NMED:  0.000015279072254732691    ER0: 0.6826      ER16: 0
 
-Hamming Distance 1 : MED : 0x602f    ER0 =0.7999  ER16 = 0.3757
-Hamming Distance 2 : MED : 0x604f   ER0 = 0.8808  ER16 = 0.6213
-Hamming Distance 3: MED : 0x60e5 ER0 = 0.9776  ER16 = 0.923
-Hamming Distance 4 : MED : 0x62ac ER0 = 0.9921  ER16 = 0.9714
-Hamm'ing Distance 6 : MED : 0x7f61 ER0 =1.0  ER16 = 1.0
+Hamming Distance 1 : MED : 0x602f    NMED: 0.188108298064141532535     ER0 =0.7999  ER16 = 0.3757
+Hamming Distance 2 : MED : 0x604f    NMED: 0.188352763220217267470     ER0 = 0.8808  ER16 = 0.6213
+Hamming Distance 3: MED : 0x60e5   NMED: 0.189498693639322229876    ER0 = 0.9776  ER16 = 0.923
+Hamming Distance 4 : MED : 0x62ac     NMED: 0.192974682577273903838    ER0 = 0.9921  ER16 = 0.9714
+Hamm'ing Distance 6 : MED : 0x7f61    NMED: 0.249117633577289193658    ER0 =1.0  ER16 = 1.0
 
-Hamming Distance 1 : MED : 0xfff  ER0 =1.0  ER16 = 1.0
-Hamming Distance 2 : MED : 0x9f4 ER0 = 0.8759    ER16 = 0.622
-Hamming Distance 3 : MED : 0xa55   ER0 =0.9747   ER16=0.9147
-Hamming Distance 4: MED : 0xff54    ER0 =1.0  ER16 = 1.0
-Hamming Distance 6 : MED : 0xf936   ER0 =1.0  ER16 = 1.0
+Hamming Distance 1 : MED : 0xfff    NMED: 0.031283900441565190564    ER0 =1.0  ER16 = 1.0
+Hamming Distance 2 : MED : 0x9f4   NMED: 0.019465538052529450519   ER0 = 0.8759    ER16 = 0.622
+Hamming Distance 3 : MED : 0xa55    NMED: 0.020206573056883985612    ER0 =0.9747   ER16=0.9147
+Hamming Distance 4: MED : 0xff54     NMED:0.499350639429173848161     ER0 =1.0  ER16 = 1.0
+Hamming Distance 6 : MED : 0xf936    NMED:0.487387125853718183865     ER0 =1.0  ER16 = 1.0
 
-Hamming Distance 1 : MED : 0x64   ER0 =0.94  ER16= 0.7832
-Hamming Distance 2 : MED : 0x2ff6   ER0 =0.9606  ER16=0.8651
-Hamming Distance 3 : MED : 0x2ff5   ER0 =1.0  ER16=0.9579
-Hamming Distance 4 : MED : 0x3491  ER0 =1.0  ER16 = 1.0
-Hamming Distance 6 : MED : 0x34bb   ER0 =1.0  ER16 = 1.0
+Hamming Distance 1 : MED : 0x64    NMED:  0.000763953612736634593   ER0 =0.94  ER16= 0.7832
+Hamming Distance 2 : MED : 0x2ff6    NMED: 0.093798224571804006411     ER0 =0.9606  ER16=0.8651
+Hamming Distance 3 : MED : 0x2ff5    NMED: 0.093790585035676637959    ER0 =1.0  ER16=0.9579
+Hamming Distance 4 : MED : 0x3491   NMED: 0.102805237665968926541    ER0 =1.0  ER16 = 1.0
+Hamming Distance 6 : MED : 0x34bb    NMED: 0.103126098183318304358    ER0 =1.0  ER16 = 1.0
 
 
 
 XRCA:
-MED : 0x2     ER0: 0.3646      ER16: 0
+MED : 0x2     NMED: 0.000015279072254732691     ER0: 0.3646      ER16: 0
 
-Hamming Distance 1 : MED : 0x7fff    ER0 =1.0  ER16 = 1.0
-Hamming Distance 2 : MED : 0x8003   ER0 = 1.0  ER16 = 1.0
-Hamming Distance 3: MED : 0x8003 ER0 = 1.0  ER16 = 1.0
-Hamming Distance 4 : MED : 0x7ffd ER0 = 1.0 ER16 = 1.0
-Hamm'ing Distance 6 : MED : 0x8000 ER0 = 1.0  ER16=1.0
+Hamming Distance 1 : MED : 0x7fff    NMED:  0.250324680285413048164    ER0 =1.0  ER16 = 1.0
+Hamming Distance 2 : MED : 0x8003    NMED: 0.250355238429922521970    ER0 = 1.0  ER16 = 1.0
+Hamming Distance 3: MED : 0x8003   NMED: 0.250355238429922521970    ER0 = 1.0  ER16 = 1.0
+Hamming Distance 4 : MED : 0x7ffd   NMED: 0.250309401213158311261     ER0 = 1.0 ER16 = 1.0
+Hamm'ing Distance 6 : MED : 0x8000   NMED: 0.250332319821540416616   ER0 = 1.0  ER16=1.0
 
-Hamming Distance 1 : MED : 0x400  ER0 = 1.0  ER16 = 1.0 
-Hamming Distance 2 : MED : 0xc63 ER0 = 1.0    ER16 = 1.0
-Hamming Distance 3 : MED : 0xd96   ER0 =1.0     ER16=1.0  
-Hamming Distance 4: MED : 0xdde   ER0 =1.0 ER16=1.0
-Hamming Distance 6 : MED : 0xa011   ER0 =1.0 ER16=1.0
+Hamming Distance 1 : MED : 0x400    NMED: 0.007822884994423138019    ER0 = 1.0  ER16 = 1.0 
+Hamming Distance 2 : MED : 0xc63    NMED: 0.024224969059878684319   ER0 = 1.0    ER16 = 1.0
+Hamming Distance 3 : MED : 0xd96    NMED: 0.026570306650980153595    ER0 =1.0     ER16=1.0  
+Hamming Distance 4: MED : 0xdde    NMED: 0.027120353252150529444    ER0 =1.0 ER16=1.0
+Hamming Distance 6 : MED : 0xa011    NMED: 0.313045271891090770566    ER0 =1.0 ER16=1.0
 
-Hamming Distance 1 : MED : 0xbe8   ER0 =0.8401  ER16= 0.7442
-Hamming Distance 2 : MED : 0x2029   ER0 =1.0  ER16=1.0
-Hamming Distance 3 : MED : 0x202a   ER0 =1.0  ER16=1.0
-Hamming Distance 4 : MED : 0x202a   ER0 =1.0  ER16=1.0
-Hamming Distance 6 : MED : 0x3944   ER0 =1.0  ER16=1.0
+Hamming Distance 1 : MED : 0xbe8    NMED:  0.023285306116212624999   ER0 =0.8401  ER16= 0.7442
+Hamming Distance 2 : MED : 0x2029    NMED: 0.062896300936607127396     ER0 =1.0  ER16=1.0
+Hamming Distance 3 : MED : 0x202a    NMED: 0.062903940472734495848    ER0 =1.0  ER16=1.0
+Hamming Distance 4 : MED : 0x202a    NMED: 0.062903940472734495848    ER0 =1.0  ER16=1.0
+Hamming Distance 6 : MED : 0x3944    NMED: 0.111995599627190633996   ER0 =1.0  ER16=1.0
 
 
 XCLA:
-MED : 0x2     ER0: 0.3646      ER16: 0
+MED : 0x2    NMED: 0.000015279072254732691      ER0: 0.3646      ER16: 0
 
-Hamming Distance 1 : MED : 0x4000    ER0 =1.0  ER16 = 1.0
-Hamming Distance 2 : MED : 0xefd2   ER0 = 1.0   ER16 = 1.0 
-Hamming Distance 3: MED : 0xec46 ER0 = 1.0  ER16 = 1.0
-Hamming Distance 4 : MED : 0xec40 ER0 = 1.0 ER16 = 1.0
-Hamm'ing Distance 6 : MED : 0xec29 ER0 = 1.0  ER16=1.0
+Hamming Distance 1 : MED : 0x4000    NMED: 0.125166159910770208308      ER0 =1.0  ER16 = 1.0
+Hamming Distance 2 : MED : 0xefd2    NMED: 0.469021681003529478104     ER0 = 1.0   ER16 = 1.0 
+Hamming Distance 3: MED : 0xec46    NMED: 0.462084982199880811571   ER0 = 1.0  ER16 = 1.0
+Hamming Distance 4 : MED : 0xec40    NMED: 0.462039144983116600862   ER0 = 1.0 ER16 = 1.0
+Hamm'ing Distance 6 : MED : 0xec29   NMED: 0.461863435652187181990    ER0 = 1.0  ER16=1.0
 
-Hamming Distance 1 : MED : 0xbf3  ER0 = 0.8402  ER16 = 0.7468
-Hamming Distance 2 : MED : 0xc010 ER0 = 0.9551    ER16 = 0.9293
-Hamming Distance 3 : MED : 0xc010   ER0 =0.9939   ER16=0.9293
-Hamming Distance 4: MED : 0xbca6   ER0 =0.9967 ER16=0.9613
-Hamming Distance 6 : MED : 0xbc9a   ER0 =0.9988  ER16=0.9773
+Hamming Distance 1 : MED : 0xbf3    NMED: 0.023369341013613653679    ER0 = 0.8402  ER16 = 0.7468
+Hamming Distance 2 : MED : 0xc010    NMED: 0.375620712310348492391   ER0 = 0.9551    ER16 = 0.9293
+Hamming Distance 3 : MED : 0xc010    NMED:  0.375620712310348492391    ER0 =0.9939   ER16=0.9293
+Hamming Distance 4: MED : 0xbca6    NMED:  0.368943757735030353206    ER0 =0.9967 ER16=0.9613
+Hamming Distance 6 : MED : 0xbc9a    NMED: 0.368852083301501931789    ER0 =0.9988  ER16=0.9773
 
-Hamming Distance 1 : MED : 0x4   ER0 =0.9376  ER16= 0
-Hamming Distance 2 : MED : 0x2000   ER0 =1.0  ER16= 1.0
-Hamming Distance 3 : MED : 0x1fff   ER0 =1.0  ER16=1.0 
-Hamming Distance 4 : MED : 0x1ffd   ER0 =1.0  ER16=1.0
-Hamming Distance 6 : MED : 0xa7c4   ER0 =1.0  ER16=1.0
+Hamming Distance 1 : MED : 0x4    NMED: 0.000030558144509465383    ER0 =0.9376  ER16= 0
+Hamming Distance 2 : MED : 0x2000    NMED: 0.062583079955385104154    ER0 =1.0  ER16= 1.0
+Hamming Distance 3 : MED : 0x1fff    NMED: 0.062575440419257749580    ER0 =1.0  ER16=1.0 
+Hamming Distance 4 : MED : 0x1ffd    NMED: 0.062560161347003012677    ER0 =1.0  ER16=1.0
+Hamming Distance 6 : MED : 0xa7c4    NMED: 0.328102797598129825030    ER0 =1.0  ER16=1.0
 
 
 
 AM:
-Hamming Distance 1 : MED : 0xd97    ER0 =0.8274  ER16 = 0.8274
-Hamming Distance 2 : MED : 0xeb4   ER0 = 0.987  ER16 = 0.987
-Hamming Distance 3: MED : 0x26f1 ER0 = 0.9976  ER16 = 0.9976
-Hamming Distance 4 : MED : 0x26f8 ER0 = 1.0  ER16 = 1.0
-Hamm'ing Distance 6 : MED : 0x2711 ER0 = 1.0  ER16=0.9995
+Hamming Distance 1 : MED : 0xd97  NMED: 0.053924607849215697164   ER0 =0.8274  ER16 = 0.8274
+Hamming Distance 2 : MED : 0xeb4    NMED: 0.058342116684233370771      ER0 = 0.987  ER16 = 0.987
+Hamming Distance 3: MED : 0x26f1   NMED: 0.154519809039618066793   ER0 = 0.9976  ER16 = 0.9976
+Hamming Distance 4 : MED : 0x26f8   NMED: 0.154628309256618523548   ER0 = 1.0  ER16 = 1.0
+Hamm'ing Distance 6 : MED : 0x2711   NMED: 0.155015810031620071552   ER0 = 1.0  ER16=0.9995
 
-Hamming Distance 1 : MED : 0x400  ER0 =1.0  ER16 = 1.0
-Hamming Distance 2 : MED : 0x3fa ER0 = 0.8941    ER16 = 0.8941
-Hamming Distance 3 : MED : 0x406   ER0 =0.9303   ER16=0.9303
-Hamming Distance 4: MED : 0x407   ER0 = 1.0 ER16=0.9303
-Hamming Distance 6 : MED : 0x428   ER0 =1.0  ER16=1.0
+Hamming Distance 1 : MED : 0x400    NMED:0.015872031744063489628    ER0 =1.0  ER16 = 1.0
+Hamming Distance 2 : MED : 0x3fa   NMED: 0.015779031558063115470   ER0 = 0.8941    ER16 = 0.8941
+Hamming Distance 3 : MED : 0x406     NMED: 0.015965031930063860316   ER0 =0.9303   ER16=0.9303
+Hamming Distance 4: MED : 0x407    NMED: 0.015980531961063922097    ER0 = 1.0 ER16=0.9303
+Hamming Distance 6 : MED : 0x428    NMED:0.016492032984065967821     ER0 =1.0  ER16=1.0
 
-Hamming Distance 1 : MED : 0x414   ER0 =1.0  ER16= 1.0
-Hamming Distance 2 : MED : 0x21e9   ER0 =1.0  ER16= 1.0
-Hamming Distance 3 : MED : 0x22a0   ER0 =1.0  ER16=1.0
-Hamming Distance 4 : MED : 0x22a8   ER0 =1.0  ER16=1.0
-Hamming Distance 6 : MED : 0x23fc   ER0 =1.0  ER16=1.0
+Hamming Distance 1 : MED : 0x414     NMED: 0.016182032364064728724   ER0 =1.0  ER16= 1.0
+Hamming Distance 2 : MED : 0x21e9     NMED:0.134555769111538214844    ER0 =1.0  ER16= 1.0
+Hamming Distance 3 : MED : 0x22a0     NMED: 0.137392274784549572875   ER0 =1.0  ER16=1.0
+Hamming Distance 4 : MED : 0x22a8    NMED: 0.137516275032550067126    ER0 =1.0  ER16=1.0
+Hamming Distance 6 : MED : 0x23fc    NMED:0.142786285572571142177    ER0 =1.0  ER16=1.0
 
 
 
 
 UDM:
-MED : 0xe9c     ER0: 0.4793      ER16: 0.4401
+MED : 0xe9c     NMED: 0.057970115940231881080      ER0: 0.4793      ER16: 0.4401
 
-Hamming Distance 1 : MED : 0xeec    ER0 =0.9787  ER16 = 0.9674
-Hamming Distance 2 : MED : 0x119a   ER0 = 1.0  ER16 = 1.0
-Hamming Distance 3: MED : 0x118c ER0 = 1.0   ER16 = 1.0 
-Hamming Distance 4 : MED : 0x1183 ER0 = 0.9986  ER16 = 0.9981
-Hamm'ing Distance 6 : MED : 0x2480 ER0 = 1.0  ER16=0.9998
+Hamming Distance 1 : MED : 0xeec     NMED:0.059210118420236837466    ER0 =0.9787  ER16 = 0.9674
+Hamming Distance 2 : MED : 0x119a     NMED:  0.069843139686279379075  ER0 = 1.0  ER16 = 1.0
+Hamming Distance 3: MED : 0x118c   NMED: 0.069626139252278507197   ER0 = 1.0   ER16 = 1.0 
+Hamming Distance 4 : MED : 0x1183    NMED:  0.069486638973277947695  ER0 = 0.9986  ER16 = 0.9981
+Hamm'ing Distance 6 : MED : 0x2480    NMED:  0.144832289664579338950   ER0 = 1.0  ER16=0.9998
 
-Hamming Distance 1 : MED : 0x41d4  ER0 =1.0  ER16 = 1.0
-Hamming Distance 2 : MED : 0xf6b ER0 = 0.6808    ER16 = 0.6524
-Hamming Distance 3 : MED : 0xf80   ER0 =1.0   ER16=0.9999
-Hamming Distance 4: MED : 0x2778   ER0 =1.0 ER16=1.0
-Hamming Distance 6 : MED : 0x4ceb   ER0 =1.0  ER16=1.0
+Hamming Distance 1 : MED : 0x41d4    NMED:  0.261206522413044817110   ER0 =1.0  ER16 = 1.0
+Hamming Distance 2 : MED : 0xf6b   NMED:  0.061178622357244714924   ER0 = 0.6808    ER16 = 0.6524
+Hamming Distance 3 : MED : 0xf80     NMED: 0.061504123008246015802    ER0 =1.0   ER16=0.9999
+Hamming Distance 4: MED : 0x2778     NMED:  0.156612313224626459318   ER0 =1.0 ER16=1.0
+Hamming Distance 6 : MED : 0x4ceb    NMED:  0.305211110422220821548   ER0 =1.0  ER16=1.0
 
-Hamming Distance 1 : MED : 0xea7   ER0 =0.8912  ER16= 0.8736
-Hamming Distance 2 : MED : 0x143e   ER0 =0.9983  ER16= 0.9983
-Hamming Distance 3 : MED : 0x15da   ER0 =0.9993  ER16=0.9993
-Hamming Distance 4 : MED : 0x1cb1   ER0 =1.0  ER16=1.0
-Hamming Distance 6 : MED : 0x1ce3   ER0 =1.0   ER16=1.0 
+Hamming Distance 1 : MED : 0xea7    NMED: 0.058140616281232564144    ER0 =0.8912  ER16= 0.8736
+Hamming Distance 2 : MED : 0x143e    NMED:0.080321160642321282053      ER0 =0.9983  ER16= 0.9983
+Hamming Distance 3 : MED : 0x15da    NMED: 0.086707173414346833118    ER0 =0.9993  ER16=0.9993
+Hamming Distance 4 : MED : 0x1cb1   NMED:  0.113847727695455397390   ER0 =1.0  ER16=1.0
+Hamming Distance 6 : MED : 0x1ce3    NMED: 0.114622729245458493397    ER0 =1.0   ER16=1.0 
 
 
 BAM:
-MED : 0x21f     ER0: 0.777      ER16: 0.4417
+MED : 0x21f     NMED:  0.008416516833033665240     ER0: 0.777      ER16: 0.4417
 
-Hamming Distance 1 : MED : 0x268    ER0 =0.8789  ER16 = 0.6964
-Hamming Distance 2 : MED : 0x36b   ER0 = 0.9891  ER16 = 0.9591
-Hamming Distance 3: MED : 0x45b  ER0 = 0.9941  ER16 = 0.9759
-Hamming Distance 4 : MED : 0x45f ER0 = 1.0  ER16 = 0.9984
-Hamm'ing Distance 6 : MED : 0x12af ER0 = 1.0  ER16= 1.0
+Hamming Distance 1 : MED : 0x268     NMED: 0.009548019096038192627    ER0 =0.8789  ER16 = 0.6964
+Hamming Distance 2 : MED : 0x36b    NMED: 0.013562527125054249511     ER0 = 0.9891  ER16 = 0.9591
+Hamming Distance 3: MED : 0x45b    NMED: 0.017282534565069129079    ER0 = 0.9941  ER16 = 0.9759
+Hamming Distance 4 : MED : 0x45f     NMED:  0.017344534689069379674   ER0 = 1.0  ER16 = 0.9984
+Hamm'ing Distance 6 : MED : 0x12af    NMED: 0.074136648273296551492    ER0 = 1.0  ER16= 1.0
 
-Hamming Distance 1 : MED : 0x2b8  ER0 = 0.9959  ER16 = 0.9856
-Hamming Distance 2 : MED : 0x39e ER0 = 1.0    ER16 = 0.9983
-Hamming Distance 3 : MED : 0x3ac   ER0 =0.9598   ER16=0.8944
-Hamming Distance 4: MED : 0x3c6   ER0 =0.9411 ER16=0.8439
-Hamming Distance 6 : MED : 0x3ea   ER0 =0.9998  ER16=0.9984
+Hamming Distance 1 : MED : 0x2b8   NMED: 0.010788021576043152483    ER0 = 0.9959  ER16 = 0.9856
+Hamming Distance 2 : MED : 0x39e     NMED:0.014353028706057412503    ER0 = 1.0    ER16 = 0.9983
+Hamming Distance 3 : MED : 0x3ac     NMED: 0.014570029140058280911     ER0 =0.9598   ER16=0.8944
+Hamming Distance 4: MED : 0x3c6     NMED: 0.014973029946059892431   ER0 =0.9411 ER16=0.8439
+Hamming Distance 6 : MED : 0x3ea     NMED: 0.015531031062062123499   ER0 =0.9998  ER16=0.9984
 
-Hamming Distance 1 : MED : 0x2c2   ER0 =0.9984  ER16= 0.9923
-Hamming Distance 2 : MED : 0x2b6   ER0 =0.8709  ER16= 0.7
-Hamming Distance 3 : MED : 0x3d95   ER0 =0.9966  ER16=0.9919
-Hamming Distance 4 : MED : 0x3e13   ER0 =0.9982  ER16=0.9958
-Hamming Distance 6 : MED : 0x3e87   ER0 =1.0  ER16=0.9995
+Hamming Distance 1 : MED : 0x2c2    NMED:  0.010943021886043772031    ER0 =0.9984  ER16= 0.9923
+Hamming Distance 2 : MED : 0x2b6    NMED: 0.010757021514043028920    ER0 =0.8709  ER16= 0.7
+Hamming Distance 3 : MED : 0x3d95    NMED: 0.244357988715977442196     ER0 =0.9966  ER16=0.9919
+Hamming Distance 4 : MED : 0x3e13    NMED: 0.246310992621985247464     ER0 =0.9982  ER16=0.9958
+Hamming Distance 6 : MED : 0x3e87    NMED: 0.248108996217992427979     ER0 =1.0  ER16=0.9995
